@@ -1,0 +1,4666 @@
+{
+  "QueryResponse": {
+    "Invoice": [
+      {
+        "Id": "1501",
+        "SyncToken": "5",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01501",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "31",
+          "name": "Clark PLC"
+        },
+        "BillEmail": {
+          "Address": "smithsusan@campos-nguyen.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (195 units)",
+            "Amount": 1645.8,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 8.44,
+              "Qty": 195,
+              "ServiceDate": "2025-06-30"
+            }
+          },
+          {
+            "Id": "2",
+            "LineNum": 2,
+            "Description": "Same-Day Delivery — June 2025 (42 units)",
+            "Amount": 658.14,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "1",
+                "name": "Same-Day Delivery"
+              },
+              "UnitPrice": 15.67,
+              "Qty": 42,
+              "ServiceDate": "2025-06-30"
+            }
+          },
+          {
+            "Id": "3",
+            "LineNum": 3,
+            "Description": "Returns Handling — June 2025 (103 units)",
+            "Amount": 1598.56,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "6",
+                "name": "Returns Handling"
+              },
+              "UnitPrice": 15.52,
+              "Qty": 103,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 3902.5,
+        "Balance": 3902.5,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_031"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1502",
+        "SyncToken": "1",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01502",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "32",
+          "name": "Cole Group"
+        },
+        "BillEmail": {
+          "Address": "lsummers@bryant.net"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (366 units)",
+            "Amount": 3304.98,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 9.03,
+              "Qty": 366,
+              "ServiceDate": "2025-06-30"
+            }
+          },
+          {
+            "Id": "2",
+            "LineNum": 2,
+            "Description": "Same-Day Delivery — June 2025 (278 units)",
+            "Amount": 7556.04,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "1",
+                "name": "Same-Day Delivery"
+              },
+              "UnitPrice": 27.18,
+              "Qty": 278,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 10861.02,
+        "Balance": 10861.02,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_032"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1503",
+        "SyncToken": "4",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01503",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "33",
+          "name": "Bruce Group"
+        },
+        "BillEmail": {
+          "Address": "portersarah@cooper-pugh.info"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (285 units)",
+            "Amount": 2083.35,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 7.31,
+              "Qty": 285,
+              "ServiceDate": "2025-06-30"
+            }
+          },
+          {
+            "Id": "2",
+            "LineNum": 2,
+            "Description": "Same-Day Delivery — June 2025 (354 units)",
+            "Amount": 4580.76,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "1",
+                "name": "Same-Day Delivery"
+              },
+              "UnitPrice": 12.94,
+              "Qty": 354,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 6664.11,
+        "Balance": 6664.11,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_033"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1504",
+        "SyncToken": "3",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01504",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "34",
+          "name": "Gross, Middleton and Kelly"
+        },
+        "BillEmail": {
+          "Address": "caleb90@gomez.net"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (102 units)",
+            "Amount": 888.42,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 8.71,
+              "Qty": 102,
+              "ServiceDate": "2025-06-30"
+            }
+          },
+          {
+            "Id": "2",
+            "LineNum": 2,
+            "Description": "Same-Day Delivery — June 2025 (152 units)",
+            "Amount": 3378.96,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "1",
+                "name": "Same-Day Delivery"
+              },
+              "UnitPrice": 22.23,
+              "Qty": 152,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 4267.38,
+        "Balance": 4267.38,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_034"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1505",
+        "SyncToken": "4",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01505",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "35",
+          "name": "Riggs, Browning and Brown"
+        },
+        "BillEmail": {
+          "Address": "michael30@jones-williams.org"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (266 units)",
+            "Amount": 5836.04,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 21.94,
+              "Qty": 266,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 5836.04,
+        "Balance": 5836.04,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_035"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1506",
+        "SyncToken": "4",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01506",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "36",
+          "name": "Herrera Inc"
+        },
+        "BillEmail": {
+          "Address": "erin86@evans.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (308 units)",
+            "Amount": 4607.68,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 14.96,
+              "Qty": 308,
+              "ServiceDate": "2025-06-30"
+            }
+          },
+          {
+            "Id": "2",
+            "LineNum": 2,
+            "Description": "Same-Day Delivery — June 2025 (221 units)",
+            "Amount": 4338.23,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "1",
+                "name": "Same-Day Delivery"
+              },
+              "UnitPrice": 19.63,
+              "Qty": 221,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 8945.91,
+        "Balance": 8945.91,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_036"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1507",
+        "SyncToken": "3",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01507",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "37",
+          "name": "Griffith, Hale and Conrad"
+        },
+        "BillEmail": {
+          "Address": "gilbertjohn@cook-lewis.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (69 units)",
+            "Amount": 994.29,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 14.41,
+              "Qty": 69,
+              "ServiceDate": "2025-06-30"
+            }
+          },
+          {
+            "Id": "2",
+            "LineNum": 2,
+            "Description": "Returns Handling — June 2025 (168 units)",
+            "Amount": 1317.12,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "6",
+                "name": "Returns Handling"
+              },
+              "UnitPrice": 7.84,
+              "Qty": 168,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 2311.41,
+        "Balance": 2311.41,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_037"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1508",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01508",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "38",
+          "name": "Villanueva-Garcia"
+        },
+        "BillEmail": {
+          "Address": "smiththeresa@michael-mays.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (95 units)",
+            "Amount": 840.75,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 8.85,
+              "Qty": 95,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 840.75,
+        "Balance": 840.75,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_038"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1509",
+        "SyncToken": "2",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01509",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "39",
+          "name": "Wyatt-Torres"
+        },
+        "BillEmail": {
+          "Address": "ricardofuentes@reed.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (179 units)",
+            "Amount": 2767.34,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 15.46,
+              "Qty": 179,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 2767.34,
+        "Balance": 2767.34,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_039"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1510",
+        "SyncToken": "1",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01510",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "40",
+          "name": "Stout Ltd"
+        },
+        "BillEmail": {
+          "Address": "davidstanley@williams.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (43 units)",
+            "Amount": 518.15,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 12.05,
+              "Qty": 43,
+              "ServiceDate": "2025-06-30"
+            }
+          },
+          {
+            "Id": "2",
+            "LineNum": 2,
+            "Description": "Returns Handling — June 2025 (81 units)",
+            "Amount": 593.73,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "6",
+                "name": "Returns Handling"
+              },
+              "UnitPrice": 7.33,
+              "Qty": 81,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1111.88,
+        "Balance": 1111.88,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_040"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1511",
+        "SyncToken": "4",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01511",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "41",
+          "name": "Rowe, Allison and Barron"
+        },
+        "BillEmail": {
+          "Address": "jsmith@moore-smith.biz"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (51 units)",
+            "Amount": 779.28,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 15.28,
+              "Qty": 51,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 779.28,
+        "Balance": 779.28,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_041"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1512",
+        "SyncToken": "4",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01512",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "42",
+          "name": "Cooper-Schultz"
+        },
+        "BillEmail": {
+          "Address": "jonesbrandon@fischer.org"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (55 units)",
+            "Amount": 704.0,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 12.8,
+              "Qty": 55,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 704.0,
+        "Balance": 704.0,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_042"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1513",
+        "SyncToken": "5",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01513",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "43",
+          "name": "Chaney, Dean and Ryan"
+        },
+        "BillEmail": {
+          "Address": "bullocklori@grant.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (94 units)",
+            "Amount": 1952.38,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 20.77,
+              "Qty": 94,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1952.38,
+        "Balance": 1952.38,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_043"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1514",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01514",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "44",
+          "name": "Walters-Webb"
+        },
+        "BillEmail": {
+          "Address": "maciasmichelle@thompson.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (32 units)",
+            "Amount": 629.44,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 19.67,
+              "Qty": 32,
+              "ServiceDate": "2025-06-30"
+            }
+          },
+          {
+            "Id": "2",
+            "LineNum": 2,
+            "Description": "Returns Handling — June 2025 (33 units)",
+            "Amount": 556.38,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "6",
+                "name": "Returns Handling"
+              },
+              "UnitPrice": 16.86,
+              "Qty": 33,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1185.82,
+        "Balance": 1185.82,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_044"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1515",
+        "SyncToken": "5",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01515",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "45",
+          "name": "Fisher Group"
+        },
+        "BillEmail": {
+          "Address": "kelseyli@baker-nelson.info"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (66 units)",
+            "Amount": 1378.08,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 20.88,
+              "Qty": 66,
+              "ServiceDate": "2025-06-30"
+            }
+          },
+          {
+            "Id": "2",
+            "LineNum": 2,
+            "Description": "Returns Handling — June 2025 (67 units)",
+            "Amount": 345.05,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "6",
+                "name": "Returns Handling"
+              },
+              "UnitPrice": 5.15,
+              "Qty": 67,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1723.13,
+        "Balance": 1723.13,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_045"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1516",
+        "SyncToken": "1",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01516",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "46",
+          "name": "Martin, Escobar and Gould"
+        },
+        "BillEmail": {
+          "Address": "williamgregory@frye-davis.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (131 units)",
+            "Amount": 2509.96,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 19.16,
+              "Qty": 131,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 2509.96,
+        "Balance": 2509.96,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_046"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1517",
+        "SyncToken": "1",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01517",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "47",
+          "name": "Jones, Jennings and Fernandez"
+        },
+        "BillEmail": {
+          "Address": "ntaylor@garcia.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (76 units)",
+            "Amount": 1107.32,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 14.57,
+              "Qty": 76,
+              "ServiceDate": "2025-06-30"
+            }
+          },
+          {
+            "Id": "2",
+            "LineNum": 2,
+            "Description": "Returns Handling — June 2025 (73 units)",
+            "Amount": 662.11,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "6",
+                "name": "Returns Handling"
+              },
+              "UnitPrice": 9.07,
+              "Qty": 73,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1769.43,
+        "Balance": 1769.43,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_047"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1518",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01518",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "48",
+          "name": "Glover PLC"
+        },
+        "BillEmail": {
+          "Address": "tararamos@thompson-hall.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (83 units)",
+            "Amount": 1778.69,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 21.43,
+              "Qty": 83,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1778.69,
+        "Balance": 1778.69,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_048"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1519",
+        "SyncToken": "2",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01519",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "49",
+          "name": "Sanchez, Pierce and Tran"
+        },
+        "BillEmail": {
+          "Address": "jasonlynch@taylor.org"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (56 units)",
+            "Amount": 373.52,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 6.67,
+              "Qty": 56,
+              "ServiceDate": "2025-06-30"
+            }
+          },
+          {
+            "Id": "2",
+            "LineNum": 2,
+            "Description": "Returns Handling — June 2025 (52 units)",
+            "Amount": 824.2,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "6",
+                "name": "Returns Handling"
+              },
+              "UnitPrice": 15.85,
+              "Qty": 52,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1197.72,
+        "Balance": 1197.72,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_049"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1520",
+        "SyncToken": "4",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01520",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "50",
+          "name": "Carter, Jackson and Trujillo"
+        },
+        "BillEmail": {
+          "Address": "anthonysimmons@green-alvarado.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (167 units)",
+            "Amount": 2800.59,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 16.77,
+              "Qty": 167,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 2800.59,
+        "Balance": 2800.59,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_050"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1521",
+        "SyncToken": "4",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01521",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "51",
+          "name": "Jackson-Nguyen"
+        },
+        "BillEmail": {
+          "Address": "rmalone@cooley.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (114 units)",
+            "Amount": 2335.86,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 20.49,
+              "Qty": 114,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 2335.86,
+        "Balance": 2335.86,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_051"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1522",
+        "SyncToken": "2",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01522",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "52",
+          "name": "Harris Inc"
+        },
+        "BillEmail": {
+          "Address": "wberger@sanchez.org"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (29 units)",
+            "Amount": 220.69,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 7.61,
+              "Qty": 29,
+              "ServiceDate": "2025-06-30"
+            }
+          },
+          {
+            "Id": "2",
+            "LineNum": 2,
+            "Description": "Returns Handling — June 2025 (53 units)",
+            "Amount": 592.01,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "6",
+                "name": "Returns Handling"
+              },
+              "UnitPrice": 11.17,
+              "Qty": 53,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 812.7,
+        "Balance": 812.7,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_052"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1523",
+        "SyncToken": "1",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01523",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "53",
+          "name": "Watkins, Gordon and Shaw"
+        },
+        "BillEmail": {
+          "Address": "sheryl52@alexander-brady.biz"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (53 units)",
+            "Amount": 970.43,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 18.31,
+              "Qty": 53,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 970.43,
+        "Balance": 970.43,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_053"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1524",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01524",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "54",
+          "name": "Fowler, Archer and Chambers"
+        },
+        "BillEmail": {
+          "Address": "popeleonard@pearson.org"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (184 units)",
+            "Amount": 1797.68,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 9.77,
+              "Qty": 184,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1797.68,
+        "Balance": 1797.68,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_054"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1525",
+        "SyncToken": "3",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01525",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "55",
+          "name": "Wells-Anderson"
+        },
+        "BillEmail": {
+          "Address": "ugiles@clark-white.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (89 units)",
+            "Amount": 1395.52,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 15.68,
+              "Qty": 89,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1395.52,
+        "Balance": 1395.52,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_055"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1526",
+        "SyncToken": "4",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01526",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "56",
+          "name": "Garrett Group"
+        },
+        "BillEmail": {
+          "Address": "kimberlymorales@graham-martin.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (29 units)",
+            "Amount": 397.01,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 13.69,
+              "Qty": 29,
+              "ServiceDate": "2025-06-30"
+            }
+          },
+          {
+            "Id": "2",
+            "LineNum": 2,
+            "Description": "Returns Handling — June 2025 (84 units)",
+            "Amount": 540.96,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "6",
+                "name": "Returns Handling"
+              },
+              "UnitPrice": 6.44,
+              "Qty": 84,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 937.97,
+        "Balance": 937.97,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_056"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1527",
+        "SyncToken": "3",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01527",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "57",
+          "name": "Fischer PLC"
+        },
+        "BillEmail": {
+          "Address": "felicia74@jacobs.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (82 units)",
+            "Amount": 828.2,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 10.1,
+              "Qty": 82,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 828.2,
+        "Balance": 828.2,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_057"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1528",
+        "SyncToken": "1",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01528",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "58",
+          "name": "Ingram, Johnson and Gallegos"
+        },
+        "BillEmail": {
+          "Address": "jeffrey08@hickman.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (184 units)",
+            "Amount": 2195.12,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 11.93,
+              "Qty": 184,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 2195.12,
+        "Balance": 2195.12,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_058"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1529",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01529",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "59",
+          "name": "Hamilton, Cook and Davis"
+        },
+        "BillEmail": {
+          "Address": "fmercado@young.biz"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (81 units)",
+            "Amount": 729.0,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 9.0,
+              "Qty": 81,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 729.0,
+        "Balance": 729.0,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_059"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1530",
+        "SyncToken": "3",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01530",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "60",
+          "name": "Clark, Jarvis and Craig"
+        },
+        "BillEmail": {
+          "Address": "turnerdonald@russell-wilson.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (164 units)",
+            "Amount": 2699.44,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 16.46,
+              "Qty": 164,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 2699.44,
+        "Balance": 2699.44,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_060"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1531",
+        "SyncToken": "3",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01531",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "61",
+          "name": "Booth-Stewart"
+        },
+        "BillEmail": {
+          "Address": "amandacarter@brooks.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (53 units)",
+            "Amount": 1161.76,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 21.92,
+              "Qty": 53,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1161.76,
+        "Balance": 1161.76,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_061"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1532",
+        "SyncToken": "1",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01532",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "62",
+          "name": "Diaz, Jones and White"
+        },
+        "BillEmail": {
+          "Address": "jenniferwilliams@harvey-bowman.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (130 units)",
+            "Amount": 2687.1,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 20.67,
+              "Qty": 130,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 2687.1,
+        "Balance": 2687.1,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_062"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1533",
+        "SyncToken": "1",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01533",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "63",
+          "name": "Moyer-Liu"
+        },
+        "BillEmail": {
+          "Address": "coxmichael@wright-nguyen.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (140 units)",
+            "Amount": 3141.6,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 22.44,
+              "Qty": 140,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 3141.6,
+        "Balance": 3141.6,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_063"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1534",
+        "SyncToken": "2",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01534",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "64",
+          "name": "Moody, Grant and Morales"
+        },
+        "BillEmail": {
+          "Address": "mthomas@fuentes.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (41 units)",
+            "Amount": 890.93,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 21.73,
+              "Qty": 41,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 890.93,
+        "Balance": 890.93,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_064"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1535",
+        "SyncToken": "1",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01535",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "65",
+          "name": "Perez, Hayes and Barajas"
+        },
+        "BillEmail": {
+          "Address": "zharrison@marshall-carpenter.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (47 units)",
+            "Amount": 899.58,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 19.14,
+              "Qty": 47,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 899.58,
+        "Balance": 899.58,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_065"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1536",
+        "SyncToken": "2",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01536",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "66",
+          "name": "Parker and Sons"
+        },
+        "BillEmail": {
+          "Address": "carterbarbara@adams.net"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (14 units)",
+            "Amount": 109.76,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 7.84,
+              "Qty": 14,
+              "ServiceDate": "2025-06-30"
+            }
+          },
+          {
+            "Id": "2",
+            "LineNum": 2,
+            "Description": "Returns Handling — June 2025 (47 units)",
+            "Amount": 703.59,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "6",
+                "name": "Returns Handling"
+              },
+              "UnitPrice": 14.97,
+              "Qty": 47,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 813.35,
+        "Balance": 813.35,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_066"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1537",
+        "SyncToken": "5",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01537",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "67",
+          "name": "Morales, King and Reed"
+        },
+        "BillEmail": {
+          "Address": "jennifer88@arnold.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (159 units)",
+            "Amount": 1108.23,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 6.97,
+              "Qty": 159,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1108.23,
+        "Balance": 1108.23,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_067"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1538",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01538",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "68",
+          "name": "Nelson LLC"
+        },
+        "BillEmail": {
+          "Address": "barbarawilliamson@gallagher.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (41 units)",
+            "Amount": 880.68,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 21.48,
+              "Qty": 41,
+              "ServiceDate": "2025-06-30"
+            }
+          },
+          {
+            "Id": "2",
+            "LineNum": 2,
+            "Description": "Returns Handling — June 2025 (76 units)",
+            "Amount": 390.64,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "6",
+                "name": "Returns Handling"
+              },
+              "UnitPrice": 5.14,
+              "Qty": 76,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1271.32,
+        "Balance": 1271.32,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_068"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1539",
+        "SyncToken": "4",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01539",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "69",
+          "name": "Fernandez Ltd"
+        },
+        "BillEmail": {
+          "Address": "tking@garcia.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (148 units)",
+            "Amount": 1138.12,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 7.69,
+              "Qty": 148,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1138.12,
+        "Balance": 1138.12,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_069"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1540",
+        "SyncToken": "1",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01540",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "70",
+          "name": "Lewis-Walker"
+        },
+        "BillEmail": {
+          "Address": "ashleylauren@garcia-sanchez.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (65 units)",
+            "Amount": 739.7,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 11.38,
+              "Qty": 65,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 739.7,
+        "Balance": 739.7,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_070"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1541",
+        "SyncToken": "3",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01541",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "71",
+          "name": "Melton Ltd"
+        },
+        "BillEmail": {
+          "Address": "bradydouglas@harris-thomas.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (75 units)",
+            "Amount": 1189.5,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 15.86,
+              "Qty": 75,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1189.5,
+        "Balance": 1189.5,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_071"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1542",
+        "SyncToken": "1",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01542",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "72",
+          "name": "Franklin-Greene"
+        },
+        "BillEmail": {
+          "Address": "crystalmills@fisher-perkins.net"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (99 units)",
+            "Amount": 1264.23,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 12.77,
+              "Qty": 99,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1264.23,
+        "Balance": 1264.23,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_072"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1543",
+        "SyncToken": "5",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01543",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "73",
+          "name": "Beck-Sutton"
+        },
+        "BillEmail": {
+          "Address": "perryfrank@lewis.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (85 units)",
+            "Amount": 623.9,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 7.34,
+              "Qty": 85,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 623.9,
+        "Balance": 623.9,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_073"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1544",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01544",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "74",
+          "name": "Simmons, James and Arnold"
+        },
+        "BillEmail": {
+          "Address": "schneiderian@martinez-barker.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (64 units)",
+            "Amount": 853.76,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 13.34,
+              "Qty": 64,
+              "ServiceDate": "2025-06-30"
+            }
+          },
+          {
+            "Id": "2",
+            "LineNum": 2,
+            "Description": "Returns Handling — June 2025 (134 units)",
+            "Amount": 761.12,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "6",
+                "name": "Returns Handling"
+              },
+              "UnitPrice": 5.68,
+              "Qty": 134,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1614.88,
+        "Balance": 1614.88,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_074"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1545",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01545",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "75",
+          "name": "Parks Group"
+        },
+        "BillEmail": {
+          "Address": "pnielsen@flowers-cox.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (93 units)",
+            "Amount": 992.31,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 10.67,
+              "Qty": 93,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 992.31,
+        "Balance": 992.31,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_075"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1546",
+        "SyncToken": "1",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01546",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "76",
+          "name": "White LLC"
+        },
+        "BillEmail": {
+          "Address": "gilbertnorma@jackson.net"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (10 units)",
+            "Amount": 124.0,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 12.4,
+              "Qty": 10,
+              "ServiceDate": "2025-06-30"
+            }
+          },
+          {
+            "Id": "2",
+            "LineNum": 2,
+            "Description": "Returns Handling — June 2025 (27 units)",
+            "Amount": 369.9,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "6",
+                "name": "Returns Handling"
+              },
+              "UnitPrice": 13.7,
+              "Qty": 27,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 493.9,
+        "Balance": 493.9,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_076"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1547",
+        "SyncToken": "3",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01547",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "77",
+          "name": "Ruiz, Blanchard and Frederick"
+        },
+        "BillEmail": {
+          "Address": "reginasmith@smith.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (200 units)",
+            "Amount": 1884.0,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 9.42,
+              "Qty": 200,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1884.0,
+        "Balance": 1884.0,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_077"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1548",
+        "SyncToken": "4",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01548",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "78",
+          "name": "Navarro-Bray"
+        },
+        "BillEmail": {
+          "Address": "morganvaldez@martinez-fox.org"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (173 units)",
+            "Amount": 3015.39,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 17.43,
+              "Qty": 173,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 3015.39,
+        "Balance": 3015.39,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_078"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1549",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01549",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "79",
+          "name": "Hall, Daniel and Gutierrez"
+        },
+        "BillEmail": {
+          "Address": "williamsbrian@fisher-vincent.net"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (84 units)",
+            "Amount": 1021.44,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 12.16,
+              "Qty": 84,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1021.44,
+        "Balance": 1021.44,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_079"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1550",
+        "SyncToken": "2",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01550",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "80",
+          "name": "Larson, King and Ortiz"
+        },
+        "BillEmail": {
+          "Address": "lauren88@myers.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (84 units)",
+            "Amount": 643.44,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 7.66,
+              "Qty": 84,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 643.44,
+        "Balance": 643.44,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_080"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1551",
+        "SyncToken": "3",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01551",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "81",
+          "name": "Petersen Inc"
+        },
+        "BillEmail": {
+          "Address": "ihoward@wilson.net"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (85 units)",
+            "Amount": 1694.05,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 19.93,
+              "Qty": 85,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1694.05,
+        "Balance": 1694.05,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_081"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1552",
+        "SyncToken": "4",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01552",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "82",
+          "name": "Martin-Vaughn"
+        },
+        "BillEmail": {
+          "Address": "anthonyrush@shelton.info"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (175 units)",
+            "Amount": 4074.0,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 23.28,
+              "Qty": 175,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 4074.0,
+        "Balance": 4074.0,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_082"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1553",
+        "SyncToken": "5",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01553",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "83",
+          "name": "Hines and Sons"
+        },
+        "BillEmail": {
+          "Address": "tammyshelton@mcgee.biz"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (64 units)",
+            "Amount": 1127.68,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 17.62,
+              "Qty": 64,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1127.68,
+        "Balance": 1127.68,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_083"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1554",
+        "SyncToken": "4",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01554",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "84",
+          "name": "Reid-Ramirez"
+        },
+        "BillEmail": {
+          "Address": "christina68@myers.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (47 units)",
+            "Amount": 806.05,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 17.15,
+              "Qty": 47,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 806.05,
+        "Balance": 806.05,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_084"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1555",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01555",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "85",
+          "name": "Livingston and Sons"
+        },
+        "BillEmail": {
+          "Address": "phillipschad@baker-castillo.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (89 units)",
+            "Amount": 1675.87,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 18.83,
+              "Qty": 89,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1675.87,
+        "Balance": 1675.87,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_085"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1556",
+        "SyncToken": "1",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01556",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "86",
+          "name": "Ingram LLC"
+        },
+        "BillEmail": {
+          "Address": "codychen@wheeler.biz"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (109 units)",
+            "Amount": 1526.0,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 14.0,
+              "Qty": 109,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1526.0,
+        "Balance": 1526.0,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_086"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1557",
+        "SyncToken": "1",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01557",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "87",
+          "name": "Henderson-Mullins"
+        },
+        "BillEmail": {
+          "Address": "ericriley@stein.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (157 units)",
+            "Amount": 1436.55,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 9.15,
+              "Qty": 157,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1436.55,
+        "Balance": 1436.55,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_087"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1558",
+        "SyncToken": "2",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01558",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "88",
+          "name": "Benitez, Thomas and Garcia"
+        },
+        "BillEmail": {
+          "Address": "jose02@murphy.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (100 units)",
+            "Amount": 1427.0,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 14.27,
+              "Qty": 100,
+              "ServiceDate": "2025-06-30"
+            }
+          },
+          {
+            "Id": "2",
+            "LineNum": 2,
+            "Description": "Returns Handling — June 2025 (83 units)",
+            "Amount": 560.25,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "6",
+                "name": "Returns Handling"
+              },
+              "UnitPrice": 6.75,
+              "Qty": 83,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1987.25,
+        "Balance": 1987.25,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_088"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1559",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01559",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "89",
+          "name": "Roberts, Savage and Nguyen"
+        },
+        "BillEmail": {
+          "Address": "elizabeth46@cardenas.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (136 units)",
+            "Amount": 1570.8,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 11.55,
+              "Qty": 136,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1570.8,
+        "Balance": 1570.8,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_089"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1560",
+        "SyncToken": "5",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01560",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "90",
+          "name": "Osborn Inc"
+        },
+        "BillEmail": {
+          "Address": "nancyharris@hubbard-brown.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (92 units)",
+            "Amount": 685.4,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 7.45,
+              "Qty": 92,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 685.4,
+        "Balance": 685.4,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_090"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1561",
+        "SyncToken": "2",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01561",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "91",
+          "name": "Park-Schultz"
+        },
+        "BillEmail": {
+          "Address": "williamsjay@griffin.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (86 units)",
+            "Amount": 1133.48,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 13.18,
+              "Qty": 86,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1133.48,
+        "Balance": 1133.48,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_091"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1562",
+        "SyncToken": "5",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01562",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "92",
+          "name": "Zuniga-Sanchez"
+        },
+        "BillEmail": {
+          "Address": "peckwilliam@rodriguez.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (155 units)",
+            "Amount": 1529.85,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 9.87,
+              "Qty": 155,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 1529.85,
+        "Balance": 1529.85,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_092"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1563",
+        "SyncToken": "1",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01563",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "93",
+          "name": "Brown, Washington and Cooper"
+        },
+        "BillEmail": {
+          "Address": "ashleysherman@west-russo.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (53 units)",
+            "Amount": 853.3,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 16.1,
+              "Qty": 53,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 853.3,
+        "Balance": 853.3,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_093"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      },
+      {
+        "Id": "1564",
+        "SyncToken": "1",
+        "MetaData": {
+          "CreateTime": "2025-07-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+        },
+        "DocNumber": "INV-2025-01564",
+        "TxnDate": "2025-07-01",
+        "DueDate": "2025-07-31",
+        "CustomerRef": {
+          "value": "94",
+          "name": "Colon, Fitzpatrick and Morton"
+        },
+        "BillEmail": {
+          "Address": "chadglass@atkinson.com"
+        },
+        "EmailStatus": "EmailSent",
+        "Line": [
+          {
+            "Id": "1",
+            "LineNum": 1,
+            "Description": "Next-Day Delivery — June 2025 (149 units)",
+            "Amount": 2850.37,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+              "ItemRef": {
+                "value": "2",
+                "name": "Next-Day Delivery"
+              },
+              "UnitPrice": 19.13,
+              "Qty": 149,
+              "ServiceDate": "2025-06-30"
+            }
+          }
+        ],
+        "TotalAmt": 2850.37,
+        "Balance": 2850.37,
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "LinkedTxn": [],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_094"
+          },
+          {
+            "DefinitionId": "2",
+            "Name": "Billing Period",
+            "Type": "StringType",
+            "StringValue": "2025-06"
+          },
+          {
+            "DefinitionId": "3",
+            "Name": "Payment Terms",
+            "Type": "StringType",
+            "StringValue": "Net 30"
+          }
+        ]
+      }
+    ],
+    "startPosition": 501,
+    "maxResults": 64,
+    "totalCount": 564
+  },
+  "time": "2026-06-19T18:38:15-07:00"
+}

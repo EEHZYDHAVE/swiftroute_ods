@@ -1,0 +1,4910 @@
+{
+  "QueryResponse": {
+    "Payment": [
+      {
+        "Id": "5104",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-28T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-28",
+        "CustomerRef": {
+          "value": "10",
+          "name": "Brown LLC"
+        },
+        "TotalAmt": 4465.05,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 4465.05,
+            "LinkedTxn": [
+              {
+                "TxnId": "1104",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_010"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "25"
+          }
+        ]
+      },
+      {
+        "Id": "5105",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-29T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-29T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-29",
+        "CustomerRef": {
+          "value": "11",
+          "name": "Stone, Burns and Lee"
+        },
+        "TotalAmt": 8851.74,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 8851.74,
+            "LinkedTxn": [
+              {
+                "TxnId": "1105",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_011"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "26"
+          }
+        ]
+      },
+      {
+        "Id": "5106",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-29T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-29T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-29",
+        "CustomerRef": {
+          "value": "12",
+          "name": "Carlson, Mccoy and Mcdonald"
+        },
+        "TotalAmt": 5422.44,
+        "UnappliedAmt": 63.96,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 5422.44,
+            "LinkedTxn": [
+              {
+                "TxnId": "1106",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_012"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "26"
+          }
+        ]
+      },
+      {
+        "Id": "5107",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-01",
+        "CustomerRef": {
+          "value": "13",
+          "name": "White-Skinner"
+        },
+        "TotalAmt": 5220.19,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 5220.19,
+            "LinkedTxn": [
+              {
+                "TxnId": "1107",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_013"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "29"
+          }
+        ]
+      },
+      {
+        "Id": "5108",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-31T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-31T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-31",
+        "CustomerRef": {
+          "value": "14",
+          "name": "Hale PLC"
+        },
+        "TotalAmt": 6550.77,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 6550.77,
+            "LinkedTxn": [
+              {
+                "TxnId": "1108",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_014"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "28"
+          }
+        ]
+      },
+      {
+        "Id": "5109",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-29T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-29T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-29",
+        "CustomerRef": {
+          "value": "15",
+          "name": "Harris-Cook"
+        },
+        "TotalAmt": 5576.99,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 5576.99,
+            "LinkedTxn": [
+              {
+                "TxnId": "1109",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_015"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "26"
+          }
+        ]
+      },
+      {
+        "Id": "5110",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-01",
+        "CustomerRef": {
+          "value": "16",
+          "name": "Huber Ltd"
+        },
+        "TotalAmt": 6523.2,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 6523.2,
+            "LinkedTxn": [
+              {
+                "TxnId": "1110",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_016"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "29"
+          }
+        ]
+      },
+      {
+        "Id": "5111",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-28T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-28",
+        "CustomerRef": {
+          "value": "17",
+          "name": "Jordan, Campbell and Lopez"
+        },
+        "TotalAmt": 14364.36,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 14364.36,
+            "LinkedTxn": [
+              {
+                "TxnId": "1111",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_017"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "25"
+          }
+        ]
+      },
+      {
+        "Id": "5112",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-01",
+        "CustomerRef": {
+          "value": "18",
+          "name": "Curry, Price and Miller"
+        },
+        "TotalAmt": 9422.16,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 9422.16,
+            "LinkedTxn": [
+              {
+                "TxnId": "1112",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_018"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "29"
+          }
+        ]
+      },
+      {
+        "Id": "5113",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-05-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-05-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-05-01",
+        "CustomerRef": {
+          "value": "19",
+          "name": "Chavez, Clark and Cherry"
+        },
+        "TotalAmt": 8062.36,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 8062.36,
+            "LinkedTxn": [
+              {
+                "TxnId": "1113",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_019"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "59"
+          }
+        ]
+      },
+      {
+        "Id": "5114",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-30T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-30T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-30",
+        "CustomerRef": {
+          "value": "20",
+          "name": "Mason, Jones and Rodriguez"
+        },
+        "TotalAmt": 8912.26,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 8912.26,
+            "LinkedTxn": [
+              {
+                "TxnId": "1114",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_020"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "27"
+          }
+        ]
+      },
+      {
+        "Id": "5115",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-02",
+        "CustomerRef": {
+          "value": "21",
+          "name": "Nunez Group"
+        },
+        "TotalAmt": 8550.87,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 8550.87,
+            "LinkedTxn": [
+              {
+                "TxnId": "1115",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_021"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "30"
+          }
+        ]
+      },
+      {
+        "Id": "5116",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-30T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-30T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-30",
+        "CustomerRef": {
+          "value": "22",
+          "name": "Ramos, Nelson and Rodriguez"
+        },
+        "TotalAmt": 5706.78,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 5706.78,
+            "LinkedTxn": [
+              {
+                "TxnId": "1116",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_022"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "27"
+          }
+        ]
+      },
+      {
+        "Id": "5117",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-29T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-29T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-29",
+        "CustomerRef": {
+          "value": "23",
+          "name": "Phillips and Sons"
+        },
+        "TotalAmt": 7832.4,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 7832.4,
+            "LinkedTxn": [
+              {
+                "TxnId": "1117",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_023"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "26"
+          }
+        ]
+      },
+      {
+        "Id": "5118",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-01",
+        "CustomerRef": {
+          "value": "24",
+          "name": "Herrera, Keith and Colon"
+        },
+        "TotalAmt": 4182.63,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 4182.63,
+            "LinkedTxn": [
+              {
+                "TxnId": "1118",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_024"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "29"
+          }
+        ]
+      },
+      {
+        "Id": "5119",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-29T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-29T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-29",
+        "CustomerRef": {
+          "value": "25",
+          "name": "Terry-Atkinson"
+        },
+        "TotalAmt": 12694.9,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 12694.9,
+            "LinkedTxn": [
+              {
+                "TxnId": "1119",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_025"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "26"
+          }
+        ]
+      },
+      {
+        "Id": "5120",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-31T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-31T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-31",
+        "CustomerRef": {
+          "value": "26",
+          "name": "Young-Rogers"
+        },
+        "TotalAmt": 6620.38,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 6620.38,
+            "LinkedTxn": [
+              {
+                "TxnId": "1120",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_026"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "28"
+          }
+        ]
+      },
+      {
+        "Id": "5121",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-28T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-28",
+        "CustomerRef": {
+          "value": "27",
+          "name": "Castaneda-Brown"
+        },
+        "TotalAmt": 5571.16,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 5571.16,
+            "LinkedTxn": [
+              {
+                "TxnId": "1121",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_027"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "56"
+          }
+        ]
+      },
+      {
+        "Id": "5122",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-29T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-29T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-29",
+        "CustomerRef": {
+          "value": "28",
+          "name": "Douglas-White"
+        },
+        "TotalAmt": 14688.78,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 14688.78,
+            "LinkedTxn": [
+              {
+                "TxnId": "1122",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_028"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "26"
+          }
+        ]
+      },
+      {
+        "Id": "5123",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-29T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-29T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-29",
+        "CustomerRef": {
+          "value": "29",
+          "name": "Moore-Smith"
+        },
+        "TotalAmt": 4314.96,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 4314.96,
+            "LinkedTxn": [
+              {
+                "TxnId": "1123",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_029"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "26"
+          }
+        ]
+      },
+      {
+        "Id": "5124",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-29T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-29T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-29",
+        "CustomerRef": {
+          "value": "30",
+          "name": "Fitzgerald PLC"
+        },
+        "TotalAmt": 4654.68,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 4654.68,
+            "LinkedTxn": [
+              {
+                "TxnId": "1124",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_030"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "26"
+          }
+        ]
+      },
+      {
+        "Id": "5125",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-31T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-31T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-31",
+        "CustomerRef": {
+          "value": "31",
+          "name": "Clark PLC"
+        },
+        "TotalAmt": 9800.48,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 9800.48,
+            "LinkedTxn": [
+              {
+                "TxnId": "1125",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_031"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "28"
+          }
+        ]
+      },
+      {
+        "Id": "5126",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-28T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-28",
+        "CustomerRef": {
+          "value": "32",
+          "name": "Cole Group"
+        },
+        "TotalAmt": 9842.08,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 9842.08,
+            "LinkedTxn": [
+              {
+                "TxnId": "1126",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_032"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "56"
+          }
+        ]
+      },
+      {
+        "Id": "5127",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-01",
+        "CustomerRef": {
+          "value": "33",
+          "name": "Bruce Group"
+        },
+        "TotalAmt": 9000.96,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 9000.96,
+            "LinkedTxn": [
+              {
+                "TxnId": "1127",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_033"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "29"
+          }
+        ]
+      },
+      {
+        "Id": "5128",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-01",
+        "CustomerRef": {
+          "value": "34",
+          "name": "Gross, Middleton and Kelly"
+        },
+        "TotalAmt": 8316.2,
+        "UnappliedAmt": 132.55,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 8316.2,
+            "LinkedTxn": [
+              {
+                "TxnId": "1128",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_034"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "29"
+          }
+        ]
+      },
+      {
+        "Id": "5130",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-31T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-31T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-31",
+        "CustomerRef": {
+          "value": "36",
+          "name": "Herrera Inc"
+        },
+        "TotalAmt": 14279.09,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 14279.09,
+            "LinkedTxn": [
+              {
+                "TxnId": "1130",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_036"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "28"
+          }
+        ]
+      },
+      {
+        "Id": "5131",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-01",
+        "CustomerRef": {
+          "value": "37",
+          "name": "Griffith, Hale and Conrad"
+        },
+        "TotalAmt": 5670.82,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 5670.82,
+            "LinkedTxn": [
+              {
+                "TxnId": "1131",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_037"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "29"
+          }
+        ]
+      },
+      {
+        "Id": "5132",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-25T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-25T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-25",
+        "CustomerRef": {
+          "value": "38",
+          "name": "Villanueva-Garcia"
+        },
+        "TotalAmt": 614.07,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 614.07,
+            "LinkedTxn": [
+              {
+                "TxnId": "1132",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_038"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "53"
+          }
+        ]
+      },
+      {
+        "Id": "5133",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-01",
+        "CustomerRef": {
+          "value": "39",
+          "name": "Wyatt-Torres"
+        },
+        "TotalAmt": 2738.15,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 2738.15,
+            "LinkedTxn": [
+              {
+                "TxnId": "1133",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_039"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "29"
+          }
+        ]
+      },
+      {
+        "Id": "5134",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-31T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-31T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-31",
+        "CustomerRef": {
+          "value": "40",
+          "name": "Stout Ltd"
+        },
+        "TotalAmt": 3076.85,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 3076.85,
+            "LinkedTxn": [
+              {
+                "TxnId": "1134",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_040"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "28"
+          }
+        ]
+      },
+      {
+        "Id": "5135",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-30T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-30T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-30",
+        "CustomerRef": {
+          "value": "41",
+          "name": "Rowe, Allison and Barron"
+        },
+        "TotalAmt": 566.72,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 566.72,
+            "LinkedTxn": [
+              {
+                "TxnId": "1135",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_041"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "27"
+          }
+        ]
+      },
+      {
+        "Id": "5136",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-17T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-17T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-17",
+        "CustomerRef": {
+          "value": "42",
+          "name": "Cooper-Schultz"
+        },
+        "TotalAmt": 2175.11,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 2175.11,
+            "LinkedTxn": [
+              {
+                "TxnId": "1136",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_042"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "45"
+          }
+        ]
+      },
+      {
+        "Id": "5137",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-28T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-28",
+        "CustomerRef": {
+          "value": "43",
+          "name": "Chaney, Dean and Ryan"
+        },
+        "TotalAmt": 329.22,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 329.22,
+            "LinkedTxn": [
+              {
+                "TxnId": "1137",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_043"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "25"
+          }
+        ]
+      },
+      {
+        "Id": "5138",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-01",
+        "CustomerRef": {
+          "value": "44",
+          "name": "Walters-Webb"
+        },
+        "TotalAmt": 1787.52,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 1787.52,
+            "LinkedTxn": [
+              {
+                "TxnId": "1138",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_044"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "29"
+          }
+        ]
+      },
+      {
+        "Id": "5139",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-29T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-29T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-29",
+        "CustomerRef": {
+          "value": "45",
+          "name": "Fisher Group"
+        },
+        "TotalAmt": 2852.86,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 2852.86,
+            "LinkedTxn": [
+              {
+                "TxnId": "1139",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_045"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "26"
+          }
+        ]
+      },
+      {
+        "Id": "5140",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-30T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-30T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-30",
+        "CustomerRef": {
+          "value": "46",
+          "name": "Martin, Escobar and Gould"
+        },
+        "TotalAmt": 925.44,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 925.44,
+            "LinkedTxn": [
+              {
+                "TxnId": "1140",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_046"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "27"
+          }
+        ]
+      },
+      {
+        "Id": "5141",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-31T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-31T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-31",
+        "CustomerRef": {
+          "value": "47",
+          "name": "Jones, Jennings and Fernandez"
+        },
+        "TotalAmt": 3099.28,
+        "UnappliedAmt": 116.24,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 3099.28,
+            "LinkedTxn": [
+              {
+                "TxnId": "1141",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_047"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "28"
+          }
+        ]
+      },
+      {
+        "Id": "5142",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-02",
+        "CustomerRef": {
+          "value": "48",
+          "name": "Glover PLC"
+        },
+        "TotalAmt": 662.94,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 662.94,
+            "LinkedTxn": [
+              {
+                "TxnId": "1142",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_048"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "30"
+          }
+        ]
+      },
+      {
+        "Id": "5143",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-29T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-29T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-29",
+        "CustomerRef": {
+          "value": "49",
+          "name": "Sanchez, Pierce and Tran"
+        },
+        "TotalAmt": 3979.17,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 3979.17,
+            "LinkedTxn": [
+              {
+                "TxnId": "1143",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_049"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "26"
+          }
+        ]
+      },
+      {
+        "Id": "5144",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-02",
+        "CustomerRef": {
+          "value": "50",
+          "name": "Carter, Jackson and Trujillo"
+        },
+        "TotalAmt": 2538.66,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 2538.66,
+            "LinkedTxn": [
+              {
+                "TxnId": "1144",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_050"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "30"
+          }
+        ]
+      },
+      {
+        "Id": "5145",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-02",
+        "CustomerRef": {
+          "value": "51",
+          "name": "Jackson-Nguyen"
+        },
+        "TotalAmt": 2475.98,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 2475.98,
+            "LinkedTxn": [
+              {
+                "TxnId": "1145",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_051"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "30"
+          }
+        ]
+      },
+      {
+        "Id": "5146",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-28T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-28",
+        "CustomerRef": {
+          "value": "52",
+          "name": "Harris Inc"
+        },
+        "TotalAmt": 2049.0,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 2049.0,
+            "LinkedTxn": [
+              {
+                "TxnId": "1146",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_052"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "25"
+          }
+        ]
+      },
+      {
+        "Id": "5147",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-29T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-29T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-29",
+        "CustomerRef": {
+          "value": "53",
+          "name": "Watkins, Gordon and Shaw"
+        },
+        "TotalAmt": 1819.87,
+        "UnappliedAmt": 34.08,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 1819.87,
+            "LinkedTxn": [
+              {
+                "TxnId": "1147",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_053"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "26"
+          }
+        ]
+      },
+      {
+        "Id": "5148",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-02",
+        "CustomerRef": {
+          "value": "54",
+          "name": "Fowler, Archer and Chambers"
+        },
+        "TotalAmt": 954.0,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 954.0,
+            "LinkedTxn": [
+              {
+                "TxnId": "1148",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_054"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "30"
+          }
+        ]
+      },
+      {
+        "Id": "5149",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-01",
+        "CustomerRef": {
+          "value": "55",
+          "name": "Wells-Anderson"
+        },
+        "TotalAmt": 2022.48,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 2022.48,
+            "LinkedTxn": [
+              {
+                "TxnId": "1149",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_055"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "29"
+          }
+        ]
+      },
+      {
+        "Id": "5150",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-28T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-28",
+        "CustomerRef": {
+          "value": "56",
+          "name": "Garrett Group"
+        },
+        "TotalAmt": 1580.1,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 1580.1,
+            "LinkedTxn": [
+              {
+                "TxnId": "1150",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_056"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "56"
+          }
+        ]
+      },
+      {
+        "Id": "5152",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-01",
+        "CustomerRef": {
+          "value": "58",
+          "name": "Ingram, Johnson and Gallegos"
+        },
+        "TotalAmt": 3982.08,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 3982.08,
+            "LinkedTxn": [
+              {
+                "TxnId": "1152",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_058"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "29"
+          }
+        ]
+      },
+      {
+        "Id": "5153",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-31T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-31T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-31",
+        "CustomerRef": {
+          "value": "59",
+          "name": "Hamilton, Cook and Davis"
+        },
+        "TotalAmt": 1051.16,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 1051.16,
+            "LinkedTxn": [
+              {
+                "TxnId": "1153",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_059"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "28"
+          }
+        ]
+      },
+      {
+        "Id": "5154",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-31T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-31T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-31",
+        "CustomerRef": {
+          "value": "60",
+          "name": "Clark, Jarvis and Craig"
+        },
+        "TotalAmt": 2412.96,
+        "UnappliedAmt": 32.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 2412.96,
+            "LinkedTxn": [
+              {
+                "TxnId": "1154",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_060"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "28"
+          }
+        ]
+      },
+      {
+        "Id": "5155",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-28T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-28",
+        "CustomerRef": {
+          "value": "61",
+          "name": "Booth-Stewart"
+        },
+        "TotalAmt": 1034.52,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 1034.52,
+            "LinkedTxn": [
+              {
+                "TxnId": "1155",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_061"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "25"
+          }
+        ]
+      },
+      {
+        "Id": "5156",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-24T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-24T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-24",
+        "CustomerRef": {
+          "value": "62",
+          "name": "Diaz, Jones and White"
+        },
+        "TotalAmt": 2261.56,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 2261.56,
+            "LinkedTxn": [
+              {
+                "TxnId": "1156",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_062"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "52"
+          }
+        ]
+      },
+      {
+        "Id": "5157",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-30T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-30T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-30",
+        "CustomerRef": {
+          "value": "63",
+          "name": "Moyer-Liu"
+        },
+        "TotalAmt": 1642.56,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 1642.56,
+            "LinkedTxn": [
+              {
+                "TxnId": "1157",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_063"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "27"
+          }
+        ]
+      },
+      {
+        "Id": "5158",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-31T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-31T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-31",
+        "CustomerRef": {
+          "value": "64",
+          "name": "Moody, Grant and Morales"
+        },
+        "TotalAmt": 682.83,
+        "UnappliedAmt": 18.61,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 682.83,
+            "LinkedTxn": [
+              {
+                "TxnId": "1158",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_064"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "28"
+          }
+        ]
+      },
+      {
+        "Id": "5159",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-01",
+        "CustomerRef": {
+          "value": "65",
+          "name": "Perez, Hayes and Barajas"
+        },
+        "TotalAmt": 1021.8,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 1021.8,
+            "LinkedTxn": [
+              {
+                "TxnId": "1159",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_065"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "29"
+          }
+        ]
+      },
+      {
+        "Id": "5160",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-01",
+        "CustomerRef": {
+          "value": "66",
+          "name": "Parker and Sons"
+        },
+        "TotalAmt": 2932.6,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 2932.6,
+            "LinkedTxn": [
+              {
+                "TxnId": "1160",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_066"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "29"
+          }
+        ]
+      },
+      {
+        "Id": "5161",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-29T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-29T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-29",
+        "CustomerRef": {
+          "value": "67",
+          "name": "Morales, King and Reed"
+        },
+        "TotalAmt": 1029.18,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 1029.18,
+            "LinkedTxn": [
+              {
+                "TxnId": "1161",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_067"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "26"
+          }
+        ]
+      },
+      {
+        "Id": "5162",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-30T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-30T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-30",
+        "CustomerRef": {
+          "value": "68",
+          "name": "Nelson LLC"
+        },
+        "TotalAmt": 1615.68,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 1615.68,
+            "LinkedTxn": [
+              {
+                "TxnId": "1162",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_068"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "27"
+          }
+        ]
+      },
+      {
+        "Id": "5163",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-11T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-11T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-11",
+        "CustomerRef": {
+          "value": "69",
+          "name": "Fernandez Ltd"
+        },
+        "TotalAmt": 1433.01,
+        "UnappliedAmt": 54.75,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 1433.01,
+            "LinkedTxn": [
+              {
+                "TxnId": "1163",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_069"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "39"
+          }
+        ]
+      },
+      {
+        "Id": "5164",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-25T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-25T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-25",
+        "CustomerRef": {
+          "value": "70",
+          "name": "Lewis-Walker"
+        },
+        "TotalAmt": 2471.99,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 2471.99,
+            "LinkedTxn": [
+              {
+                "TxnId": "1164",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_070"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "53"
+          }
+        ]
+      },
+      {
+        "Id": "5165",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-28T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-28",
+        "CustomerRef": {
+          "value": "71",
+          "name": "Melton Ltd"
+        },
+        "TotalAmt": 3612.57,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 3612.57,
+            "LinkedTxn": [
+              {
+                "TxnId": "1165",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_071"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "25"
+          }
+        ]
+      },
+      {
+        "Id": "5166",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-30T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-30T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-30",
+        "CustomerRef": {
+          "value": "72",
+          "name": "Franklin-Greene"
+        },
+        "TotalAmt": 2994.6,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 2994.6,
+            "LinkedTxn": [
+              {
+                "TxnId": "1166",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_072"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "27"
+          }
+        ]
+      },
+      {
+        "Id": "5167",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-02",
+        "CustomerRef": {
+          "value": "73",
+          "name": "Beck-Sutton"
+        },
+        "TotalAmt": 3172.0,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 3172.0,
+            "LinkedTxn": [
+              {
+                "TxnId": "1167",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_073"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "30"
+          }
+        ]
+      },
+      {
+        "Id": "5168",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-02",
+        "CustomerRef": {
+          "value": "74",
+          "name": "Simmons, James and Arnold"
+        },
+        "TotalAmt": 3606.08,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 3606.08,
+            "LinkedTxn": [
+              {
+                "TxnId": "1168",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_074"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "30"
+          }
+        ]
+      },
+      {
+        "Id": "5169",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-23T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-23T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-23",
+        "CustomerRef": {
+          "value": "75",
+          "name": "Parks Group"
+        },
+        "TotalAmt": 2628.84,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 2628.84,
+            "LinkedTxn": [
+              {
+                "TxnId": "1169",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_075"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "51"
+          }
+        ]
+      },
+      {
+        "Id": "5170",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-11T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-11T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-11",
+        "CustomerRef": {
+          "value": "76",
+          "name": "White LLC"
+        },
+        "TotalAmt": 1692.4,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 1692.4,
+            "LinkedTxn": [
+              {
+                "TxnId": "1170",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_076"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "39"
+          }
+        ]
+      },
+      {
+        "Id": "5171",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-05-07T00:00:00-07:00",
+          "LastUpdatedTime": "2025-05-07T00:00:00-07:00"
+        },
+        "TxnDate": "2025-05-07",
+        "CustomerRef": {
+          "value": "77",
+          "name": "Ruiz, Blanchard and Frederick"
+        },
+        "TotalAmt": 3904.76,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 3904.76,
+            "LinkedTxn": [
+              {
+                "TxnId": "1171",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_077"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "65"
+          }
+        ]
+      },
+      {
+        "Id": "5172",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-28T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-28",
+        "CustomerRef": {
+          "value": "78",
+          "name": "Navarro-Bray"
+        },
+        "TotalAmt": 3253.8,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 3253.8,
+            "LinkedTxn": [
+              {
+                "TxnId": "1172",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_078"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "25"
+          }
+        ]
+      },
+      {
+        "Id": "5173",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-02",
+        "CustomerRef": {
+          "value": "79",
+          "name": "Hall, Daniel and Gutierrez"
+        },
+        "TotalAmt": 2113.84,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 2113.84,
+            "LinkedTxn": [
+              {
+                "TxnId": "1173",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_079"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "30"
+          }
+        ]
+      },
+      {
+        "Id": "5174",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-01",
+        "CustomerRef": {
+          "value": "80",
+          "name": "Larson, King and Ortiz"
+        },
+        "TotalAmt": 1734.3,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 1734.3,
+            "LinkedTxn": [
+              {
+                "TxnId": "1174",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_080"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "29"
+          }
+        ]
+      },
+      {
+        "Id": "5175",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-29T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-29T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-29",
+        "CustomerRef": {
+          "value": "81",
+          "name": "Petersen Inc"
+        },
+        "TotalAmt": 1279.25,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 1279.25,
+            "LinkedTxn": [
+              {
+                "TxnId": "1175",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_081"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "26"
+          }
+        ]
+      },
+      {
+        "Id": "5176",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-28T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-28",
+        "CustomerRef": {
+          "value": "82",
+          "name": "Martin-Vaughn"
+        },
+        "TotalAmt": 812.44,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 812.44,
+            "LinkedTxn": [
+              {
+                "TxnId": "1176",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_082"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "25"
+          }
+        ]
+      },
+      {
+        "Id": "5177",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-29T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-29T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-29",
+        "CustomerRef": {
+          "value": "83",
+          "name": "Hines and Sons"
+        },
+        "TotalAmt": 802.13,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 802.13,
+            "LinkedTxn": [
+              {
+                "TxnId": "1177",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_083"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "26"
+          }
+        ]
+      },
+      {
+        "Id": "5178",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-02",
+        "CustomerRef": {
+          "value": "84",
+          "name": "Reid-Ramirez"
+        },
+        "TotalAmt": 1012.9,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 1012.9,
+            "LinkedTxn": [
+              {
+                "TxnId": "1178",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_084"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "30"
+          }
+        ]
+      },
+      {
+        "Id": "5179",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-01",
+        "CustomerRef": {
+          "value": "85",
+          "name": "Livingston and Sons"
+        },
+        "TotalAmt": 1772.68,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 1772.68,
+            "LinkedTxn": [
+              {
+                "TxnId": "1179",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_085"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "29"
+          }
+        ]
+      },
+      {
+        "Id": "5180",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-31T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-31T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-31",
+        "CustomerRef": {
+          "value": "86",
+          "name": "Ingram LLC"
+        },
+        "TotalAmt": 2317.14,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 2317.14,
+            "LinkedTxn": [
+              {
+                "TxnId": "1180",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_086"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "28"
+          }
+        ]
+      },
+      {
+        "Id": "5181",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-19T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-19T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-19",
+        "CustomerRef": {
+          "value": "87",
+          "name": "Henderson-Mullins"
+        },
+        "TotalAmt": 441.6,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 441.6,
+            "LinkedTxn": [
+              {
+                "TxnId": "1181",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_087"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "47"
+          }
+        ]
+      },
+      {
+        "Id": "5182",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-11T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-11T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-11",
+        "CustomerRef": {
+          "value": "88",
+          "name": "Benitez, Thomas and Garcia"
+        },
+        "TotalAmt": 1253.13,
+        "UnappliedAmt": 57.87,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 1253.13,
+            "LinkedTxn": [
+              {
+                "TxnId": "1182",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_088"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "39"
+          }
+        ]
+      },
+      {
+        "Id": "5183",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-29T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-29T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-29",
+        "CustomerRef": {
+          "value": "89",
+          "name": "Roberts, Savage and Nguyen"
+        },
+        "TotalAmt": 2346.08,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 2346.08,
+            "LinkedTxn": [
+              {
+                "TxnId": "1183",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_089"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "26"
+          }
+        ]
+      },
+      {
+        "Id": "5184",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-01",
+        "CustomerRef": {
+          "value": "90",
+          "name": "Osborn Inc"
+        },
+        "TotalAmt": 1364.88,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 1364.88,
+            "LinkedTxn": [
+              {
+                "TxnId": "1184",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_090"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "29"
+          }
+        ]
+      },
+      {
+        "Id": "5185",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-02",
+        "CustomerRef": {
+          "value": "91",
+          "name": "Park-Schultz"
+        },
+        "TotalAmt": 691.31,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 691.31,
+            "LinkedTxn": [
+              {
+                "TxnId": "1185",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_091"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "30"
+          }
+        ]
+      },
+      {
+        "Id": "5186",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-28T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-28",
+        "CustomerRef": {
+          "value": "92",
+          "name": "Zuniga-Sanchez"
+        },
+        "TotalAmt": 1497.0,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 1497.0,
+            "LinkedTxn": [
+              {
+                "TxnId": "1186",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_092"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "25"
+          }
+        ]
+      },
+      {
+        "Id": "5187",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-31T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-31T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-31",
+        "CustomerRef": {
+          "value": "93",
+          "name": "Brown, Washington and Cooper"
+        },
+        "TotalAmt": 2640.82,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 2640.82,
+            "LinkedTxn": [
+              {
+                "TxnId": "1187",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_093"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "28"
+          }
+        ]
+      },
+      {
+        "Id": "5188",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-17T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-17T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-17",
+        "CustomerRef": {
+          "value": "94",
+          "name": "Colon, Fitzpatrick and Morton"
+        },
+        "TotalAmt": 1841.34,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 1841.34,
+            "LinkedTxn": [
+              {
+                "TxnId": "1188",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_094"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "45"
+          }
+        ]
+      },
+      {
+        "Id": "5189",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-30T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-30T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-30",
+        "CustomerRef": {
+          "value": "1",
+          "name": "Hoffman-Cobb"
+        },
+        "TotalAmt": 26956.28,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 26956.28,
+            "LinkedTxn": [
+              {
+                "TxnId": "1189",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_001"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "29"
+          }
+        ]
+      },
+      {
+        "Id": "5190",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-26T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-26T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-26",
+        "CustomerRef": {
+          "value": "2",
+          "name": "Scott, Anthony and West"
+        },
+        "TotalAmt": 20557.9,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 20557.9,
+            "LinkedTxn": [
+              {
+                "TxnId": "1190",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_002"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "25"
+          }
+        ]
+      },
+      {
+        "Id": "5191",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-29T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-29T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-29",
+        "CustomerRef": {
+          "value": "3",
+          "name": "Parker-Perez"
+        },
+        "TotalAmt": 43273.13,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 43273.13,
+            "LinkedTxn": [
+              {
+                "TxnId": "1191",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_003"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "28"
+          }
+        ]
+      },
+      {
+        "Id": "5192",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-26T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-26T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-26",
+        "CustomerRef": {
+          "value": "4",
+          "name": "Ferrell, Walsh and Brown"
+        },
+        "TotalAmt": 14744.71,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 14744.71,
+            "LinkedTxn": [
+              {
+                "TxnId": "1192",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_004"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "25"
+          }
+        ]
+      },
+      {
+        "Id": "5193",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-26T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-26T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-26",
+        "CustomerRef": {
+          "value": "5",
+          "name": "Washington-Johnson"
+        },
+        "TotalAmt": 25516.62,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 25516.62,
+            "LinkedTxn": [
+              {
+                "TxnId": "1193",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_005"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "25"
+          }
+        ]
+      },
+      {
+        "Id": "5194",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-05-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-05-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-05-01",
+        "CustomerRef": {
+          "value": "6",
+          "name": "Quinn, Liu and Franco"
+        },
+        "TotalAmt": 63554.7,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 63554.7,
+            "LinkedTxn": [
+              {
+                "TxnId": "1194",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_006"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "30"
+          }
+        ]
+      },
+      {
+        "Id": "5195",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-29T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-29T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-29",
+        "CustomerRef": {
+          "value": "7",
+          "name": "Jones and Sons"
+        },
+        "TotalAmt": 27087.0,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 27087.0,
+            "LinkedTxn": [
+              {
+                "TxnId": "1195",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_007"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "28"
+          }
+        ]
+      },
+      {
+        "Id": "5196",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-30T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-30T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-30",
+        "CustomerRef": {
+          "value": "8",
+          "name": "Becker-Payne"
+        },
+        "TotalAmt": 16080.96,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 16080.96,
+            "LinkedTxn": [
+              {
+                "TxnId": "1196",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_008"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "29"
+          }
+        ]
+      },
+      {
+        "Id": "5197",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-30T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-30T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-30",
+        "CustomerRef": {
+          "value": "9",
+          "name": "Roy-Pearson"
+        },
+        "TotalAmt": 61459.86,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 61459.86,
+            "LinkedTxn": [
+              {
+                "TxnId": "1197",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_009"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "29"
+          }
+        ]
+      },
+      {
+        "Id": "5198",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-27T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-27T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-27",
+        "CustomerRef": {
+          "value": "10",
+          "name": "Brown LLC"
+        },
+        "TotalAmt": 19385.54,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 19385.54,
+            "LinkedTxn": [
+              {
+                "TxnId": "1198",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_010"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "26"
+          }
+        ]
+      },
+      {
+        "Id": "5199",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-05-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-05-28T00:00:00-07:00"
+        },
+        "TxnDate": "2025-05-28",
+        "CustomerRef": {
+          "value": "11",
+          "name": "Stone, Burns and Lee"
+        },
+        "TotalAmt": 26024.19,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 26024.19,
+            "LinkedTxn": [
+              {
+                "TxnId": "1199",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_011"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "57"
+          }
+        ]
+      },
+      {
+        "Id": "5200",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-05-20T00:00:00-07:00",
+          "LastUpdatedTime": "2025-05-20T00:00:00-07:00"
+        },
+        "TxnDate": "2025-05-20",
+        "CustomerRef": {
+          "value": "12",
+          "name": "Carlson, Mccoy and Mcdonald"
+        },
+        "TotalAmt": 7439.61,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 7439.61,
+            "LinkedTxn": [
+              {
+                "TxnId": "1200",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_012"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "49"
+          }
+        ]
+      },
+      {
+        "Id": "5201",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-26T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-26T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-26",
+        "CustomerRef": {
+          "value": "13",
+          "name": "White-Skinner"
+        },
+        "TotalAmt": 4372.1,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 4372.1,
+            "LinkedTxn": [
+              {
+                "TxnId": "1201",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_013"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "25"
+          }
+        ]
+      },
+      {
+        "Id": "5202",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-30T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-30T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-30",
+        "CustomerRef": {
+          "value": "14",
+          "name": "Hale PLC"
+        },
+        "TotalAmt": 10265.58,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 10265.58,
+            "LinkedTxn": [
+              {
+                "TxnId": "1202",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_014"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "29"
+          }
+        ]
+      },
+      {
+        "Id": "5203",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-30T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-30T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-30",
+        "CustomerRef": {
+          "value": "15",
+          "name": "Harris-Cook"
+        },
+        "TotalAmt": 11084.59,
+        "UnappliedAmt": 585.05,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 11084.59,
+            "LinkedTxn": [
+              {
+                "TxnId": "1203",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_015"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "29"
+          }
+        ]
+      },
+      {
+        "Id": "5204",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-05-24T00:00:00-07:00",
+          "LastUpdatedTime": "2025-05-24T00:00:00-07:00"
+        },
+        "TxnDate": "2025-05-24",
+        "CustomerRef": {
+          "value": "16",
+          "name": "Huber Ltd"
+        },
+        "TotalAmt": 9248.72,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 9248.72,
+            "LinkedTxn": [
+              {
+                "TxnId": "1204",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_016"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "53"
+          }
+        ]
+      },
+      {
+        "Id": "5205",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-28T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-28",
+        "CustomerRef": {
+          "value": "17",
+          "name": "Jordan, Campbell and Lopez"
+        },
+        "TotalAmt": 9813.96,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CREDIT_CARD"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 9813.96,
+            "LinkedTxn": [
+              {
+                "TxnId": "1205",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_017"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "27"
+          }
+        ]
+      }
+    ],
+    "startPosition": 101,
+    "maxResults": 100,
+    "totalCount": 418
+  },
+  "time": "2026-06-19T18:38:15-07:00"
+}
