@@ -1,0 +1,3869 @@
+{
+  "vehicleId": "48291006",
+  "vehicleName": "DEN-CAR-07",
+  "month": "2025_01",
+  "pagination": {
+    "endCursor": "trip_48291006_20250131_003",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_48291006_20250101_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1735732140000,
+      "endMs": 1735734117216,
+      "startLocation": {
+        "latitude": 39.764579,
+        "longitude": -105.066659
+      },
+      "endLocation": {
+        "latitude": 39.819951,
+        "longitude": -104.957643
+      },
+      "startAddress": "6159 Alvarado Crossing",
+      "endAddress": "465 Terry Plaza Apt. 366",
+      "startCoords": {
+        "latitude": 39.705213,
+        "longitude": -105.080936
+      },
+      "endCoords": {
+        "latitude": 39.736948,
+        "longitude": -104.983713
+      },
+      "distanceMeters": 15465.6,
+      "durationMs": 1977217,
+      "drivingDurationMs": 1755392,
+      "idlingDurationMs": 221825,
+      "fuelConsumedMl": 1965,
+      "fuelConsumedGallons": 0.519,
+      "maxSpeedMph": 47.4,
+      "averageSpeedMph": 17.5,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250101_002",
+      "vehicleId": "48291006",
+      "driverId": null,
+      "startMs": 1735733280000,
+      "endMs": 1735734895834,
+      "startLocation": {
+        "latitude": 39.735304,
+        "longitude": -104.959329
+      },
+      "endLocation": {
+        "latitude": 39.779862,
+        "longitude": -105.021143
+      },
+      "startAddress": "946 Kevin Fords",
+      "endAddress": "957 Ramos Forest Suite 214",
+      "startCoords": {
+        "latitude": 39.764432,
+        "longitude": -104.923066
+      },
+      "endCoords": {
+        "latitude": 39.824101,
+        "longitude": -104.94664
+      },
+      "distanceMeters": 8346.3,
+      "durationMs": 1615834,
+      "drivingDurationMs": 1300435,
+      "idlingDurationMs": 315399,
+      "fuelConsumedMl": 1060,
+      "fuelConsumedGallons": 0.28,
+      "maxSpeedMph": 70.8,
+      "averageSpeedMph": 11.6,
+      "safetyEvents": [
+        {
+          "type": "speeding",
+          "startMs": 1735733820000,
+          "maxSpeedMph": 70.8
+        }
+      ],
+      "_no_driver_login": true,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250102_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1735801920000,
+      "endMs": 1735813926900,
+      "startLocation": {
+        "latitude": 39.731519,
+        "longitude": -105.079681
+      },
+      "endLocation": {
+        "latitude": 39.750178,
+        "longitude": -105.056096
+      },
+      "startAddress": "2442 Hannah Hill",
+      "endAddress": "057 Christina Spring",
+      "startCoords": {
+        "latitude": 39.76645,
+        "longitude": -104.933047
+      },
+      "endCoords": {
+        "latitude": 39.740665,
+        "longitude": -105.082168
+      },
+      "distanceMeters": 77199.7,
+      "durationMs": 12006901,
+      "drivingDurationMs": 11480437,
+      "idlingDurationMs": 526463,
+      "fuelConsumedMl": 9816,
+      "fuelConsumedGallons": 2.593,
+      "maxSpeedMph": 67.8,
+      "averageSpeedMph": 14.4,
+      "safetyEvents": [
+        {
+          "type": "speeding",
+          "startMs": 1735812480000,
+          "maxSpeedMph": 67.8
+        }
+      ],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250102_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1735819860000,
+      "endMs": 1735824163559,
+      "startLocation": {
+        "latitude": 39.772248,
+        "longitude": -104.971581
+      },
+      "endLocation": {
+        "latitude": 39.777029,
+        "longitude": -104.993809
+      },
+      "startAddress": "863 Schwartz Causeway",
+      "endAddress": "6580 Julia Flats Suite 359",
+      "startCoords": {
+        "latitude": 39.810975,
+        "longitude": -104.997547
+      },
+      "endCoords": {
+        "latitude": 39.696372,
+        "longitude": -105.015621
+      },
+      "distanceMeters": 33315.5,
+      "durationMs": 4303560,
+      "drivingDurationMs": 3904631,
+      "idlingDurationMs": 398929,
+      "fuelConsumedMl": 4236,
+      "fuelConsumedGallons": 1.119,
+      "maxSpeedMph": 47.6,
+      "averageSpeedMph": 17.3,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250103_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1735898940000,
+      "endMs": 1735911730655,
+      "startLocation": {
+        "latitude": 39.767618,
+        "longitude": -105.062613
+      },
+      "endLocation": {
+        "latitude": 39.797753,
+        "longitude": -104.968716
+      },
+      "startAddress": "2017 Mayer Mills Apt. 304",
+      "endAddress": "19433 Coffey Camp Suite 793",
+      "startCoords": {
+        "latitude": 39.737945,
+        "longitude": -105.058023
+      },
+      "endCoords": {
+        "latitude": 39.810521,
+        "longitude": -105.072523
+      },
+      "distanceMeters": 65604.0,
+      "durationMs": 12790656,
+      "drivingDurationMs": 11604076,
+      "idlingDurationMs": 1186579,
+      "fuelConsumedMl": 8339,
+      "fuelConsumedGallons": 2.203,
+      "maxSpeedMph": 35.3,
+      "averageSpeedMph": 11.5,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250103_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1735884660000,
+      "endMs": 1735896455572,
+      "startLocation": {
+        "latitude": 39.797925,
+        "longitude": -104.998115
+      },
+      "endLocation": {
+        "latitude": 39.702019,
+        "longitude": -105.060783
+      },
+      "startAddress": "61498 Jackson Fields",
+      "endAddress": "92124 Nicole Stream",
+      "startCoords": {
+        "latitude": 39.722784,
+        "longitude": -105.002933
+      },
+      "endCoords": {
+        "latitude": 39.718215,
+        "longitude": -105.054861
+      },
+      "distanceMeters": 79091.0,
+      "durationMs": 11795573,
+      "drivingDurationMs": 10207342,
+      "idlingDurationMs": 1588231,
+      "fuelConsumedMl": 10054,
+      "fuelConsumedGallons": 2.656,
+      "maxSpeedMph": 40.5,
+      "averageSpeedMph": 15.0,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250104_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1735996260000,
+      "endMs": 1736013023524,
+      "startLocation": {
+        "latitude": 39.705143,
+        "longitude": -104.951708
+      },
+      "endLocation": {
+        "latitude": 39.719043,
+        "longitude": -105.065355
+      },
+      "startAddress": "96394 Coleman Summit",
+      "endAddress": "4731 Costa Ports",
+      "startCoords": {
+        "latitude": 39.740902,
+        "longitude": -105.030741
+      },
+      "endCoords": {
+        "latitude": 39.76966,
+        "longitude": -105.05525
+      },
+      "distanceMeters": 80605.1,
+      "durationMs": 16763525,
+      "drivingDurationMs": 14772709,
+      "idlingDurationMs": 1990815,
+      "fuelConsumedMl": 10247,
+      "fuelConsumedGallons": 2.707,
+      "maxSpeedMph": 42.9,
+      "averageSpeedMph": 10.8,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250104_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736011440000,
+      "endMs": 1736020343807,
+      "startLocation": {
+        "latitude": 39.801666,
+        "longitude": -105.015793
+      },
+      "endLocation": {
+        "latitude": 39.774875,
+        "longitude": -105.003931
+      },
+      "startAddress": "4613 Hoffman Orchard Suite 883",
+      "endAddress": "76581 Walker Burg Suite 375",
+      "startCoords": {
+        "latitude": 39.6854,
+        "longitude": -105.065764
+      },
+      "endCoords": {
+        "latitude": 39.701321,
+        "longitude": -104.966982
+      },
+      "distanceMeters": 67068.0,
+      "durationMs": 8903807,
+      "drivingDurationMs": 7574429,
+      "idlingDurationMs": 1329378,
+      "fuelConsumedMl": 8529,
+      "fuelConsumedGallons": 2.253,
+      "maxSpeedMph": 31.9,
+      "averageSpeedMph": 16.8,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250104_003",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736000040000,
+      "endMs": 1736001199018,
+      "startLocation": {
+        "latitude": 39.798228,
+        "longitude": -105.053629
+      },
+      "endLocation": {
+        "latitude": 39.753521,
+        "longitude": -104.966382
+      },
+      "startAddress": "145 Lisa Corner Apt. 823",
+      "endAddress": "312 Jensen Mountains Apt. 074",
+      "startCoords": {
+        "latitude": 39.746237,
+        "longitude": -104.980156
+      },
+      "endCoords": {
+        "latitude": 39.698062,
+        "longitude": -105.075765
+      },
+      "distanceMeters": 6842.1,
+      "durationMs": 1159019,
+      "drivingDurationMs": 946582,
+      "idlingDurationMs": 212437,
+      "fuelConsumedMl": 871,
+      "fuelConsumedGallons": 0.23,
+      "maxSpeedMph": 40.0,
+      "averageSpeedMph": 13.2,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250105_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736068860000,
+      "endMs": 1736079469871,
+      "startLocation": {
+        "latitude": 39.79521,
+        "longitude": -105.039113
+      },
+      "endLocation": {
+        "latitude": 39.751142,
+        "longitude": -105.081798
+      },
+      "startAddress": "20072 Dennis Ville Suite 591",
+      "endAddress": "45109 Vanessa Ridges",
+      "startCoords": {
+        "latitude": 39.700347,
+        "longitude": -104.963796
+      },
+      "endCoords": {
+        "latitude": 39.7106,
+        "longitude": -105.061399
+      },
+      "distanceMeters": 60972.3,
+      "durationMs": 10609871,
+      "drivingDurationMs": 8761538,
+      "idlingDurationMs": 1848333,
+      "fuelConsumedMl": 7753,
+      "fuelConsumedGallons": 2.048,
+      "maxSpeedMph": 62.9,
+      "averageSpeedMph": 12.9,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250105_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736090400000,
+      "endMs": 1736096641202,
+      "startLocation": {
+        "latitude": 39.774463,
+        "longitude": -104.924079
+      },
+      "endLocation": {
+        "latitude": 39.684866,
+        "longitude": -105.008394
+      },
+      "startAddress": "26714 Gilbert Pine",
+      "endAddress": "421 Obrien Green",
+      "startCoords": {
+        "latitude": 39.731975,
+        "longitude": -104.965764
+      },
+      "endCoords": {
+        "latitude": 39.698172,
+        "longitude": -104.915831
+      },
+      "distanceMeters": 34782.6,
+      "durationMs": 6241202,
+      "drivingDurationMs": 5376275,
+      "idlingDurationMs": 864927,
+      "fuelConsumedMl": 4421,
+      "fuelConsumedGallons": 1.168,
+      "maxSpeedMph": 29.5,
+      "averageSpeedMph": 12.5,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250105_003",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736071800000,
+      "endMs": 1736079414567,
+      "startLocation": {
+        "latitude": 39.76675,
+        "longitude": -105.005841
+      },
+      "endLocation": {
+        "latitude": 39.74129,
+        "longitude": -104.930711
+      },
+      "startAddress": "817 Hannah Bypass",
+      "endAddress": "2775 Carter Squares Suite 634",
+      "startCoords": {
+        "latitude": 39.720135,
+        "longitude": -105.017465
+      },
+      "endCoords": {
+        "latitude": 39.732431,
+        "longitude": -104.959989
+      },
+      "distanceMeters": 42347.3,
+      "durationMs": 7614567,
+      "drivingDurationMs": 7398254,
+      "idlingDurationMs": 216313,
+      "fuelConsumedMl": 5383,
+      "fuelConsumedGallons": 1.422,
+      "maxSpeedMph": 63.6,
+      "averageSpeedMph": 12.4,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250106_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736184300000,
+      "endMs": 1736188399806,
+      "startLocation": {
+        "latitude": 39.727131,
+        "longitude": -104.953984
+      },
+      "endLocation": {
+        "latitude": 39.750344,
+        "longitude": -104.976511
+      },
+      "startAddress": "264 Kristen Light Suite 561",
+      "endAddress": "87612 Lindsay Island",
+      "startCoords": {
+        "latitude": 39.758237,
+        "longitude": -104.901808
+      },
+      "endCoords": {
+        "latitude": 39.722175,
+        "longitude": -104.918394
+      },
+      "distanceMeters": 27584.0,
+      "durationMs": 4099806,
+      "drivingDurationMs": 3731739,
+      "idlingDurationMs": 368067,
+      "fuelConsumedMl": 3505,
+      "fuelConsumedGallons": 0.926,
+      "maxSpeedMph": 39.0,
+      "averageSpeedMph": 15.1,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250106_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736162820000,
+      "endMs": 1736170311065,
+      "startLocation": {
+        "latitude": 39.79901,
+        "longitude": -104.968775
+      },
+      "endLocation": {
+        "latitude": 39.798206,
+        "longitude": -104.903335
+      },
+      "startAddress": "43468 John Underpass Suite 840",
+      "endAddress": "73008 Burke Loaf",
+      "startCoords": {
+        "latitude": 39.685792,
+        "longitude": -104.968258
+      },
+      "endCoords": {
+        "latitude": 39.804143,
+        "longitude": -105.04295
+      },
+      "distanceMeters": 34981.7,
+      "durationMs": 7491066,
+      "drivingDurationMs": 6286296,
+      "idlingDurationMs": 1204769,
+      "fuelConsumedMl": 4448,
+      "fuelConsumedGallons": 1.175,
+      "maxSpeedMph": 65.4,
+      "averageSpeedMph": 10.4,
+      "safetyEvents": [
+        {
+          "type": "speeding",
+          "startMs": 1736165940000,
+          "maxSpeedMph": 65.4
+        }
+      ],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250107_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736234400000,
+      "endMs": 1736251453460,
+      "startLocation": {
+        "latitude": 39.732814,
+        "longitude": -105.07792
+      },
+      "endLocation": {
+        "latitude": 39.74568,
+        "longitude": -104.984133
+      },
+      "startAddress": "28966 Smith Gateway Suite 281",
+      "endAddress": "4161 Patricia Road Suite 535",
+      "startCoords": {
+        "latitude": 39.746609,
+        "longitude": -105.067243
+      },
+      "endCoords": {
+        "latitude": 39.774017,
+        "longitude": -104.996373
+      },
+      "distanceMeters": 80224.7,
+      "durationMs": 17053460,
+      "drivingDurationMs": 13765957,
+      "idlingDurationMs": 3287504,
+      "fuelConsumedMl": 10202,
+      "fuelConsumedGallons": 2.695,
+      "maxSpeedMph": 61.8,
+      "averageSpeedMph": 10.5,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250107_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736274900000,
+      "endMs": 1736283600000,
+      "startLocation": {
+        "latitude": 39.791788,
+        "longitude": -105.080124
+      },
+      "endLocation": {
+        "latitude": 39.718625,
+        "longitude": -104.918991
+      },
+      "startAddress": "4051 Jacob Points Apt. 273",
+      "endAddress": "2763 Taylor Walks",
+      "startCoords": {
+        "latitude": 39.684443,
+        "longitude": -104.988365
+      },
+      "endCoords": {
+        "latitude": 39.748222,
+        "longitude": -105.051187
+      },
+      "distanceMeters": 44555.4,
+      "durationMs": 8700000,
+      "drivingDurationMs": 8021444,
+      "idlingDurationMs": 678556,
+      "fuelConsumedMl": 5667,
+      "fuelConsumedGallons": 1.497,
+      "maxSpeedMph": 51.1,
+      "averageSpeedMph": 11.5,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250107_003",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736244900000,
+      "endMs": 1736251444649,
+      "startLocation": {
+        "latitude": 39.690376,
+        "longitude": -105.043718
+      },
+      "endLocation": {
+        "latitude": 39.737681,
+        "longitude": -104.951462
+      },
+      "startAddress": "4471 Brittany Underpass",
+      "endAddress": "96906 Morales Square",
+      "startCoords": {
+        "latitude": 39.691425,
+        "longitude": -104.96216
+      },
+      "endCoords": {
+        "latitude": 39.748814,
+        "longitude": -104.957089
+      },
+      "distanceMeters": 43151.0,
+      "durationMs": 6544650,
+      "drivingDurationMs": 5682015,
+      "idlingDurationMs": 862635,
+      "fuelConsumedMl": 5485,
+      "fuelConsumedGallons": 1.449,
+      "maxSpeedMph": 67.3,
+      "averageSpeedMph": 14.7,
+      "safetyEvents": [
+        {
+          "type": "speeding",
+          "startMs": 1736249640000,
+          "maxSpeedMph": 67.3
+        }
+      ],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250107_004",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736231520000,
+      "endMs": 1736237209071,
+      "startLocation": {
+        "latitude": 39.70993,
+        "longitude": -105.084749
+      },
+      "endLocation": {
+        "latitude": 39.827204,
+        "longitude": -104.901008
+      },
+      "startAddress": "228 Mays Pass",
+      "endAddress": "5513 Medina Motorway Apt. 717",
+      "startCoords": {
+        "latitude": 39.767749,
+        "longitude": -105.056546
+      },
+      "endCoords": {
+        "latitude": 39.792732,
+        "longitude": -104.954793
+      },
+      "distanceMeters": 34459.4,
+      "durationMs": 5689072,
+      "drivingDurationMs": 4789271,
+      "idlingDurationMs": 899800,
+      "fuelConsumedMl": 4380,
+      "fuelConsumedGallons": 1.157,
+      "maxSpeedMph": 63.3,
+      "averageSpeedMph": 13.5,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250107_005",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736264400000,
+      "endMs": 1736270689986,
+      "startLocation": {
+        "latitude": 39.803408,
+        "longitude": -104.966918
+      },
+      "endLocation": {
+        "latitude": 39.793205,
+        "longitude": -104.947291
+      },
+      "startAddress": "06881 Katherine Villages Suite 034",
+      "endAddress": "881 Harris Mountains",
+      "startCoords": {
+        "latitude": 39.781156,
+        "longitude": -104.944455
+      },
+      "endCoords": {
+        "latitude": 39.806856,
+        "longitude": -105.070841
+      },
+      "distanceMeters": 38659.0,
+      "durationMs": 6289987,
+      "drivingDurationMs": 5204117,
+      "idlingDurationMs": 1085870,
+      "fuelConsumedMl": 4913,
+      "fuelConsumedGallons": 1.298,
+      "maxSpeedMph": 66.3,
+      "averageSpeedMph": 13.7,
+      "safetyEvents": [
+        {
+          "type": "speeding",
+          "startMs": 1736268480000,
+          "maxSpeedMph": 66.3
+        }
+      ],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250108_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736328960000,
+      "endMs": 1736331224670,
+      "startLocation": {
+        "latitude": 39.795985,
+        "longitude": -105.04931
+      },
+      "endLocation": {
+        "latitude": 39.808236,
+        "longitude": -105.024975
+      },
+      "startAddress": "7599 Wolfe Brooks Suite 290",
+      "endAddress": "690 Howard Drives Suite 061",
+      "startCoords": {
+        "latitude": 39.740446,
+        "longitude": -105.020661
+      },
+      "endCoords": {
+        "latitude": 39.785635,
+        "longitude": -105.014004
+      },
+      "distanceMeters": 9368.6,
+      "durationMs": 2264670,
+      "drivingDurationMs": 1834645,
+      "idlingDurationMs": 430026,
+      "fuelConsumedMl": 1192,
+      "fuelConsumedGallons": 0.315,
+      "maxSpeedMph": 66.5,
+      "averageSpeedMph": 9.3,
+      "safetyEvents": [
+        {
+          "type": "speeding",
+          "startMs": 1736330340000,
+          "maxSpeedMph": 66.5
+        }
+      ],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250108_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736349660000,
+      "endMs": 1736357960608,
+      "startLocation": {
+        "latitude": 39.799932,
+        "longitude": -104.914033
+      },
+      "endLocation": {
+        "latitude": 39.771581,
+        "longitude": -104.909952
+      },
+      "startAddress": "5673 Shaun Groves",
+      "endAddress": "0165 Sean Course Apt. 681",
+      "startCoords": {
+        "latitude": 39.721363,
+        "longitude": -105.01986
+      },
+      "endCoords": {
+        "latitude": 39.726733,
+        "longitude": -105.038894
+      },
+      "distanceMeters": 55240.4,
+      "durationMs": 8300608,
+      "drivingDurationMs": 6683613,
+      "idlingDurationMs": 1616996,
+      "fuelConsumedMl": 7022,
+      "fuelConsumedGallons": 1.855,
+      "maxSpeedMph": 52.4,
+      "averageSpeedMph": 14.9,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250108_003",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736335500000,
+      "endMs": 1736342777602,
+      "startLocation": {
+        "latitude": 39.811298,
+        "longitude": -105.031883
+      },
+      "endLocation": {
+        "latitude": 39.710188,
+        "longitude": -104.931706
+      },
+      "startAddress": "802 Robinson Brooks Suite 376",
+      "endAddress": "964 Turner Trail",
+      "startCoords": {
+        "latitude": 39.706441,
+        "longitude": -104.961459
+      },
+      "endCoords": {
+        "latitude": 39.703293,
+        "longitude": -104.926216
+      },
+      "distanceMeters": 36030.9,
+      "durationMs": 7277602,
+      "drivingDurationMs": 6761080,
+      "idlingDurationMs": 516522,
+      "fuelConsumedMl": 4580,
+      "fuelConsumedGallons": 1.21,
+      "maxSpeedMph": 51.8,
+      "averageSpeedMph": 11.1,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250108_004",
+      "vehicleId": "48291006",
+      "driverId": null,
+      "startMs": 1736327940000,
+      "endMs": 1736336070152,
+      "startLocation": {
+        "latitude": 39.717168,
+        "longitude": -105.002868
+      },
+      "endLocation": {
+        "latitude": 39.767252,
+        "longitude": -104.992765
+      },
+      "startAddress": "50842 Julie Glen Apt. 348",
+      "endAddress": "41724 Jennifer Junctions",
+      "startCoords": {
+        "latitude": 39.783641,
+        "longitude": -104.936942
+      },
+      "endCoords": {
+        "latitude": 39.740844,
+        "longitude": -104.933072
+      },
+      "distanceMeters": 41601.5,
+      "durationMs": 8130153,
+      "drivingDurationMs": 7283055,
+      "idlingDurationMs": 847098,
+      "fuelConsumedMl": 5288,
+      "fuelConsumedGallons": 1.397,
+      "maxSpeedMph": 56.9,
+      "averageSpeedMph": 11.4,
+      "safetyEvents": [],
+      "_no_driver_login": true,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250108_005",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736316120000,
+      "endMs": 1736323282245,
+      "startLocation": {
+        "latitude": 39.704033,
+        "longitude": -104.925768
+      },
+      "endLocation": {
+        "latitude": 39.738709,
+        "longitude": -104.978058
+      },
+      "startAddress": "9158 Stewart Haven",
+      "endAddress": "2796 Fernando Expressway",
+      "startCoords": {
+        "latitude": 39.690953,
+        "longitude": -104.920918
+      },
+      "endCoords": {
+        "latitude": 39.777972,
+        "longitude": -104.965998
+      },
+      "distanceMeters": 49173.5,
+      "durationMs": 7162246,
+      "drivingDurationMs": 5780870,
+      "idlingDurationMs": 1381376,
+      "fuelConsumedMl": 6253,
+      "fuelConsumedGallons": 1.652,
+      "maxSpeedMph": 41.8,
+      "averageSpeedMph": 15.4,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250108_006",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736342880000,
+      "endMs": 1736358469652,
+      "startLocation": {
+        "latitude": 39.805021,
+        "longitude": -105.076716
+      },
+      "endLocation": {
+        "latitude": 39.716648,
+        "longitude": -104.93827
+      },
+      "startAddress": "0333 Christine Junction Suite 523",
+      "endAddress": "8286 Brandon Brooks",
+      "startCoords": {
+        "latitude": 39.804047,
+        "longitude": -104.909412
+      },
+      "endCoords": {
+        "latitude": 39.707277,
+        "longitude": -104.934293
+      },
+      "distanceMeters": 76141.5,
+      "durationMs": 15589653,
+      "drivingDurationMs": 14501791,
+      "idlingDurationMs": 1087862,
+      "fuelConsumedMl": 9679,
+      "fuelConsumedGallons": 2.557,
+      "maxSpeedMph": 71.7,
+      "averageSpeedMph": 10.9,
+      "safetyEvents": [
+        {
+          "type": "speeding",
+          "startMs": 1736351580000,
+          "maxSpeedMph": 71.7
+        }
+      ],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250109_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736428320000,
+      "endMs": 1736429380280,
+      "startLocation": {
+        "latitude": 39.717169,
+        "longitude": -104.91596
+      },
+      "endLocation": {
+        "latitude": 39.790755,
+        "longitude": -105.0354
+      },
+      "startAddress": "15019 Crawford Vista Suite 209",
+      "endAddress": "1920 Melinda Drives",
+      "startCoords": {
+        "latitude": 39.797076,
+        "longitude": -104.934923
+      },
+      "endCoords": {
+        "latitude": 39.78425,
+        "longitude": -104.940365
+      },
+      "distanceMeters": 5159.3,
+      "durationMs": 1060280,
+      "drivingDurationMs": 859155,
+      "idlingDurationMs": 201126,
+      "fuelConsumedMl": 655,
+      "fuelConsumedGallons": 0.173,
+      "maxSpeedMph": 35.1,
+      "averageSpeedMph": 10.9,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250109_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736444580000,
+      "endMs": 1736456400000,
+      "startLocation": {
+        "latitude": 39.807697,
+        "longitude": -105.086667
+      },
+      "endLocation": {
+        "latitude": 39.775118,
+        "longitude": -104.90817
+      },
+      "startAddress": "33297 Marie Ports Apt. 795",
+      "endAddress": "158 Rocha Valleys",
+      "startCoords": {
+        "latitude": 39.722802,
+        "longitude": -105.045968
+      },
+      "endCoords": {
+        "latitude": 39.700146,
+        "longitude": -104.921501
+      },
+      "distanceMeters": 50050.7,
+      "durationMs": 11820000,
+      "drivingDurationMs": 9456000,
+      "idlingDurationMs": 2364000,
+      "fuelConsumedMl": 6363,
+      "fuelConsumedGallons": 1.681,
+      "maxSpeedMph": 32.9,
+      "averageSpeedMph": 9.5,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250109_003",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736433420000,
+      "endMs": 1736444900433,
+      "startLocation": {
+        "latitude": 39.720138,
+        "longitude": -104.942325
+      },
+      "endLocation": {
+        "latitude": 39.816486,
+        "longitude": -104.963827
+      },
+      "startAddress": "63971 Guzman Brook",
+      "endAddress": "7414 Kerry Valleys Suite 396",
+      "startCoords": {
+        "latitude": 39.813638,
+        "longitude": -104.964603
+      },
+      "endCoords": {
+        "latitude": 39.697155,
+        "longitude": -105.08744
+      },
+      "distanceMeters": 74095.8,
+      "durationMs": 11480434,
+      "drivingDurationMs": 9319989,
+      "idlingDurationMs": 2160445,
+      "fuelConsumedMl": 9422,
+      "fuelConsumedGallons": 2.489,
+      "maxSpeedMph": 32.5,
+      "averageSpeedMph": 14.4,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250109_004",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736430540000,
+      "endMs": 1736432120595,
+      "startLocation": {
+        "latitude": 39.726732,
+        "longitude": -105.003715
+      },
+      "endLocation": {
+        "latitude": 39.690636,
+        "longitude": -105.081866
+      },
+      "startAddress": "2591 Heather Fall",
+      "endAddress": "977 Kathleen Rue Suite 772",
+      "startCoords": {
+        "latitude": 39.77441,
+        "longitude": -105.081798
+      },
+      "endCoords": {
+        "latitude": 39.77607,
+        "longitude": -104.924674
+      },
+      "distanceMeters": 8710.5,
+      "durationMs": 1580596,
+      "drivingDurationMs": 1271434,
+      "idlingDurationMs": 309162,
+      "fuelConsumedMl": 1109,
+      "fuelConsumedGallons": 0.293,
+      "maxSpeedMph": 71.0,
+      "averageSpeedMph": 12.3,
+      "safetyEvents": [
+        {
+          "type": "speeding",
+          "startMs": 1736430780000,
+          "maxSpeedMph": 71.0
+        }
+      ],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250109_005",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736428200000,
+      "endMs": 1736434330559,
+      "startLocation": {
+        "latitude": 39.80915,
+        "longitude": -105.032003
+      },
+      "endLocation": {
+        "latitude": 39.726848,
+        "longitude": -104.988597
+      },
+      "startAddress": "3435 Dean Mountain Suite 296",
+      "endAddress": "1564 Patricia Way Apt. 299",
+      "startCoords": {
+        "latitude": 39.792163,
+        "longitude": -105.082035
+      },
+      "endCoords": {
+        "latitude": 39.806345,
+        "longitude": -105.001573
+      },
+      "distanceMeters": 37168.9,
+      "durationMs": 6130560,
+      "drivingDurationMs": 5267682,
+      "idlingDurationMs": 862878,
+      "fuelConsumedMl": 4724,
+      "fuelConsumedGallons": 1.248,
+      "maxSpeedMph": 46.2,
+      "averageSpeedMph": 13.6,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250109_006",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736433120000,
+      "endMs": 1736441297045,
+      "startLocation": {
+        "latitude": 39.774733,
+        "longitude": -105.070999
+      },
+      "endLocation": {
+        "latitude": 39.744117,
+        "longitude": -105.087307
+      },
+      "startAddress": "48042 Ruiz Way",
+      "endAddress": "00940 Robert Knoll Suite 376",
+      "startCoords": {
+        "latitude": 39.8188,
+        "longitude": -104.958697
+      },
+      "endCoords": {
+        "latitude": 39.787401,
+        "longitude": -104.921213
+      },
+      "distanceMeters": 57781.7,
+      "durationMs": 8177046,
+      "drivingDurationMs": 6598767,
+      "idlingDurationMs": 1578279,
+      "fuelConsumedMl": 7347,
+      "fuelConsumedGallons": 1.941,
+      "maxSpeedMph": 36.1,
+      "averageSpeedMph": 15.8,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250110_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736502540000,
+      "endMs": 1736511066162,
+      "startLocation": {
+        "latitude": 39.694674,
+        "longitude": -105.039083
+      },
+      "endLocation": {
+        "latitude": 39.825576,
+        "longitude": -104.955309
+      },
+      "startAddress": "52560 Abigail Summit",
+      "endAddress": "617 Daniel Vista Apt. 520",
+      "startCoords": {
+        "latitude": 39.74984,
+        "longitude": -105.019606
+      },
+      "endCoords": {
+        "latitude": 39.724739,
+        "longitude": -104.961268
+      },
+      "distanceMeters": 41711.4,
+      "durationMs": 8526163,
+      "drivingDurationMs": 7217876,
+      "idlingDurationMs": 1308287,
+      "fuelConsumedMl": 5303,
+      "fuelConsumedGallons": 1.401,
+      "maxSpeedMph": 33.6,
+      "averageSpeedMph": 10.9,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250110_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736510580000,
+      "endMs": 1736523153760,
+      "startLocation": {
+        "latitude": 39.819899,
+        "longitude": -105.080726
+      },
+      "endLocation": {
+        "latitude": 39.784931,
+        "longitude": -105.079462
+      },
+      "startAddress": "353 Jacob Crest Suite 560",
+      "endAddress": "934 John Crossroad Apt. 091",
+      "startCoords": {
+        "latitude": 39.740948,
+        "longitude": -104.931707
+      },
+      "endCoords": {
+        "latitude": 39.70555,
+        "longitude": -105.08604
+      },
+      "distanceMeters": 65981.0,
+      "durationMs": 12573761,
+      "drivingDurationMs": 10471312,
+      "idlingDurationMs": 2102449,
+      "fuelConsumedMl": 8388,
+      "fuelConsumedGallons": 2.216,
+      "maxSpeedMph": 53.8,
+      "averageSpeedMph": 11.7,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250110_003",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736517720000,
+      "endMs": 1736520631870,
+      "startLocation": {
+        "latitude": 39.751292,
+        "longitude": -105.024421
+      },
+      "endLocation": {
+        "latitude": 39.749416,
+        "longitude": -104.983001
+      },
+      "startAddress": "443 Laura Harbor",
+      "endAddress": "0878 Joseph Union",
+      "startCoords": {
+        "latitude": 39.806811,
+        "longitude": -105.046182
+      },
+      "endCoords": {
+        "latitude": 39.725389,
+        "longitude": -104.993526
+      },
+      "distanceMeters": 15764.0,
+      "durationMs": 2911871,
+      "drivingDurationMs": 2480236,
+      "idlingDurationMs": 431635,
+      "fuelConsumedMl": 2002,
+      "fuelConsumedGallons": 0.529,
+      "maxSpeedMph": 37.2,
+      "averageSpeedMph": 12.1,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250110_004",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736500920000,
+      "endMs": 1736509749979,
+      "startLocation": {
+        "latitude": 39.765909,
+        "longitude": -104.933703
+      },
+      "endLocation": {
+        "latitude": 39.739137,
+        "longitude": -104.905073
+      },
+      "startAddress": "779 Hannah Hollow",
+      "endAddress": "11682 Christopher Overpass",
+      "startCoords": {
+        "latitude": 39.786197,
+        "longitude": -104.913764
+      },
+      "endCoords": {
+        "latitude": 39.825703,
+        "longitude": -105.014807
+      },
+      "distanceMeters": 44359.7,
+      "durationMs": 8829980,
+      "drivingDurationMs": 8296008,
+      "idlingDurationMs": 533972,
+      "fuelConsumedMl": 5640,
+      "fuelConsumedGallons": 1.49,
+      "maxSpeedMph": 40.5,
+      "averageSpeedMph": 11.2,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250111_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736609760000,
+      "endMs": 1736611279481,
+      "startLocation": {
+        "latitude": 39.749066,
+        "longitude": -105.075002
+      },
+      "endLocation": {
+        "latitude": 39.804912,
+        "longitude": -105.029033
+      },
+      "startAddress": "019 Michael Fall Suite 065",
+      "endAddress": "74711 Williams Lock",
+      "startCoords": {
+        "latitude": 39.704722,
+        "longitude": -104.99299
+      },
+      "endCoords": {
+        "latitude": 39.71968,
+        "longitude": -104.948886
+      },
+      "distanceMeters": 6271.9,
+      "durationMs": 1519481,
+      "drivingDurationMs": 1218437,
+      "idlingDurationMs": 301044,
+      "fuelConsumedMl": 799,
+      "fuelConsumedGallons": 0.211,
+      "maxSpeedMph": 30.4,
+      "averageSpeedMph": 9.2,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250111_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736594400000,
+      "endMs": 1736597965036,
+      "startLocation": {
+        "latitude": 39.701737,
+        "longitude": -104.971154
+      },
+      "endLocation": {
+        "latitude": 39.770026,
+        "longitude": -104.951413
+      },
+      "startAddress": "579 Gaines Point Suite 312",
+      "endAddress": "79044 Shelby Plains Apt. 901",
+      "startCoords": {
+        "latitude": 39.791825,
+        "longitude": -104.94942
+      },
+      "endCoords": {
+        "latitude": 39.747566,
+        "longitude": -105.019259
+      },
+      "distanceMeters": 25784.6,
+      "durationMs": 3565037,
+      "drivingDurationMs": 2981189,
+      "idlingDurationMs": 583848,
+      "fuelConsumedMl": 3278,
+      "fuelConsumedGallons": 0.866,
+      "maxSpeedMph": 40.5,
+      "averageSpeedMph": 16.2,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250112_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736664600000,
+      "endMs": 1736674955804,
+      "startLocation": {
+        "latitude": 39.782174,
+        "longitude": -104.91701
+      },
+      "endLocation": {
+        "latitude": 39.688506,
+        "longitude": -105.066353
+      },
+      "startAddress": "7208 Eric Crescent Apt. 415",
+      "endAddress": "4931 Gray Pike",
+      "startCoords": {
+        "latitude": 39.710968,
+        "longitude": -104.936465
+      },
+      "endCoords": {
+        "latitude": 39.797706,
+        "longitude": -104.926563
+      },
+      "distanceMeters": 51838.2,
+      "durationMs": 10355804,
+      "drivingDurationMs": 8631330,
+      "idlingDurationMs": 1724474,
+      "fuelConsumedMl": 6590,
+      "fuelConsumedGallons": 1.741,
+      "maxSpeedMph": 54.6,
+      "averageSpeedMph": 11.2,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250112_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736707740000,
+      "endMs": 1736715600000,
+      "startLocation": {
+        "latitude": 39.710945,
+        "longitude": -104.947387
+      },
+      "endLocation": {
+        "latitude": 39.752032,
+        "longitude": -105.00049
+      },
+      "startAddress": "1155 Costa Corners",
+      "endAddress": "404 Alvarado Knolls",
+      "startCoords": {
+        "latitude": 39.685976,
+        "longitude": -105.008664
+      },
+      "endCoords": {
+        "latitude": 39.800553,
+        "longitude": -104.913044
+      },
+      "distanceMeters": 37322.2,
+      "durationMs": 7860000,
+      "drivingDurationMs": 6288000,
+      "idlingDurationMs": 1572000,
+      "fuelConsumedMl": 4747,
+      "fuelConsumedGallons": 1.254,
+      "maxSpeedMph": 55.6,
+      "averageSpeedMph": 10.6,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250112_003",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736682300000,
+      "endMs": 1736693159056,
+      "startLocation": {
+        "latitude": 39.821336,
+        "longitude": -105.039702
+      },
+      "endLocation": {
+        "latitude": 39.772096,
+        "longitude": -105.014833
+      },
+      "startAddress": "04584 Stacy Plaza",
+      "endAddress": "70699 Sara Lights",
+      "startCoords": {
+        "latitude": 39.766766,
+        "longitude": -105.032436
+      },
+      "endCoords": {
+        "latitude": 39.804133,
+        "longitude": -104.903064
+      },
+      "distanceMeters": 57861.3,
+      "durationMs": 10859057,
+      "drivingDurationMs": 9178113,
+      "idlingDurationMs": 1680943,
+      "fuelConsumedMl": 7355,
+      "fuelConsumedGallons": 1.943,
+      "maxSpeedMph": 41.4,
+      "averageSpeedMph": 11.9,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250112_004",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736707440000,
+      "endMs": 1736714392080,
+      "startLocation": {
+        "latitude": 39.73314,
+        "longitude": -104.993508
+      },
+      "endLocation": {
+        "latitude": 39.823148,
+        "longitude": -105.066589
+      },
+      "startAddress": "493 Kim Keys Apt. 363",
+      "endAddress": "4722 Cox Trail",
+      "startCoords": {
+        "latitude": 39.823093,
+        "longitude": -104.947956
+      },
+      "endCoords": {
+        "latitude": 39.827303,
+        "longitude": -104.9125
+      },
+      "distanceMeters": 43078.3,
+      "durationMs": 6952081,
+      "drivingDurationMs": 5591688,
+      "idlingDurationMs": 1360393,
+      "fuelConsumedMl": 5477,
+      "fuelConsumedGallons": 1.447,
+      "maxSpeedMph": 65.2,
+      "averageSpeedMph": 13.9,
+      "safetyEvents": [
+        {
+          "type": "speeding",
+          "startMs": 1736714160000,
+          "maxSpeedMph": 65.2
+        }
+      ],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250113_001",
+      "vehicleId": "48291006",
+      "driverId": null,
+      "startMs": 1736773860000,
+      "endMs": 1736775616716,
+      "startLocation": {
+        "latitude": 39.735617,
+        "longitude": -104.949901
+      },
+      "endLocation": {
+        "latitude": 39.716544,
+        "longitude": -105.050218
+      },
+      "startAddress": "6847 Dylan Turnpike",
+      "endAddress": "65299 Matthew Forges Suite 791",
+      "startCoords": {
+        "latitude": 39.696363,
+        "longitude": -104.952378
+      },
+      "endCoords": {
+        "latitude": 39.757967,
+        "longitude": -105.017794
+      },
+      "distanceMeters": 13640.0,
+      "durationMs": 1756716,
+      "drivingDurationMs": 1564770,
+      "idlingDurationMs": 191946,
+      "fuelConsumedMl": 1734,
+      "fuelConsumedGallons": 0.458,
+      "maxSpeedMph": 62.0,
+      "averageSpeedMph": 17.4,
+      "safetyEvents": [],
+      "_no_driver_login": true,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250113_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736769660000,
+      "endMs": 1736773876007,
+      "startLocation": {
+        "latitude": 39.705266,
+        "longitude": -104.951134
+      },
+      "endLocation": {
+        "latitude": 39.78623,
+        "longitude": -105.08647
+      },
+      "startAddress": "72095 Dunn Shore",
+      "endAddress": "55081 Ryan Union",
+      "startCoords": {
+        "latitude": 39.696009,
+        "longitude": -105.060069
+      },
+      "endCoords": {
+        "latitude": 39.810313,
+        "longitude": -105.036731
+      },
+      "distanceMeters": 31351.0,
+      "durationMs": 4216007,
+      "drivingDurationMs": 3588719,
+      "idlingDurationMs": 627288,
+      "fuelConsumedMl": 3986,
+      "fuelConsumedGallons": 1.053,
+      "maxSpeedMph": 40.7,
+      "averageSpeedMph": 16.6,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250114_001",
+      "vehicleId": "48291006",
+      "driverId": null,
+      "startMs": 1736862600000,
+      "endMs": 1736871459254,
+      "startLocation": {
+        "latitude": 39.738489,
+        "longitude": -104.997562
+      },
+      "endLocation": {
+        "latitude": 39.727734,
+        "longitude": -104.925677
+      },
+      "startAddress": "766 Roberta Crossroad",
+      "endAddress": "2673 Wilson Bridge",
+      "startCoords": {
+        "latitude": 39.745968,
+        "longitude": -104.977759
+      },
+      "endCoords": {
+        "latitude": 39.719152,
+        "longitude": -104.937111
+      },
+      "distanceMeters": 59355.1,
+      "durationMs": 8859254,
+      "drivingDurationMs": 7903775,
+      "idlingDurationMs": 955479,
+      "fuelConsumedMl": 7548,
+      "fuelConsumedGallons": 1.994,
+      "maxSpeedMph": 58.2,
+      "averageSpeedMph": 15.0,
+      "safetyEvents": [],
+      "_no_driver_login": true,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250114_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736838960000,
+      "endMs": 1736843932779,
+      "startLocation": {
+        "latitude": 39.813134,
+        "longitude": -105.0422
+      },
+      "endLocation": {
+        "latitude": 39.686585,
+        "longitude": -105.072851
+      },
+      "startAddress": "68686 Barnes Street Suite 147",
+      "endAddress": "9468 Lee Mountain",
+      "startCoords": {
+        "latitude": 39.816597,
+        "longitude": -104.936947
+      },
+      "endCoords": {
+        "latitude": 39.756998,
+        "longitude": -104.961867
+      },
+      "distanceMeters": 24773.7,
+      "durationMs": 4972780,
+      "drivingDurationMs": 4305205,
+      "idlingDurationMs": 667575,
+      "fuelConsumedMl": 3149,
+      "fuelConsumedGallons": 0.832,
+      "maxSpeedMph": 36.4,
+      "averageSpeedMph": 11.1,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250114_003",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736857320000,
+      "endMs": 1736861298281,
+      "startLocation": {
+        "latitude": 39.784129,
+        "longitude": -105.020804
+      },
+      "endLocation": {
+        "latitude": 39.76582,
+        "longitude": -105.068077
+      },
+      "startAddress": "52577 Ryan Village Suite 739",
+      "endAddress": "66032 Diane Streets Apt. 140",
+      "startCoords": {
+        "latitude": 39.694513,
+        "longitude": -105.051415
+      },
+      "endCoords": {
+        "latitude": 39.771456,
+        "longitude": -104.911454
+      },
+      "distanceMeters": 25127.4,
+      "durationMs": 3978282,
+      "drivingDurationMs": 3555076,
+      "idlingDurationMs": 423206,
+      "fuelConsumedMl": 3195,
+      "fuelConsumedGallons": 0.844,
+      "maxSpeedMph": 49.9,
+      "averageSpeedMph": 14.1,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250114_004",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736854140000,
+      "endMs": 1736863714011,
+      "startLocation": {
+        "latitude": 39.810531,
+        "longitude": -105.050124
+      },
+      "endLocation": {
+        "latitude": 39.756041,
+        "longitude": -104.953578
+      },
+      "startAddress": "071 Schneider Trafficway Apt. 996",
+      "endAddress": "30477 Matthew Ramp",
+      "startCoords": {
+        "latitude": 39.696556,
+        "longitude": -105.042252
+      },
+      "endCoords": {
+        "latitude": 39.734048,
+        "longitude": -105.01291
+      },
+      "distanceMeters": 61600.9,
+      "durationMs": 9574011,
+      "drivingDurationMs": 8756364,
+      "idlingDurationMs": 817648,
+      "fuelConsumedMl": 7832,
+      "fuelConsumedGallons": 2.069,
+      "maxSpeedMph": 69.2,
+      "averageSpeedMph": 14.4,
+      "safetyEvents": [
+        {
+          "type": "speeding",
+          "startMs": 1736860740000,
+          "maxSpeedMph": 69.2
+        }
+      ],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250114_005",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736868420000,
+      "endMs": 1736885751037,
+      "startLocation": {
+        "latitude": 39.799852,
+        "longitude": -105.020819
+      },
+      "endLocation": {
+        "latitude": 39.811328,
+        "longitude": -104.986598
+      },
+      "startAddress": "15953 Linda Parkways Suite 162",
+      "endAddress": "2881 Cortez Stream",
+      "startCoords": {
+        "latitude": 39.779482,
+        "longitude": -105.074863
+      },
+      "endCoords": {
+        "latitude": 39.777901,
+        "longitude": -104.913897
+      },
+      "distanceMeters": 82870.1,
+      "durationMs": 17331038,
+      "drivingDurationMs": 13899075,
+      "idlingDurationMs": 3431963,
+      "fuelConsumedMl": 10535,
+      "fuelConsumedGallons": 2.783,
+      "maxSpeedMph": 63.5,
+      "averageSpeedMph": 10.7,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250114_006",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736854980000,
+      "endMs": 1736862296099,
+      "startLocation": {
+        "latitude": 39.699705,
+        "longitude": -104.932945
+      },
+      "endLocation": {
+        "latitude": 39.789669,
+        "longitude": -105.063452
+      },
+      "startAddress": "0309 Michael Corner Apt. 434",
+      "endAddress": "3568 Heather Pike",
+      "startCoords": {
+        "latitude": 39.807794,
+        "longitude": -104.911855
+      },
+      "endCoords": {
+        "latitude": 39.727911,
+        "longitude": -104.999148
+      },
+      "distanceMeters": 35966.0,
+      "durationMs": 7316100,
+      "drivingDurationMs": 6945193,
+      "idlingDurationMs": 370906,
+      "fuelConsumedMl": 4573,
+      "fuelConsumedGallons": 1.208,
+      "maxSpeedMph": 55.0,
+      "averageSpeedMph": 11.0,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250115_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736938140000,
+      "endMs": 1736949667024,
+      "startLocation": {
+        "latitude": 39.785782,
+        "longitude": -104.983444
+      },
+      "endLocation": {
+        "latitude": 39.774778,
+        "longitude": -104.93523
+      },
+      "startAddress": "529 Jensen Plaza",
+      "endAddress": "6211 Benton Branch Apt. 620",
+      "startCoords": {
+        "latitude": 39.798221,
+        "longitude": -105.083892
+      },
+      "endCoords": {
+        "latitude": 39.763027,
+        "longitude": -104.966343
+      },
+      "distanceMeters": 81794.9,
+      "durationMs": 11527024,
+      "drivingDurationMs": 9434499,
+      "idlingDurationMs": 2092525,
+      "fuelConsumedMl": 10399,
+      "fuelConsumedGallons": 2.747,
+      "maxSpeedMph": 57.9,
+      "averageSpeedMph": 15.9,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250115_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736923800000,
+      "endMs": 1736924929644,
+      "startLocation": {
+        "latitude": 39.76966,
+        "longitude": -105.013344
+      },
+      "endLocation": {
+        "latitude": 39.729816,
+        "longitude": -105.027141
+      },
+      "startAddress": "24076 Mitchell Roads",
+      "endAddress": "362 Darren Square Apt. 501",
+      "startCoords": {
+        "latitude": 39.730339,
+        "longitude": -105.023681
+      },
+      "endCoords": {
+        "latitude": 39.720248,
+        "longitude": -104.978035
+      },
+      "distanceMeters": 7412.7,
+      "durationMs": 1129645,
+      "drivingDurationMs": 939866,
+      "idlingDurationMs": 189779,
+      "fuelConsumedMl": 943,
+      "fuelConsumedGallons": 0.249,
+      "maxSpeedMph": 63.9,
+      "averageSpeedMph": 14.7,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250115_003",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736966880000,
+      "endMs": 1736968191964,
+      "startLocation": {
+        "latitude": 39.826559,
+        "longitude": -105.085079
+      },
+      "endLocation": {
+        "latitude": 39.757422,
+        "longitude": -105.087423
+      },
+      "startAddress": "44968 Johnson Curve",
+      "endAddress": "489 Kelly Skyway",
+      "startCoords": {
+        "latitude": 39.72195,
+        "longitude": -104.910763
+      },
+      "endCoords": {
+        "latitude": 39.75794,
+        "longitude": -104.996659
+      },
+      "distanceMeters": 8419.6,
+      "durationMs": 1311965,
+      "drivingDurationMs": 1090697,
+      "idlingDurationMs": 221268,
+      "fuelConsumedMl": 1071,
+      "fuelConsumedGallons": 0.283,
+      "maxSpeedMph": 55.8,
+      "averageSpeedMph": 14.4,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250115_004",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1736929020000,
+      "endMs": 1736932794674,
+      "startLocation": {
+        "latitude": 39.824406,
+        "longitude": -104.957409
+      },
+      "endLocation": {
+        "latitude": 39.821905,
+        "longitude": -105.007993
+      },
+      "startAddress": "972 Phillips Ville Apt. 047",
+      "endAddress": "2175 Hall Glens Apt. 465",
+      "startCoords": {
+        "latitude": 39.785172,
+        "longitude": -105.063528
+      },
+      "endCoords": {
+        "latitude": 39.726598,
+        "longitude": -104.990537
+      },
+      "distanceMeters": 17530.1,
+      "durationMs": 3774674,
+      "drivingDurationMs": 3087054,
+      "idlingDurationMs": 687620,
+      "fuelConsumedMl": 2230,
+      "fuelConsumedGallons": 0.589,
+      "maxSpeedMph": 67.6,
+      "averageSpeedMph": 10.4,
+      "safetyEvents": [
+        {
+          "type": "speeding",
+          "startMs": 1736932380000,
+          "maxSpeedMph": 67.6
+        }
+      ],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250116_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737041880000,
+      "endMs": 1737043462411,
+      "startLocation": {
+        "latitude": 39.722835,
+        "longitude": -105.006126
+      },
+      "endLocation": {
+        "latitude": 39.687111,
+        "longitude": -105.02853
+      },
+      "startAddress": "787 Samantha Crescent Suite 832",
+      "endAddress": "27113 Vincent Circle",
+      "startCoords": {
+        "latitude": 39.795226,
+        "longitude": -105.068101
+      },
+      "endCoords": {
+        "latitude": 39.758216,
+        "longitude": -105.005215
+      },
+      "distanceMeters": 9386.6,
+      "durationMs": 1582411,
+      "drivingDurationMs": 1380089,
+      "idlingDurationMs": 202323,
+      "fuelConsumedMl": 1192,
+      "fuelConsumedGallons": 0.315,
+      "maxSpeedMph": 59.6,
+      "averageSpeedMph": 13.3,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250116_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737020100000,
+      "endMs": 1737025829281,
+      "startLocation": {
+        "latitude": 39.712973,
+        "longitude": -104.98675
+      },
+      "endLocation": {
+        "latitude": 39.791926,
+        "longitude": -104.988944
+      },
+      "startAddress": "49800 Ramos Spur",
+      "endAddress": "5773 Parks Forge Apt. 823",
+      "startCoords": {
+        "latitude": 39.703595,
+        "longitude": -105.020301
+      },
+      "endCoords": {
+        "latitude": 39.810744,
+        "longitude": -105.008055
+      },
+      "distanceMeters": 37572.4,
+      "durationMs": 5729282,
+      "drivingDurationMs": 5299004,
+      "idlingDurationMs": 430278,
+      "fuelConsumedMl": 4777,
+      "fuelConsumedGallons": 1.262,
+      "maxSpeedMph": 38.4,
+      "averageSpeedMph": 14.7,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250116_003",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737038820000,
+      "endMs": 1737045424650,
+      "startLocation": {
+        "latitude": 39.735678,
+        "longitude": -105.01752
+      },
+      "endLocation": {
+        "latitude": 39.722457,
+        "longitude": -104.983315
+      },
+      "startAddress": "21836 Carpenter Stream",
+      "endAddress": "835 Alice Loaf Suite 329",
+      "startCoords": {
+        "latitude": 39.764385,
+        "longitude": -105.028959
+      },
+      "endCoords": {
+        "latitude": 39.754447,
+        "longitude": -104.913401
+      },
+      "distanceMeters": 38701.4,
+      "durationMs": 6604650,
+      "drivingDurationMs": 5383100,
+      "idlingDurationMs": 1221550,
+      "fuelConsumedMl": 4921,
+      "fuelConsumedGallons": 1.3,
+      "maxSpeedMph": 71.3,
+      "averageSpeedMph": 13.1,
+      "safetyEvents": [
+        {
+          "type": "speeding",
+          "startMs": 1737044340000,
+          "maxSpeedMph": 71.3
+        }
+      ],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250117_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737137700000,
+      "endMs": 1737142822022,
+      "startLocation": {
+        "latitude": 39.800112,
+        "longitude": -105.069138
+      },
+      "endLocation": {
+        "latitude": 39.776662,
+        "longitude": -104.978786
+      },
+      "startAddress": "5931 Jeffrey Court Apt. 547",
+      "endAddress": "973 Morrow Freeway",
+      "startCoords": {
+        "latitude": 39.69947,
+        "longitude": -104.964589
+      },
+      "endCoords": {
+        "latitude": 39.725948,
+        "longitude": -104.94167
+      },
+      "distanceMeters": 29737.3,
+      "durationMs": 5122022,
+      "drivingDurationMs": 4313082,
+      "idlingDurationMs": 808940,
+      "fuelConsumedMl": 3782,
+      "fuelConsumedGallons": 0.999,
+      "maxSpeedMph": 43.5,
+      "averageSpeedMph": 13.0,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250117_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737106560000,
+      "endMs": 1737114230972,
+      "startLocation": {
+        "latitude": 39.801834,
+        "longitude": -105.043426
+      },
+      "endLocation": {
+        "latitude": 39.799765,
+        "longitude": -104.989877
+      },
+      "startAddress": "054 Shannon Walk Suite 471",
+      "endAddress": "294 Robert Spurs Apt. 314",
+      "startCoords": {
+        "latitude": 39.724338,
+        "longitude": -104.902636
+      },
+      "endCoords": {
+        "latitude": 39.786075,
+        "longitude": -104.960809
+      },
+      "distanceMeters": 56270.3,
+      "durationMs": 7670972,
+      "drivingDurationMs": 7359023,
+      "idlingDurationMs": 311949,
+      "fuelConsumedMl": 7154,
+      "fuelConsumedGallons": 1.89,
+      "maxSpeedMph": 35.5,
+      "averageSpeedMph": 16.4,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250117_003",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737102540000,
+      "endMs": 1737111278412,
+      "startLocation": {
+        "latitude": 39.730098,
+        "longitude": -104.965897
+      },
+      "endLocation": {
+        "latitude": 39.827238,
+        "longitude": -105.05108
+      },
+      "startAddress": "94807 Kimberly Viaduct Suite 845",
+      "endAddress": "8402 Evan Stravenue Suite 602",
+      "startCoords": {
+        "latitude": 39.803915,
+        "longitude": -105.086872
+      },
+      "endCoords": {
+        "latitude": 39.768866,
+        "longitude": -104.959501
+      },
+      "distanceMeters": 42986.1,
+      "durationMs": 8738412,
+      "drivingDurationMs": 7777751,
+      "idlingDurationMs": 960661,
+      "fuelConsumedMl": 5466,
+      "fuelConsumedGallons": 1.444,
+      "maxSpeedMph": 49.6,
+      "averageSpeedMph": 11.0,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250117_004",
+      "vehicleId": "48291006",
+      "driverId": null,
+      "startMs": 1737109020000,
+      "endMs": 1737114632021,
+      "startLocation": {
+        "latitude": 39.711447,
+        "longitude": -104.938385
+      },
+      "endLocation": {
+        "latitude": 39.823665,
+        "longitude": -104.945283
+      },
+      "startAddress": "066 Martinez Fall",
+      "endAddress": "344 Bell Crossing Apt. 677",
+      "startCoords": {
+        "latitude": 39.769508,
+        "longitude": -105.057605
+      },
+      "endCoords": {
+        "latitude": 39.765339,
+        "longitude": -105.079299
+      },
+      "distanceMeters": 43996.3,
+      "durationMs": 5612022,
+      "drivingDurationMs": 5152333,
+      "idlingDurationMs": 459689,
+      "fuelConsumedMl": 5595,
+      "fuelConsumedGallons": 1.478,
+      "maxSpeedMph": 68.1,
+      "averageSpeedMph": 17.5,
+      "safetyEvents": [
+        {
+          "type": "speeding",
+          "startMs": 1737112200000,
+          "maxSpeedMph": 68.1
+        }
+      ],
+      "_no_driver_login": true,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250118_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737208920000,
+      "endMs": 1737213825760,
+      "startLocation": {
+        "latitude": 39.714852,
+        "longitude": -104.998819
+      },
+      "endLocation": {
+        "latitude": 39.748531,
+        "longitude": -105.054486
+      },
+      "startAddress": "6259 Bray Mountains",
+      "endAddress": "4112 Mason Extensions Apt. 727",
+      "startCoords": {
+        "latitude": 39.803055,
+        "longitude": -105.044862
+      },
+      "endCoords": {
+        "latitude": 39.709014,
+        "longitude": -105.060634
+      },
+      "distanceMeters": 23789.0,
+      "durationMs": 4905761,
+      "drivingDurationMs": 4056936,
+      "idlingDurationMs": 848825,
+      "fuelConsumedMl": 3025,
+      "fuelConsumedGallons": 0.799,
+      "maxSpeedMph": 39.7,
+      "averageSpeedMph": 10.8,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250118_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737204360000,
+      "endMs": 1737214445485,
+      "startLocation": {
+        "latitude": 39.802391,
+        "longitude": -104.948155
+      },
+      "endLocation": {
+        "latitude": 39.701885,
+        "longitude": -105.041341
+      },
+      "startAddress": "219 Brown Streets Suite 789",
+      "endAddress": "67161 Warren Hill",
+      "startCoords": {
+        "latitude": 39.788795,
+        "longitude": -105.041309
+      },
+      "endCoords": {
+        "latitude": 39.740697,
+        "longitude": -104.97965
+      },
+      "distanceMeters": 61270.7,
+      "durationMs": 10085486,
+      "drivingDurationMs": 8258301,
+      "idlingDurationMs": 1827185,
+      "fuelConsumedMl": 7790,
+      "fuelConsumedGallons": 2.058,
+      "maxSpeedMph": 42.4,
+      "averageSpeedMph": 13.6,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250119_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737276120000,
+      "endMs": 1737285322252,
+      "startLocation": {
+        "latitude": 39.797628,
+        "longitude": -105.078844
+      },
+      "endLocation": {
+        "latitude": 39.768762,
+        "longitude": -104.925587
+      },
+      "startAddress": "618 Reyes Plaza",
+      "endAddress": "0857 Torres Union Apt. 363",
+      "startCoords": {
+        "latitude": 39.791639,
+        "longitude": -105.021136
+      },
+      "endCoords": {
+        "latitude": 39.802919,
+        "longitude": -105.017035
+      },
+      "distanceMeters": 60571.4,
+      "durationMs": 9202252,
+      "drivingDurationMs": 8814035,
+      "idlingDurationMs": 388217,
+      "fuelConsumedMl": 7700,
+      "fuelConsumedGallons": 2.034,
+      "maxSpeedMph": 37.8,
+      "averageSpeedMph": 14.7,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250119_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737299160000,
+      "endMs": 1737309114698,
+      "startLocation": {
+        "latitude": 39.79014,
+        "longitude": -104.990214
+      },
+      "endLocation": {
+        "latitude": 39.765223,
+        "longitude": -105.035898
+      },
+      "startAddress": "2866 Douglas Courts",
+      "endAddress": "73665 Barnes Fort",
+      "startCoords": {
+        "latitude": 39.695075,
+        "longitude": -105.033951
+      },
+      "endCoords": {
+        "latitude": 39.766158,
+        "longitude": -105.049043
+      },
+      "distanceMeters": 59725.4,
+      "durationMs": 9954698,
+      "drivingDurationMs": 7968374,
+      "idlingDurationMs": 1986324,
+      "fuelConsumedMl": 7594,
+      "fuelConsumedGallons": 2.006,
+      "maxSpeedMph": 52.0,
+      "averageSpeedMph": 13.4,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250119_003",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737313020000,
+      "endMs": 1737315292833,
+      "startLocation": {
+        "latitude": 39.822728,
+        "longitude": -105.05569
+      },
+      "endLocation": {
+        "latitude": 39.791622,
+        "longitude": -105.064154
+      },
+      "startAddress": "0727 Todd Turnpike",
+      "endAddress": "5761 Stevens Meadows",
+      "startCoords": {
+        "latitude": 39.75838,
+        "longitude": -105.013707
+      },
+      "endCoords": {
+        "latitude": 39.783647,
+        "longitude": -104.939961
+      },
+      "distanceMeters": 11703.6,
+      "durationMs": 2272834,
+      "drivingDurationMs": 1874422,
+      "idlingDurationMs": 398412,
+      "fuelConsumedMl": 1488,
+      "fuelConsumedGallons": 0.393,
+      "maxSpeedMph": 59.1,
+      "averageSpeedMph": 11.5,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250120_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737365700000,
+      "endMs": 1737367654005,
+      "startLocation": {
+        "latitude": 39.734067,
+        "longitude": -104.963615
+      },
+      "endLocation": {
+        "latitude": 39.793836,
+        "longitude": -104.975202
+      },
+      "startAddress": "41225 Mary Crescent Apt. 875",
+      "endAddress": "267 James Centers",
+      "startCoords": {
+        "latitude": 39.785837,
+        "longitude": -105.085267
+      },
+      "endCoords": {
+        "latitude": 39.745909,
+        "longitude": -104.933884
+      },
+      "distanceMeters": 11330.9,
+      "durationMs": 1954005,
+      "drivingDurationMs": 1694319,
+      "idlingDurationMs": 259687,
+      "fuelConsumedMl": 1442,
+      "fuelConsumedGallons": 0.381,
+      "maxSpeedMph": 68.1,
+      "averageSpeedMph": 13.0,
+      "safetyEvents": [
+        {
+          "type": "speeding",
+          "startMs": 1737366600000,
+          "maxSpeedMph": 68.1
+        }
+      ],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250120_002",
+      "vehicleId": "48291006",
+      "driverId": null,
+      "startMs": 1737358860000,
+      "endMs": 1737368357568,
+      "startLocation": {
+        "latitude": 39.800041,
+        "longitude": -104.965717
+      },
+      "endLocation": {
+        "latitude": 39.692931,
+        "longitude": -104.931964
+      },
+      "startAddress": "80799 Justin Garden Suite 191",
+      "endAddress": "5141 James Plain",
+      "startCoords": {
+        "latitude": 39.825206,
+        "longitude": -104.958431
+      },
+      "endCoords": {
+        "latitude": 39.76703,
+        "longitude": -104.974564
+      },
+      "distanceMeters": 67821.8,
+      "durationMs": 9497568,
+      "drivingDurationMs": 8330327,
+      "idlingDurationMs": 1167242,
+      "fuelConsumedMl": 8623,
+      "fuelConsumedGallons": 2.278,
+      "maxSpeedMph": 49.3,
+      "averageSpeedMph": 16.0,
+      "safetyEvents": [],
+      "_no_driver_login": true,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250121_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737485520000,
+      "endMs": 1737493200000,
+      "startLocation": {
+        "latitude": 39.811662,
+        "longitude": -104.944876
+      },
+      "endLocation": {
+        "latitude": 39.730434,
+        "longitude": -104.996442
+      },
+      "startAddress": "275 Tyler Branch Apt. 410",
+      "endAddress": "336 Anna Heights",
+      "startCoords": {
+        "latitude": 39.797262,
+        "longitude": -105.030867
+      },
+      "endCoords": {
+        "latitude": 39.780521,
+        "longitude": -104.964419
+      },
+      "distanceMeters": 44267.2,
+      "durationMs": 7680000,
+      "drivingDurationMs": 6144000,
+      "idlingDurationMs": 1536000,
+      "fuelConsumedMl": 5629,
+      "fuelConsumedGallons": 1.487,
+      "maxSpeedMph": 42.9,
+      "averageSpeedMph": 12.9,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250121_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737439320000,
+      "endMs": 1737448904286,
+      "startLocation": {
+        "latitude": 39.816495,
+        "longitude": -105.044013
+      },
+      "endLocation": {
+        "latitude": 39.710922,
+        "longitude": -105.01212
+      },
+      "startAddress": "69277 John Plaza",
+      "endAddress": "136 Perkins Valley",
+      "startCoords": {
+        "latitude": 39.715839,
+        "longitude": -105.021961
+      },
+      "endCoords": {
+        "latitude": 39.70514,
+        "longitude": -104.969974
+      },
+      "distanceMeters": 42418.4,
+      "durationMs": 9584287,
+      "drivingDurationMs": 7938468,
+      "idlingDurationMs": 1645819,
+      "fuelConsumedMl": 5394,
+      "fuelConsumedGallons": 1.425,
+      "maxSpeedMph": 60.6,
+      "averageSpeedMph": 9.9,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250121_003",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737465060000,
+      "endMs": 1737469730086,
+      "startLocation": {
+        "latitude": 39.760568,
+        "longitude": -104.951886
+      },
+      "endLocation": {
+        "latitude": 39.762041,
+        "longitude": -104.90208
+      },
+      "startAddress": "5716 Hernandez Run",
+      "endAddress": "90101 Choi Groves",
+      "startCoords": {
+        "latitude": 39.744335,
+        "longitude": -104.933736
+      },
+      "endCoords": {
+        "latitude": 39.699616,
+        "longitude": -104.963751
+      },
+      "distanceMeters": 21159.6,
+      "durationMs": 4670086,
+      "drivingDurationMs": 4196008,
+      "idlingDurationMs": 474078,
+      "fuelConsumedMl": 2691,
+      "fuelConsumedGallons": 0.711,
+      "maxSpeedMph": 55.8,
+      "averageSpeedMph": 10.1,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250122_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737535140000,
+      "endMs": 1737538890223,
+      "startLocation": {
+        "latitude": 39.730012,
+        "longitude": -104.998438
+      },
+      "endLocation": {
+        "latitude": 39.722233,
+        "longitude": -105.086392
+      },
+      "startAddress": "1258 Smith Union Suite 608",
+      "endAddress": "073 Leach Manor",
+      "startCoords": {
+        "latitude": 39.763343,
+        "longitude": -105.027134
+      },
+      "endCoords": {
+        "latitude": 39.816917,
+        "longitude": -104.91136
+      },
+      "distanceMeters": 17381.6,
+      "durationMs": 3750224,
+      "drivingDurationMs": 3412464,
+      "idlingDurationMs": 337760,
+      "fuelConsumedMl": 2211,
+      "fuelConsumedGallons": 0.584,
+      "maxSpeedMph": 47.5,
+      "averageSpeedMph": 10.4,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250122_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737566280000,
+      "endMs": 1737578732932,
+      "startLocation": {
+        "latitude": 39.761358,
+        "longitude": -105.050767
+      },
+      "endLocation": {
+        "latitude": 39.82542,
+        "longitude": -104.978575
+      },
+      "startAddress": "79740 Mccormick Mews",
+      "endAddress": "4492 Bauer Ports Apt. 348",
+      "startCoords": {
+        "latitude": 39.791641,
+        "longitude": -104.970408
+      },
+      "endCoords": {
+        "latitude": 39.762435,
+        "longitude": -105.059901
+      },
+      "distanceMeters": 53154.1,
+      "durationMs": 12452933,
+      "drivingDurationMs": 10020726,
+      "idlingDurationMs": 2432207,
+      "fuelConsumedMl": 6757,
+      "fuelConsumedGallons": 1.785,
+      "maxSpeedMph": 71.2,
+      "averageSpeedMph": 9.5,
+      "safetyEvents": [
+        {
+          "type": "speeding",
+          "startMs": 1737573000000,
+          "maxSpeedMph": 71.2
+        }
+      ],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250122_003",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737555240000,
+      "endMs": 1737557268108,
+      "startLocation": {
+        "latitude": 39.719727,
+        "longitude": -105.050503
+      },
+      "endLocation": {
+        "latitude": 39.717626,
+        "longitude": -105.006078
+      },
+      "startAddress": "546 Adam Fall Apt. 976",
+      "endAddress": "5317 Watts Ridges Suite 962",
+      "startCoords": {
+        "latitude": 39.749456,
+        "longitude": -104.943363
+      },
+      "endCoords": {
+        "latitude": 39.823775,
+        "longitude": -104.909966
+      },
+      "distanceMeters": 12004.2,
+      "durationMs": 2028109,
+      "drivingDurationMs": 1682610,
+      "idlingDurationMs": 345499,
+      "fuelConsumedMl": 1526,
+      "fuelConsumedGallons": 0.403,
+      "maxSpeedMph": 59.4,
+      "averageSpeedMph": 13.2,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250122_004",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737547440000,
+      "endMs": 1737551145560,
+      "startLocation": {
+        "latitude": 39.725321,
+        "longitude": -105.019049
+      },
+      "endLocation": {
+        "latitude": 39.813767,
+        "longitude": -105.071297
+      },
+      "startAddress": "2334 Patricia Drives Apt. 437",
+      "endAddress": "75269 Hunt Neck",
+      "startCoords": {
+        "latitude": 39.780249,
+        "longitude": -105.027564
+      },
+      "endCoords": {
+        "latitude": 39.699251,
+        "longitude": -105.066785
+      },
+      "distanceMeters": 28934.1,
+      "durationMs": 3705560,
+      "drivingDurationMs": 3339659,
+      "idlingDurationMs": 365902,
+      "fuelConsumedMl": 3679,
+      "fuelConsumedGallons": 0.972,
+      "maxSpeedMph": 57.6,
+      "averageSpeedMph": 17.5,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250122_005",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737529200000,
+      "endMs": 1737534134457,
+      "startLocation": {
+        "latitude": 39.820674,
+        "longitude": -104.938416
+      },
+      "endLocation": {
+        "latitude": 39.710306,
+        "longitude": -104.912518
+      },
+      "startAddress": "91691 Christy Light Apt. 327",
+      "endAddress": "1639 Mills Turnpike Apt. 722",
+      "startCoords": {
+        "latitude": 39.69288,
+        "longitude": -104.970932
+      },
+      "endCoords": {
+        "latitude": 39.790865,
+        "longitude": -104.97865
+      },
+      "distanceMeters": 36839.6,
+      "durationMs": 4934457,
+      "drivingDurationMs": 4226414,
+      "idlingDurationMs": 708044,
+      "fuelConsumedMl": 4683,
+      "fuelConsumedGallons": 1.237,
+      "maxSpeedMph": 57.1,
+      "averageSpeedMph": 16.7,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250122_006",
+      "vehicleId": "48291006",
+      "driverId": null,
+      "startMs": 1737546300000,
+      "endMs": 1737553474292,
+      "startLocation": {
+        "latitude": 39.814421,
+        "longitude": -105.08042
+      },
+      "endLocation": {
+        "latitude": 39.78173,
+        "longitude": -104.974932
+      },
+      "startAddress": "25748 Michelle Tunnel Apt. 246",
+      "endAddress": "639 Connie Avenue",
+      "startCoords": {
+        "latitude": 39.758376,
+        "longitude": -105.073592
+      },
+      "endCoords": {
+        "latitude": 39.684763,
+        "longitude": -105.057918
+      },
+      "distanceMeters": 59124.3,
+      "durationMs": 7174292,
+      "drivingDurationMs": 6680828,
+      "idlingDurationMs": 493464,
+      "fuelConsumedMl": 7518,
+      "fuelConsumedGallons": 1.986,
+      "maxSpeedMph": 56.6,
+      "averageSpeedMph": 18.4,
+      "safetyEvents": [],
+      "_no_driver_login": true,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250123_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737651840000,
+      "endMs": 1737663474003,
+      "startLocation": {
+        "latitude": 39.818887,
+        "longitude": -104.987474
+      },
+      "endLocation": {
+        "latitude": 39.70736,
+        "longitude": -105.007596
+      },
+      "startAddress": "14963 Simpson Plains",
+      "endAddress": "4121 Timothy Center Suite 221",
+      "startCoords": {
+        "latitude": 39.82421,
+        "longitude": -104.982137
+      },
+      "endCoords": {
+        "latitude": 39.743083,
+        "longitude": -105.081488
+      },
+      "distanceMeters": 83293.1,
+      "durationMs": 11634003,
+      "drivingDurationMs": 11209386,
+      "idlingDurationMs": 424617,
+      "fuelConsumedMl": 10592,
+      "fuelConsumedGallons": 2.798,
+      "maxSpeedMph": 66.9,
+      "averageSpeedMph": 16.0,
+      "safetyEvents": [
+        {
+          "type": "speeding",
+          "startMs": 1737662040000,
+          "maxSpeedMph": 66.9
+        }
+      ],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250123_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737641460000,
+      "endMs": 1737645923624,
+      "startLocation": {
+        "latitude": 39.731105,
+        "longitude": -105.05665
+      },
+      "endLocation": {
+        "latitude": 39.730241,
+        "longitude": -105.037926
+      },
+      "startAddress": "942 Gross Flat Apt. 003",
+      "endAddress": "91542 Franklin Squares",
+      "startCoords": {
+        "latitude": 39.782085,
+        "longitude": -105.03385
+      },
+      "endCoords": {
+        "latitude": 39.748533,
+        "longitude": -105.04837
+      },
+      "distanceMeters": 23575.8,
+      "durationMs": 4463624,
+      "drivingDurationMs": 3980826,
+      "idlingDurationMs": 482798,
+      "fuelConsumedMl": 2998,
+      "fuelConsumedGallons": 0.792,
+      "maxSpeedMph": 31.1,
+      "averageSpeedMph": 11.8,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250123_003",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737638700000,
+      "endMs": 1737649590760,
+      "startLocation": {
+        "latitude": 39.777944,
+        "longitude": -104.931361
+      },
+      "endLocation": {
+        "latitude": 39.723828,
+        "longitude": -105.077581
+      },
+      "startAddress": "398 Daniel Crescent",
+      "endAddress": "9701 Gabrielle Spring",
+      "startCoords": {
+        "latitude": 39.753048,
+        "longitude": -105.077054
+      },
+      "endCoords": {
+        "latitude": 39.697987,
+        "longitude": -105.072896
+      },
+      "distanceMeters": 48668.2,
+      "durationMs": 10890761,
+      "drivingDurationMs": 9013518,
+      "idlingDurationMs": 1877242,
+      "fuelConsumedMl": 6189,
+      "fuelConsumedGallons": 1.635,
+      "maxSpeedMph": 64.1,
+      "averageSpeedMph": 10.0,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250124_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737720720000,
+      "endMs": 1737731528806,
+      "startLocation": {
+        "latitude": 39.718661,
+        "longitude": -104.945753
+      },
+      "endLocation": {
+        "latitude": 39.712364,
+        "longitude": -104.923543
+      },
+      "startAddress": "7778 Gary Route Suite 733",
+      "endAddress": "65683 Jackson Center Apt. 451",
+      "startCoords": {
+        "latitude": 39.804023,
+        "longitude": -105.013177
+      },
+      "endCoords": {
+        "latitude": 39.774434,
+        "longitude": -105.013464
+      },
+      "distanceMeters": 71460.6,
+      "durationMs": 10808806,
+      "drivingDurationMs": 9656025,
+      "idlingDurationMs": 1152781,
+      "fuelConsumedMl": 9085,
+      "fuelConsumedGallons": 2.4,
+      "maxSpeedMph": 66.7,
+      "averageSpeedMph": 14.8,
+      "safetyEvents": [
+        {
+          "type": "speeding",
+          "startMs": 1737730560000,
+          "maxSpeedMph": 66.7
+        }
+      ],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250124_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737718080000,
+      "endMs": 1737719375777,
+      "startLocation": {
+        "latitude": 39.688612,
+        "longitude": -104.954916
+      },
+      "endLocation": {
+        "latitude": 39.722715,
+        "longitude": -105.065229
+      },
+      "startAddress": "5915 Taylor Springs Apt. 733",
+      "endAddress": "21421 Taylor Ridges Apt. 372",
+      "startCoords": {
+        "latitude": 39.806067,
+        "longitude": -105.058812
+      },
+      "endCoords": {
+        "latitude": 39.709271,
+        "longitude": -104.950883
+      },
+      "distanceMeters": 8172.0,
+      "durationMs": 1295778,
+      "drivingDurationMs": 1043099,
+      "idlingDurationMs": 252679,
+      "fuelConsumedMl": 1037,
+      "fuelConsumedGallons": 0.274,
+      "maxSpeedMph": 62.9,
+      "averageSpeedMph": 14.1,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250125_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737794940000,
+      "endMs": 1737805312817,
+      "startLocation": {
+        "latitude": 39.728064,
+        "longitude": -105.005976
+      },
+      "endLocation": {
+        "latitude": 39.7761,
+        "longitude": -105.015455
+      },
+      "startAddress": "2225 Victoria Lock",
+      "endAddress": "817 David Forks",
+      "startCoords": {
+        "latitude": 39.826381,
+        "longitude": -105.065561
+      },
+      "endCoords": {
+        "latitude": 39.695205,
+        "longitude": -105.083327
+      },
+      "distanceMeters": 63069.8,
+      "durationMs": 10372817,
+      "drivingDurationMs": 9615892,
+      "idlingDurationMs": 756925,
+      "fuelConsumedMl": 8017,
+      "fuelConsumedGallons": 2.118,
+      "maxSpeedMph": 51.3,
+      "averageSpeedMph": 13.6,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250125_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737807900000,
+      "endMs": 1737823695920,
+      "startLocation": {
+        "latitude": 39.772425,
+        "longitude": -105.024932
+      },
+      "endLocation": {
+        "latitude": 39.712888,
+        "longitude": -104.950785
+      },
+      "startAddress": "020 Dixon Plaza",
+      "endAddress": "9124 Mcguire Skyway",
+      "startCoords": {
+        "latitude": 39.809259,
+        "longitude": -105.086513
+      },
+      "endCoords": {
+        "latitude": 39.769067,
+        "longitude": -105.073381
+      },
+      "distanceMeters": 77926.4,
+      "durationMs": 15795921,
+      "drivingDurationMs": 15065487,
+      "idlingDurationMs": 730433,
+      "fuelConsumedMl": 9906,
+      "fuelConsumedGallons": 2.617,
+      "maxSpeedMph": 58.9,
+      "averageSpeedMph": 11.0,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250125_003",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737802200000,
+      "endMs": 1737809597490,
+      "startLocation": {
+        "latitude": 39.808483,
+        "longitude": -104.930943
+      },
+      "endLocation": {
+        "latitude": 39.736262,
+        "longitude": -105.087479
+      },
+      "startAddress": "3887 John Cape",
+      "endAddress": "43240 Johnson Tunnel",
+      "startCoords": {
+        "latitude": 39.713134,
+        "longitude": -105.012562
+      },
+      "endCoords": {
+        "latitude": 39.715069,
+        "longitude": -104.940588
+      },
+      "distanceMeters": 46626.5,
+      "durationMs": 7397491,
+      "drivingDurationMs": 7103030,
+      "idlingDurationMs": 294461,
+      "fuelConsumedMl": 5928,
+      "fuelConsumedGallons": 1.566,
+      "maxSpeedMph": 66.9,
+      "averageSpeedMph": 14.1,
+      "safetyEvents": [
+        {
+          "type": "speeding",
+          "startMs": 1737805620000,
+          "maxSpeedMph": 66.9
+        }
+      ],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250125_004",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737792840000,
+      "endMs": 1737803402941,
+      "startLocation": {
+        "latitude": 39.705931,
+        "longitude": -105.052924
+      },
+      "endLocation": {
+        "latitude": 39.744178,
+        "longitude": -104.904545
+      },
+      "startAddress": "113 Kara Plains Apt. 813",
+      "endAddress": "724 Rachel Glens Apt. 265",
+      "startCoords": {
+        "latitude": 39.753168,
+        "longitude": -105.036123
+      },
+      "endCoords": {
+        "latitude": 39.739811,
+        "longitude": -104.955707
+      },
+      "distanceMeters": 42986.3,
+      "durationMs": 10562942,
+      "drivingDurationMs": 8454798,
+      "idlingDurationMs": 2108144,
+      "fuelConsumedMl": 5466,
+      "fuelConsumedGallons": 1.444,
+      "maxSpeedMph": 64.9,
+      "averageSpeedMph": 9.1,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250126_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737908640000,
+      "endMs": 1737913421476,
+      "startLocation": {
+        "latitude": 39.691251,
+        "longitude": -105.076944
+      },
+      "endLocation": {
+        "latitude": 39.750863,
+        "longitude": -104.915806
+      },
+      "startAddress": "190 Joan Trail",
+      "endAddress": "28401 Taylor Forges",
+      "startCoords": {
+        "latitude": 39.796352,
+        "longitude": -104.976174
+      },
+      "endCoords": {
+        "latitude": 39.777782,
+        "longitude": -104.922213
+      },
+      "distanceMeters": 28972.7,
+      "durationMs": 4781477,
+      "drivingDurationMs": 3949255,
+      "idlingDurationMs": 832221,
+      "fuelConsumedMl": 3683,
+      "fuelConsumedGallons": 0.973,
+      "maxSpeedMph": 38.9,
+      "averageSpeedMph": 13.6,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250126_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737887160000,
+      "endMs": 1737898388372,
+      "startLocation": {
+        "latitude": 39.693037,
+        "longitude": -105.066595
+      },
+      "endLocation": {
+        "latitude": 39.814982,
+        "longitude": -104.929305
+      },
+      "startAddress": "467 Welch Squares Suite 268",
+      "endAddress": "268 Lisa Island",
+      "startCoords": {
+        "latitude": 39.751756,
+        "longitude": -104.899873
+      },
+      "endCoords": {
+        "latitude": 39.753639,
+        "longitude": -105.047848
+      },
+      "distanceMeters": 49715.3,
+      "durationMs": 11228372,
+      "drivingDurationMs": 9647047,
+      "idlingDurationMs": 1581325,
+      "fuelConsumedMl": 6322,
+      "fuelConsumedGallons": 1.67,
+      "maxSpeedMph": 29.2,
+      "averageSpeedMph": 9.9,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250127_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737957960000,
+      "endMs": 1737966439679,
+      "startLocation": {
+        "latitude": 39.777045,
+        "longitude": -104.916294
+      },
+      "endLocation": {
+        "latitude": 39.768173,
+        "longitude": -104.932907
+      },
+      "startAddress": "6503 Kelly Burg",
+      "endAddress": "70308 Day Summit",
+      "startCoords": {
+        "latitude": 39.736437,
+        "longitude": -105.022888
+      },
+      "endCoords": {
+        "latitude": 39.737892,
+        "longitude": -105.004188
+      },
+      "distanceMeters": 55776.7,
+      "durationMs": 8479680,
+      "drivingDurationMs": 7151354,
+      "idlingDurationMs": 1328325,
+      "fuelConsumedMl": 7090,
+      "fuelConsumedGallons": 1.873,
+      "maxSpeedMph": 48.4,
+      "averageSpeedMph": 14.7,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250127_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1737961740000,
+      "endMs": 1737965540653,
+      "startLocation": {
+        "latitude": 39.752155,
+        "longitude": -105.020204
+      },
+      "endLocation": {
+        "latitude": 39.706005,
+        "longitude": -105.082269
+      },
+      "startAddress": "48983 Zuniga Trail",
+      "endAddress": "89560 Burton Field Suite 547",
+      "startCoords": {
+        "latitude": 39.781106,
+        "longitude": -105.015901
+      },
+      "endCoords": {
+        "latitude": 39.710311,
+        "longitude": -105.031653
+      },
+      "distanceMeters": 26894.4,
+      "durationMs": 3800654,
+      "drivingDurationMs": 3114462,
+      "idlingDurationMs": 686191,
+      "fuelConsumedMl": 3418,
+      "fuelConsumedGallons": 0.903,
+      "maxSpeedMph": 52.2,
+      "averageSpeedMph": 15.8,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250128_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1738071720000,
+      "endMs": 1738077860008,
+      "startLocation": {
+        "latitude": 39.7418,
+        "longitude": -104.970667
+      },
+      "endLocation": {
+        "latitude": 39.741421,
+        "longitude": -105.037666
+      },
+      "startAddress": "354 Schwartz Falls",
+      "endAddress": "86328 Cory Plaza Apt. 688",
+      "startCoords": {
+        "latitude": 39.808039,
+        "longitude": -104.909027
+      },
+      "endCoords": {
+        "latitude": 39.816296,
+        "longitude": -105.006123
+      },
+      "distanceMeters": 41533.9,
+      "durationMs": 6140009,
+      "drivingDurationMs": 5696647,
+      "idlingDurationMs": 443362,
+      "fuelConsumedMl": 5281,
+      "fuelConsumedGallons": 1.395,
+      "maxSpeedMph": 65.6,
+      "averageSpeedMph": 15.1,
+      "safetyEvents": [
+        {
+          "type": "speeding",
+          "startMs": 1738077720000,
+          "maxSpeedMph": 65.6
+        }
+      ],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250128_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1738075140000,
+      "endMs": 1738084097776,
+      "startLocation": {
+        "latitude": 39.738098,
+        "longitude": -104.95183
+      },
+      "endLocation": {
+        "latitude": 39.711498,
+        "longitude": -105.077522
+      },
+      "startAddress": "0865 Jessica Cliff",
+      "endAddress": "0806 Anna Fork",
+      "startCoords": {
+        "latitude": 39.729886,
+        "longitude": -105.003752
+      },
+      "endCoords": {
+        "latitude": 39.724037,
+        "longitude": -104.917564
+      },
+      "distanceMeters": 57009.0,
+      "durationMs": 8957777,
+      "drivingDurationMs": 7868253,
+      "idlingDurationMs": 1089524,
+      "fuelConsumedMl": 7249,
+      "fuelConsumedGallons": 1.915,
+      "maxSpeedMph": 32.5,
+      "averageSpeedMph": 14.2,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250128_003",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1738054020000,
+      "endMs": 1738058965385,
+      "startLocation": {
+        "latitude": 39.696754,
+        "longitude": -104.990871
+      },
+      "endLocation": {
+        "latitude": 39.711362,
+        "longitude": -105.024229
+      },
+      "startAddress": "742 Green Pines",
+      "endAddress": "8834 Jackson Mall",
+      "startCoords": {
+        "latitude": 39.695602,
+        "longitude": -105.057927
+      },
+      "endCoords": {
+        "latitude": 39.740706,
+        "longitude": -104.903374
+      },
+      "distanceMeters": 28027.9,
+      "durationMs": 4945386,
+      "drivingDurationMs": 4626760,
+      "idlingDurationMs": 318626,
+      "fuelConsumedMl": 3562,
+      "fuelConsumedGallons": 0.941,
+      "maxSpeedMph": 52.7,
+      "averageSpeedMph": 12.7,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250128_004",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1738076640000,
+      "endMs": 1738084140527,
+      "startLocation": {
+        "latitude": 39.710429,
+        "longitude": -105.042703
+      },
+      "endLocation": {
+        "latitude": 39.77248,
+        "longitude": -105.083538
+      },
+      "startAddress": "504 David Islands",
+      "endAddress": "5761 Angela Estates Apt. 469",
+      "startCoords": {
+        "latitude": 39.740527,
+        "longitude": -105.084083
+      },
+      "endCoords": {
+        "latitude": 39.826035,
+        "longitude": -104.977387
+      },
+      "distanceMeters": 43748.3,
+      "durationMs": 7500527,
+      "drivingDurationMs": 6172851,
+      "idlingDurationMs": 1327677,
+      "fuelConsumedMl": 5561,
+      "fuelConsumedGallons": 1.469,
+      "maxSpeedMph": 34.9,
+      "averageSpeedMph": 13.0,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250129_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1738161360000,
+      "endMs": 1738166288721,
+      "startLocation": {
+        "latitude": 39.717109,
+        "longitude": -104.931993
+      },
+      "endLocation": {
+        "latitude": 39.772919,
+        "longitude": -104.911356
+      },
+      "startAddress": "50226 Diaz Plains",
+      "endAddress": "4813 Eric Drive",
+      "startCoords": {
+        "latitude": 39.790759,
+        "longitude": -104.918403
+      },
+      "endCoords": {
+        "latitude": 39.75878,
+        "longitude": -105.023175
+      },
+      "distanceMeters": 35829.7,
+      "durationMs": 4928721,
+      "drivingDurationMs": 4284753,
+      "idlingDurationMs": 643969,
+      "fuelConsumedMl": 4554,
+      "fuelConsumedGallons": 1.203,
+      "maxSpeedMph": 49.9,
+      "averageSpeedMph": 16.3,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250129_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1738176540000,
+      "endMs": 1738179116958,
+      "startLocation": {
+        "latitude": 39.741158,
+        "longitude": -105.05729
+      },
+      "endLocation": {
+        "latitude": 39.707759,
+        "longitude": -104.899697
+      },
+      "startAddress": "04968 Reynolds Springs Suite 413",
+      "endAddress": "07108 Hernandez Light",
+      "startCoords": {
+        "latitude": 39.73011,
+        "longitude": -104.982885
+      },
+      "endCoords": {
+        "latitude": 39.809598,
+        "longitude": -104.955214
+      },
+      "distanceMeters": 17426.6,
+      "durationMs": 2576958,
+      "drivingDurationMs": 2192276,
+      "idlingDurationMs": 384682,
+      "fuelConsumedMl": 2214,
+      "fuelConsumedGallons": 0.585,
+      "maxSpeedMph": 30.6,
+      "averageSpeedMph": 15.1,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250129_003",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1738174800000,
+      "endMs": 1738178278829,
+      "startLocation": {
+        "latitude": 39.694368,
+        "longitude": -105.020692
+      },
+      "endLocation": {
+        "latitude": 39.702431,
+        "longitude": -105.030746
+      },
+      "startAddress": "928 Osborne Wall Apt. 590",
+      "endAddress": "192 Karen Cliffs Suite 264",
+      "startCoords": {
+        "latitude": 39.756711,
+        "longitude": -104.963128
+      },
+      "endCoords": {
+        "latitude": 39.824559,
+        "longitude": -105.073422
+      },
+      "distanceMeters": 22666.8,
+      "durationMs": 3478830,
+      "drivingDurationMs": 2867797,
+      "idlingDurationMs": 611033,
+      "fuelConsumedMl": 2881,
+      "fuelConsumedGallons": 0.761,
+      "maxSpeedMph": 30.8,
+      "averageSpeedMph": 14.6,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250129_004",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1738145700000,
+      "endMs": 1738154604980,
+      "startLocation": {
+        "latitude": 39.742914,
+        "longitude": -105.072931
+      },
+      "endLocation": {
+        "latitude": 39.768437,
+        "longitude": -105.00346
+      },
+      "startAddress": "764 Steven Freeway Apt. 410",
+      "endAddress": "346 Angela Inlet Suite 243",
+      "startCoords": {
+        "latitude": 39.782846,
+        "longitude": -105.04138
+      },
+      "endCoords": {
+        "latitude": 39.726761,
+        "longitude": -105.002661
+      },
+      "distanceMeters": 66596.9,
+      "durationMs": 8904981,
+      "drivingDurationMs": 7671109,
+      "idlingDurationMs": 1233872,
+      "fuelConsumedMl": 8468,
+      "fuelConsumedGallons": 2.237,
+      "maxSpeedMph": 36.2,
+      "averageSpeedMph": 16.7,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250129_005",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1738154460000,
+      "endMs": 1738161865086,
+      "startLocation": {
+        "latitude": 39.684173,
+        "longitude": -105.065631
+      },
+      "endLocation": {
+        "latitude": 39.782639,
+        "longitude": -104.902411
+      },
+      "startAddress": "524 Vanessa Locks Apt. 170",
+      "endAddress": "797 Benjamin Groves",
+      "startCoords": {
+        "latitude": 39.788978,
+        "longitude": -104.904927
+      },
+      "endCoords": {
+        "latitude": 39.813133,
+        "longitude": -105.068363
+      },
+      "distanceMeters": 34395.2,
+      "durationMs": 7405086,
+      "drivingDurationMs": 6008459,
+      "idlingDurationMs": 1396627,
+      "fuelConsumedMl": 4372,
+      "fuelConsumedGallons": 1.155,
+      "maxSpeedMph": 57.0,
+      "averageSpeedMph": 10.4,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250129_006",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1738152000000,
+      "endMs": 1738158688733,
+      "startLocation": {
+        "latitude": 39.734832,
+        "longitude": -104.967373
+      },
+      "endLocation": {
+        "latitude": 39.762387,
+        "longitude": -104.912385
+      },
+      "startAddress": "532 Jodi Knoll",
+      "endAddress": "1469 Hill Bridge Suite 682",
+      "startCoords": {
+        "latitude": 39.700699,
+        "longitude": -104.905529
+      },
+      "endCoords": {
+        "latitude": 39.793274,
+        "longitude": -104.908871
+      },
+      "distanceMeters": 48072.1,
+      "durationMs": 6688734,
+      "drivingDurationMs": 5883222,
+      "idlingDurationMs": 805511,
+      "fuelConsumedMl": 6113,
+      "fuelConsumedGallons": 1.615,
+      "maxSpeedMph": 57.3,
+      "averageSpeedMph": 16.1,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250130_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1738258320000,
+      "endMs": 1738259906871,
+      "startLocation": {
+        "latitude": 39.75482,
+        "longitude": -105.062607
+      },
+      "endLocation": {
+        "latitude": 39.7222,
+        "longitude": -104.907326
+      },
+      "startAddress": "94194 Huff Squares",
+      "endAddress": "8518 Mark Motorway",
+      "startCoords": {
+        "latitude": 39.804797,
+        "longitude": -104.98155
+      },
+      "endCoords": {
+        "latitude": 39.711352,
+        "longitude": -105.017879
+      },
+      "distanceMeters": 7339.7,
+      "durationMs": 1586871,
+      "drivingDurationMs": 1310330,
+      "idlingDurationMs": 276541,
+      "fuelConsumedMl": 935,
+      "fuelConsumedGallons": 0.247,
+      "maxSpeedMph": 49.1,
+      "averageSpeedMph": 10.3,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250130_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1738256640000,
+      "endMs": 1738264677885,
+      "startLocation": {
+        "latitude": 39.694907,
+        "longitude": -105.041062
+      },
+      "endLocation": {
+        "latitude": 39.823441,
+        "longitude": -105.004182
+      },
+      "startAddress": "0411 Mark Parks Apt. 126",
+      "endAddress": "39668 Lambert Prairie",
+      "startCoords": {
+        "latitude": 39.717099,
+        "longitude": -104.951687
+      },
+      "endCoords": {
+        "latitude": 39.713161,
+        "longitude": -104.920471
+      },
+      "distanceMeters": 44853.8,
+      "durationMs": 8037885,
+      "drivingDurationMs": 6587394,
+      "idlingDurationMs": 1450492,
+      "fuelConsumedMl": 5705,
+      "fuelConsumedGallons": 1.507,
+      "maxSpeedMph": 52.4,
+      "averageSpeedMph": 12.5,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250131_001",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1738340760000,
+      "endMs": 1738356656428,
+      "startLocation": {
+        "latitude": 39.697088,
+        "longitude": -104.947352
+      },
+      "endLocation": {
+        "latitude": 39.751814,
+        "longitude": -105.040809
+      },
+      "startAddress": "193 Mitchell Crossing Apt. 364",
+      "endAddress": "220 Matthew Ridge",
+      "startCoords": {
+        "latitude": 39.70305,
+        "longitude": -105.043917
+      },
+      "endCoords": {
+        "latitude": 39.7568,
+        "longitude": -105.049647
+      },
+      "distanceMeters": 77724.5,
+      "durationMs": 15896429,
+      "drivingDurationMs": 12746534,
+      "idlingDurationMs": 3149895,
+      "fuelConsumedMl": 9884,
+      "fuelConsumedGallons": 2.611,
+      "maxSpeedMph": 43.3,
+      "averageSpeedMph": 10.9,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": "QUIRK 5: fuelConsumedGallons is in US gallons. Multiply by 3.785 for litres. Samsara does not link fuel to specific Onfleet tasks."
+    },
+    {
+      "id": "trip_48291006_20250131_002",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1738336140000,
+      "endMs": 1738341599193,
+      "startLocation": {
+        "latitude": 39.7982,
+        "longitude": -105.050423
+      },
+      "endLocation": {
+        "latitude": 39.785511,
+        "longitude": -104.955829
+      },
+      "startAddress": "02623 Teresa Locks",
+      "endAddress": "536 Kyle Spur Suite 848",
+      "startCoords": {
+        "latitude": 39.79733,
+        "longitude": -104.988446
+      },
+      "endCoords": {
+        "latitude": 39.723145,
+        "longitude": -104.907724
+      },
+      "distanceMeters": 31688.5,
+      "durationMs": 5459193,
+      "drivingDurationMs": 5008315,
+      "idlingDurationMs": 450878,
+      "fuelConsumedMl": 4028,
+      "fuelConsumedGallons": 1.064,
+      "maxSpeedMph": 44.7,
+      "averageSpeedMph": 13.0,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    },
+    {
+      "id": "trip_48291006_20250131_003",
+      "vehicleId": "48291006",
+      "driverId": "22831005",
+      "startMs": 1738339740000,
+      "endMs": 1738350226001,
+      "startLocation": {
+        "latitude": 39.791133,
+        "longitude": -104.980778
+      },
+      "endLocation": {
+        "latitude": 39.700615,
+        "longitude": -104.925524
+      },
+      "startAddress": "1287 Silva Corners Suite 606",
+      "endAddress": "55420 Daniel Viaduct Apt. 899",
+      "startCoords": {
+        "latitude": 39.69291,
+        "longitude": -104.901126
+      },
+      "endCoords": {
+        "latitude": 39.756766,
+        "longitude": -105.087495
+      },
+      "distanceMeters": 56228.2,
+      "durationMs": 10486002,
+      "drivingDurationMs": 9033845,
+      "idlingDurationMs": 1452157,
+      "fuelConsumedMl": 7151,
+      "fuelConsumedGallons": 1.889,
+      "maxSpeedMph": 36.7,
+      "averageSpeedMph": 12.0,
+      "safetyEvents": [],
+      "_no_driver_login": false,
+      "_fuel_note": ""
+    }
+  ]
+}

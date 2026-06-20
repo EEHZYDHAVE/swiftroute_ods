@@ -1,0 +1,3003 @@
+{
+  "uuid": "df503340-5a76-40ac-a557-9cc940227404",
+  "company_uuid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "company_id": "8847392",
+  "version": "e66bb542-bd00-45fc-a458-3da242701a98",
+  "payroll_deadline": "2025-05-23",
+  "check_date": "2025-05-23",
+  "processed": true,
+  "pay_period": {
+    "start_date": "2025-05-07",
+    "end_date": "2025-05-20",
+    "_note": "QUIRK 3: period ended 2025-05-20 but money leaves accounts on 2025-05-23. Use end_date to match labour to delivery periods in Onfleet. Use check_date for cash flow."
+  },
+  "totals": {
+    "company_debit": "153593.87",
+    "gross_pay": "138435.22",
+    "net_pay": "108829.18",
+    "employee_taxes": "19865.48",
+    "employer_taxes": "15158.65",
+    "employee_deductions": "9630.88",
+    "_note": "QUIRK 6: company_debit (153593.87) = gross_pay (138435.22) + employer_taxes (15158.65). Use company_debit for true cost-per-delivery calculations."
+  },
+  "employee_compensations": [
+    {
+      "employee_uuid": "5557a572-1a80-4716-a53b-017d439b9dab",
+      "employee_first_name": "Laura",
+      "employee_last_name": "Herring",
+      "department": "Operations & Dispatch",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2197.12",
+          "job_uuid": "ef6f380a-2198-4a1e-9519-2d9728380575"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "82.17",
+          "company_contribution": "53.41",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "65.91",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "173.41"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "94.59"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "47.29"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2197.12 gross + $240.58 employer taxes = $2437.70 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "063011de-ac8a-49be-bef0-1fa63eeea11b",
+      "employee_first_name": "Cindy",
+      "employee_last_name": "Brooks",
+      "department": "Operations & Dispatch",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2205.85",
+          "job_uuid": "169876de-009f-4053-b8fe-a6f603184d67"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "67.56",
+          "company_contribution": "43.91",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "66.18",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "174.10"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "94.96"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "47.48"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2205.85 gross + $241.54 employer taxes = $2447.39 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "f5d55ddb-4364-4f78-a985-8152fa43fa4b",
+      "employee_first_name": "Sheri",
+      "employee_last_name": "Griffith",
+      "department": "Operations & Dispatch",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2568.12",
+          "job_uuid": "a041f834-0240-4307-9324-199274da22ce"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "92.08",
+          "company_contribution": "59.85",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "77.04",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "202.69"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "110.56"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "55.28"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2568.12 gross + $281.21 employer taxes = $2849.33 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "4ea57790-c77a-4bd8-85ac-362afa593682",
+      "employee_first_name": "Anthony",
+      "employee_last_name": "Santos",
+      "department": "Operations & Dispatch",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2334.81",
+          "job_uuid": "2f093876-f811-4bfa-bd52-dee630009a7a"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "111.35",
+          "company_contribution": "72.38",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "70.04",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "184.28"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "100.52"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "50.26"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2334.81 gross + $255.66 employer taxes = $2590.47 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "344b45f3-997b-4233-867e-64841c41c27b",
+      "employee_first_name": "Karla",
+      "employee_last_name": "Rodriguez",
+      "department": "Operations & Dispatch",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1638.19",
+          "job_uuid": "58ddc358-9283-4ecc-ab94-cc88a468093b"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "71.69",
+          "company_contribution": "46.60",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "49.15",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "129.29"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "70.52"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "35.26"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1638.19 gross + $179.38 employer taxes = $1817.57 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "121cdedc-012f-493d-b9f5-4cadbf0607ed",
+      "employee_first_name": "Michael",
+      "employee_last_name": "Cruz",
+      "department": "Operations & Dispatch",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1907.58",
+          "job_uuid": "aa9892c5-7442-4598-9398-b2f8dd17f531"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "91.18",
+          "company_contribution": "59.27",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "57.23",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "150.56"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "82.12"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "41.06"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1907.58 gross + $208.88 employer taxes = $2116.46 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "20c46609-deac-407c-852c-fa54039dd3c7",
+      "employee_first_name": "Susan",
+      "employee_last_name": "Sloan",
+      "department": "Operations & Dispatch",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1676.96",
+          "job_uuid": "e0da3d34-8ef5-4623-b2a6-cbdff3a66939"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "52.16",
+          "company_contribution": "33.90",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "50.31",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "132.35"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "72.19"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "36.10"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1676.96 gross + $183.63 employer taxes = $1860.59 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "7c8fd69b-3416-4407-b409-1ef6a3ebf6d2",
+      "employee_first_name": "Carla",
+      "employee_last_name": "Guzman",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2026.38",
+          "job_uuid": "7c2b98d5-9948-48b6-b5ed-e892876f912d"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "84.05",
+          "company_contribution": "54.63",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "60.79",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "159.93"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "87.24"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "43.62"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2026.38 gross + $221.89 employer taxes = $2248.27 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "4bf1ce92-d4cd-4316-816b-a30214377b93",
+      "employee_first_name": "Susan",
+      "employee_last_name": "Kelley",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1933.23",
+          "job_uuid": "f387bb0d-b5a5-45c8-9524-379a3203ca29"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "73.74",
+          "company_contribution": "47.93",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "58.00",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "152.58"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "83.23"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "41.61"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1933.23 gross + $211.69 employer taxes = $2144.92 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "50486f2a-f3c0-4fe3-aa9f-bb3fc749b805",
+      "employee_first_name": "Ann",
+      "employee_last_name": "Lang",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1608.54",
+          "job_uuid": "12f32431-5f9d-4fd5-89a5-d035d7f98ea7"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "46.07",
+          "company_contribution": "29.95",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "48.26",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "126.96"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "69.25"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "34.62"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1608.54 gross + $176.14 employer taxes = $1784.68 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "e60fad41-828b-42c2-a38e-d2beab5760e4",
+      "employee_first_name": "John",
+      "employee_last_name": "Mcguire",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2135.73",
+          "job_uuid": "b7b93b0d-d9dd-4aa5-be83-2eafed15b48a"
+        }
+      ],
+      "variable_compensations": [
+        {
+          "name": "Performance Bonus",
+          "amount": "164.35",
+          "job_uuid": "e4f94e27-c254-4484-83c5-fe4a38ae779d",
+          "_note": "QUIRK 2: this bonus is NOT included in fixed_compensations. Sum both arrays for true labour cost."
+        }
+      ],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "92.40",
+          "company_contribution": "60.06",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "64.07",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "181.53"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "99.02"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "49.51"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2300.08 gross + $251.86 employer taxes = $2551.94 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "5afd90c9-54e5-4053-ae00-21fa26695935",
+      "employee_first_name": "Cynthia",
+      "employee_last_name": "Woods",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1922.85",
+          "job_uuid": "49a17ce3-905a-40c9-9140-93163a9931f6"
+        }
+      ],
+      "variable_compensations": [
+        {
+          "name": "Performance Bonus",
+          "amount": "146.10",
+          "job_uuid": "06f53a08-c4f8-4f9b-8518-337a84bd875b",
+          "_note": "QUIRK 2: this bonus is NOT included in fixed_compensations. Sum both arrays for true labour cost."
+        }
+      ],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "79.85",
+          "company_contribution": "51.90",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "57.69",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "163.29"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "89.07"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "44.53"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2068.95 gross + $226.55 employer taxes = $2295.50 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "8d064b20-3018-44c7-b778-a365a151203b",
+      "employee_first_name": "David",
+      "employee_last_name": "Shea",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1691.62",
+          "job_uuid": "e8e4e682-fe20-469a-880f-4bcaaad85ec7"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "92.65",
+          "company_contribution": "60.22",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "50.75",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "133.51"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "72.83"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "36.41"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1691.62 gross + $185.23 employer taxes = $1876.85 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "f24ac9c8-cdeb-4f85-ad35-c13bd2f06200",
+      "employee_first_name": "Shelley",
+      "employee_last_name": "Turner",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2225.46",
+          "job_uuid": "f4099740-d5d9-4bf2-abd2-9baaa7e6ad07"
+        }
+      ],
+      "variable_compensations": [
+        {
+          "name": "Performance Bonus",
+          "amount": "353.00",
+          "job_uuid": "e72ca86c-5dac-4aef-b362-0775d378ddfc",
+          "_note": "QUIRK 2: this bonus is NOT included in fixed_compensations. Sum both arrays for true labour cost."
+        }
+      ],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "86.44",
+          "company_contribution": "56.19",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "66.76",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "203.51"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "111.00"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "55.50"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2578.46 gross + $282.34 employer taxes = $2860.80 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "0cdcb140-cff1-44d6-a9bb-079bf6c7e3e5",
+      "employee_first_name": "Nichole",
+      "employee_last_name": "Ward",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2050.81",
+          "job_uuid": "fd4a3636-f0c7-46ef-908d-f82da0354c89"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "81.93",
+          "company_contribution": "53.25",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "61.52",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "161.86"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "88.29"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "44.14"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2050.81 gross + $224.56 employer taxes = $2275.37 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "0fdb121f-cdb9-49b1-9892-79c6e7e8fc37",
+      "employee_first_name": "Robert",
+      "employee_last_name": "Bailey",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2217.46",
+          "job_uuid": "3316248b-52cb-420d-8c96-4e0e7cd5b3c9"
+        }
+      ],
+      "variable_compensations": [
+        {
+          "name": "Performance Bonus",
+          "amount": "353.72",
+          "job_uuid": "17f46742-6feb-46c7-9d09-4cb3abee80a2",
+          "_note": "QUIRK 2: this bonus is NOT included in fixed_compensations. Sum both arrays for true labour cost."
+        }
+      ],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "89.29",
+          "company_contribution": "58.04",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "66.52",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "202.93"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "110.69"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "55.35"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2571.18 gross + $281.54 employer taxes = $2852.72 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "661dcad2-df92-4615-9011-38678a9cc9ae",
+      "employee_first_name": "Gloria",
+      "employee_last_name": "Phillips",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2029.38",
+          "job_uuid": "9dec1933-0d70-4a0f-99b7-4bdc33853a45"
+        }
+      ],
+      "variable_compensations": [
+        {
+          "name": "Performance Bonus",
+          "amount": "274.35",
+          "job_uuid": "54f141d9-ffc5-4024-bf6a-c0e8f1d8a976",
+          "_note": "QUIRK 2: this bonus is NOT included in fixed_compensations. Sum both arrays for true labour cost."
+        }
+      ],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "110.41",
+          "company_contribution": "71.77",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "60.88",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "181.82"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "99.18"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "49.59"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2303.73 gross + $252.26 employer taxes = $2555.99 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "5aed76ba-dd03-4fb6-9a47-67d278122ac6",
+      "employee_first_name": "Beth",
+      "employee_last_name": "Anderson",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1683.65",
+          "job_uuid": "fb888185-5271-4b75-8c00-4cb48ba99b79"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "61.47",
+          "company_contribution": "39.96",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "50.51",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "132.88"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "72.48"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "36.24"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1683.65 gross + $184.36 employer taxes = $1868.01 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "eab3e567-7ad6-42ad-b399-2a3771729aca",
+      "employee_first_name": "Todd",
+      "employee_last_name": "Beck",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2145.42",
+          "job_uuid": "b7871c1a-94c5-41ab-b683-0c636f463692"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "86.35",
+          "company_contribution": "56.13",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "64.36",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "169.33"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "92.36"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "46.18"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2145.42 gross + $234.92 employer taxes = $2380.34 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "bfc2be8e-ace5-4ebf-98f1-144757c552da",
+      "employee_first_name": "Brittany",
+      "employee_last_name": "Myers",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2125.08",
+          "job_uuid": "b76760c9-7620-418d-ae4d-6ad2fbdb4988"
+        }
+      ],
+      "variable_compensations": [
+        {
+          "name": "Performance Bonus",
+          "amount": "341.20",
+          "job_uuid": "6bda1279-9b40-4665-af40-e1c5697cb875",
+          "_note": "QUIRK 2: this bonus is NOT included in fixed_compensations. Sum both arrays for true labour cost."
+        }
+      ],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "108.21",
+          "company_contribution": "70.34",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "63.75",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "194.65"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "106.17"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "53.09"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2466.28 gross + $270.06 employer taxes = $2736.34 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "1292e09f-7c08-447f-85f1-41b48e400cea",
+      "employee_first_name": "Matthew",
+      "employee_last_name": "Howard",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2276.46",
+          "job_uuid": "610980b2-ebd6-4178-8062-ed141e0420f1"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "85.25",
+          "company_contribution": "55.41",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "68.29",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "179.67"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "98.00"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "49.00"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2276.46 gross + $249.27 employer taxes = $2525.73 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "8e0228c6-0f12-469e-bd47-00898251651b",
+      "employee_first_name": "Kevin",
+      "employee_last_name": "Lee",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2221.19",
+          "job_uuid": "12400058-05e9-4080-aecf-158359c3b2c7"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "89.36",
+          "company_contribution": "58.08",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "66.64",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "175.31"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "95.62"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "47.81"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2221.19 gross + $243.22 employer taxes = $2464.41 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "f2c20b17-2564-43a5-9a42-3e74f1309318",
+      "employee_first_name": "Stephen",
+      "employee_last_name": "Huerta",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1897.35",
+          "job_uuid": "63bb3cd4-8c52-41d4-b0e2-35eee8cef655"
+        }
+      ],
+      "variable_compensations": [
+        {
+          "name": "Performance Bonus",
+          "amount": "284.34",
+          "job_uuid": "9dd5192c-ce65-44b0-b286-abae351d7f91",
+          "_note": "QUIRK 2: this bonus is NOT included in fixed_compensations. Sum both arrays for true labour cost."
+        }
+      ],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "63.53",
+          "company_contribution": "41.29",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "56.92",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "172.19"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "93.92"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "46.96"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2181.69 gross + $238.90 employer taxes = $2420.59 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "21527a3c-5b55-4b31-aae2-bd7a3101ff85",
+      "employee_first_name": "Lindsey",
+      "employee_last_name": "Taylor",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1912.08",
+          "job_uuid": "fc4b7ba2-7ae7-4ac2-ba85-0efa761e08af"
+        }
+      ],
+      "variable_compensations": [
+        {
+          "name": "Performance Bonus",
+          "amount": "161.61",
+          "job_uuid": "9a4f4bff-4c1b-42ce-a1d0-768e1e96683c",
+          "_note": "QUIRK 2: this bonus is NOT included in fixed_compensations. Sum both arrays for true labour cost."
+        }
+      ],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "105.10",
+          "company_contribution": "68.31",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "57.36",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "163.66"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "89.27"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "44.64"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2073.69 gross + $227.07 employer taxes = $2300.76 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "f39b473c-c013-43d1-b845-8015b7956ccf",
+      "employee_first_name": "Daniel",
+      "employee_last_name": "Fritz",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1598.50",
+          "job_uuid": "1d22e18b-1119-4ef6-a0bb-a92722589f62"
+        }
+      ],
+      "variable_compensations": [
+        {
+          "name": "Performance Bonus",
+          "amount": "274.54",
+          "job_uuid": "748d44a5-5a62-4be6-9c77-deafbe84ee06",
+          "_note": "QUIRK 2: this bonus is NOT included in fixed_compensations. Sum both arrays for true labour cost."
+        }
+      ],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "65.79",
+          "company_contribution": "42.76",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "47.95",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "147.83"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "80.63"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "40.32"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1873.04 gross + $205.10 employer taxes = $2078.14 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "ca3a3239-eaf9-4bf8-ad11-839a09e609f2",
+      "employee_first_name": "Michelle",
+      "employee_last_name": "Lewis",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2163.81",
+          "job_uuid": "c4d3401b-0586-48a2-854a-176c6a83721e"
+        }
+      ],
+      "variable_compensations": [
+        {
+          "name": "Performance Bonus",
+          "amount": "210.10",
+          "job_uuid": "b867b859-9683-4623-9796-afeb5afd0610",
+          "_note": "QUIRK 2: this bonus is NOT included in fixed_compensations. Sum both arrays for true labour cost."
+        }
+      ],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "89.37",
+          "company_contribution": "58.09",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "64.91",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "187.36"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "102.20"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "51.10"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2373.91 gross + $259.95 employer taxes = $2633.86 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "8056c965-ff38-4020-b377-1f21d1900693",
+      "employee_first_name": "Erin",
+      "employee_last_name": "Harris",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2046.46",
+          "job_uuid": "6d90d1e7-d564-4baf-9891-186cea2ba49a"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "62.74",
+          "company_contribution": "40.78",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "61.39",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "161.52"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "88.10"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "44.05"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2046.46 gross + $224.09 employer taxes = $2270.55 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "afa70fe6-d756-4b0b-8858-4e6e09a16f5f",
+      "employee_first_name": "Rhonda",
+      "employee_last_name": "Wallace",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1876.62",
+          "job_uuid": "12381678-cccb-481e-804f-a6b24ddbd034"
+        }
+      ],
+      "variable_compensations": [
+        {
+          "name": "Performance Bonus",
+          "amount": "337.15",
+          "job_uuid": "78a3a75f-8fc0-41da-8e60-707fcfb6385a",
+          "_note": "QUIRK 2: this bonus is NOT included in fixed_compensations. Sum both arrays for true labour cost."
+        }
+      ],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "79.11",
+          "company_contribution": "51.42",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "56.30",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "174.72"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "95.30"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "47.65"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2213.77 gross + $242.41 employer taxes = $2456.18 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "fa376b09-cb47-408f-8e32-f49765457e2c",
+      "employee_first_name": "David",
+      "employee_last_name": "Edwards",
+      "department": "Drivers — Denver FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1518.65",
+          "job_uuid": "71462290-2636-49a2-a074-d696adcb032f"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "39.95",
+          "company_contribution": "25.97",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "45.56",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "119.86"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "65.38"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "32.69"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1518.65 gross + $166.29 employer taxes = $1684.94 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "f44d805c-6c1c-4fd6-b450-57d71d23755d",
+      "employee_first_name": "Lori",
+      "employee_last_name": "Stokes",
+      "department": "Drivers — SLC FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1708.15",
+          "job_uuid": "95cc606d-7a16-4642-aa19-2a89345661b1"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "78.84",
+          "company_contribution": "51.25",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "51.24",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "134.82"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "73.54"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "36.77"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1708.15 gross + $187.04 employer taxes = $1895.19 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "2395ec27-d152-4e7b-a26b-79569d068659",
+      "employee_first_name": "Lisa",
+      "employee_last_name": "Foster",
+      "department": "Drivers — SLC FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1557.38",
+          "job_uuid": "57fc947e-6890-4273-b76e-2f12e70b3695"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "56.97",
+          "company_contribution": "37.03",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "46.72",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "122.91"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "67.04"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "33.52"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1557.38 gross + $170.53 employer taxes = $1727.91 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "298cc6c3-a316-4c55-8368-471de3f48e91",
+      "employee_first_name": "Chelsea",
+      "employee_last_name": "Carpenter",
+      "department": "Drivers — SLC FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1648.35",
+          "job_uuid": "bf1c9cfd-81db-4b7f-8280-537425786b6d"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "81.80",
+          "company_contribution": "53.17",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "49.45",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "130.10"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "70.96"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "35.48"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1648.35 gross + $180.49 employer taxes = $1828.84 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "bb94409a-b971-4937-8ec9-a3c9765ac759",
+      "employee_first_name": "Rodney",
+      "employee_last_name": "James",
+      "department": "Drivers — SLC FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1584.42",
+          "job_uuid": "b1209322-3006-4159-8807-e95550593551"
+        }
+      ],
+      "variable_compensations": [
+        {
+          "name": "Performance Bonus",
+          "amount": "228.06",
+          "job_uuid": "032fc70e-6185-4211-9950-329ebea7e2ed",
+          "_note": "QUIRK 2: this bonus is NOT included in fixed_compensations. Sum both arrays for true labour cost."
+        }
+      ],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "63.15",
+          "company_contribution": "41.05",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "47.53",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "143.05"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "78.03"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "39.01"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1812.48 gross + $198.46 employer taxes = $2010.94 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "1f827cbc-2ddc-4af8-b213-f8e09c3d8fda",
+      "employee_first_name": "Robert",
+      "employee_last_name": "Vincent",
+      "department": "Drivers — SLC FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1690.35",
+          "job_uuid": "ba3b1967-ecaf-4ed6-bc09-c3945840953a"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "72.19",
+          "company_contribution": "46.92",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "50.71",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "133.41"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "72.77"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "36.39"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1690.35 gross + $185.09 employer taxes = $1875.44 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "8f147aeb-6be5-433a-ae1c-497c88938ce9",
+      "employee_first_name": "Kristine",
+      "employee_last_name": "Alvarez",
+      "department": "Drivers — SLC FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1782.65",
+          "job_uuid": "b0c6c8a0-35f9-4ff6-bee7-e8123331869c"
+        }
+      ],
+      "variable_compensations": [
+        {
+          "name": "Performance Bonus",
+          "amount": "233.86",
+          "job_uuid": "f032e203-5323-4d15-8946-9f00172c1610",
+          "_note": "QUIRK 2: this bonus is NOT included in fixed_compensations. Sum both arrays for true labour cost."
+        }
+      ],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "91.32",
+          "company_contribution": "59.36",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "53.48",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "159.15"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "86.81"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "43.41"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2016.51 gross + $220.81 employer taxes = $2237.32 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "e2706f2d-871c-42da-9ed2-a062cb0eb441",
+      "employee_first_name": "Susan",
+      "employee_last_name": "Robinson",
+      "department": "Drivers — SLC FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1829.00",
+          "job_uuid": "856ee712-1abb-41be-bbde-f306cf4546f7"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "70.80",
+          "company_contribution": "46.02",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "54.87",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "144.35"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "78.74"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "39.37"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1829.00 gross + $200.28 employer taxes = $2029.28 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "213a0767-a62b-4835-a2c7-21379aced191",
+      "employee_first_name": "Sandra",
+      "employee_last_name": "Daniels",
+      "department": "Drivers — ABQ FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1771.92",
+          "job_uuid": "35065a0d-68ba-439e-8c1c-84a46a0a15e1"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "66.09",
+          "company_contribution": "42.96",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "53.16",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "139.85"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "76.28"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "38.14"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1771.92 gross + $194.03 employer taxes = $1965.95 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "3083bc16-b2d3-4e8c-8b6a-4ff85e9be685",
+      "employee_first_name": "Belinda",
+      "employee_last_name": "Harrison",
+      "department": "Drivers — ABQ FTE",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1780.08",
+          "job_uuid": "854c6bc4-d5f3-4b44-a441-8b065387fb9f"
+        }
+      ],
+      "variable_compensations": [
+        {
+          "name": "Performance Bonus",
+          "amount": "293.53",
+          "job_uuid": "23625647-e069-4338-adc4-c3d8e8cc5539",
+          "_note": "QUIRK 2: this bonus is NOT included in fixed_compensations. Sum both arrays for true labour cost."
+        }
+      ],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "52.75",
+          "company_contribution": "34.29",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "53.40",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "163.66"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "89.27"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "44.63"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2073.61 gross + $227.06 employer taxes = $2300.67 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "43a3f1cd-5c01-4e8f-8239-699c67bdaada",
+      "employee_first_name": "Timothy",
+      "employee_last_name": "Shannon",
+      "department": "Warehouse",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2237.35",
+          "job_uuid": "315b9e90-4367-4edd-95a2-56620c9978f4"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "78.66",
+          "company_contribution": "51.13",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "67.12",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "176.58"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "96.32"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "48.16"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2237.35 gross + $244.99 employer taxes = $2482.34 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "df9724f0-bfa4-4ef3-98e0-6e8951265969",
+      "employee_first_name": "Danielle",
+      "employee_last_name": "Gardner",
+      "department": "Warehouse",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1756.08",
+          "job_uuid": "8feec250-4401-4631-b51f-267249081fdb"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "80.40",
+          "company_contribution": "52.26",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "52.68",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "138.60"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "75.60"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "37.80"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1756.08 gross + $192.29 employer taxes = $1948.37 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "e3c97906-86a9-412d-a1d4-9a7428beebd3",
+      "employee_first_name": "Christina",
+      "employee_last_name": "Cherry",
+      "department": "Warehouse",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1413.92",
+          "job_uuid": "cfa1126c-bbc6-41e7-93c5-43e88ed0b700"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "62.91",
+          "company_contribution": "40.89",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "42.42",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "111.60"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "60.87"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "30.43"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1413.92 gross + $154.82 employer taxes = $1568.74 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "b4989ca6-cdbb-42fb-beaa-adb5d747a67a",
+      "employee_first_name": "Edward",
+      "employee_last_name": "Delacruz",
+      "department": "Warehouse",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2393.35",
+          "job_uuid": "6a9535cc-c690-406c-85a2-53a1a51b4715"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "120.99",
+          "company_contribution": "78.64",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "71.80",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "188.90"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "103.03"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "51.52"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2393.35 gross + $262.07 employer taxes = $2655.42 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "6dc8cf3f-0071-49f5-a04e-120ea10e028e",
+      "employee_first_name": "Deborah",
+      "employee_last_name": "Harmon",
+      "department": "Warehouse",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1514.35",
+          "job_uuid": "4c5d8a05-7879-4a96-abde-6105af0fca41"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "76.58",
+          "company_contribution": "49.78",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "45.43",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "119.52"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "65.19"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "32.60"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1514.35 gross + $165.82 employer taxes = $1680.17 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "1701eb58-460b-4ca5-b265-66aca9916b55",
+      "employee_first_name": "Vanessa",
+      "employee_last_name": "White",
+      "department": "Warehouse",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2676.31",
+          "job_uuid": "e51c8a2b-d3e0-4ed9-a907-93d1bf2f7a5f"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "135.90",
+          "company_contribution": "88.34",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "80.29",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "211.23"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "115.22"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "57.61"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2676.31 gross + $293.06 employer taxes = $2969.37 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "b787e8fb-a58a-49c0-8318-ded2a506550e",
+      "employee_first_name": "Tony",
+      "employee_last_name": "Smith",
+      "department": "Warehouse",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1389.08",
+          "job_uuid": "ea83f672-cad5-41ed-b9fe-61f44aebf271"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "50.56",
+          "company_contribution": "32.86",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "41.67",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "109.63"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "59.80"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "29.90"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1389.08 gross + $152.10 employer taxes = $1541.18 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "b2f4b41f-06b5-4d96-8290-05ec3c5c214b",
+      "employee_first_name": "Patty",
+      "employee_last_name": "Bryant",
+      "department": "Warehouse",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2273.58",
+          "job_uuid": "d9dbb9e2-2203-46f2-8a02-344dd0e074a3"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "78.44",
+          "company_contribution": "50.99",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "68.21",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "179.44"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "97.88"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "48.94"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2273.58 gross + $248.96 employer taxes = $2522.54 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "4393ed4e-fc57-4ad6-b695-caee039b01d4",
+      "employee_first_name": "Noah",
+      "employee_last_name": "Smith",
+      "department": "Warehouse",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1395.92",
+          "job_uuid": "4a91ca0d-3ed8-4e69-87be-99c59dfe3628"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "65.00",
+          "company_contribution": "42.25",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "41.88",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "110.17"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "60.09"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "30.05"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1395.92 gross + $152.85 employer taxes = $1548.77 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "07126a84-b1ad-4c0e-afd2-9b6e624e9b99",
+      "employee_first_name": "Scott",
+      "employee_last_name": "Cortez",
+      "department": "Customer Support",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1770.15",
+          "job_uuid": "0efdd253-66c2-4fc4-ad6b-41c06f3dfb04"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "84.58",
+          "company_contribution": "54.98",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "53.10",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "139.71"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "76.21"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "38.10"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1770.15 gross + $193.83 employer taxes = $1963.98 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "c7623a09-7017-456c-b4ac-9a24cfd8f960",
+      "employee_first_name": "Anthony",
+      "employee_last_name": "Vazquez",
+      "department": "Customer Support",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1773.38",
+          "job_uuid": "4f960b5b-37b7-4899-9566-8c8fac33006a"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "90.75",
+          "company_contribution": "58.99",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "53.20",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "139.96"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "76.34"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "38.17"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1773.38 gross + $194.19 employer taxes = $1967.57 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "2d736aff-8805-4f2c-8e5f-011e3e046bfd",
+      "employee_first_name": "Jared",
+      "employee_last_name": "Vazquez",
+      "department": "Customer Support",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1608.88",
+          "job_uuid": "09ca9d45-4c95-4f3e-82e7-cc2fe6fe98ce"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "41.95",
+          "company_contribution": "27.27",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "48.27",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "126.98"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "69.26"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "34.63"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1608.88 gross + $176.17 employer taxes = $1785.05 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "0a1d6827-b900-4730-97d8-2297678bcfe4",
+      "employee_first_name": "Erica",
+      "employee_last_name": "Reynolds",
+      "department": "Customer Support",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "1633.50",
+          "job_uuid": "a53ef9d4-2089-46a4-b976-77b66db7f742"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "44.19",
+          "company_contribution": "28.72",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "49.00",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "128.93"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "70.32"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "35.16"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $1633.50 gross + $178.87 employer taxes = $1812.37 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "9f5aff13-ff69-4853-9c06-7c1b29a7cf3b",
+      "employee_first_name": "Ryan",
+      "employee_last_name": "Lee",
+      "department": "Finance",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2252.81",
+          "job_uuid": "c119e3dd-154a-49f2-8ccc-047f71a0ca4d"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "98.98",
+          "company_contribution": "64.34",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "67.58",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "177.80"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "96.98"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "48.49"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2252.81 gross + $246.68 employer taxes = $2499.49 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "7a71420c-f815-4471-984c-2065b9577cd0",
+      "employee_first_name": "Karen",
+      "employee_last_name": "Brennan",
+      "department": "Finance",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2270.50",
+          "job_uuid": "e1802b3b-1c0c-424d-a1cb-1dcfc1cce07f"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "119.49",
+          "company_contribution": "77.67",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "68.11",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "179.20"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "97.75"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "48.87"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2270.50 gross + $248.62 employer taxes = $2519.12 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "46020182-35f7-4cbc-a3c1-abf3a0bb43f1",
+      "employee_first_name": "Denise",
+      "employee_last_name": "Hart",
+      "department": "Sales & BD",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2547.38",
+          "job_uuid": "5d5be4cd-d249-4498-b69c-fa6305a3c2a0"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "139.91",
+          "company_contribution": "90.94",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "76.42",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "201.05"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "109.67"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "54.83"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2547.38 gross + $278.94 employer taxes = $2826.32 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "47277ec2-1040-4b56-b5a0-3c65efa41787",
+      "employee_first_name": "Jessica",
+      "employee_last_name": "Cummings",
+      "department": "Sales & BD",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "3883.65",
+          "job_uuid": "a469ed19-0bc6-4575-a88f-35ccfbb63f31"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "184.10",
+          "company_contribution": "119.67",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "116.51",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "306.51"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "167.19"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "83.59"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $3883.65 gross + $425.26 employer taxes = $4308.91 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "89bb5402-9162-49f6-a503-3431f800987d",
+      "employee_first_name": "Barbara",
+      "employee_last_name": "Curtis",
+      "department": "Sales & BD",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "2878.96",
+          "job_uuid": "cfad6abe-750c-45bc-a7bf-ea92eeaffb83"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "109.46",
+          "company_contribution": "71.15",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "86.37",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "227.22"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "123.94"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "61.97"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $2878.96 gross + $315.25 employer taxes = $3194.21 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "ec206f2a-3d2c-4cae-8e99-d13bb733c132",
+      "employee_first_name": "Shannon",
+      "employee_last_name": "Wood",
+      "department": "Leadership",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "6946.23",
+          "job_uuid": "e99dcfa7-451e-4298-a7c8-34e9740f9097"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "194.17",
+          "company_contribution": "126.21",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "208.39",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "548.23"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "299.03"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "149.52"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $6946.23 gross + $760.61 employer taxes = $7706.84 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "24c7d2b7-eee6-46fc-a1d9-efc2b5d17240",
+      "employee_first_name": "Wanda",
+      "employee_last_name": "Love",
+      "department": "Leadership",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "4519.04",
+          "job_uuid": "172dd06d-6930-4f9d-83aa-24ed4be55c21"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "198.89",
+          "company_contribution": "129.28",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "135.57",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "356.66"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "194.54"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "97.27"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $4519.04 gross + $494.83 employer taxes = $5013.87 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "d2b0b401-a4c6-48c4-b706-f4432857c465",
+      "employee_first_name": "Lauren",
+      "employee_last_name": "Simon",
+      "department": "Leadership",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "6157.23",
+          "job_uuid": "8194f857-496f-496e-ad58-c9b56d592aab"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "315.11",
+          "company_contribution": "204.82",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "184.72",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "485.96"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "265.07"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "132.53"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $6157.23 gross + $674.22 employer taxes = $6831.45 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    },
+    {
+      "employee_uuid": "7f41e1b0-1107-4b35-897f-31c4e1cbae62",
+      "employee_first_name": "Kenneth",
+      "employee_last_name": "Snyder",
+      "department": "Leadership",
+      "fixed_compensations": [
+        {
+          "name": "Regular Pay",
+          "amount": "6300.00",
+          "job_uuid": "2cc4d46f-aaa4-4fff-ad37-2c9a59258324"
+        }
+      ],
+      "variable_compensations": [],
+      "paid_time_off": [],
+      "benefits": [
+        {
+          "name": "Medical Insurance",
+          "employee_deduction": "241.36",
+          "company_contribution": "156.88",
+          "imputed": false
+        }
+      ],
+      "employee_deductions": [
+        {
+          "name": "401(k) Employee Contribution",
+          "amount": "189.00",
+          "pre_tax": true
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Federal Income Tax",
+          "employer": false,
+          "amount": "497.23"
+        },
+        {
+          "name": "Social Security",
+          "employer": false,
+          "amount": "271.21"
+        },
+        {
+          "name": "Medicare",
+          "employer": false,
+          "amount": "135.61"
+        }
+      ],
+      "_ods_note": "Labour cost for this employee this period: $6300.00 gross + $689.85 employer taxes = $6989.85 true cost. Delivery count must be sourced from Onfleet — it does not exist anywhere in this file."
+    }
+  ]
+}

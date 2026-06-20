@@ -1,0 +1,3088 @@
+{
+  "totalSize": 94,
+  "done": true,
+  "nextRecordsUrl": null,
+  "records": [
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800k64mN5oWFD1RwVj"
+      },
+      "Id": "800k64mN5oWFD1RwVj",
+      "AccountId": "001P6cCFtcnn6HZvks",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001P6cCFtcnn6HZvks"
+        },
+        "Name": "Crawford, Vargas and Kennedy",
+        "SwiftRoute_Client_ID__c": "client_001"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-09-13",
+      "EndDate": "2025-09-13",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-08-20",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 1279,
+      "Discount_Rate__c": 0.24,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "platinum",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-08-20T00:00:00.000+0000",
+      "LastModifiedDate": "2024-08-22T00:00:00.000+0000",
+      "OwnerId": "0058ckITgaFSoLeHGK"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800zoZS68SEAooAcVd"
+      },
+      "Id": "800zoZS68SEAooAcVd",
+      "AccountId": "001iGFyPBJ8yFDUN4w",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001iGFyPBJ8yFDUN4w"
+        },
+        "Name": "Salazar, Garrison and Graham",
+        "SwiftRoute_Client_ID__c": "client_002"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-12-22",
+      "EndDate": "2024-12-21",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-12-06",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 1235,
+      "Discount_Rate__c": 0.246,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "salt_lake_city",
+      "Account_Tier__c": "platinum",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-12-06T00:00:00.000+0000",
+      "LastModifiedDate": "2023-12-20T00:00:00.000+0000",
+      "OwnerId": "005F2c8BI7xWkEsEph"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800MkyB8kMlYDPfY6m"
+      },
+      "Id": "800MkyB8kMlYDPfY6m",
+      "AccountId": "001eGtCz7ahY5Dry08",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001eGtCz7ahY5Dry08"
+        },
+        "Name": "Little-Weiss",
+        "SwiftRoute_Client_ID__c": "client_003"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-12-15",
+      "EndDate": "2025-12-15",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-11-23",
+      "Contract_Type__c": "Variable Rate",
+      "Committed_Monthly_Volume__c": 851,
+      "Discount_Rate__c": 0.226,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "platinum",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-11-23T00:00:00.000+0000",
+      "LastModifiedDate": "2024-12-05T00:00:00.000+0000",
+      "OwnerId": "005IIBRBVzoYSA4Xmc"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800NPtS1MuajP1JDT6"
+      },
+      "Id": "800NPtS1MuajP1JDT6",
+      "AccountId": "001vP5Nc3IXNaKnRuN",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001vP5Nc3IXNaKnRuN"
+        },
+        "Name": "Wallace-Webb",
+        "SwiftRoute_Client_ID__c": "client_004"
+      },
+      "Status": "Activated",
+      "StartDate": "2025-01-21",
+      "EndDate": "2026-01-21",
+      "ContractTerm": 12,
+      "SignedDate__c": "2025-01-03",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 959,
+      "Discount_Rate__c": 0.184,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "salt_lake_city",
+      "Account_Tier__c": "platinum",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2025-01-03T00:00:00.000+0000",
+      "LastModifiedDate": "2025-01-11T00:00:00.000+0000",
+      "OwnerId": "005Ud9dgQkDwzTQftS"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/8004ZrhxfFtJWDEeAF"
+      },
+      "Id": "8004ZrhxfFtJWDEeAF",
+      "AccountId": "001u5Sd71MAE1Givr2",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001u5Sd71MAE1Givr2"
+        },
+        "Name": "Reid and Sons",
+        "SwiftRoute_Client_ID__c": "client_005"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-06-10",
+      "EndDate": "2025-06-10",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-05-14",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 1651,
+      "Discount_Rate__c": 0.229,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "platinum",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-05-14T00:00:00.000+0000",
+      "LastModifiedDate": "2024-05-24T00:00:00.000+0000",
+      "OwnerId": "005I2V7aGx2oBQHAJ2"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/80014CBny6Rsml3WrU"
+      },
+      "Id": "80014CBny6Rsml3WrU",
+      "AccountId": "001POVntw7xCTOMKYT",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001POVntw7xCTOMKYT"
+        },
+        "Name": "Dennis, Williams and Pope",
+        "SwiftRoute_Client_ID__c": "client_006"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-12-23",
+      "EndDate": "2025-12-23",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-11-25",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 607,
+      "Discount_Rate__c": 0.242,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "platinum",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-11-25T00:00:00.000+0000",
+      "LastModifiedDate": "2024-12-08T00:00:00.000+0000",
+      "OwnerId": "005DrWIg1SXnLO8oGa"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800p3E6mM4TvvV81xr"
+      },
+      "Id": "800p3E6mM4TvvV81xr",
+      "AccountId": "0016gupD8DR3BkkF0q",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/0016gupD8DR3BkkF0q"
+        },
+        "Name": "Lewis, Browning and Davis",
+        "SwiftRoute_Client_ID__c": "client_007"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-12-07",
+      "EndDate": "2024-12-06",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-11-16",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 1384,
+      "Discount_Rate__c": 0.218,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "platinum",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-11-16T00:00:00.000+0000",
+      "LastModifiedDate": "2023-12-05T00:00:00.000+0000",
+      "OwnerId": "005bs4xQgefMswJTpn"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800XlXK2raayd8Z4zG"
+      },
+      "Id": "800XlXK2raayd8Z4zG",
+      "AccountId": "001RBpbFaQcoRskgmx",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001RBpbFaQcoRskgmx"
+        },
+        "Name": "Gibson-Donovan",
+        "SwiftRoute_Client_ID__c": "client_008"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-12-31",
+      "EndDate": "2024-12-30",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-12-08",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 1549,
+      "Discount_Rate__c": 0.202,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "platinum",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-12-08T00:00:00.000+0000",
+      "LastModifiedDate": "2023-12-15T00:00:00.000+0000",
+      "OwnerId": "0054dcobsKdYTETsw8"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/8008nV65e37T8Ql3Hm"
+      },
+      "Id": "8008nV65e37T8Ql3Hm",
+      "AccountId": "001yGbs6VAkTlL1fpJ",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001yGbs6VAkTlL1fpJ"
+        },
+        "Name": "Kelly-Lowe",
+        "SwiftRoute_Client_ID__c": "client_009"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-03-24",
+      "EndDate": "2025-03-24",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-03-01",
+      "Contract_Type__c": "Variable Rate",
+      "Committed_Monthly_Volume__c": 195,
+      "Discount_Rate__c": 0.188,
+      "Net_Payment_Terms__c": 60,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "platinum",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-03-01T00:00:00.000+0000",
+      "LastModifiedDate": "2024-03-23T00:00:00.000+0000",
+      "OwnerId": "005kWObB1MNpK3wFY6"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800jE0evK2LQp6Plsj"
+      },
+      "Id": "800jE0evK2LQp6Plsj",
+      "AccountId": "001oSzy4jRp0dkgM1W",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001oSzy4jRp0dkgM1W"
+        },
+        "Name": "Keller Inc",
+        "SwiftRoute_Client_ID__c": "client_010"
+      },
+      "Status": "Draft",
+      "StartDate": "2024-03-29",
+      "EndDate": "2025-03-29",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-03-03",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 135,
+      "Discount_Rate__c": 0.163,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-03-03T00:00:00.000+0000",
+      "LastModifiedDate": "2024-03-20T00:00:00.000+0000",
+      "OwnerId": "005iRbtdl627HE6MnK"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800OyWWD1gK7jueKnI"
+      },
+      "Id": "800OyWWD1gK7jueKnI",
+      "AccountId": "001zZtS6CRPNd0tluE",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001zZtS6CRPNd0tluE"
+        },
+        "Name": "Frank-Taylor",
+        "SwiftRoute_Client_ID__c": "client_011"
+      },
+      "Status": "Activated",
+      "StartDate": "2025-04-15",
+      "EndDate": "2026-04-15",
+      "ContractTerm": 12,
+      "SignedDate__c": "2025-03-23",
+      "Contract_Type__c": "Variable Rate",
+      "Committed_Monthly_Volume__c": 911,
+      "Discount_Rate__c": 0.174,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2025-03-23T00:00:00.000+0000",
+      "LastModifiedDate": "2025-04-12T00:00:00.000+0000",
+      "OwnerId": "0057YZex4KAcELfafE"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800peatA8gl9LfinMr"
+      },
+      "Id": "800peatA8gl9LfinMr",
+      "AccountId": "0019MEK516tJkeLDgW",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/0019MEK516tJkeLDgW"
+        },
+        "Name": "Bell Inc",
+        "SwiftRoute_Client_ID__c": "client_012"
+      },
+      "Status": "Activated",
+      "StartDate": "2025-02-06",
+      "EndDate": "2026-02-06",
+      "ContractTerm": 12,
+      "SignedDate__c": "2025-01-26",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 577,
+      "Discount_Rate__c": 0.149,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "salt_lake_city",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2025-01-26T00:00:00.000+0000",
+      "LastModifiedDate": "2025-02-03T00:00:00.000+0000",
+      "OwnerId": "00537EDr4pWIzXGcOh"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800ziuKEL5QYLt5LxS"
+      },
+      "Id": "800ziuKEL5QYLt5LxS",
+      "AccountId": "001fByQc3grb8sb7Ye",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001fByQc3grb8sb7Ye"
+        },
+        "Name": "Booth PLC",
+        "SwiftRoute_Client_ID__c": "client_013"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-07-06",
+      "EndDate": "2025-07-06",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-06-12",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 680,
+      "Discount_Rate__c": 0.106,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "salt_lake_city",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-06-12T00:00:00.000+0000",
+      "LastModifiedDate": "2024-06-22T00:00:00.000+0000",
+      "OwnerId": "005yFJjZmtvnPXBx2P"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/8004WP4vi0C77RrZ5o"
+      },
+      "Id": "8004WP4vi0C77RrZ5o",
+      "AccountId": "001H2B8oGOWrHC7XK0",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001H2B8oGOWrHC7XK0"
+        },
+        "Name": "Martin PLC",
+        "SwiftRoute_Client_ID__c": "client_014"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-06-22",
+      "EndDate": "2025-06-22",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-06-10",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 1486,
+      "Discount_Rate__c": 0.151,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "salt_lake_city",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-06-10T00:00:00.000+0000",
+      "LastModifiedDate": "2024-06-22T00:00:00.000+0000",
+      "OwnerId": "005tl5Sg2krzxnKyDV"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800ceOXfq1OTaT3QRh"
+      },
+      "Id": "800ceOXfq1OTaT3QRh",
+      "AccountId": "001gPTNEDjgffmGk03",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001gPTNEDjgffmGk03"
+        },
+        "Name": "Cordova, Perez and Mills",
+        "SwiftRoute_Client_ID__c": "client_015"
+      },
+      "Status": "Activated",
+      "StartDate": "2025-02-15",
+      "EndDate": "2026-02-15",
+      "ContractTerm": 12,
+      "SignedDate__c": "2025-02-03",
+      "Contract_Type__c": "Variable Rate",
+      "Committed_Monthly_Volume__c": 1014,
+      "Discount_Rate__c": 0.1,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2025-02-03T00:00:00.000+0000",
+      "LastModifiedDate": "2025-02-20T00:00:00.000+0000",
+      "OwnerId": "005LMnKGIx8IDbaaGN"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800Yh1CLwNWXnu5tTz"
+      },
+      "Id": "800Yh1CLwNWXnu5tTz",
+      "AccountId": "001hZJL4btNA2Yi6Pc",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001hZJL4btNA2Yi6Pc"
+        },
+        "Name": "Ruiz Group",
+        "SwiftRoute_Client_ID__c": "client_016"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-10-15",
+      "EndDate": "2024-10-14",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-09-19",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 1786,
+      "Discount_Rate__c": 0.16,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-09-19T00:00:00.000+0000",
+      "LastModifiedDate": "2023-10-12T00:00:00.000+0000",
+      "OwnerId": "005ymbWfso2Kv4f2JA"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800PgyCu4JYkEMSuVJ"
+      },
+      "Id": "800PgyCu4JYkEMSuVJ",
+      "AccountId": "001SzNc301sT9wIvMW",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001SzNc301sT9wIvMW"
+        },
+        "Name": "Brown-Powers",
+        "SwiftRoute_Client_ID__c": "client_017"
+      },
+      "Status": "Activated",
+      "StartDate": "2025-01-27",
+      "EndDate": "2026-01-27",
+      "ContractTerm": 12,
+      "SignedDate__c": "2025-01-07",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 1604,
+      "Discount_Rate__c": 0.174,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2025-01-07T00:00:00.000+0000",
+      "LastModifiedDate": "2025-01-29T00:00:00.000+0000",
+      "OwnerId": "005oK98QCDkUxButyQ"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/8002MgYZeYUH8Vui6X"
+      },
+      "Id": "8002MgYZeYUH8Vui6X",
+      "AccountId": "001R4L5HLUxL3Higze",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001R4L5HLUxL3Higze"
+        },
+        "Name": "Moore, Flores and Walker",
+        "SwiftRoute_Client_ID__c": "client_018"
+      },
+      "Status": "Activated",
+      "StartDate": "2025-03-23",
+      "EndDate": "2026-03-23",
+      "ContractTerm": 12,
+      "SignedDate__c": "2025-03-05",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 91,
+      "Discount_Rate__c": 0.112,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2025-03-05T00:00:00.000+0000",
+      "LastModifiedDate": "2025-03-22T00:00:00.000+0000",
+      "OwnerId": "0055PMLdYHMFhe12J2"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800OUgPtFjzaS7JjjK"
+      },
+      "Id": "800OUgPtFjzaS7JjjK",
+      "AccountId": "001RrnNoGjDd4YbbZF",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001RrnNoGjDd4YbbZF"
+        },
+        "Name": "Graves-Hendricks",
+        "SwiftRoute_Client_ID__c": "client_019"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-08-12",
+      "EndDate": "2024-08-11",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-07-31",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 1330,
+      "Discount_Rate__c": 0.146,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000",
+      "LastModifiedDate": "2023-08-09T00:00:00.000+0000",
+      "OwnerId": "005Yruw178v3qtXyjS"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800O3MARl0vqL44fhw"
+      },
+      "Id": "800O3MARl0vqL44fhw",
+      "AccountId": "001rnDS66XtD70O23s",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001rnDS66XtD70O23s"
+        },
+        "Name": "Mccarthy-Campbell",
+        "SwiftRoute_Client_ID__c": "client_020"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-08-12",
+      "EndDate": "2024-08-11",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-07-27",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 1310,
+      "Discount_Rate__c": 0.177,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-07-27T00:00:00.000+0000",
+      "LastModifiedDate": "2023-07-29T00:00:00.000+0000",
+      "OwnerId": "005tqHtxrc8e8jT2bC"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800Er5CqiCTtoxiYpj"
+      },
+      "Id": "800Er5CqiCTtoxiYpj",
+      "AccountId": "001MwY3K2l53kNgvH1",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001MwY3K2l53kNgvH1"
+        },
+        "Name": "Marquez-Mcmahon",
+        "SwiftRoute_Client_ID__c": "client_021"
+      },
+      "Status": "Activated",
+      "StartDate": "2025-02-24",
+      "EndDate": "2026-02-24",
+      "ContractTerm": 12,
+      "SignedDate__c": "2025-02-09",
+      "Contract_Type__c": "Variable Rate",
+      "Committed_Monthly_Volume__c": 165,
+      "Discount_Rate__c": 0.142,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2025-02-09T00:00:00.000+0000",
+      "LastModifiedDate": "2025-02-28T00:00:00.000+0000",
+      "OwnerId": "005clmXUj4OksXaqDE"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800IDz0ytIR0XxR5y2"
+      },
+      "Id": "800IDz0ytIR0XxR5y2",
+      "AccountId": "001bggQkEr99jwQLDf",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001bggQkEr99jwQLDf"
+        },
+        "Name": "Diaz Group",
+        "SwiftRoute_Client_ID__c": "client_022"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-08-27",
+      "EndDate": "2025-08-27",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-08-13",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 1714,
+      "Discount_Rate__c": 0.173,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "albuquerque",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-08-13T00:00:00.000+0000",
+      "LastModifiedDate": "2024-08-23T00:00:00.000+0000",
+      "OwnerId": "0051aPSuyfuOEDfbkf"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800HJ2L6mr2j6UDnHc"
+      },
+      "Id": "800HJ2L6mr2j6UDnHc",
+      "AccountId": "001f77j4GOMpROjHI4",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001f77j4GOMpROjHI4"
+        },
+        "Name": "Jones Group",
+        "SwiftRoute_Client_ID__c": "client_023"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-01-03",
+      "EndDate": "2025-01-02",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-12-12",
+      "Contract_Type__c": "Variable Rate",
+      "Committed_Monthly_Volume__c": 203,
+      "Discount_Rate__c": 0.146,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-12-12T00:00:00.000+0000",
+      "LastModifiedDate": "2024-01-10T00:00:00.000+0000",
+      "OwnerId": "005khAZjXv39cORj7z"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800XBzaWw1wqWY0vz6"
+      },
+      "Id": "800XBzaWw1wqWY0vz6",
+      "AccountId": "001I5hY9Ft1ThpovQl",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001I5hY9Ft1ThpovQl"
+        },
+        "Name": "Wilson, Myers and Tate",
+        "SwiftRoute_Client_ID__c": "client_024"
+      },
+      "Status": "Activated",
+      "StartDate": "2025-01-31",
+      "EndDate": "2026-01-31",
+      "ContractTerm": 12,
+      "SignedDate__c": "2025-01-03",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 1486,
+      "Discount_Rate__c": 0.126,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2025-01-03T00:00:00.000+0000",
+      "LastModifiedDate": "2025-01-15T00:00:00.000+0000",
+      "OwnerId": "005QlMHabhQs9rzTqK"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800FNvNHc9JgxbNb7K"
+      },
+      "Id": "800FNvNHc9JgxbNb7K",
+      "AccountId": "001zZuefNCy5q1HvC3",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001zZuefNCy5q1HvC3"
+        },
+        "Name": "Dalton PLC",
+        "SwiftRoute_Client_ID__c": "client_025"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-09-28",
+      "EndDate": "2024-09-27",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-09-13",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 1433,
+      "Discount_Rate__c": 0.17,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "albuquerque",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-09-13T00:00:00.000+0000",
+      "LastModifiedDate": "2023-10-01T00:00:00.000+0000",
+      "OwnerId": "0056X6cAgD4Eu0TVMT"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800fG0LO1knMAGnb8L"
+      },
+      "Id": "800fG0LO1knMAGnb8L",
+      "AccountId": null,
+      "Account": null,
+      "Status": "Activated",
+      "StartDate": "2024-02-06",
+      "EndDate": "2025-02-05",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-01-30",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 1777,
+      "Discount_Rate__c": 0.105,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-01-30T00:00:00.000+0000",
+      "LastModifiedDate": "2024-02-03T00:00:00.000+0000",
+      "OwnerId": "005sugmUdXeqRCxhoe"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800Yc3QjDeDGGu0Pig"
+      },
+      "Id": "800Yc3QjDeDGGu0Pig",
+      "AccountId": "0016uTJK0ym8o6xSeh",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/0016uTJK0ym8o6xSeh"
+        },
+        "Name": "Brown-Smith",
+        "SwiftRoute_Client_ID__c": "client_027"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-12-25",
+      "EndDate": "2024-12-24",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-12-18",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 1564,
+      "Discount_Rate__c": 0.135,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-12-18T00:00:00.000+0000",
+      "LastModifiedDate": "2024-01-06T00:00:00.000+0000",
+      "OwnerId": "005sVLyd49PVBe8NRD"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800ZJEInOaOen8NhfZ"
+      },
+      "Id": "800ZJEInOaOen8NhfZ",
+      "AccountId": "001JtBqUBKJg46MNtB",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001JtBqUBKJg46MNtB"
+        },
+        "Name": "Torres-Mitchell",
+        "SwiftRoute_Client_ID__c": "client_028"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-10-12",
+      "EndDate": "2024-10-11",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-10-03",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 1470,
+      "Discount_Rate__c": 0.164,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-10-03T00:00:00.000+0000",
+      "LastModifiedDate": "2023-10-27T00:00:00.000+0000",
+      "OwnerId": "005iLSzcLsVhjU0msH"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800Hw1IVEXI7jQMLtD"
+      },
+      "Id": "800Hw1IVEXI7jQMLtD",
+      "AccountId": "001382W8uOfJpHjX4b",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001382W8uOfJpHjX4b"
+        },
+        "Name": "Bullock-Cowan",
+        "SwiftRoute_Client_ID__c": "client_029"
+      },
+      "Status": "Expired",
+      "StartDate": "2025-04-16",
+      "EndDate": "2026-04-16",
+      "ContractTerm": 12,
+      "SignedDate__c": "2025-03-27",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 934,
+      "Discount_Rate__c": 0.141,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2025-03-27T00:00:00.000+0000",
+      "LastModifiedDate": "2025-04-17T00:00:00.000+0000",
+      "OwnerId": "005ta9VPKxYlJmNPJS"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800kLOos0e3Oisq96h"
+      },
+      "Id": "800kLOos0e3Oisq96h",
+      "AccountId": "001Z7Y4VYEfqgUeRMw",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001Z7Y4VYEfqgUeRMw"
+        },
+        "Name": "Burton LLC",
+        "SwiftRoute_Client_ID__c": "client_030"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-10-25",
+      "EndDate": "2025-10-25",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-09-25",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 930,
+      "Discount_Rate__c": 0.11,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-09-25T00:00:00.000+0000",
+      "LastModifiedDate": "2024-10-13T00:00:00.000+0000",
+      "OwnerId": "005sjhLpQuIinxQzFx"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800jkRhr4Rt18hySJQ"
+      },
+      "Id": "800jkRhr4Rt18hySJQ",
+      "AccountId": "001COM3TowwVyVumzE",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001COM3TowwVyVumzE"
+        },
+        "Name": "Harris, Soto and Alvarado",
+        "SwiftRoute_Client_ID__c": "client_031"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-12-26",
+      "EndDate": "2024-12-25",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-12-03",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 910,
+      "Discount_Rate__c": 0.173,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-12-03T00:00:00.000+0000",
+      "LastModifiedDate": "2023-12-24T00:00:00.000+0000",
+      "OwnerId": "0057YHCVeMuuCwTFvR"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800ui97pN01n004Ogr"
+      },
+      "Id": "800ui97pN01n004Ogr",
+      "AccountId": "001DRR7LQqAGI2VWFj",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001DRR7LQqAGI2VWFj"
+        },
+        "Name": "Sanchez-Carpenter",
+        "SwiftRoute_Client_ID__c": "client_032"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-07-19",
+      "EndDate": "2025-07-19",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-06-27",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 714,
+      "Discount_Rate__c": 0.115,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-06-27T00:00:00.000+0000",
+      "LastModifiedDate": "2024-07-02T00:00:00.000+0000",
+      "OwnerId": "005sCIjkLRhqHtilYL"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800UnKz8OaZr4Jy75Z"
+      },
+      "Id": "800UnKz8OaZr4Jy75Z",
+      "AccountId": "001VJZohV2uVL7u0Fv",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001VJZohV2uVL7u0Fv"
+        },
+        "Name": "Jefferson PLC",
+        "SwiftRoute_Client_ID__c": "client_033"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-09-28",
+      "EndDate": "2024-09-27",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-09-03",
+      "Contract_Type__c": "Variable Rate",
+      "Committed_Monthly_Volume__c": 808,
+      "Discount_Rate__c": 0.102,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-09-03T00:00:00.000+0000",
+      "LastModifiedDate": "2023-09-24T00:00:00.000+0000",
+      "OwnerId": "005PM9N0lbuexfCBSn"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800oWNYzQZglua2aQ2"
+      },
+      "Id": "800oWNYzQZglua2aQ2",
+      "AccountId": "001NuVc9x18I1dNvNY",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001NuVc9x18I1dNvNY"
+        },
+        "Name": "Flores-Taylor",
+        "SwiftRoute_Client_ID__c": "client_034"
+      },
+      "Status": "Draft",
+      "StartDate": "2023-08-24",
+      "EndDate": "2024-08-23",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-07-26",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 67,
+      "Discount_Rate__c": 0.157,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-07-26T00:00:00.000+0000",
+      "LastModifiedDate": "2023-07-31T00:00:00.000+0000",
+      "OwnerId": "005qfDIHtf0nPKoBFc"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800iVHaw6U3A63sPpF"
+      },
+      "Id": "800iVHaw6U3A63sPpF",
+      "AccountId": "001jBqXSvvhcjl2CJy",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001jBqXSvvhcjl2CJy"
+        },
+        "Name": "Johnson-Cook",
+        "SwiftRoute_Client_ID__c": "client_035"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-11-25",
+      "EndDate": "2025-11-25",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-10-29",
+      "Contract_Type__c": "Variable Rate",
+      "Committed_Monthly_Volume__c": 177,
+      "Discount_Rate__c": 0.11,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "salt_lake_city",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-10-29T00:00:00.000+0000",
+      "LastModifiedDate": "2024-11-15T00:00:00.000+0000",
+      "OwnerId": "0059CNE6xshKxKwmRd"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800ia4OUwQGIa2xZ3u"
+      },
+      "Id": "800ia4OUwQGIa2xZ3u",
+      "AccountId": "001QsEAn79Jf7RqNOg",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001QsEAn79Jf7RqNOg"
+        },
+        "Name": "Dillon, Brown and Fields",
+        "SwiftRoute_Client_ID__c": "client_036"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-02-05",
+      "EndDate": "2025-02-04",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-01-30",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 1535,
+      "Discount_Rate__c": 0.149,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "salt_lake_city",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-01-30T00:00:00.000+0000",
+      "LastModifiedDate": "2024-02-11T00:00:00.000+0000",
+      "OwnerId": "00560JnHI2nzwCh366"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/8007oYdKYkObv8uhAT"
+      },
+      "Id": "8007oYdKYkObv8uhAT",
+      "AccountId": "001stK1QDqm3VGLk3x",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001stK1QDqm3VGLk3x"
+        },
+        "Name": "Peterson, Campbell and Green",
+        "SwiftRoute_Client_ID__c": "client_037"
+      },
+      "Status": "Draft",
+      "StartDate": "2023-08-25",
+      "EndDate": "2024-08-24",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-07-29",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 130,
+      "Discount_Rate__c": 0.156,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "gold",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-07-29T00:00:00.000+0000",
+      "LastModifiedDate": "2023-08-14T00:00:00.000+0000",
+      "OwnerId": "005fLRZLVFyVW2lTuV"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800WiWhAZTvzCcW7u0"
+      },
+      "Id": "800WiWhAZTvzCcW7u0",
+      "AccountId": "0017vOfQcYTl6zm1rg",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/0017vOfQcYTl6zm1rg"
+        },
+        "Name": "Lewis-Coffey",
+        "SwiftRoute_Client_ID__c": "client_038"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-01-26",
+      "EndDate": "2025-01-25",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-12-31",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 165,
+      "Discount_Rate__c": 0.011,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "salt_lake_city",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-12-31T00:00:00.000+0000",
+      "LastModifiedDate": "2024-01-12T00:00:00.000+0000",
+      "OwnerId": "005x6X22DObKlq2dON"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800jk5miXUdSZQHH4j"
+      },
+      "Id": "800jk5miXUdSZQHH4j",
+      "AccountId": "001xPduGoFId5Ng833",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001xPduGoFId5Ng833"
+        },
+        "Name": "Lopez-Freeman",
+        "SwiftRoute_Client_ID__c": "client_039"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-10-02",
+      "EndDate": "2024-10-01",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-09-24",
+      "Contract_Type__c": "Variable Rate",
+      "Committed_Monthly_Volume__c": 191,
+      "Discount_Rate__c": 0.022,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-09-24T00:00:00.000+0000",
+      "LastModifiedDate": "2023-10-12T00:00:00.000+0000",
+      "OwnerId": "0054gmFvc1PerYeSqE"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800ygUcLgRi2hXCbvv"
+      },
+      "Id": "800ygUcLgRi2hXCbvv",
+      "AccountId": "0014Gn8P6tvfAucSCC",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/0014Gn8P6tvfAucSCC"
+        },
+        "Name": "Valdez Inc",
+        "SwiftRoute_Client_ID__c": "client_040"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-08-10",
+      "EndDate": "2024-08-09",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-08-04",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 131,
+      "Discount_Rate__c": 0.06,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "albuquerque",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-08-04T00:00:00.000+0000",
+      "LastModifiedDate": "2023-08-05T00:00:00.000+0000",
+      "OwnerId": "0057G6unLKYZxtxpC7"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800MLT6lmRV2uRv9Gv"
+      },
+      "Id": "800MLT6lmRV2uRv9Gv",
+      "AccountId": "001JrUPPM5U1OIMgW3",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001JrUPPM5U1OIMgW3"
+        },
+        "Name": "Simpson, Hines and Gray",
+        "SwiftRoute_Client_ID__c": "client_041"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-12-10",
+      "EndDate": "2025-12-10",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-11-27",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 107,
+      "Discount_Rate__c": 0.045,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-11-27T00:00:00.000+0000",
+      "LastModifiedDate": "2024-12-26T00:00:00.000+0000",
+      "OwnerId": "005MQmnYfSGyJPYC6R"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800eouexeDsDyBfgY3"
+      },
+      "Id": "800eouexeDsDyBfgY3",
+      "AccountId": "001NWLn3wFTsrbfadG",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001NWLn3wFTsrbfadG"
+        },
+        "Name": "Pruitt PLC",
+        "SwiftRoute_Client_ID__c": "client_042"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-08-28",
+      "EndDate": "2024-08-27",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-07-31",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 99,
+      "Discount_Rate__c": 0.098,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000",
+      "LastModifiedDate": "2023-08-19T00:00:00.000+0000",
+      "OwnerId": "005KGTEDaemHO3VIUa"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800e8ymLgOXejSjtuv"
+      },
+      "Id": "800e8ymLgOXejSjtuv",
+      "AccountId": "001lxf1kRyF1bvxrHs",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001lxf1kRyF1bvxrHs"
+        },
+        "Name": "Garner-Munoz",
+        "SwiftRoute_Client_ID__c": "client_043"
+      },
+      "Status": "Activated",
+      "StartDate": "2025-03-18",
+      "EndDate": "2026-03-18",
+      "ContractTerm": 12,
+      "SignedDate__c": "2025-03-01",
+      "Contract_Type__c": "Variable Rate",
+      "Committed_Monthly_Volume__c": 163,
+      "Discount_Rate__c": 0.031,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2025-03-01T00:00:00.000+0000",
+      "LastModifiedDate": "2025-03-27T00:00:00.000+0000",
+      "OwnerId": "005PgAoCYOlhxW47Xt"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800SwXkxiKVbz9J0ML"
+      },
+      "Id": "800SwXkxiKVbz9J0ML",
+      "AccountId": "001eMr3lpG43Vt55i9",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001eMr3lpG43Vt55i9"
+        },
+        "Name": "Chavez Inc",
+        "SwiftRoute_Client_ID__c": "client_044"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-11-02",
+      "EndDate": "2025-11-02",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-10-21",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 132,
+      "Discount_Rate__c": 0.024,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-10-21T00:00:00.000+0000",
+      "LastModifiedDate": "2024-11-15T00:00:00.000+0000",
+      "OwnerId": "005WgD9PlezN2GVytF"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800WVJ7CFtYZzQ0rdi"
+      },
+      "Id": "800WVJ7CFtYZzQ0rdi",
+      "AccountId": "001gEkR2CByuQJ505p",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001gEkR2CByuQJ505p"
+        },
+        "Name": "Flores, Lambert and Crawford",
+        "SwiftRoute_Client_ID__c": "client_045"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-08-13",
+      "EndDate": "2024-08-12",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-07-16",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 66,
+      "Discount_Rate__c": 0.098,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "albuquerque",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-07-16T00:00:00.000+0000",
+      "LastModifiedDate": "2023-08-10T00:00:00.000+0000",
+      "OwnerId": "005seffHuvpWyVpZl0"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800UEfZMxez7xZUGQS"
+      },
+      "Id": "800UEfZMxez7xZUGQS",
+      "AccountId": "001QjsoVvLTyPJfGEU",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001QjsoVvLTyPJfGEU"
+        },
+        "Name": "Esparza, Warner and Jackson",
+        "SwiftRoute_Client_ID__c": "client_046"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-03-08",
+      "EndDate": "2025-03-08",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-03-03",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 90,
+      "Discount_Rate__c": 0.052,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-03-03T00:00:00.000+0000",
+      "LastModifiedDate": "2024-03-08T00:00:00.000+0000",
+      "OwnerId": "005QPQ9cqUTkQRomla"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800wShmwsx6BVfS0jK"
+      },
+      "Id": "800wShmwsx6BVfS0jK",
+      "AccountId": "001LLmTPQb5xYEM8qo",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001LLmTPQb5xYEM8qo"
+        },
+        "Name": "Sanders, Stewart and Wagner",
+        "SwiftRoute_Client_ID__c": "client_047"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-01-25",
+      "EndDate": "2025-01-24",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-01-11",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 163,
+      "Discount_Rate__c": 0.061,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-01-11T00:00:00.000+0000",
+      "LastModifiedDate": "2024-02-09T00:00:00.000+0000",
+      "OwnerId": "005rMQFVOdOeDRwRPM"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800LVKLman5ToEAqhd"
+      },
+      "Id": "800LVKLman5ToEAqhd",
+      "AccountId": "001Q7Ffa2i8lTKYJCA",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001Q7Ffa2i8lTKYJCA"
+        },
+        "Name": "Hartman Group",
+        "SwiftRoute_Client_ID__c": "client_048"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-08-20",
+      "EndDate": "2024-08-19",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-07-30",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 28,
+      "Discount_Rate__c": 0.093,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "salt_lake_city",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-07-30T00:00:00.000+0000",
+      "LastModifiedDate": "2023-07-31T00:00:00.000+0000",
+      "OwnerId": "005C6XENZwaDl98rbh"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800iRndu1P8VLDlv2t"
+      },
+      "Id": "800iRndu1P8VLDlv2t",
+      "AccountId": "001emSwIi38CpYINMH",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001emSwIi38CpYINMH"
+        },
+        "Name": "Braun-Williams",
+        "SwiftRoute_Client_ID__c": "client_049"
+      },
+      "Status": "Expired",
+      "StartDate": "2023-09-30",
+      "EndDate": "2024-09-29",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-08-31",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 29,
+      "Discount_Rate__c": 0.084,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-08-31T00:00:00.000+0000",
+      "LastModifiedDate": "2023-09-22T00:00:00.000+0000",
+      "OwnerId": "00586AFLAhxplIqhqf"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800wayKLr2IAOkOrwo"
+      },
+      "Id": "800wayKLr2IAOkOrwo",
+      "AccountId": "001GaC3GxFLiF9rmoP",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001GaC3GxFLiF9rmoP"
+        },
+        "Name": "Guerrero Inc",
+        "SwiftRoute_Client_ID__c": "client_050"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-03-01",
+      "EndDate": "2025-03-01",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-02-21",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 166,
+      "Discount_Rate__c": 0.022,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-02-21T00:00:00.000+0000",
+      "LastModifiedDate": "2024-03-02T00:00:00.000+0000",
+      "OwnerId": "0051nTm7bHmpCQt8yX"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800M2opxzuK6wUEOP7"
+      },
+      "Id": "800M2opxzuK6wUEOP7",
+      "AccountId": "0016XE8Jy0ynGiUtVy",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/0016XE8Jy0ynGiUtVy"
+        },
+        "Name": "Hobbs-Bennett",
+        "SwiftRoute_Client_ID__c": "client_051"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-08-21",
+      "EndDate": "2024-08-20",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-08-16",
+      "Contract_Type__c": "Variable Rate",
+      "Committed_Monthly_Volume__c": 175,
+      "Discount_Rate__c": 0.085,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-08-16T00:00:00.000+0000",
+      "LastModifiedDate": "2023-08-30T00:00:00.000+0000",
+      "OwnerId": "005eUotGiPiiIn1Hkc"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800NGfxEgeuTxzFOJr"
+      },
+      "Id": "800NGfxEgeuTxzFOJr",
+      "AccountId": "001Jds4VuZxr2ekE5f",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001Jds4VuZxr2ekE5f"
+        },
+        "Name": "Hanson, Payne and Hooper",
+        "SwiftRoute_Client_ID__c": "client_052"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-05-06",
+      "EndDate": "2025-05-06",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-04-23",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 94,
+      "Discount_Rate__c": 0.079,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-04-23T00:00:00.000+0000",
+      "LastModifiedDate": "2024-05-08T00:00:00.000+0000",
+      "OwnerId": "005FaARtU1mcovq6Fh"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/8009X6mwfzT8FE9DJQ"
+      },
+      "Id": "8009X6mwfzT8FE9DJQ",
+      "AccountId": "001GlhIStbylC9LGJm",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001GlhIStbylC9LGJm"
+        },
+        "Name": "Singh, Clark and Horne",
+        "SwiftRoute_Client_ID__c": "client_053"
+      },
+      "Status": "Draft",
+      "StartDate": "2023-09-08",
+      "EndDate": "2024-09-07",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-09-02",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 103,
+      "Discount_Rate__c": 0.095,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-09-02T00:00:00.000+0000",
+      "LastModifiedDate": "2023-09-26T00:00:00.000+0000",
+      "OwnerId": "005dxB40SamHDr7jU6"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800eEmW2Gj9ekNbv72"
+      },
+      "Id": "800eEmW2Gj9ekNbv72",
+      "AccountId": "001Xbl6OUQgp4L4q6z",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001Xbl6OUQgp4L4q6z"
+        },
+        "Name": "Miller, Hampton and Frank",
+        "SwiftRoute_Client_ID__c": "client_054"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-10-14",
+      "EndDate": "2024-10-13",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-10-08",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 44,
+      "Discount_Rate__c": 0.012,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-10-08T00:00:00.000+0000",
+      "LastModifiedDate": "2023-11-05T00:00:00.000+0000",
+      "OwnerId": "005D4vrHh7FAw28YDC"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800msz48FUqpubAiPA"
+      },
+      "Id": "800msz48FUqpubAiPA",
+      "AccountId": "001mSTIx4GttQJ9MIv",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001mSTIx4GttQJ9MIv"
+        },
+        "Name": "Rivera, Gallegos and Hughes",
+        "SwiftRoute_Client_ID__c": "client_055"
+      },
+      "Status": "Activated",
+      "StartDate": "2025-02-06",
+      "EndDate": "2026-02-06",
+      "ContractTerm": 12,
+      "SignedDate__c": "2025-01-25",
+      "Contract_Type__c": "Variable Rate",
+      "Committed_Monthly_Volume__c": 19,
+      "Discount_Rate__c": 0.027,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "salt_lake_city",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2025-01-25T00:00:00.000+0000",
+      "LastModifiedDate": "2025-01-31T00:00:00.000+0000",
+      "OwnerId": "005rpqpOOBNYx6tHMY"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800g2cST3SqzhZHOOV"
+      },
+      "Id": "800g2cST3SqzhZHOOV",
+      "AccountId": "001MKzqHmiofkGmiNF",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001MKzqHmiofkGmiNF"
+        },
+        "Name": "White Inc",
+        "SwiftRoute_Client_ID__c": "client_056"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-10-08",
+      "EndDate": "2024-10-07",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-09-17",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 48,
+      "Discount_Rate__c": 0.078,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-09-17T00:00:00.000+0000",
+      "LastModifiedDate": "2023-09-26T00:00:00.000+0000",
+      "OwnerId": "005rXp5h9xwpM4xfiF"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800Z04jFgmAFFhOT0V"
+      },
+      "Id": "800Z04jFgmAFFhOT0V",
+      "AccountId": "001x6ghZiuitCNz47T",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001x6ghZiuitCNz47T"
+        },
+        "Name": "Smith and Sons",
+        "SwiftRoute_Client_ID__c": "client_057"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-07-13",
+      "EndDate": "2025-07-13",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-06-21",
+      "Contract_Type__c": "Variable Rate",
+      "Committed_Monthly_Volume__c": 51,
+      "Discount_Rate__c": 0.058,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-06-21T00:00:00.000+0000",
+      "LastModifiedDate": "2024-07-18T00:00:00.000+0000",
+      "OwnerId": "005iasDawlYJeyAVDB"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800Vqp32wY1bL003O6"
+      },
+      "Id": "800Vqp32wY1bL003O6",
+      "AccountId": "001ZSGLbzBj3v9rUwk",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001ZSGLbzBj3v9rUwk"
+        },
+        "Name": "Baker, Galvan and Goodwin",
+        "SwiftRoute_Client_ID__c": "client_058"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-04-13",
+      "EndDate": "2025-04-13",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-04-03",
+      "Contract_Type__c": "Variable Rate",
+      "Committed_Monthly_Volume__c": 61,
+      "Discount_Rate__c": 0.042,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-04-03T00:00:00.000+0000",
+      "LastModifiedDate": "2024-04-30T00:00:00.000+0000",
+      "OwnerId": "005tZQYFZYdx2mj5yP"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800drkR267vX4wNCSa"
+      },
+      "Id": "800drkR267vX4wNCSa",
+      "AccountId": "0017p7pKt7BbFoJCFz",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/0017p7pKt7BbFoJCFz"
+        },
+        "Name": "Harris and Sons",
+        "SwiftRoute_Client_ID__c": "client_059"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-03-26",
+      "EndDate": "2025-03-26",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-03-09",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 197,
+      "Discount_Rate__c": 0.029,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-03-09T00:00:00.000+0000",
+      "LastModifiedDate": "2024-03-23T00:00:00.000+0000",
+      "OwnerId": "005vPlx2WyI2ilfvSk"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800SO8JfGjlEeM7MSg"
+      },
+      "Id": "800SO8JfGjlEeM7MSg",
+      "AccountId": "0011i6mJ3yzTDVI4Td",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/0011i6mJ3yzTDVI4Td"
+        },
+        "Name": "Mcdonald Ltd",
+        "SwiftRoute_Client_ID__c": "client_060"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-11-27",
+      "EndDate": "2024-11-26",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-11-16",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 120,
+      "Discount_Rate__c": 0.084,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "salt_lake_city",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-11-16T00:00:00.000+0000",
+      "LastModifiedDate": "2023-11-19T00:00:00.000+0000",
+      "OwnerId": "005CL8IjHrsWn3QSfp"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800crCd4xzQBfOWkWB"
+      },
+      "Id": "800crCd4xzQBfOWkWB",
+      "AccountId": "001g00McdcOAmNgOZ8",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001g00McdcOAmNgOZ8"
+        },
+        "Name": "Reed and Sons",
+        "SwiftRoute_Client_ID__c": "client_061"
+      },
+      "Status": "Activated",
+      "StartDate": "2025-01-27",
+      "EndDate": "2026-01-27",
+      "ContractTerm": 12,
+      "SignedDate__c": "2025-01-11",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 82,
+      "Discount_Rate__c": 0.021,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2025-01-11T00:00:00.000+0000",
+      "LastModifiedDate": "2025-01-26T00:00:00.000+0000",
+      "OwnerId": "005u4hDM0QXIU4JYMt"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800Xzp5tpLZKlduiv5"
+      },
+      "Id": "800Xzp5tpLZKlduiv5",
+      "AccountId": "001OOohWfgox0YFZom",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001OOohWfgox0YFZom"
+        },
+        "Name": "Richard Group",
+        "SwiftRoute_Client_ID__c": "client_062"
+      },
+      "Status": "Expired",
+      "StartDate": "2024-02-08",
+      "EndDate": "2025-02-07",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-01-23",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 181,
+      "Discount_Rate__c": 0.021,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-01-23T00:00:00.000+0000",
+      "LastModifiedDate": "2024-01-26T00:00:00.000+0000",
+      "OwnerId": "0058OYhwGQStr85JLm"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800OvL1bdXVGESSN7M"
+      },
+      "Id": "800OvL1bdXVGESSN7M",
+      "AccountId": "001uJ2HyajUaSGelJI",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001uJ2HyajUaSGelJI"
+        },
+        "Name": "Arias Group",
+        "SwiftRoute_Client_ID__c": "client_063"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-12-04",
+      "EndDate": "2025-12-04",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-11-06",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 67,
+      "Discount_Rate__c": 0.035,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "salt_lake_city",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-11-06T00:00:00.000+0000",
+      "LastModifiedDate": "2024-11-10T00:00:00.000+0000",
+      "OwnerId": "0057ff10ScFCd2G6R8"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/8008CHngXCV0FBKs6T"
+      },
+      "Id": "8008CHngXCV0FBKs6T",
+      "AccountId": "001xgvaXsYZQM7bakU",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001xgvaXsYZQM7bakU"
+        },
+        "Name": "Torres, Clarke and Robinson",
+        "SwiftRoute_Client_ID__c": "client_064"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-07-29",
+      "EndDate": "2025-07-29",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-07-17",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 162,
+      "Discount_Rate__c": 0.064,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-07-17T00:00:00.000+0000",
+      "LastModifiedDate": "2024-08-15T00:00:00.000+0000",
+      "OwnerId": "005q1Ucv2bStc2b5xo"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800GnVnAnXp5y7Ahbm"
+      },
+      "Id": "800GnVnAnXp5y7Ahbm",
+      "AccountId": "0015sVpus2O9c2hMWv",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/0015sVpus2O9c2hMWv"
+        },
+        "Name": "Perry-Cole",
+        "SwiftRoute_Client_ID__c": "client_065"
+      },
+      "Status": "Activated",
+      "StartDate": "2025-02-25",
+      "EndDate": "2026-02-25",
+      "ContractTerm": 12,
+      "SignedDate__c": "2025-02-06",
+      "Contract_Type__c": "Variable Rate",
+      "Committed_Monthly_Volume__c": 57,
+      "Discount_Rate__c": 0.071,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2025-02-06T00:00:00.000+0000",
+      "LastModifiedDate": "2025-03-06T00:00:00.000+0000",
+      "OwnerId": "005qR9FjkLfbAvK4QG"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800FaflEcqMxcv9cat"
+      },
+      "Id": "800FaflEcqMxcv9cat",
+      "AccountId": "001gvSy2ljUQOlldC7",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001gvSy2ljUQOlldC7"
+        },
+        "Name": "Burton LLC",
+        "SwiftRoute_Client_ID__c": "client_066"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-10-14",
+      "EndDate": "2024-10-13",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-09-26",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 137,
+      "Discount_Rate__c": 0.076,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-09-26T00:00:00.000+0000",
+      "LastModifiedDate": "2023-10-07T00:00:00.000+0000",
+      "OwnerId": "005V4FhzwhaFgG03pD"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800krvvXelxEyzsMA9"
+      },
+      "Id": "800krvvXelxEyzsMA9",
+      "AccountId": "0011xT7BYf3Ag34Px2",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/0011xT7BYf3Ag34Px2"
+        },
+        "Name": "Rogers, Kim and Grimes",
+        "SwiftRoute_Client_ID__c": "client_067"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-12-07",
+      "EndDate": "2024-12-06",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-11-23",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 120,
+      "Discount_Rate__c": 0.065,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-11-23T00:00:00.000+0000",
+      "LastModifiedDate": "2023-12-11T00:00:00.000+0000",
+      "OwnerId": "005ZqGVdKDt0etA2ce"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800eNmffAtHeU0TBeA"
+      },
+      "Id": "800eNmffAtHeU0TBeA",
+      "AccountId": "001PM8i7gTLvmaJ0FP",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001PM8i7gTLvmaJ0FP"
+        },
+        "Name": "Weeks-Hughes",
+        "SwiftRoute_Client_ID__c": "client_068"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-01-09",
+      "EndDate": "2025-01-08",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-12-17",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 150,
+      "Discount_Rate__c": 0.051,
+      "Net_Payment_Terms__c": 60,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-12-17T00:00:00.000+0000",
+      "LastModifiedDate": "2024-01-03T00:00:00.000+0000",
+      "OwnerId": "0051oh2xlDCrBH8HMQ"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800BNfHjk0UuRHTlXM"
+      },
+      "Id": "800BNfHjk0UuRHTlXM",
+      "AccountId": "001XhvI7MMKu0evSfl",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001XhvI7MMKu0evSfl"
+        },
+        "Name": "Bush Ltd",
+        "SwiftRoute_Client_ID__c": "client_069"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-10-08",
+      "EndDate": "2024-10-07",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-09-27",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 176,
+      "Discount_Rate__c": 0.09,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-09-27T00:00:00.000+0000",
+      "LastModifiedDate": "2023-10-11T00:00:00.000+0000",
+      "OwnerId": "005GBsFXdRSO9pG3om"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800Buao3WVWYy9sbCb"
+      },
+      "Id": "800Buao3WVWYy9sbCb",
+      "AccountId": "001jI4ew26KCTkwgc6",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001jI4ew26KCTkwgc6"
+        },
+        "Name": "Wood and Sons",
+        "SwiftRoute_Client_ID__c": "client_070"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-12-02",
+      "EndDate": "2025-12-02",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-11-09",
+      "Contract_Type__c": "Variable Rate",
+      "Committed_Monthly_Volume__c": 133,
+      "Discount_Rate__c": 0.027,
+      "Net_Payment_Terms__c": 60,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-11-09T00:00:00.000+0000",
+      "LastModifiedDate": "2024-12-01T00:00:00.000+0000",
+      "OwnerId": "005QB1kUpWjW003xOH"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/8008A1IaAnmJuBJA1S"
+      },
+      "Id": "8008A1IaAnmJuBJA1S",
+      "AccountId": "001EomcHYxbU81gW8I",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001EomcHYxbU81gW8I"
+        },
+        "Name": "Vargas Group",
+        "SwiftRoute_Client_ID__c": "client_071"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-10-03",
+      "EndDate": "2025-10-03",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-09-16",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 18,
+      "Discount_Rate__c": 0.018,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-09-16T00:00:00.000+0000",
+      "LastModifiedDate": "2024-09-18T00:00:00.000+0000",
+      "OwnerId": "005rsP0BRKKBZbkpkI"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800vKEuUiSK5erLraP"
+      },
+      "Id": "800vKEuUiSK5erLraP",
+      "AccountId": "001YehIFE8ijXz2uac",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001YehIFE8ijXz2uac"
+        },
+        "Name": "Brooks-Lee",
+        "SwiftRoute_Client_ID__c": "client_072"
+      },
+      "Status": "Draft",
+      "StartDate": "2025-04-03",
+      "EndDate": "2026-04-03",
+      "ContractTerm": 12,
+      "SignedDate__c": "2025-03-22",
+      "Contract_Type__c": "Variable Rate",
+      "Committed_Monthly_Volume__c": 33,
+      "Discount_Rate__c": 0.002,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "salt_lake_city",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2025-03-22T00:00:00.000+0000",
+      "LastModifiedDate": "2025-04-21T00:00:00.000+0000",
+      "OwnerId": "005gIUExRhY73lCXjn"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800dST6dXhch2B6jrN"
+      },
+      "Id": "800dST6dXhch2B6jrN",
+      "AccountId": "001oVwZro0VDTL9sbp",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001oVwZro0VDTL9sbp"
+        },
+        "Name": "Davis, Lopez and Mills",
+        "SwiftRoute_Client_ID__c": "client_073"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-08-07",
+      "EndDate": "2025-08-07",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-07-12",
+      "Contract_Type__c": "Variable Rate",
+      "Committed_Monthly_Volume__c": 126,
+      "Discount_Rate__c": 0.075,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-07-12T00:00:00.000+0000",
+      "LastModifiedDate": "2024-08-10T00:00:00.000+0000",
+      "OwnerId": "005ObZHj0geH3J8PCc"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800RPsYwIZvTp5ZhBT"
+      },
+      "Id": "800RPsYwIZvTp5ZhBT",
+      "AccountId": "001E7YnR7uDzngKxO5",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001E7YnR7uDzngKxO5"
+        },
+        "Name": "Dodson, Cohen and Griffin",
+        "SwiftRoute_Client_ID__c": "client_074"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-11-30",
+      "EndDate": "2024-11-29",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-11-15",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 117,
+      "Discount_Rate__c": 0.012,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-11-15T00:00:00.000+0000",
+      "LastModifiedDate": "2023-11-17T00:00:00.000+0000",
+      "OwnerId": "005IZpvjybr5lR0F7A"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800mpRNi8zqgdFqeiL"
+      },
+      "Id": "800mpRNi8zqgdFqeiL",
+      "AccountId": "001kZVy5C0jsIMQyKa",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001kZVy5C0jsIMQyKa"
+        },
+        "Name": "Price, Williams and Harris",
+        "SwiftRoute_Client_ID__c": "client_075"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-06-13",
+      "EndDate": "2025-06-13",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-05-20",
+      "Contract_Type__c": "Variable Rate",
+      "Committed_Monthly_Volume__c": 125,
+      "Discount_Rate__c": 0.006,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-05-20T00:00:00.000+0000",
+      "LastModifiedDate": "2024-05-30T00:00:00.000+0000",
+      "OwnerId": "005mVyjHmSpdIRT7q3"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800VaQEy7XTVYKPBBR"
+      },
+      "Id": "800VaQEy7XTVYKPBBR",
+      "AccountId": "0017g197kwqfpEsW0Q",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/0017g197kwqfpEsW0Q"
+        },
+        "Name": "Snyder Inc",
+        "SwiftRoute_Client_ID__c": "client_076"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-11-06",
+      "EndDate": "2024-11-05",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-10-29",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 16,
+      "Discount_Rate__c": 0.09,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-10-29T00:00:00.000+0000",
+      "LastModifiedDate": "2023-11-11T00:00:00.000+0000",
+      "OwnerId": "005ecZr3twVmGh2Z0j"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800XLxIKIGuzX7Al8Y"
+      },
+      "Id": "800XLxIKIGuzX7Al8Y",
+      "AccountId": "001VjDKqAlV4P3vMKa",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001VjDKqAlV4P3vMKa"
+        },
+        "Name": "Downs LLC",
+        "SwiftRoute_Client_ID__c": "client_077"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-05-18",
+      "EndDate": "2025-05-18",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-05-05",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 120,
+      "Discount_Rate__c": 0.014,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-05-05T00:00:00.000+0000",
+      "LastModifiedDate": "2024-05-08T00:00:00.000+0000",
+      "OwnerId": "005IWTY2yllo4dyoRb"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800EyWvwpnnL7vY4wb"
+      },
+      "Id": "800EyWvwpnnL7vY4wb",
+      "AccountId": "001XcaGTDwzjdJYa7o",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001XcaGTDwzjdJYa7o"
+        },
+        "Name": "Mathis Group",
+        "SwiftRoute_Client_ID__c": "client_078"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-02-03",
+      "EndDate": "2025-02-02",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-01-21",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 48,
+      "Discount_Rate__c": 0.077,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-01-21T00:00:00.000+0000",
+      "LastModifiedDate": "2024-01-29T00:00:00.000+0000",
+      "OwnerId": "005iYKKNPzMEiYvnQg"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/8008tC0z2BhaDzjPPX"
+      },
+      "Id": "8008tC0z2BhaDzjPPX",
+      "AccountId": "001PeSTXGikB8GFkOk",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001PeSTXGikB8GFkOk"
+        },
+        "Name": "Becker-Robinson",
+        "SwiftRoute_Client_ID__c": "client_079"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-10-19",
+      "EndDate": "2024-10-18",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-10-04",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 11,
+      "Discount_Rate__c": 0.011,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-10-04T00:00:00.000+0000",
+      "LastModifiedDate": "2023-10-26T00:00:00.000+0000",
+      "OwnerId": "005OMR1CMzJe01DKKa"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800e89epxyZwvmEid1"
+      },
+      "Id": "800e89epxyZwvmEid1",
+      "AccountId": null,
+      "Account": null,
+      "Status": "Activated",
+      "StartDate": "2024-10-20",
+      "EndDate": "2025-10-20",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-10-02",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 129,
+      "Discount_Rate__c": 0.059,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-10-02T00:00:00.000+0000",
+      "LastModifiedDate": "2024-10-29T00:00:00.000+0000",
+      "OwnerId": "005jQaKE98WOza3EVd"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800lKHiv7urCEVQ590"
+      },
+      "Id": "800lKHiv7urCEVQ590",
+      "AccountId": "001O32tVKPNHFMNVqB",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001O32tVKPNHFMNVqB"
+        },
+        "Name": "Mclean, Jones and Bishop",
+        "SwiftRoute_Client_ID__c": "client_081"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-02-01",
+      "EndDate": "2025-01-31",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-01-03",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 148,
+      "Discount_Rate__c": 0.089,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-01-03T00:00:00.000+0000",
+      "LastModifiedDate": "2024-01-15T00:00:00.000+0000",
+      "OwnerId": "005Cxq2ie8esSpwt4F"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800s2OySgQEOlBe9Ak"
+      },
+      "Id": "800s2OySgQEOlBe9Ak",
+      "AccountId": "001zBULMC2PCfTucmq",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001zBULMC2PCfTucmq"
+        },
+        "Name": "Mckinney-Johnson",
+        "SwiftRoute_Client_ID__c": "client_082"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-09-02",
+      "EndDate": "2024-09-01",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-08-04",
+      "Contract_Type__c": "Variable Rate",
+      "Committed_Monthly_Volume__c": 88,
+      "Discount_Rate__c": 0.062,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-08-04T00:00:00.000+0000",
+      "LastModifiedDate": "2023-08-11T00:00:00.000+0000",
+      "OwnerId": "005hestHptv4raaoYi"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800jxJG5D7WC3J9wkX"
+      },
+      "Id": "800jxJG5D7WC3J9wkX",
+      "AccountId": "001zsEJlYlpqFIQxKc",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001zsEJlYlpqFIQxKc"
+        },
+        "Name": "Sanchez, Parks and Johnson",
+        "SwiftRoute_Client_ID__c": "client_083"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-01-04",
+      "EndDate": "2025-01-03",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-12-18",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 18,
+      "Discount_Rate__c": 0.032,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "salt_lake_city",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-12-18T00:00:00.000+0000",
+      "LastModifiedDate": "2024-01-17T00:00:00.000+0000",
+      "OwnerId": "005w4NIExTEnlLfPJ5"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800UWnZGANVgRXOgdN"
+      },
+      "Id": "800UWnZGANVgRXOgdN",
+      "AccountId": "0016OHXceaBX5fl7kR",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/0016OHXceaBX5fl7kR"
+        },
+        "Name": "Willis-Carlson",
+        "SwiftRoute_Client_ID__c": "client_084"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-04-16",
+      "EndDate": "2025-04-16",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-03-31",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 110,
+      "Discount_Rate__c": 0.028,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-03-31T00:00:00.000+0000",
+      "LastModifiedDate": "2024-04-05T00:00:00.000+0000",
+      "OwnerId": "005sre4BCXkay9w94p"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800g1xwn3AYvXcaI7M"
+      },
+      "Id": "800g1xwn3AYvXcaI7M",
+      "AccountId": "0017B7YjxcVp5pbk34",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/0017B7YjxcVp5pbk34"
+        },
+        "Name": "Booker, Deleon and Brewer",
+        "SwiftRoute_Client_ID__c": "client_085"
+      },
+      "Status": "Activated",
+      "StartDate": "2025-03-30",
+      "EndDate": "2026-03-30",
+      "ContractTerm": 12,
+      "SignedDate__c": "2025-03-18",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 63,
+      "Discount_Rate__c": 0.018,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "salt_lake_city",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2025-03-18T00:00:00.000+0000",
+      "LastModifiedDate": "2025-03-26T00:00:00.000+0000",
+      "OwnerId": "005UPW52P6YtCBWIzb"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800IhtEO5AHhtFQyCG"
+      },
+      "Id": "800IhtEO5AHhtFQyCG",
+      "AccountId": "001stq0H4x5M6AxBBs",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001stq0H4x5M6AxBBs"
+        },
+        "Name": "Hicks PLC",
+        "SwiftRoute_Client_ID__c": "client_086"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-12-08",
+      "EndDate": "2025-12-08",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-11-11",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 43,
+      "Discount_Rate__c": 0.039,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "albuquerque",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-11-11T00:00:00.000+0000",
+      "LastModifiedDate": "2024-11-12T00:00:00.000+0000",
+      "OwnerId": "005hhBSoH99gJLGw5a"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800DMTLFK3CzeAleJe"
+      },
+      "Id": "800DMTLFK3CzeAleJe",
+      "AccountId": "001qLs1akXNtYwrlfi",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001qLs1akXNtYwrlfi"
+        },
+        "Name": "Stewart LLC",
+        "SwiftRoute_Client_ID__c": "client_087"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-04-11",
+      "EndDate": "2025-04-11",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-04-02",
+      "Contract_Type__c": "Pay As You Go",
+      "Committed_Monthly_Volume__c": 61,
+      "Discount_Rate__c": 0.03,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-04-02T00:00:00.000+0000",
+      "LastModifiedDate": "2024-04-08T00:00:00.000+0000",
+      "OwnerId": "005nj7DSdUJWz1Io7u"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800VPJZoRZLergKHzQ"
+      },
+      "Id": "800VPJZoRZLergKHzQ",
+      "AccountId": "0016y93b5hQwgfFriq",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/0016y93b5hQwgfFriq"
+        },
+        "Name": "Collins-Morgan",
+        "SwiftRoute_Client_ID__c": "client_088"
+      },
+      "Status": "Expired",
+      "StartDate": "2024-08-29",
+      "EndDate": "2025-08-29",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-08-02",
+      "Contract_Type__c": "Variable Rate",
+      "Committed_Monthly_Volume__c": 36,
+      "Discount_Rate__c": 0.097,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-08-02T00:00:00.000+0000",
+      "LastModifiedDate": "2024-08-18T00:00:00.000+0000",
+      "OwnerId": "0058MZTga27SsWEGSw"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800z6WQcfrus7B6utc"
+      },
+      "Id": "800z6WQcfrus7B6utc",
+      "AccountId": "001mFVqPPFwOhwSE9O",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001mFVqPPFwOhwSE9O"
+        },
+        "Name": "Miller, Smith and Wallace",
+        "SwiftRoute_Client_ID__c": "client_089"
+      },
+      "Status": "Activated",
+      "StartDate": "2025-04-15",
+      "EndDate": "2026-04-15",
+      "ContractTerm": 12,
+      "SignedDate__c": "2025-04-03",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 146,
+      "Discount_Rate__c": 0.026,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2025-04-03T00:00:00.000+0000",
+      "LastModifiedDate": "2025-04-30T00:00:00.000+0000",
+      "OwnerId": "005jALD8at1XhXTCBn"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800xwVkc9lmTuorHmE"
+      },
+      "Id": "800xwVkc9lmTuorHmE",
+      "AccountId": "001YfIDYyMB97c10XP",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001YfIDYyMB97c10XP"
+        },
+        "Name": "Fuentes and Sons",
+        "SwiftRoute_Client_ID__c": "client_090"
+      },
+      "Status": "Activated",
+      "StartDate": "2023-09-07",
+      "EndDate": "2024-09-06",
+      "ContractTerm": 12,
+      "SignedDate__c": "2023-09-02",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 158,
+      "Discount_Rate__c": 0.038,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2023-09-02T00:00:00.000+0000",
+      "LastModifiedDate": "2023-09-07T00:00:00.000+0000",
+      "OwnerId": "005ZXBuaglt2GKDmnG"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800dRz1cBnKOuIYHmT"
+      },
+      "Id": "800dRz1cBnKOuIYHmT",
+      "AccountId": "001XS7y6VTramMP9gt",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001XS7y6VTramMP9gt"
+        },
+        "Name": "Knox LLC",
+        "SwiftRoute_Client_ID__c": "client_091"
+      },
+      "Status": "Expired",
+      "StartDate": "2024-10-13",
+      "EndDate": "2025-10-13",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-09-13",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 65,
+      "Discount_Rate__c": 0.041,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-09-13T00:00:00.000+0000",
+      "LastModifiedDate": "2024-10-03T00:00:00.000+0000",
+      "OwnerId": "005kf0zz670d0tIlOs"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800UyOBXUSd7IpzLOz"
+      },
+      "Id": "800UyOBXUSd7IpzLOz",
+      "AccountId": "001MmU1Sf5FSjfKvAt",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/001MmU1Sf5FSjfKvAt"
+        },
+        "Name": "Smith-Jackson",
+        "SwiftRoute_Client_ID__c": "client_092"
+      },
+      "Status": "Activated",
+      "StartDate": "2024-06-18",
+      "EndDate": "2025-06-18",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-05-21",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 97,
+      "Discount_Rate__c": 0.012,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "salt_lake_city",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-05-21T00:00:00.000+0000",
+      "LastModifiedDate": "2024-05-27T00:00:00.000+0000",
+      "OwnerId": "005BUC9umnGPVI9hKS"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800HPTSfcjmaPN1BRt"
+      },
+      "Id": "800HPTSfcjmaPN1BRt",
+      "AccountId": "0014W3tcPKhLwvptQw",
+      "Account": {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v58.0/sobjects/Account/0014W3tcPKhLwvptQw"
+        },
+        "Name": "Gates, Young and Harding",
+        "SwiftRoute_Client_ID__c": "client_093"
+      },
+      "Status": "Activated",
+      "StartDate": "2025-04-03",
+      "EndDate": "2026-04-03",
+      "ContractTerm": 12,
+      "SignedDate__c": "2025-03-10",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 58,
+      "Discount_Rate__c": 0.044,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": true,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2025-03-10T00:00:00.000+0000",
+      "LastModifiedDate": "2025-03-26T00:00:00.000+0000",
+      "OwnerId": "0057XKcSZTOeyAtfQc"
+    },
+    {
+      "attributes": {
+        "type": "Contract",
+        "url": "/services/data/v58.0/sobjects/Contract/800V6chALQjq1Vzozf"
+      },
+      "Id": "800V6chALQjq1Vzozf",
+      "AccountId": null,
+      "Account": null,
+      "Status": "Activated",
+      "StartDate": "2024-12-18",
+      "EndDate": "2025-12-18",
+      "ContractTerm": 12,
+      "SignedDate__c": "2024-11-28",
+      "Contract_Type__c": "Fixed Monthly",
+      "Committed_Monthly_Volume__c": 143,
+      "Discount_Rate__c": 0.041,
+      "Net_Payment_Terms__c": 30,
+      "Auto_Renewal__c": false,
+      "Termination_Notice_Days__c": 60,
+      "Primary_City__c": "denver",
+      "Account_Tier__c": "standard",
+      "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+      "CreatedDate": "2024-11-28T00:00:00.000+0000",
+      "LastModifiedDate": "2024-12-05T00:00:00.000+0000",
+      "OwnerId": "005UPsXTOU3egpSgHB"
+    }
+  ]
+}
