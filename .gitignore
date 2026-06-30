@@ -1,1 +1,15 @@
+# Virtual environment
+.venv/
+
+# Environment variables
 .env
+
+# Airflow logs
+airflow/logs/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Docker volumes
+postgres-db-volume/
