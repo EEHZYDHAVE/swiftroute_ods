@@ -1,0 +1,58 @@
+version: 2
+
+sources:
+  - name: bronze
+    schema: bronze
+    description: "Raw data loaded from source systems into bronze tables"
+
+    tables:
+      - name: onfleet_deliveries
+        description: "Raw delivery tasks from Onfleet"
+
+      - name: linnworks_orders
+        description: "Raw processed orders from Linnworks"
+
+      - name: linnworks_inventory
+        description: "Raw stock items from Linnworks"
+
+      - name: linnworks_stock_transactions
+        description: "Raw stock transactions from Linnworks"
+
+      - name: quickbooks_invoices
+        description: "Raw invoices from QuickBooks"
+
+      - name: quickbooks_payments
+        description: "Raw payments from QuickBooks"
+
+      - name: quickbooks_expenses
+        description: "Raw expenses from QuickBooks"
+
+      - name: gusto_employees
+        description: "Raw employee records from Gusto"
+
+      - name: gusto_payroll_runs
+        description: "Raw payroll run headers from Gusto"
+
+      - name: gusto_payroll_compensations
+        description: "Raw employee compensation records from Gusto"
+
+      - name: salesforce_accounts
+        description: "Raw client accounts from Salesforce"
+
+      - name: salesforce_contracts
+        description: "Raw contracts from Salesforce"
+
+      - name: salesforce_contract_rates
+        description: "Raw contract rate cards from Salesforce"
+
+      - name: salesforce_opportunities
+        description: "Raw opportunities from Salesforce"
+
+      - name: samsara_vehicles
+        description: "Raw vehicle records from Samsara"
+
+      - name: samsara_trips
+        description: "Raw trip records from Samsara"
+
+      - name: samsara_driver_summary
+        description: "Raw driver summary records from Samsara"
