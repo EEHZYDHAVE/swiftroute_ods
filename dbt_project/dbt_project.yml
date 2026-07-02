@@ -29,12 +29,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   dbt_project:
-    bronze:
-      # Views only — bronze tables are created and populated by Python loader scripts
-      # (loaders/load_*.py). These views are passthrough references to those tables
-      # to enable dbt lineage tracking and in-IDE querying. Do not add transformations here.
-      +materialized: view
-      +schema: bronze
+  
     silver:
       # Tables — cleaned and standardised records upserted from bronze views
       +materialized: table
