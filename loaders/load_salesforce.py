@@ -1,3 +1,17 @@
+"""
+loader: load_salesforce.py
+source system: Salesforce (CRM & Sales)
+bronze tables: bronze.salesforce_accounts
+               bronze.salesforce_contracts
+               bronze.salesforce_contract_rates
+               bronze.salesforce_opportunities
+
+Reads paginated JSON files from source_data/raw/salesforce/{entity}/page_XXXX.json
+Each file contains a 'records' array of raw Salesforce objects.
+Records are inserted as-is into the respective bronze tables as JSONB.
+Tracks processed files in bronze.pipeline_state to support incremental loading.
+"""
+
 import os
 import json
 import logging

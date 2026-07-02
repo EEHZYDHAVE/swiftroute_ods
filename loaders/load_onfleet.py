@@ -1,3 +1,15 @@
+"""
+loader: load_onfleet.py
+source system: Onfleet (Delivery Management)
+bronze table: bronze.onfleet_deliveries
+
+Reads paginated JSON files from source_data/raw/onfleet/{month}/page_XXXX.json
+Each file contains a 'tasks' array of raw delivery records.
+Records are inserted as-is into bronze.onfleet_deliveries as JSONB.
+Tracks processed files in bronze.pipeline_state to support incremental loading.
+On first run, all files are loaded. On subsequent runs, only new files are processed.
+"""
+
 import os
 import json
 import logging

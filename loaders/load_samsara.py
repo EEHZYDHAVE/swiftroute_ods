@@ -1,3 +1,20 @@
+"""
+loader: load_samsara.py
+source system: Samsara (Fleet & Vehicle Telematics)
+bronze tables: bronze.samsara_vehicles
+               bronze.samsara_trips
+               bronze.samsara_driver_summary
+
+Reads from source_data/raw/samsara/:
+- vehicles/vehicles.json — single file wrapped in 'data' envelope
+- driver_summary/driver_summary.json — single file wrapped in 'data' envelope
+- trips/{month}/trips_{vehicle_id}.json — one file per vehicle per month,
+  wrapped in 'trips' envelope
+
+Records are inserted as-is into the respective bronze tables as JSONB.
+Tracks processed files in bronze.pipeline_state to support incremental loading.
+"""
+
 import os
 import json
 import logging

@@ -1,3 +1,17 @@
+"""
+loader: load_linnworks.py
+source system: Linnworks (Order & Inventory Management)
+bronze tables: bronze.linnworks_orders
+               bronze.linnworks_inventory
+               bronze.linnworks_stock_transactions
+
+Reads paginated JSON files from source_data/raw/linnworks/{entity}/{month}/page_XXXX.json
+Each file contains a 'Data' array of raw records.
+stock_items is a single file with no pagination.
+Records are inserted as-is into the respective bronze tables as JSONB.
+Tracks processed files in bronze.pipeline_state to support incremental loading.
+"""
+
 import os
 import json
 import logging

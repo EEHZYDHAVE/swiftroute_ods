@@ -1,3 +1,21 @@
+"""
+loader: load_gusto.py
+source system: Gusto (HR & Payroll)
+bronze tables: bronze.gusto_employees
+               bronze.gusto_payroll_runs
+               bronze.gusto_payroll_compensations
+
+Reads from source_data/raw/gusto/:
+- employees/employees.json — single file, raw array of employee records
+- payrolls/payroll_YYYY-MM-DD.json — one file per payroll run
+
+Each payroll file is split into two record types:
+- The payroll header (excluding compensations) → gusto_payroll_runs
+- Each employee_compensation entry → gusto_payroll_compensations
+
+Tracks processed files in bronze.pipeline_state to support incremental loading.
+"""
+
 import os
 import json
 import logging
