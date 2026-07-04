@@ -5,44 +5,444 @@
         "Id": "10101",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-06-23T00:00:00-07:00",
-          "LastUpdatedTime": "2025-06-23T00:00:00-07:00"
+          "CreateTime": "2025-05-26T00:00:00-07:00",
+          "LastUpdatedTime": "2025-05-26T00:00:00-07:00"
         },
-        "TxnDate": "2025-06-23",
+        "TxnDate": "2025-05-26",
         "PaymentType": "CreditCard",
         "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
+          "value": "109",
+          "name": "General & Admin"
         },
         "EntityRef": {
-          "value": "614",
-          "name": "WEX Fleet Solutions",
+          "value": "296",
+          "name": "Internal — Driver COD Remittance",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 98.78,
+            "Amount": -4011.36,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
+                "value": "109",
+                "name": "General & Admin"
               },
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "WEX Fleet Card — fuel"
+            "Description": "COD cash remittance — week 4 (~82 deliveries, lump total)"
           }
         ],
-        "TotalAmt": 98.78,
-        "PrivateNote": "WEX Fleet Card — fuel",
+        "TotalAmt": -4011.36,
+        "PrivateNote": "COD cash remittance — week 4 (~82 deliveries, lump total)",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
         "Id": "10102",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-05-27T00:00:00-07:00",
+          "LastUpdatedTime": "2025-05-27T00:00:00-07:00"
+        },
+        "TxnDate": "2025-05-27",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "106",
+          "name": "Warehouse Supplies"
+        },
+        "EntityRef": {
+          "value": "339",
+          "name": "Staples Business",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 429.66,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "106",
+                "name": "Warehouse Supplies"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Bubble wrap — bulk"
+          }
+        ],
+        "TotalAmt": 429.66,
+        "PrivateNote": "Bubble wrap — bulk",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "10103",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-05-16T00:00:00-07:00",
+          "LastUpdatedTime": "2025-05-16T00:00:00-07:00"
+        },
+        "TxnDate": "2025-05-16",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "106",
+          "name": "Warehouse Supplies"
+        },
+        "EntityRef": {
+          "value": "604",
+          "name": "Uline",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 631.36,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "106",
+                "name": "Warehouse Supplies"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Labels and barcode rolls"
+          }
+        ],
+        "TotalAmt": 631.36,
+        "PrivateNote": "Labels and barcode rolls",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "10104",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-06-05T00:00:00-07:00",
+          "LastUpdatedTime": "2025-06-05T00:00:00-07:00"
+        },
+        "TxnDate": "2025-06-05",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "105",
+          "name": "Warehouse Rent"
+        },
+        "EntityRef": {
+          "value": "637",
+          "name": "Denver Industrial Properties LLC",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 18500.0,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "105",
+                "name": "Warehouse Rent"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Monthly warehouse rent — Denver WH"
+          }
+        ],
+        "TotalAmt": 18500.0,
+        "PrivateNote": "Monthly warehouse rent — Denver WH",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "10105",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-06-05T00:00:00-07:00",
+          "LastUpdatedTime": "2025-06-05T00:00:00-07:00"
+        },
+        "TxnDate": "2025-06-05",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "107",
+          "name": "Insurance"
+        },
+        "EntityRef": {
+          "value": "770",
+          "name": "Gallagher Commercial Insurance",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 3200.0,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "107",
+                "name": "Insurance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Fleet and liability insurance premium"
+          }
+        ],
+        "TotalAmt": 3200.0,
+        "PrivateNote": "Fleet and liability insurance premium",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "10106",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-06-04T00:00:00-07:00",
+          "LastUpdatedTime": "2025-06-04T00:00:00-07:00"
+        },
+        "TxnDate": "2025-06-04",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "103",
+          "name": "Vehicle Leasing"
+        },
+        "EntityRef": {
+          "value": "850",
+          "name": "Enterprise Fleet Management",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 8400.0,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "103",
+                "name": "Vehicle Leasing"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Monthly vehicle lease — 22 cargo vans + 4 box trucks"
+          }
+        ],
+        "TotalAmt": 8400.0,
+        "PrivateNote": "Monthly vehicle lease — 22 cargo vans + 4 box trucks",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "10107",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-06-05T00:00:00-07:00",
+          "LastUpdatedTime": "2025-06-05T00:00:00-07:00"
+        },
+        "TxnDate": "2025-06-05",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "108",
+          "name": "Software & Technology"
+        },
+        "EntityRef": {
+          "value": "274",
+          "name": "Onfleet Inc.",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 890.0,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "108",
+                "name": "Software & Technology"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "TMS subscription — 48 driver seats"
+          }
+        ],
+        "TotalAmt": 890.0,
+        "PrivateNote": "TMS subscription — 48 driver seats",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "10108",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-06-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-06-03T00:00:00-07:00"
+        },
+        "TxnDate": "2025-06-03",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "108",
+          "name": "Software & Technology"
+        },
+        "EntityRef": {
+          "value": "483",
+          "name": "Samsara Inc.",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 420.0,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "108",
+                "name": "Software & Technology"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Fleet telematics — 34 vehicles"
+          }
+        ],
+        "TotalAmt": 420.0,
+        "PrivateNote": "Fleet telematics — 34 vehicles",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "10109",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-06-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-06-03T00:00:00-07:00"
+        },
+        "TxnDate": "2025-06-03",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "108",
+          "name": "Software & Technology"
+        },
+        "EntityRef": {
+          "value": "820",
+          "name": "Zendesk Inc.",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 310.0,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "108",
+                "name": "Software & Technology"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Customer support platform"
+          }
+        ],
+        "TotalAmt": 310.0,
+        "PrivateNote": "Customer support platform",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "10110",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-06-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-06-03T00:00:00-07:00"
+        },
+        "TxnDate": "2025-06-03",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "108",
+          "name": "Software & Technology"
+        },
+        "EntityRef": {
+          "value": "302",
+          "name": "Linnworks Ltd.",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 175.0,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "108",
+                "name": "Software & Technology"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WMS subscription"
+          }
+        ],
+        "TotalAmt": 175.0,
+        "PrivateNote": "WMS subscription",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "10111",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-06-05T00:00:00-07:00",
+          "LastUpdatedTime": "2025-06-05T00:00:00-07:00"
+        },
+        "TxnDate": "2025-06-05",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "108",
+          "name": "Software & Technology"
+        },
+        "EntityRef": {
+          "value": "286",
+          "name": "Supabase Inc.",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 85.0,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "108",
+                "name": "Software & Technology"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Database hosting"
+          }
+        ],
+        "TotalAmt": 85.0,
+        "PrivateNote": "Database hosting",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "10112",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-04T00:00:00-07:00",
@@ -82,7 +482,7 @@
         }
       },
       {
-        "Id": "10103",
+        "Id": "10113",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-07T00:00:00-07:00",
@@ -122,7 +522,7 @@
         }
       },
       {
-        "Id": "10104",
+        "Id": "10114",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-07T00:00:00-07:00",
@@ -162,7 +562,7 @@
         }
       },
       {
-        "Id": "10105",
+        "Id": "10115",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-15T00:00:00-07:00",
@@ -202,7 +602,7 @@
         }
       },
       {
-        "Id": "10106",
+        "Id": "10116",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-21T00:00:00-07:00",
@@ -242,7 +642,7 @@
         }
       },
       {
-        "Id": "10107",
+        "Id": "10117",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-04T00:00:00-07:00",
@@ -282,7 +682,7 @@
         }
       },
       {
-        "Id": "10108",
+        "Id": "10118",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-08T00:00:00-07:00",
@@ -322,7 +722,7 @@
         }
       },
       {
-        "Id": "10109",
+        "Id": "10119",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-01T00:00:00-07:00",
@@ -362,7 +762,7 @@
         }
       },
       {
-        "Id": "10110",
+        "Id": "10120",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-22T00:00:00-07:00",
@@ -402,7 +802,7 @@
         }
       },
       {
-        "Id": "10111",
+        "Id": "10121",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-07T00:00:00-07:00",
@@ -442,7 +842,7 @@
         }
       },
       {
-        "Id": "10112",
+        "Id": "10122",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-17T00:00:00-07:00",
@@ -482,7 +882,7 @@
         }
       },
       {
-        "Id": "10113",
+        "Id": "10123",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-16T00:00:00-07:00",
@@ -522,7 +922,7 @@
         }
       },
       {
-        "Id": "10114",
+        "Id": "10124",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-12T00:00:00-07:00",
@@ -562,7 +962,7 @@
         }
       },
       {
-        "Id": "10115",
+        "Id": "10125",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-27T00:00:00-07:00",
@@ -602,7 +1002,7 @@
         }
       },
       {
-        "Id": "10116",
+        "Id": "10126",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-13T00:00:00-07:00",
@@ -642,7 +1042,7 @@
         }
       },
       {
-        "Id": "10117",
+        "Id": "10127",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-11T00:00:00-07:00",
@@ -682,7 +1082,7 @@
         }
       },
       {
-        "Id": "10118",
+        "Id": "10128",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-23T00:00:00-07:00",
@@ -722,7 +1122,7 @@
         }
       },
       {
-        "Id": "10119",
+        "Id": "10129",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-01T00:00:00-07:00",
@@ -762,7 +1162,7 @@
         }
       },
       {
-        "Id": "10120",
+        "Id": "10130",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-23T00:00:00-07:00",
@@ -802,7 +1202,7 @@
         }
       },
       {
-        "Id": "10121",
+        "Id": "10131",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-20T00:00:00-07:00",
@@ -842,7 +1242,7 @@
         }
       },
       {
-        "Id": "10122",
+        "Id": "10132",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-14T00:00:00-07:00",
@@ -882,7 +1282,7 @@
         }
       },
       {
-        "Id": "10123",
+        "Id": "10133",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-27T00:00:00-07:00",
@@ -922,7 +1322,7 @@
         }
       },
       {
-        "Id": "10124",
+        "Id": "10134",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-02T00:00:00-07:00",
@@ -962,7 +1362,7 @@
         }
       },
       {
-        "Id": "10125",
+        "Id": "10135",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-15T00:00:00-07:00",
@@ -1002,7 +1402,7 @@
         }
       },
       {
-        "Id": "10126",
+        "Id": "10136",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-20T00:00:00-07:00",
@@ -1042,7 +1442,7 @@
         }
       },
       {
-        "Id": "10127",
+        "Id": "10137",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-22T00:00:00-07:00",
@@ -1082,7 +1482,7 @@
         }
       },
       {
-        "Id": "10128",
+        "Id": "10138",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-13T00:00:00-07:00",
@@ -1122,7 +1522,7 @@
         }
       },
       {
-        "Id": "10129",
+        "Id": "10139",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-28T00:00:00-07:00",
@@ -1162,7 +1562,7 @@
         }
       },
       {
-        "Id": "10130",
+        "Id": "10140",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-23T00:00:00-07:00",
@@ -1202,7 +1602,7 @@
         }
       },
       {
-        "Id": "10131",
+        "Id": "10141",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-03T00:00:00-07:00",
@@ -1242,7 +1642,7 @@
         }
       },
       {
-        "Id": "10132",
+        "Id": "10142",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-28T00:00:00-07:00",
@@ -1282,7 +1682,7 @@
         }
       },
       {
-        "Id": "10133",
+        "Id": "10143",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-16T00:00:00-07:00",
@@ -1322,7 +1722,7 @@
         }
       },
       {
-        "Id": "10134",
+        "Id": "10144",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-06T00:00:00-07:00",
@@ -1362,7 +1762,7 @@
         }
       },
       {
-        "Id": "10135",
+        "Id": "10145",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-04T00:00:00-07:00",
@@ -1402,7 +1802,7 @@
         }
       },
       {
-        "Id": "10136",
+        "Id": "10146",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-30T00:00:00-07:00",
@@ -1442,7 +1842,7 @@
         }
       },
       {
-        "Id": "10137",
+        "Id": "10147",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-09T00:00:00-07:00",
@@ -1482,7 +1882,7 @@
         }
       },
       {
-        "Id": "10138",
+        "Id": "10148",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-29T00:00:00-07:00",
@@ -1522,7 +1922,7 @@
         }
       },
       {
-        "Id": "10139",
+        "Id": "10149",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-21T00:00:00-07:00",
@@ -1562,7 +1962,7 @@
         }
       },
       {
-        "Id": "10140",
+        "Id": "10150",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-11T00:00:00-07:00",
@@ -1602,7 +2002,7 @@
         }
       },
       {
-        "Id": "10141",
+        "Id": "10151",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-30T00:00:00-07:00",
@@ -1642,7 +2042,7 @@
         }
       },
       {
-        "Id": "10142",
+        "Id": "10152",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-30T00:00:00-07:00",
@@ -1682,7 +2082,7 @@
         }
       },
       {
-        "Id": "10143",
+        "Id": "10153",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-21T00:00:00-07:00",
@@ -1722,7 +2122,7 @@
         }
       },
       {
-        "Id": "10144",
+        "Id": "10154",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-14T00:00:00-07:00",
@@ -1762,7 +2162,7 @@
         }
       },
       {
-        "Id": "10145",
+        "Id": "10155",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-10T00:00:00-07:00",
@@ -1802,7 +2202,7 @@
         }
       },
       {
-        "Id": "10146",
+        "Id": "10156",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-19T00:00:00-07:00",
@@ -1842,7 +2242,7 @@
         }
       },
       {
-        "Id": "10147",
+        "Id": "10157",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-19T00:00:00-07:00",
@@ -1882,7 +2282,7 @@
         }
       },
       {
-        "Id": "10148",
+        "Id": "10158",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-19T00:00:00-07:00",
@@ -1922,7 +2322,7 @@
         }
       },
       {
-        "Id": "10149",
+        "Id": "10159",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-18T00:00:00-07:00",
@@ -1962,7 +2362,7 @@
         }
       },
       {
-        "Id": "10150",
+        "Id": "10160",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-11T00:00:00-07:00",
@@ -2002,7 +2402,7 @@
         }
       },
       {
-        "Id": "10151",
+        "Id": "10161",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-05T00:00:00-07:00",
@@ -2042,7 +2442,7 @@
         }
       },
       {
-        "Id": "10152",
+        "Id": "10162",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-04T00:00:00-07:00",
@@ -2082,7 +2482,7 @@
         }
       },
       {
-        "Id": "10153",
+        "Id": "10163",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-11T00:00:00-07:00",
@@ -2122,7 +2522,7 @@
         }
       },
       {
-        "Id": "10154",
+        "Id": "10164",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-08T00:00:00-07:00",
@@ -2162,7 +2562,7 @@
         }
       },
       {
-        "Id": "10155",
+        "Id": "10165",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-10T00:00:00-07:00",
@@ -2202,7 +2602,7 @@
         }
       },
       {
-        "Id": "10156",
+        "Id": "10166",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-27T00:00:00-07:00",
@@ -2242,7 +2642,7 @@
         }
       },
       {
-        "Id": "10157",
+        "Id": "10167",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-17T00:00:00-07:00",
@@ -2282,7 +2682,7 @@
         }
       },
       {
-        "Id": "10158",
+        "Id": "10168",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-23T00:00:00-07:00",
@@ -2322,7 +2722,7 @@
         }
       },
       {
-        "Id": "10159",
+        "Id": "10169",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-16T00:00:00-07:00",
@@ -2362,7 +2762,7 @@
         }
       },
       {
-        "Id": "10160",
+        "Id": "10170",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-26T00:00:00-07:00",
@@ -2402,7 +2802,7 @@
         }
       },
       {
-        "Id": "10161",
+        "Id": "10171",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-28T00:00:00-07:00",
@@ -2442,7 +2842,7 @@
         }
       },
       {
-        "Id": "10162",
+        "Id": "10172",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-24T00:00:00-07:00",
@@ -2482,7 +2882,7 @@
         }
       },
       {
-        "Id": "10163",
+        "Id": "10173",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-28T00:00:00-07:00",
@@ -2522,7 +2922,7 @@
         }
       },
       {
-        "Id": "10164",
+        "Id": "10174",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-22T00:00:00-07:00",
@@ -2562,7 +2962,7 @@
         }
       },
       {
-        "Id": "10165",
+        "Id": "10175",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-18T00:00:00-07:00",
@@ -2602,7 +3002,7 @@
         }
       },
       {
-        "Id": "10166",
+        "Id": "10176",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-12T00:00:00-07:00",
@@ -2642,7 +3042,7 @@
         }
       },
       {
-        "Id": "10167",
+        "Id": "10177",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-24T00:00:00-07:00",
@@ -2682,7 +3082,7 @@
         }
       },
       {
-        "Id": "10168",
+        "Id": "10178",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-23T00:00:00-07:00",
@@ -2722,7 +3122,7 @@
         }
       },
       {
-        "Id": "10169",
+        "Id": "10179",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-11T00:00:00-07:00",
@@ -2762,7 +3162,7 @@
         }
       },
       {
-        "Id": "10170",
+        "Id": "10180",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-02T00:00:00-07:00",
@@ -2802,7 +3202,7 @@
         }
       },
       {
-        "Id": "10171",
+        "Id": "10181",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-21T00:00:00-07:00",
@@ -2842,7 +3242,7 @@
         }
       },
       {
-        "Id": "10172",
+        "Id": "10182",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-16T00:00:00-07:00",
@@ -2882,7 +3282,7 @@
         }
       },
       {
-        "Id": "10173",
+        "Id": "10183",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-26T00:00:00-07:00",
@@ -2922,7 +3322,7 @@
         }
       },
       {
-        "Id": "10174",
+        "Id": "10184",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-12T00:00:00-07:00",
@@ -2962,7 +3362,7 @@
         }
       },
       {
-        "Id": "10175",
+        "Id": "10185",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-26T00:00:00-07:00",
@@ -3002,7 +3402,7 @@
         }
       },
       {
-        "Id": "10176",
+        "Id": "10186",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-22T00:00:00-07:00",
@@ -3042,7 +3442,7 @@
         }
       },
       {
-        "Id": "10177",
+        "Id": "10187",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-12T00:00:00-07:00",
@@ -3082,7 +3482,7 @@
         }
       },
       {
-        "Id": "10178",
+        "Id": "10188",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-04T00:00:00-07:00",
@@ -3122,7 +3522,7 @@
         }
       },
       {
-        "Id": "10179",
+        "Id": "10189",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-14T00:00:00-07:00",
@@ -3162,7 +3562,7 @@
         }
       },
       {
-        "Id": "10180",
+        "Id": "10190",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-08T00:00:00-07:00",
@@ -3202,7 +3602,7 @@
         }
       },
       {
-        "Id": "10181",
+        "Id": "10191",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-10T00:00:00-07:00",
@@ -3242,7 +3642,7 @@
         }
       },
       {
-        "Id": "10182",
+        "Id": "10192",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-24T00:00:00-07:00",
@@ -3282,7 +3682,7 @@
         }
       },
       {
-        "Id": "10183",
+        "Id": "10193",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-22T00:00:00-07:00",
@@ -3322,7 +3722,7 @@
         }
       },
       {
-        "Id": "10184",
+        "Id": "10194",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-27T00:00:00-07:00",
@@ -3362,7 +3762,7 @@
         }
       },
       {
-        "Id": "10185",
+        "Id": "10195",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-15T00:00:00-07:00",
@@ -3402,7 +3802,7 @@
         }
       },
       {
-        "Id": "10186",
+        "Id": "10196",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-04T00:00:00-07:00",
@@ -3442,7 +3842,7 @@
         }
       },
       {
-        "Id": "10187",
+        "Id": "10197",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-08T00:00:00-07:00",
@@ -3482,7 +3882,7 @@
         }
       },
       {
-        "Id": "10188",
+        "Id": "10198",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-16T00:00:00-07:00",
@@ -3522,7 +3922,7 @@
         }
       },
       {
-        "Id": "10189",
+        "Id": "10199",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-19T00:00:00-07:00",
@@ -3562,7 +3962,7 @@
         }
       },
       {
-        "Id": "10190",
+        "Id": "10200",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-06-23T00:00:00-07:00",
@@ -3600,411 +4000,11 @@
         "CurrencyRef": {
           "value": "USD"
         }
-      },
-      {
-        "Id": "10191",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-06-11T00:00:00-07:00",
-          "LastUpdatedTime": "2025-06-11T00:00:00-07:00"
-        },
-        "TxnDate": "2025-06-11",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "914",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 136.8,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 136.8,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "10192",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-06-18T00:00:00-07:00",
-          "LastUpdatedTime": "2025-06-18T00:00:00-07:00"
-        },
-        "TxnDate": "2025-06-18",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "120",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 128.16,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 128.16,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "10193",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-06-13T00:00:00-07:00",
-          "LastUpdatedTime": "2025-06-13T00:00:00-07:00"
-        },
-        "TxnDate": "2025-06-13",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "931",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 103.28,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 103.28,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "10194",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-06-17T00:00:00-07:00",
-          "LastUpdatedTime": "2025-06-17T00:00:00-07:00"
-        },
-        "TxnDate": "2025-06-17",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "698",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 101.7,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 101.7,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "10195",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-06-18T00:00:00-07:00",
-          "LastUpdatedTime": "2025-06-18T00:00:00-07:00"
-        },
-        "TxnDate": "2025-06-18",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "227",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 126.11,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 126.11,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "10196",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-06-25T00:00:00-07:00",
-          "LastUpdatedTime": "2025-06-25T00:00:00-07:00"
-        },
-        "TxnDate": "2025-06-25",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "220",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 141.91,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 141.91,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "10197",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-06-06T00:00:00-07:00",
-          "LastUpdatedTime": "2025-06-06T00:00:00-07:00"
-        },
-        "TxnDate": "2025-06-06",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "105",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 117.57,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 117.57,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "10198",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-06-18T00:00:00-07:00",
-          "LastUpdatedTime": "2025-06-18T00:00:00-07:00"
-        },
-        "TxnDate": "2025-06-18",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "140",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 83.29,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 83.29,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "10199",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-06-05T00:00:00-07:00",
-          "LastUpdatedTime": "2025-06-05T00:00:00-07:00"
-        },
-        "TxnDate": "2025-06-05",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "189",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 113.74,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 113.74,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "10200",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-06-18T00:00:00-07:00",
-          "LastUpdatedTime": "2025-06-18T00:00:00-07:00"
-        },
-        "TxnDate": "2025-06-18",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "186",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 122.78,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 122.78,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
       }
     ],
     "startPosition": 1101,
     "maxResults": 100,
-    "totalCount": 1281
+    "totalCount": 1337
   },
-  "time": "2026-06-19T18:38:15-07:00"
+  "time": "2026-07-04T13:45:14-07:00"
 }

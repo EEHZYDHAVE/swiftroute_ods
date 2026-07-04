@@ -7,6 +7,13 @@
 -- schema:   bronze
 -- source:   bronze.samsara_trips (loaded by loaders/load_samsara.py)
 --
+-- note:     vehicleId and driverId are FLAT fields on the trip record —
+--           there is no nested 'vehicle' or 'driver' object here. Names
+--           are NOT present on trip records at all (matches the real
+--           Samsara API); resolve vehicle_name via bronze.samsara_vehicles
+--           and driver_name via bronze.samsara_driver_summary, joining on
+--           these IDs.
+--
 -- usage:    Run via dbt Power User preview or psql session.
 --           Not materialized, analysis files never create database objects.
 -- =============================================================================
@@ -20,13 +27,9 @@ select
     -- core trip identifiers
     raw_data ->> 'id'                               as trip_id,
 
-    -- vehicle
-    raw_data -> 'vehicle' ->> 'id'                  as vehicle_id,
-    raw_data -> 'vehicle' ->> 'name'                as vehicle_name,
-
-    -- driver
-    raw_data -> 'driver' ->> 'id'                   as driver_id,
-    raw_data -> 'driver' ->> 'name'                 as driver_name,
+    -- vehicle / driver — flat fields, no nested object, no name here
+    raw_data ->> 'vehicleId'                        as vehicle_id,
+    raw_data ->> 'driverId'                         as driver_id,   -- null on ~5% of trips (no driver login) — expected, see QUIRK 4
 
     -- timing
     (raw_data ->> 'startMs')::bigint / 1000         as start_epoch,

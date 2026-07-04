@@ -1,13 +1,26 @@
 """
 loader: load_onfleet.py
 source system: Onfleet (Delivery Management)
-bronze table: bronze.onfleet_deliveries
+bronze tables:
+    bronze.onfleet_deliveries    — delivery/pickup task records
+    bronze.onfleet_workers  — driver roster (name resolvable here only;
+                              task records only ever carry a worker ID)
 
-Reads paginated JSON files from source_data/raw/onfleet/{month}/page_XXXX.json
-Each file contains a 'tasks' array of raw delivery records.
-Records are inserted as-is into bronze.onfleet_deliveries as JSONB.
-Tracks processed files in bronze.pipeline_state to support incremental loading.
-On first run, all files are loaded. On subsequent runs, only new files are processed.
+Reads two distinct shapes from source_data/raw/onfleet/:
+  1. Paginated task files — {month}/page_XXXX.json
+     Each file contains a 'tasks' array of raw delivery records.
+     Loaded into bronze.onfleet_deliveries as JSONB, one row per task.
+  2. A single static file — workers/workers.json
+     A plain JSON array (NOT wrapped in a 'tasks' envelope) of worker
+     records. Loaded into bronze.onfleet_workers as JSONB, one row per
+     worker. Not paginated — Onfleet's real Workers endpoint returns
+     the full roster in one response.
+
+Records are inserted as-is into their respective bronze table as JSONB.
+Tracks processed files in bronze.pipeline_state (keyed by source_system +
+source_file) to support incremental loading, across both the task pages
+and the workers file. On first run, all files are loaded. On subsequent
+runs, only new files are processed.
 """
 
 import os
@@ -37,6 +50,7 @@ DB_CONFIG = {
 
 SOURCE_SYSTEM = "onfleet"
 SOURCE_FOLDER = Path("source_data/raw/onfleet")
+WORKERS_FOLDER_NAME = "workers"   # not a month folder — handled separately
 
 
 def get_connection():
@@ -62,7 +76,7 @@ def mark_file_processed(cursor, source_file, record_count):
     )
 
 
-def ensure_bronze_table(cursor):
+def ensure_bronze_tables(cursor):
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS bronze.onfleet_deliveries (
             id               SERIAL PRIMARY KEY,
@@ -71,9 +85,20 @@ def ensure_bronze_table(cursor):
             raw_data         JSONB     NOT NULL
         )
     """)
+    # Separate table for workers — different entity, different shape
+    # (a plain array, not a {"tasks": [...]} page envelope)
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS bronze.onfleet_workers (
+            id               SERIAL PRIMARY KEY,
+            ingest_timestamp TIMESTAMP NOT NULL DEFAULT NOW(),
+            source_file      VARCHAR   NOT NULL,
+            raw_data         JSONB     NOT NULL
+        )
+    """)
 
 
-def load_file(cursor, file_path, relative_path):
+def load_task_file(cursor, file_path, relative_path):
+    """Loads one page of Onfleet tasks — payload is {"tasks": [...], "lastId": ...}."""
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             payload = json.load(f)
@@ -93,12 +118,59 @@ def load_file(cursor, file_path, relative_path):
                 (relative_path, json.dumps(record))
             )
 
-        log.info(f"Loaded {len(records)} records from {relative_path}")
+        log.info(f"Loaded {len(records)} task records from {relative_path}")
         return len(records)
 
     except Exception as e:
         log.error(f"Failed to load {relative_path}: {e}")
         return None
+
+
+def load_workers_file(cursor, file_path, relative_path):
+    """Loads workers.json — payload is a plain JSON array, NOT wrapped
+    in a {"tasks": [...]} envelope. This is a single static file, not
+    paginated, so it's loaded whole in one pass."""
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            payload = json.load(f)
+
+        records = payload if isinstance(payload, list) else payload.get("data", [])
+
+        if not records:
+            log.info(f"No workers found in {relative_path}, skipping.")
+            return 0
+
+        for record in records:
+            cursor.execute(
+                """
+                INSERT INTO bronze.onfleet_workers (source_file, raw_data)
+                VALUES (%s, %s)
+                """,
+                (relative_path, json.dumps(record))
+            )
+
+        log.info(f"Loaded {len(records)} worker records from {relative_path}")
+        return len(records)
+
+    except Exception as e:
+        log.error(f"Failed to load {relative_path}: {e}")
+        return None
+
+
+def process_file(cur, conn, file_path, relative_path, loader_fn):
+    """Shared idempotency wrapper: skip if already processed, otherwise
+    load and mark, committing or rolling back as appropriate."""
+    if is_file_processed(cur, relative_path):
+        log.info(f"Already processed: {relative_path}, skipping.")
+        return
+
+    record_count = loader_fn(cur, file_path, relative_path)
+
+    if record_count is not None:
+        mark_file_processed(cur, relative_path, record_count)
+        conn.commit()
+    else:
+        conn.rollback()
 
 
 def run():
@@ -107,28 +179,26 @@ def run():
 
     try:
         with conn.cursor() as cur:
-            ensure_bronze_table(cur)
+            ensure_bronze_tables(cur)
             conn.commit()
 
-            # Walk all month folders and page files
-            for month_folder in sorted(SOURCE_FOLDER.iterdir()):
-                if not month_folder.is_dir():
+            for subfolder in sorted(SOURCE_FOLDER.iterdir()):
+                if not subfolder.is_dir():
                     continue
 
-                for page_file in sorted(month_folder.glob("*.json")):
-                    relative_path = f"{month_folder.name}/{page_file.name}"
+                if subfolder.name == WORKERS_FOLDER_NAME:
+                    # workers/ holds a single static file, not paginated,
+                    # not a month folder — handle it on its own
+                    for worker_file in sorted(subfolder.glob("*.json")):
+                        relative_path = f"{subfolder.name}/{worker_file.name}"
+                        process_file(cur, conn, worker_file, relative_path, load_workers_file)
+                    continue
 
-                    if is_file_processed(cur, relative_path):
-                        log.info(f"Already processed: {relative_path}, skipping.")
-                        continue
-
-                    record_count = load_file(cur, page_file, relative_path)
-
-                    if record_count is not None:
-                        mark_file_processed(cur, relative_path, record_count)
-                        conn.commit()
-                    else:
-                        conn.rollback()
+                # Everything else is a month folder (2025_01, 2025_02, ...)
+                # full of paginated task files
+                for page_file in sorted(subfolder.glob("*.json")):
+                    relative_path = f"{subfolder.name}/{page_file.name}"
+                    process_file(cur, conn, page_file, relative_path, load_task_file)
 
     except Exception as e:
         log.error(f"Fatal error: {e}")

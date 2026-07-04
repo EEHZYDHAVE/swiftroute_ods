@@ -1,4 +1,4 @@
-select count(*)
+select count(distinct worker_id)
 from (
     select
     -- metadata columns added by the loader
@@ -50,7 +50,5 @@ from bronze.onfleet_deliveries
 
 -- order by most recently ingested first
 order by ingest_timestamp desc, bronze_row_id desc
-) as deliveries
+) as deliveries;
 
-where state_code = 3
-  and (created_at is null or last_modified_at is null or complete_before < completed_at);

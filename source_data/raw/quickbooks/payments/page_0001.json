@@ -5,20 +5,20 @@
         "Id": "5001",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-16T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-16T00:00:00-07:00"
+          "CreateTime": "2025-03-05T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-05T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-16",
+        "TxnDate": "2025-03-05",
         "CustomerRef": {
           "value": "1",
-          "name": "Hoffman-Cobb"
+          "name": "Perez, Todd and Guerrero"
         },
-        "TotalAmt": 48807.5,
+        "TotalAmt": 5296.2,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CHECK"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -26,7 +26,7 @@
         },
         "Line": [
           {
-            "Amount": 48807.5,
+            "Amount": 5296.2,
             "LinkedTxn": [
               {
                 "TxnId": "1001",
@@ -46,7 +46,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "41"
+            "StringValue": "30"
           }
         ]
       },
@@ -60,9 +60,9 @@
         "TxnDate": "2025-03-02",
         "CustomerRef": {
           "value": "2",
-          "name": "Scott, Anthony and West"
+          "name": "Sanchez, Rivera and Martin"
         },
-        "TotalAmt": 67262.4,
+        "TotalAmt": 15628.7,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -75,7 +75,7 @@
         },
         "Line": [
           {
-            "Amount": 67262.4,
+            "Amount": 15628.7,
             "LinkedTxn": [
               {
                 "TxnId": "1002",
@@ -103,20 +103,20 @@
         "Id": "5003",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-02T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
+          "CreateTime": "2025-04-09T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-09T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-02",
+        "TxnDate": "2025-04-09",
         "CustomerRef": {
           "value": "3",
-          "name": "Parker-Perez"
+          "name": "Kelley PLC"
         },
-        "TotalAmt": 29972.63,
+        "TotalAmt": 3856.5,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CREDIT_CARD"
+          "name": "ACH"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -124,7 +124,7 @@
         },
         "Line": [
           {
-            "Amount": 29972.63,
+            "Amount": 3856.5,
             "LinkedTxn": [
               {
                 "TxnId": "1003",
@@ -144,7 +144,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "27"
+            "StringValue": "65"
           }
         ]
       },
@@ -152,20 +152,20 @@
         "Id": "5004",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-05T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-05T00:00:00-07:00"
+          "CreateTime": "2025-03-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-05",
+        "TxnDate": "2025-03-02",
         "CustomerRef": {
           "value": "4",
-          "name": "Ferrell, Walsh and Brown"
+          "name": "Dyer-Reeves"
         },
-        "TotalAmt": 38100.2,
-        "UnappliedAmt": 0.0,
+        "TotalAmt": 1744.99,
+        "UnappliedAmt": 96.51,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CREDIT_CARD"
+          "name": "CHECK"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -173,7 +173,7 @@
         },
         "Line": [
           {
-            "Amount": 38100.2,
+            "Amount": 1744.99,
             "LinkedTxn": [
               {
                 "TxnId": "1004",
@@ -193,7 +193,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "30"
+            "StringValue": "27"
           }
         ]
       },
@@ -201,20 +201,20 @@
         "Id": "5005",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-04T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-04T00:00:00-07:00"
+          "CreateTime": "2025-03-05T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-05T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-04",
+        "TxnDate": "2025-03-05",
         "CustomerRef": {
           "value": "5",
-          "name": "Washington-Johnson"
+          "name": "Rodriguez, Moreno and Aguilar"
         },
-        "TotalAmt": 40253.48,
+        "TotalAmt": 2748.92,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CREDIT_CARD"
+          "name": "CHECK"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -222,7 +222,7 @@
         },
         "Line": [
           {
-            "Amount": 40253.48,
+            "Amount": 2748.92,
             "LinkedTxn": [
               {
                 "TxnId": "1005",
@@ -242,7 +242,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "29"
+            "StringValue": "30"
           }
         ]
       },
@@ -250,15 +250,15 @@
         "Id": "5006",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-05T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-05T00:00:00-07:00"
+          "CreateTime": "2025-03-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-05",
+        "TxnDate": "2025-03-01",
         "CustomerRef": {
           "value": "6",
-          "name": "Quinn, Liu and Franco"
+          "name": "Rose and Sons"
         },
-        "TotalAmt": 20218.86,
+        "TotalAmt": 21687.89,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -271,7 +271,7 @@
         },
         "Line": [
           {
-            "Amount": 20218.86,
+            "Amount": 21687.89,
             "LinkedTxn": [
               {
                 "TxnId": "1006",
@@ -291,7 +291,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "30"
+            "StringValue": "26"
           }
         ]
       },
@@ -299,20 +299,20 @@
         "Id": "5007",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
+          "CreateTime": "2025-03-05T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-05T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-03",
+        "TxnDate": "2025-03-05",
         "CustomerRef": {
           "value": "7",
-          "name": "Jones and Sons"
+          "name": "Grant Group"
         },
-        "TotalAmt": 39406.77,
+        "TotalAmt": 2398.61,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CHECK"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -320,7 +320,7 @@
         },
         "Line": [
           {
-            "Amount": 39406.77,
+            "Amount": 2398.61,
             "LinkedTxn": [
               {
                 "TxnId": "1007",
@@ -340,7 +340,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "28"
+            "StringValue": "30"
           }
         ]
       },
@@ -348,20 +348,20 @@
         "Id": "5008",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-02T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
+          "CreateTime": "2025-02-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-02",
+        "TxnDate": "2025-02-28",
         "CustomerRef": {
           "value": "8",
-          "name": "Becker-Payne"
+          "name": "Wright Inc"
         },
-        "TotalAmt": 17517.92,
+        "TotalAmt": 8417.76,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CREDIT_CARD"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -369,7 +369,7 @@
         },
         "Line": [
           {
-            "Amount": 17517.92,
+            "Amount": 8417.76,
             "LinkedTxn": [
               {
                 "TxnId": "1008",
@@ -389,7 +389,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "27"
+            "StringValue": "25"
           }
         ]
       },
@@ -397,15 +397,15 @@
         "Id": "5009",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
+          "CreateTime": "2025-03-04T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-04T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-03",
+        "TxnDate": "2025-03-04",
         "CustomerRef": {
           "value": "9",
-          "name": "Roy-Pearson"
+          "name": "Wallace LLC"
         },
-        "TotalAmt": 45451.5,
+        "TotalAmt": 22284.75,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -418,7 +418,7 @@
         },
         "Line": [
           {
-            "Amount": 45451.5,
+            "Amount": 22284.75,
             "LinkedTxn": [
               {
                 "TxnId": "1009",
@@ -438,7 +438,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "28"
+            "StringValue": "29"
           }
         ]
       },
@@ -446,20 +446,20 @@
         "Id": "5010",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
+          "CreateTime": "2025-03-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-03",
+        "TxnDate": "2025-03-01",
         "CustomerRef": {
           "value": "10",
-          "name": "Brown LLC"
+          "name": "Skinner-Fox"
         },
-        "TotalAmt": 9661.99,
-        "UnappliedAmt": 0.0,
+        "TotalAmt": 1745.28,
+        "UnappliedAmt": 86.27,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CHECK"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -467,7 +467,7 @@
         },
         "Line": [
           {
-            "Amount": 9661.99,
+            "Amount": 1745.28,
             "LinkedTxn": [
               {
                 "TxnId": "1010",
@@ -487,7 +487,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "28"
+            "StringValue": "26"
           }
         ]
       },
@@ -495,20 +495,20 @@
         "Id": "5011",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-01T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
+          "CreateTime": "2025-03-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-01",
+        "TxnDate": "2025-03-03",
         "CustomerRef": {
           "value": "11",
-          "name": "Stone, Burns and Lee"
+          "name": "Stevens Ltd"
         },
-        "TotalAmt": 11896.62,
+        "TotalAmt": 2314.38,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CHECK"
+          "name": "CREDIT_CARD"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -516,7 +516,7 @@
         },
         "Line": [
           {
-            "Amount": 11896.62,
+            "Amount": 2314.38,
             "LinkedTxn": [
               {
                 "TxnId": "1011",
@@ -536,7 +536,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "26"
+            "StringValue": "28"
           }
         ]
       },
@@ -544,20 +544,20 @@
         "Id": "5012",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-02T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
+          "CreateTime": "2025-03-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-02",
+        "TxnDate": "2025-03-01",
         "CustomerRef": {
           "value": "12",
-          "name": "Carlson, Mccoy and Mcdonald"
+          "name": "Rivera Group"
         },
-        "TotalAmt": 5255.07,
+        "TotalAmt": 7913.12,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CHECK"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -565,7 +565,7 @@
         },
         "Line": [
           {
-            "Amount": 5255.07,
+            "Amount": 7913.12,
             "LinkedTxn": [
               {
                 "TxnId": "1012",
@@ -585,7 +585,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "27"
+            "StringValue": "26"
           }
         ]
       },
@@ -593,20 +593,20 @@
         "Id": "5013",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-05T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-05T00:00:00-07:00"
+          "CreateTime": "2025-03-04T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-04T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-05",
+        "TxnDate": "2025-03-04",
         "CustomerRef": {
           "value": "13",
-          "name": "White-Skinner"
+          "name": "Kemp Inc"
         },
-        "TotalAmt": 16827.56,
+        "TotalAmt": 2537.29,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CREDIT_CARD"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -614,7 +614,7 @@
         },
         "Line": [
           {
-            "Amount": 16827.56,
+            "Amount": 2537.29,
             "LinkedTxn": [
               {
                 "TxnId": "1013",
@@ -634,7 +634,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "30"
+            "StringValue": "29"
           }
         ]
       },
@@ -642,15 +642,15 @@
         "Id": "5014",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-11T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-11T00:00:00-07:00"
+          "CreateTime": "2025-03-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-11",
+        "TxnDate": "2025-03-03",
         "CustomerRef": {
           "value": "14",
-          "name": "Hale PLC"
+          "name": "Mcbride, Smith and Davidson"
         },
-        "TotalAmt": 2722.41,
+        "TotalAmt": 1748.7,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -663,7 +663,7 @@
         },
         "Line": [
           {
-            "Amount": 2722.41,
+            "Amount": 1748.7,
             "LinkedTxn": [
               {
                 "TxnId": "1014",
@@ -683,7 +683,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "36"
+            "StringValue": "28"
           }
         ]
       },
@@ -691,20 +691,20 @@
         "Id": "5015",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-02T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
+          "CreateTime": "2025-03-04T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-04T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-02",
+        "TxnDate": "2025-03-04",
         "CustomerRef": {
           "value": "15",
-          "name": "Harris-Cook"
+          "name": "Nelson PLC"
         },
-        "TotalAmt": 5748.37,
-        "UnappliedAmt": 0.0,
+        "TotalAmt": 1223.9,
+        "UnappliedAmt": 52.97,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CREDIT_CARD"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -712,7 +712,7 @@
         },
         "Line": [
           {
-            "Amount": 5748.37,
+            "Amount": 1223.9,
             "LinkedTxn": [
               {
                 "TxnId": "1015",
@@ -732,7 +732,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "27"
+            "StringValue": "29"
           }
         ]
       },
@@ -746,14 +746,14 @@
         "TxnDate": "2025-02-28",
         "CustomerRef": {
           "value": "16",
-          "name": "Huber Ltd"
+          "name": "Hernandez LLC"
         },
-        "TotalAmt": 5003.8,
+        "TotalAmt": 13045.44,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CHECK"
+          "name": "ACH"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -761,7 +761,7 @@
         },
         "Line": [
           {
-            "Amount": 5003.8,
+            "Amount": 13045.44,
             "LinkedTxn": [
               {
                 "TxnId": "1016",
@@ -789,20 +789,20 @@
         "Id": "5017",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
+          "CreateTime": "2025-03-05T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-05T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-03",
+        "TxnDate": "2025-03-05",
         "CustomerRef": {
           "value": "17",
-          "name": "Jordan, Campbell and Lopez"
+          "name": "Maldonado, Dunn and Steele"
         },
-        "TotalAmt": 3197.46,
+        "TotalAmt": 1989.25,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CREDIT_CARD"
+          "name": "CHECK"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -810,7 +810,7 @@
         },
         "Line": [
           {
-            "Amount": 3197.46,
+            "Amount": 1989.25,
             "LinkedTxn": [
               {
                 "TxnId": "1017",
@@ -830,7 +830,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "28"
+            "StringValue": "30"
           }
         ]
       },
@@ -838,20 +838,20 @@
         "Id": "5018",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-04T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-04T00:00:00-07:00"
+          "CreateTime": "2025-03-11T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-11T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-04",
+        "TxnDate": "2025-03-11",
         "CustomerRef": {
           "value": "18",
-          "name": "Curry, Price and Miller"
+          "name": "Davis, Martinez and Glover"
         },
-        "TotalAmt": 6439.23,
+        "TotalAmt": 2722.41,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CREDIT_CARD"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -859,7 +859,7 @@
         },
         "Line": [
           {
-            "Amount": 6439.23,
+            "Amount": 2722.41,
             "LinkedTxn": [
               {
                 "TxnId": "1018",
@@ -879,7 +879,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "29"
+            "StringValue": "36"
           }
         ]
       },
@@ -887,20 +887,20 @@
         "Id": "5019",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-30T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-30T00:00:00-07:00"
+          "CreateTime": "2025-03-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-30",
+        "TxnDate": "2025-03-02",
         "CustomerRef": {
           "value": "19",
-          "name": "Chavez, Clark and Cherry"
+          "name": "Long and Sons"
         },
-        "TotalAmt": 3465.8,
+        "TotalAmt": 19831.48,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CHECK"
+          "name": "ACH"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -908,7 +908,7 @@
         },
         "Line": [
           {
-            "Amount": 3465.8,
+            "Amount": 19831.48,
             "LinkedTxn": [
               {
                 "TxnId": "1019",
@@ -928,7 +928,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "55"
+            "StringValue": "27"
           }
         ]
       },
@@ -936,20 +936,20 @@
         "Id": "5020",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-05T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-05T00:00:00-07:00"
+          "CreateTime": "2025-03-22T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-22T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-05",
+        "TxnDate": "2025-03-22",
         "CustomerRef": {
           "value": "20",
-          "name": "Mason, Jones and Rodriguez"
+          "name": "Walker, Gilbert and Barr"
         },
-        "TotalAmt": 7265.31,
-        "UnappliedAmt": 313.72,
+        "TotalAmt": 3560.19,
+        "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CHECK"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -957,7 +957,7 @@
         },
         "Line": [
           {
-            "Amount": 7265.31,
+            "Amount": 3560.19,
             "LinkedTxn": [
               {
                 "TxnId": "1020",
@@ -977,7 +977,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "30"
+            "StringValue": "47"
           }
         ]
       },
@@ -985,20 +985,20 @@
         "Id": "5021",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-01T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
+          "CreateTime": "2025-03-24T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-24T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-01",
+        "TxnDate": "2025-03-24",
         "CustomerRef": {
           "value": "21",
-          "name": "Nunez Group"
+          "name": "Turner and Sons"
         },
-        "TotalAmt": 8483.3,
+        "TotalAmt": 560.31,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CREDIT_CARD"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -1006,7 +1006,7 @@
         },
         "Line": [
           {
-            "Amount": 8483.3,
+            "Amount": 560.31,
             "LinkedTxn": [
               {
                 "TxnId": "1021",
@@ -1026,7 +1026,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "26"
+            "StringValue": "49"
           }
         ]
       },
@@ -1034,15 +1034,15 @@
         "Id": "5022",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
+          "CreateTime": "2025-03-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-03",
+        "TxnDate": "2025-03-01",
         "CustomerRef": {
           "value": "22",
-          "name": "Ramos, Nelson and Rodriguez"
+          "name": "Murphy Ltd"
         },
-        "TotalAmt": 5964.32,
+        "TotalAmt": 1056.93,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -1055,7 +1055,7 @@
         },
         "Line": [
           {
-            "Amount": 5964.32,
+            "Amount": 1056.93,
             "LinkedTxn": [
               {
                 "TxnId": "1022",
@@ -1075,7 +1075,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "28"
+            "StringValue": "26"
           }
         ]
       },
@@ -1083,15 +1083,15 @@
         "Id": "5023",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
+          "CreateTime": "2025-04-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-03T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-03",
+        "TxnDate": "2025-04-03",
         "CustomerRef": {
           "value": "23",
-          "name": "Phillips and Sons"
+          "name": "Walker-Roberson"
         },
-        "TotalAmt": 7774.64,
+        "TotalAmt": 739.99,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -1104,7 +1104,7 @@
         },
         "Line": [
           {
-            "Amount": 7774.64,
+            "Amount": 739.99,
             "LinkedTxn": [
               {
                 "TxnId": "1023",
@@ -1124,7 +1124,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "28"
+            "StringValue": "59"
           }
         ]
       },
@@ -1132,20 +1132,20 @@
         "Id": "5024",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-01T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
+          "CreateTime": "2025-02-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-01",
+        "TxnDate": "2025-02-28",
         "CustomerRef": {
           "value": "24",
-          "name": "Herrera, Keith and Colon"
+          "name": "Santos-Jackson"
         },
-        "TotalAmt": 9907.02,
+        "TotalAmt": 2608.38,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CREDIT_CARD"
+          "name": "ACH"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -1153,7 +1153,7 @@
         },
         "Line": [
           {
-            "Amount": 9907.02,
+            "Amount": 2608.38,
             "LinkedTxn": [
               {
                 "TxnId": "1024",
@@ -1173,7 +1173,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "26"
+            "StringValue": "25"
           }
         ]
       },
@@ -1181,20 +1181,20 @@
         "Id": "5025",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
+          "CreateTime": "2025-03-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-03",
+        "TxnDate": "2025-03-01",
         "CustomerRef": {
           "value": "25",
-          "name": "Terry-Atkinson"
+          "name": "Rodriguez-Henson"
         },
-        "TotalAmt": 5618.48,
+        "TotalAmt": 2583.44,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CHECK"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -1202,7 +1202,7 @@
         },
         "Line": [
           {
-            "Amount": 5618.48,
+            "Amount": 2583.44,
             "LinkedTxn": [
               {
                 "TxnId": "1025",
@@ -1222,7 +1222,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "28"
+            "StringValue": "26"
           }
         ]
       },
@@ -1236,10 +1236,10 @@
         "TxnDate": "2025-03-04",
         "CustomerRef": {
           "value": "26",
-          "name": "Young-Rogers"
+          "name": "Floyd-Henderson"
         },
-        "TotalAmt": 10897.64,
-        "UnappliedAmt": 0.0,
+        "TotalAmt": 5825.26,
+        "UnappliedAmt": 411.12,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
@@ -1251,7 +1251,7 @@
         },
         "Line": [
           {
-            "Amount": 10897.64,
+            "Amount": 5825.26,
             "LinkedTxn": [
               {
                 "TxnId": "1026",
@@ -1276,18 +1276,18 @@
         ]
       },
       {
-        "Id": "5028",
+        "Id": "5027",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-19T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-19T00:00:00-07:00"
+          "CreateTime": "2025-03-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-19",
+        "TxnDate": "2025-03-03",
         "CustomerRef": {
-          "value": "28",
-          "name": "Douglas-White"
+          "value": "27",
+          "name": "Tucker PLC"
         },
-        "TotalAmt": 4282.73,
+        "TotalAmt": 202624.04,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -1300,7 +1300,56 @@
         },
         "Line": [
           {
-            "Amount": 4282.73,
+            "Amount": 202624.04,
+            "LinkedTxn": [
+              {
+                "TxnId": "1027",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_027"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "28"
+          }
+        ]
+      },
+      {
+        "Id": "5028",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-03",
+        "CustomerRef": {
+          "value": "28",
+          "name": "Knight Inc"
+        },
+        "TotalAmt": 984.0,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 984.0,
             "LinkedTxn": [
               {
                 "TxnId": "1028",
@@ -1320,7 +1369,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "44"
+            "StringValue": "28"
           }
         ]
       },
@@ -1328,15 +1377,15 @@
         "Id": "5029",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-04T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-04T00:00:00-07:00"
+          "CreateTime": "2025-03-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-04",
+        "TxnDate": "2025-03-03",
         "CustomerRef": {
           "value": "29",
-          "name": "Moore-Smith"
+          "name": "Colon Group"
         },
-        "TotalAmt": 5529.48,
+        "TotalAmt": 4479.9,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -1349,7 +1398,7 @@
         },
         "Line": [
           {
-            "Amount": 5529.48,
+            "Amount": 4479.9,
             "LinkedTxn": [
               {
                 "TxnId": "1029",
@@ -1369,7 +1418,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "29"
+            "StringValue": "28"
           }
         ]
       },
@@ -1377,15 +1426,15 @@
         "Id": "5030",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
+          "CreateTime": "2025-02-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-03",
+        "TxnDate": "2025-02-28",
         "CustomerRef": {
           "value": "30",
-          "name": "Fitzgerald PLC"
+          "name": "Hughes LLC"
         },
-        "TotalAmt": 10187.49,
+        "TotalAmt": 1447.39,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -1398,7 +1447,7 @@
         },
         "Line": [
           {
-            "Amount": 10187.49,
+            "Amount": 1447.39,
             "LinkedTxn": [
               {
                 "TxnId": "1030",
@@ -1418,7 +1467,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "28"
+            "StringValue": "25"
           }
         ]
       },
@@ -1426,15 +1475,15 @@
         "Id": "5031",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-04T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-04T00:00:00-07:00"
+          "CreateTime": "2025-02-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-04",
+        "TxnDate": "2025-02-28",
         "CustomerRef": {
           "value": "31",
-          "name": "Clark PLC"
+          "name": "Johnson LLC"
         },
-        "TotalAmt": 8005.56,
+        "TotalAmt": 2933.29,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -1447,7 +1496,7 @@
         },
         "Line": [
           {
-            "Amount": 8005.56,
+            "Amount": 2933.29,
             "LinkedTxn": [
               {
                 "TxnId": "1031",
@@ -1467,7 +1516,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "29"
+            "StringValue": "25"
           }
         ]
       },
@@ -1475,15 +1524,15 @@
         "Id": "5032",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-01T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
+          "CreateTime": "2025-03-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-01",
+        "TxnDate": "2025-03-02",
         "CustomerRef": {
           "value": "32",
-          "name": "Cole Group"
+          "name": "Arnold-Clarke"
         },
-        "TotalAmt": 4823.67,
+        "TotalAmt": 5975.0,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -1496,7 +1545,7 @@
         },
         "Line": [
           {
-            "Amount": 4823.67,
+            "Amount": 5975.0,
             "LinkedTxn": [
               {
                 "TxnId": "1032",
@@ -1516,7 +1565,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "26"
+            "StringValue": "27"
           }
         ]
       },
@@ -1524,20 +1573,20 @@
         "Id": "5033",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
+          "CreateTime": "2025-03-04T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-04T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-03",
+        "TxnDate": "2025-03-04",
         "CustomerRef": {
           "value": "33",
-          "name": "Bruce Group"
+          "name": "Allen, Armstrong and Cox"
         },
-        "TotalAmt": 2082.21,
+        "TotalAmt": 598.13,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CREDIT_CARD"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -1545,7 +1594,7 @@
         },
         "Line": [
           {
-            "Amount": 2082.21,
+            "Amount": 598.13,
             "LinkedTxn": [
               {
                 "TxnId": "1033",
@@ -1565,7 +1614,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "28"
+            "StringValue": "29"
           }
         ]
       },
@@ -1573,15 +1622,15 @@
         "Id": "5034",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-02-28T00:00:00-07:00",
-          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
+          "CreateTime": "2025-03-12T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-12T00:00:00-07:00"
         },
-        "TxnDate": "2025-02-28",
+        "TxnDate": "2025-03-12",
         "CustomerRef": {
           "value": "34",
-          "name": "Gross, Middleton and Kelly"
+          "name": "Smith and Sons"
         },
-        "TotalAmt": 7582.53,
+        "TotalAmt": 1380.31,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -1594,7 +1643,7 @@
         },
         "Line": [
           {
-            "Amount": 7582.53,
+            "Amount": 1380.31,
             "LinkedTxn": [
               {
                 "TxnId": "1034",
@@ -1614,7 +1663,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "25"
+            "StringValue": "37"
           }
         ]
       },
@@ -1622,20 +1671,20 @@
         "Id": "5035",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
+          "CreateTime": "2025-03-04T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-04T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-03",
+        "TxnDate": "2025-03-04",
         "CustomerRef": {
           "value": "35",
-          "name": "Riggs, Browning and Brown"
+          "name": "Henderson-Davidson"
         },
-        "TotalAmt": 6665.8,
+        "TotalAmt": 5438.08,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CREDIT_CARD"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -1643,7 +1692,7 @@
         },
         "Line": [
           {
-            "Amount": 6665.8,
+            "Amount": 5438.08,
             "LinkedTxn": [
               {
                 "TxnId": "1035",
@@ -1663,7 +1712,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "28"
+            "StringValue": "29"
           }
         ]
       },
@@ -1671,20 +1720,20 @@
         "Id": "5036",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-01T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
+          "CreateTime": "2025-04-14T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-14T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-01",
+        "TxnDate": "2025-04-14",
         "CustomerRef": {
           "value": "36",
-          "name": "Herrera Inc"
+          "name": "Santos-Hess"
         },
-        "TotalAmt": 12053.88,
+        "TotalAmt": 1951.1,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CREDIT_CARD"
+          "name": "ACH"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -1692,7 +1741,7 @@
         },
         "Line": [
           {
-            "Amount": 12053.88,
+            "Amount": 1951.1,
             "LinkedTxn": [
               {
                 "TxnId": "1036",
@@ -1712,7 +1761,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "26"
+            "StringValue": "70"
           }
         ]
       },
@@ -1720,15 +1769,15 @@
         "Id": "5037",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-04T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-04T00:00:00-07:00"
+          "CreateTime": "2025-03-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-04",
+        "TxnDate": "2025-03-03",
         "CustomerRef": {
           "value": "37",
-          "name": "Griffith, Hale and Conrad"
+          "name": "Brown PLC"
         },
-        "TotalAmt": 12401.58,
+        "TotalAmt": 10187.49,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -1741,7 +1790,7 @@
         },
         "Line": [
           {
-            "Amount": 12401.58,
+            "Amount": 10187.49,
             "LinkedTxn": [
               {
                 "TxnId": "1037",
@@ -1761,7 +1810,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "29"
+            "StringValue": "28"
           }
         ]
       },
@@ -1769,15 +1818,15 @@
         "Id": "5038",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-04T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-04T00:00:00-07:00"
+          "CreateTime": "2025-03-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-04",
+        "TxnDate": "2025-03-02",
         "CustomerRef": {
           "value": "38",
-          "name": "Villanueva-Garcia"
+          "name": "Wood-Stevens"
         },
-        "TotalAmt": 837.31,
+        "TotalAmt": 409.26,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -1790,7 +1839,7 @@
         },
         "Line": [
           {
-            "Amount": 837.31,
+            "Amount": 409.26,
             "LinkedTxn": [
               {
                 "TxnId": "1038",
@@ -1810,7 +1859,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "29"
+            "StringValue": "27"
           }
         ]
       },
@@ -1818,20 +1867,20 @@
         "Id": "5039",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-23T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-23T00:00:00-07:00"
+          "CreateTime": "2025-02-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-23",
+        "TxnDate": "2025-02-28",
         "CustomerRef": {
           "value": "39",
-          "name": "Wyatt-Torres"
+          "name": "Collins Ltd"
         },
-        "TotalAmt": 1382.24,
+        "TotalAmt": 36969.41,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CHECK"
+          "name": "CREDIT_CARD"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -1839,7 +1888,7 @@
         },
         "Line": [
           {
-            "Amount": 1382.24,
+            "Amount": 36969.41,
             "LinkedTxn": [
               {
                 "TxnId": "1039",
@@ -1859,7 +1908,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "48"
+            "StringValue": "25"
           }
         ]
       },
@@ -1867,20 +1916,20 @@
         "Id": "5040",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-01T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+          "CreateTime": "2025-03-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-01",
+        "TxnDate": "2025-03-03",
         "CustomerRef": {
           "value": "40",
-          "name": "Stout Ltd"
+          "name": "Holland-Scott"
         },
-        "TotalAmt": 3225.62,
-        "UnappliedAmt": 82.51,
+        "TotalAmt": 1125.79,
+        "UnappliedAmt": 39.87,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CHECK"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -1888,7 +1937,7 @@
         },
         "Line": [
           {
-            "Amount": 3225.62,
+            "Amount": 1125.79,
             "LinkedTxn": [
               {
                 "TxnId": "1040",
@@ -1908,7 +1957,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "57"
+            "StringValue": "28"
           }
         ]
       },
@@ -1916,20 +1965,20 @@
         "Id": "5041",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-06T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-06T00:00:00-07:00"
+          "CreateTime": "2025-03-11T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-11T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-06",
+        "TxnDate": "2025-03-11",
         "CustomerRef": {
           "value": "41",
-          "name": "Rowe, Allison and Barron"
+          "name": "Lloyd, Garcia and Ruiz"
         },
-        "TotalAmt": 650.01,
-        "UnappliedAmt": 42.96,
+        "TotalAmt": 1392.38,
+        "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CREDIT_CARD"
+          "name": "ACH"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -1937,7 +1986,7 @@
         },
         "Line": [
           {
-            "Amount": 650.01,
+            "Amount": 1392.38,
             "LinkedTxn": [
               {
                 "TxnId": "1041",
@@ -1957,7 +2006,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "62"
+            "StringValue": "36"
           }
         ]
       },
@@ -1965,15 +2014,15 @@
         "Id": "5042",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-02T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
+          "CreateTime": "2025-03-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-02",
+        "TxnDate": "2025-03-03",
         "CustomerRef": {
           "value": "42",
-          "name": "Cooper-Schultz"
+          "name": "Love-Mays"
         },
-        "TotalAmt": 3520.92,
+        "TotalAmt": 36478.38,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -1986,7 +2035,7 @@
         },
         "Line": [
           {
-            "Amount": 3520.92,
+            "Amount": 36478.38,
             "LinkedTxn": [
               {
                 "TxnId": "1042",
@@ -2006,7 +2055,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "27"
+            "StringValue": "28"
           }
         ]
       },
@@ -2014,20 +2063,20 @@
         "Id": "5043",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-02T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
+          "CreateTime": "2025-03-31T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-31T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-02",
+        "TxnDate": "2025-03-31",
         "CustomerRef": {
           "value": "43",
-          "name": "Chaney, Dean and Ryan"
+          "name": "Lucas-Mcdaniel"
         },
-        "TotalAmt": 3556.83,
+        "TotalAmt": 2708.0,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CHECK"
+          "name": "ACH"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -2035,7 +2084,7 @@
         },
         "Line": [
           {
-            "Amount": 3556.83,
+            "Amount": 2708.0,
             "LinkedTxn": [
               {
                 "TxnId": "1043",
@@ -2055,7 +2104,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "27"
+            "StringValue": "56"
           }
         ]
       },
@@ -2063,20 +2112,20 @@
         "Id": "5044",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-19T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-19T00:00:00-07:00"
+          "CreateTime": "2025-03-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-19",
+        "TxnDate": "2025-03-02",
         "CustomerRef": {
           "value": "44",
-          "name": "Walters-Webb"
+          "name": "Hernandez-Vincent"
         },
-        "TotalAmt": 1053.25,
+        "TotalAmt": 133024.64,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CHECK"
+          "name": "CREDIT_CARD"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -2084,7 +2133,7 @@
         },
         "Line": [
           {
-            "Amount": 1053.25,
+            "Amount": 133024.64,
             "LinkedTxn": [
               {
                 "TxnId": "1044",
@@ -2104,7 +2153,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "44"
+            "StringValue": "27"
           }
         ]
       },
@@ -2112,15 +2161,15 @@
         "Id": "5045",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-04T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-04T00:00:00-07:00"
+          "CreateTime": "2025-03-26T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-26T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-04",
+        "TxnDate": "2025-03-26",
         "CustomerRef": {
           "value": "45",
-          "name": "Fisher Group"
+          "name": "Williams Inc"
         },
-        "TotalAmt": 1834.25,
+        "TotalAmt": 3563.2,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -2133,7 +2182,7 @@
         },
         "Line": [
           {
-            "Amount": 1834.25,
+            "Amount": 3563.2,
             "LinkedTxn": [
               {
                 "TxnId": "1045",
@@ -2153,72 +2202,23 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "29"
+            "StringValue": "51"
           }
         ]
       },
       {
-        "Id": "5046",
+        "Id": "5047",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-23T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-23T00:00:00-07:00"
+          "CreateTime": "2025-03-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-23",
+        "TxnDate": "2025-03-02",
         "CustomerRef": {
-          "value": "46",
-          "name": "Martin, Escobar and Gould"
+          "value": "47",
+          "name": "Moore PLC"
         },
-        "TotalAmt": 565.34,
-        "UnappliedAmt": 0.0,
-        "ProcessPayment": false,
-        "PaymentMethodRef": {
-          "value": "1",
-          "name": "CHECK"
-        },
-        "DepositToAccountRef": {
-          "value": "35",
-          "name": "Checking — GTBank Business"
-        },
-        "Line": [
-          {
-            "Amount": 565.34,
-            "LinkedTxn": [
-              {
-                "TxnId": "1046",
-                "TxnType": "Invoice"
-              }
-            ]
-          }
-        ],
-        "CustomField": [
-          {
-            "DefinitionId": "1",
-            "Name": "SwiftRoute Client ID",
-            "Type": "StringType",
-            "StringValue": "client_046"
-          },
-          {
-            "DefinitionId": "4",
-            "Name": "Days to Pay",
-            "Type": "StringType",
-            "StringValue": "48"
-          }
-        ]
-      },
-      {
-        "Id": "5048",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-03-01T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
-        },
-        "TxnDate": "2025-03-01",
-        "CustomerRef": {
-          "value": "48",
-          "name": "Glover PLC"
-        },
-        "TotalAmt": 1598.4,
+        "TotalAmt": 11591.73,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -2231,7 +2231,56 @@
         },
         "Line": [
           {
-            "Amount": 1598.4,
+            "Amount": 11591.73,
+            "LinkedTxn": [
+              {
+                "TxnId": "1047",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_047"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
+            "StringValue": "27"
+          }
+        ]
+      },
+      {
+        "Id": "5048",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-04T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-04T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-04",
+        "CustomerRef": {
+          "value": "48",
+          "name": "Oliver, Meyer and Moyer"
+        },
+        "TotalAmt": 442.2,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "CHECK"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 442.2,
             "LinkedTxn": [
               {
                 "TxnId": "1048",
@@ -2251,7 +2300,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "26"
+            "StringValue": "60"
           }
         ]
       },
@@ -2259,20 +2308,20 @@
         "Id": "5049",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-02T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
+          "CreateTime": "2025-02-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-02",
+        "TxnDate": "2025-02-28",
         "CustomerRef": {
           "value": "49",
-          "name": "Sanchez, Pierce and Tran"
+          "name": "Williams Group"
         },
-        "TotalAmt": 2176.02,
+        "TotalAmt": 2632.5,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CHECK"
+          "name": "CREDIT_CARD"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -2280,7 +2329,7 @@
         },
         "Line": [
           {
-            "Amount": 2176.02,
+            "Amount": 2632.5,
             "LinkedTxn": [
               {
                 "TxnId": "1049",
@@ -2300,7 +2349,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "27"
+            "StringValue": "25"
           }
         ]
       },
@@ -2308,15 +2357,15 @@
         "Id": "5050",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-30T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-30T00:00:00-07:00"
+          "CreateTime": "2025-03-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-30",
+        "TxnDate": "2025-03-01",
         "CustomerRef": {
           "value": "50",
-          "name": "Carter, Jackson and Trujillo"
+          "name": "Figueroa-Brown"
         },
-        "TotalAmt": 2920.78,
+        "TotalAmt": 4001.49,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -2329,7 +2378,7 @@
         },
         "Line": [
           {
-            "Amount": 2920.78,
+            "Amount": 4001.49,
             "LinkedTxn": [
               {
                 "TxnId": "1050",
@@ -2349,7 +2398,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "55"
+            "StringValue": "26"
           }
         ]
       },
@@ -2357,15 +2406,15 @@
         "Id": "5051",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-02T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
+          "CreateTime": "2025-02-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-02",
+        "TxnDate": "2025-02-28",
         "CustomerRef": {
           "value": "51",
-          "name": "Jackson-Nguyen"
+          "name": "Morgan Group"
         },
-        "TotalAmt": 1635.4,
+        "TotalAmt": 1579.3,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -2378,7 +2427,7 @@
         },
         "Line": [
           {
-            "Amount": 1635.4,
+            "Amount": 1579.3,
             "LinkedTxn": [
               {
                 "TxnId": "1051",
@@ -2398,7 +2447,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "27"
+            "StringValue": "25"
           }
         ]
       },
@@ -2406,20 +2455,20 @@
         "Id": "5052",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-09T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-09T00:00:00-07:00"
+          "CreateTime": "2025-03-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-09",
+        "TxnDate": "2025-03-03",
         "CustomerRef": {
           "value": "52",
-          "name": "Harris Inc"
+          "name": "Garza and Sons"
         },
-        "TotalAmt": 1086.41,
+        "TotalAmt": 1742.47,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CREDIT_CARD"
+          "name": "CHECK"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -2427,7 +2476,7 @@
         },
         "Line": [
           {
-            "Amount": 1086.41,
+            "Amount": 1742.47,
             "LinkedTxn": [
               {
                 "TxnId": "1052",
@@ -2447,7 +2496,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "65"
+            "StringValue": "28"
           }
         ]
       },
@@ -2455,20 +2504,20 @@
         "Id": "5053",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-04T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-04T00:00:00-07:00"
+          "CreateTime": "2025-03-05T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-05T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-04",
+        "TxnDate": "2025-03-05",
         "CustomerRef": {
           "value": "53",
-          "name": "Watkins, Gordon and Shaw"
+          "name": "Rodriguez, Wright and Richard"
         },
-        "TotalAmt": 4557.0,
+        "TotalAmt": 1535.52,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CHECK"
+          "name": "CREDIT_CARD"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -2476,7 +2525,7 @@
         },
         "Line": [
           {
-            "Amount": 4557.0,
+            "Amount": 1535.52,
             "LinkedTxn": [
               {
                 "TxnId": "1053",
@@ -2496,7 +2545,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "29"
+            "StringValue": "30"
           }
         ]
       },
@@ -2504,15 +2553,15 @@
         "Id": "5054",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-02T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
+          "CreateTime": "2025-04-07T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-07T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-02",
+        "TxnDate": "2025-04-07",
         "CustomerRef": {
           "value": "54",
-          "name": "Fowler, Archer and Chambers"
+          "name": "Day PLC"
         },
-        "TotalAmt": 1646.19,
+        "TotalAmt": 12122.16,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -2525,7 +2574,7 @@
         },
         "Line": [
           {
-            "Amount": 1646.19,
+            "Amount": 12122.16,
             "LinkedTxn": [
               {
                 "TxnId": "1054",
@@ -2545,7 +2594,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "27"
+            "StringValue": "63"
           }
         ]
       },
@@ -2553,20 +2602,20 @@
         "Id": "5055",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-04T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-04T00:00:00-07:00"
+          "CreateTime": "2025-03-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-04",
+        "TxnDate": "2025-03-02",
         "CustomerRef": {
           "value": "55",
-          "name": "Wells-Anderson"
+          "name": "Chapman and Sons"
         },
-        "TotalAmt": 2124.12,
+        "TotalAmt": 2921.0,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CHECK"
+          "name": "CREDIT_CARD"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -2574,7 +2623,7 @@
         },
         "Line": [
           {
-            "Amount": 2124.12,
+            "Amount": 2921.0,
             "LinkedTxn": [
               {
                 "TxnId": "1055",
@@ -2594,7 +2643,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "29"
+            "StringValue": "27"
           }
         ]
       },
@@ -2602,20 +2651,20 @@
         "Id": "5056",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-02T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
+          "CreateTime": "2025-03-04T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-04T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-02",
+        "TxnDate": "2025-03-04",
         "CustomerRef": {
           "value": "56",
-          "name": "Garrett Group"
+          "name": "Holden, Thompson and Meyer"
         },
-        "TotalAmt": 1297.32,
+        "TotalAmt": 11866.92,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CREDIT_CARD"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -2623,7 +2672,7 @@
         },
         "Line": [
           {
-            "Amount": 1297.32,
+            "Amount": 11866.92,
             "LinkedTxn": [
               {
                 "TxnId": "1056",
@@ -2643,7 +2692,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "27"
+            "StringValue": "29"
           }
         ]
       },
@@ -2651,15 +2700,15 @@
         "Id": "5057",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
+          "CreateTime": "2025-03-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-03",
+        "TxnDate": "2025-03-02",
         "CustomerRef": {
           "value": "57",
-          "name": "Fischer PLC"
+          "name": "Robertson PLC"
         },
-        "TotalAmt": 1487.2,
+        "TotalAmt": 12219.48,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -2672,7 +2721,7 @@
         },
         "Line": [
           {
-            "Amount": 1487.2,
+            "Amount": 12219.48,
             "LinkedTxn": [
               {
                 "TxnId": "1057",
@@ -2692,7 +2741,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "28"
+            "StringValue": "27"
           }
         ]
       },
@@ -2700,15 +2749,15 @@
         "Id": "5058",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-01T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
+          "CreateTime": "2025-03-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-01",
+        "TxnDate": "2025-03-03",
         "CustomerRef": {
           "value": "58",
-          "name": "Ingram, Johnson and Gallegos"
+          "name": "Kent-Pham"
         },
-        "TotalAmt": 2174.19,
+        "TotalAmt": 979.2,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -2721,7 +2770,7 @@
         },
         "Line": [
           {
-            "Amount": 2174.19,
+            "Amount": 979.2,
             "LinkedTxn": [
               {
                 "TxnId": "1058",
@@ -2741,7 +2790,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "26"
+            "StringValue": "28"
           }
         ]
       },
@@ -2749,15 +2798,15 @@
         "Id": "5059",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-04T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-04T00:00:00-07:00"
+          "CreateTime": "2025-04-09T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-09T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-04",
+        "TxnDate": "2025-04-09",
         "CustomerRef": {
           "value": "59",
-          "name": "Hamilton, Cook and Davis"
+          "name": "Andrews, Love and Lucas"
         },
-        "TotalAmt": 600.97,
+        "TotalAmt": 1086.41,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -2770,7 +2819,7 @@
         },
         "Line": [
           {
-            "Amount": 600.97,
+            "Amount": 1086.41,
             "LinkedTxn": [
               {
                 "TxnId": "1059",
@@ -2790,7 +2839,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "29"
+            "StringValue": "65"
           }
         ]
       },
@@ -2798,20 +2847,20 @@
         "Id": "5060",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-01T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
+          "CreateTime": "2025-03-04T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-04T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-01",
+        "TxnDate": "2025-03-04",
         "CustomerRef": {
           "value": "60",
-          "name": "Clark, Jarvis and Craig"
+          "name": "Ramirez Ltd"
         },
-        "TotalAmt": 1890.55,
+        "TotalAmt": 4557.0,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CREDIT_CARD"
+          "name": "ACH"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -2819,7 +2868,7 @@
         },
         "Line": [
           {
-            "Amount": 1890.55,
+            "Amount": 4557.0,
             "LinkedTxn": [
               {
                 "TxnId": "1060",
@@ -2839,7 +2888,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "26"
+            "StringValue": "29"
           }
         ]
       },
@@ -2847,20 +2896,20 @@
         "Id": "5061",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
+          "CreateTime": "2025-02-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-03",
+        "TxnDate": "2025-02-28",
         "CustomerRef": {
           "value": "61",
-          "name": "Booth-Stewart"
+          "name": "Wilson, Jefferson and Miller"
         },
-        "TotalAmt": 730.04,
-        "UnappliedAmt": 14.1,
+        "TotalAmt": 233458.04,
+        "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CHECK"
+          "name": "ACH"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -2868,7 +2917,7 @@
         },
         "Line": [
           {
-            "Amount": 730.04,
+            "Amount": 233458.04,
             "LinkedTxn": [
               {
                 "TxnId": "1061",
@@ -2888,7 +2937,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "28"
+            "StringValue": "25"
           }
         ]
       },
@@ -2902,9 +2951,9 @@
         "TxnDate": "2025-02-28",
         "CustomerRef": {
           "value": "62",
-          "name": "Diaz, Jones and White"
+          "name": "Mendoza Group"
         },
-        "TotalAmt": 965.96,
+        "TotalAmt": 633.88,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -2917,7 +2966,7 @@
         },
         "Line": [
           {
-            "Amount": 965.96,
+            "Amount": 633.88,
             "LinkedTxn": [
               {
                 "TxnId": "1062",
@@ -2945,15 +2994,15 @@
         "Id": "5063",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-01T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
+          "CreateTime": "2025-03-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-01",
+        "TxnDate": "2025-03-02",
         "CustomerRef": {
           "value": "63",
-          "name": "Moyer-Liu"
+          "name": "Ryan, Carter and Anderson"
         },
-        "TotalAmt": 3971.48,
+        "TotalAmt": 5860.93,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -2966,7 +3015,7 @@
         },
         "Line": [
           {
-            "Amount": 3971.48,
+            "Amount": 5860.93,
             "LinkedTxn": [
               {
                 "TxnId": "1063",
@@ -2986,7 +3035,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "26"
+            "StringValue": "27"
           }
         ]
       },
@@ -2994,20 +3043,20 @@
         "Id": "5064",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-01T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+          "CreateTime": "2025-02-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-01",
+        "TxnDate": "2025-02-28",
         "CustomerRef": {
           "value": "64",
-          "name": "Moody, Grant and Morales"
+          "name": "Brown-Knapp"
         },
-        "TotalAmt": 2278.59,
+        "TotalAmt": 4439.98,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CHECK"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -3015,7 +3064,7 @@
         },
         "Line": [
           {
-            "Amount": 2278.59,
+            "Amount": 4439.98,
             "LinkedTxn": [
               {
                 "TxnId": "1064",
@@ -3035,7 +3084,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "57"
+            "StringValue": "25"
           }
         ]
       },
@@ -3043,20 +3092,20 @@
         "Id": "5065",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-01T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
+          "CreateTime": "2025-02-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-01",
+        "TxnDate": "2025-02-28",
         "CustomerRef": {
           "value": "65",
-          "name": "Perez, Hayes and Barajas"
+          "name": "Irwin-Riggs"
         },
-        "TotalAmt": 2941.22,
+        "TotalAmt": 1344.72,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CHECK"
+          "name": "ACH"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -3064,7 +3113,7 @@
         },
         "Line": [
           {
-            "Amount": 2941.22,
+            "Amount": 1344.72,
             "LinkedTxn": [
               {
                 "TxnId": "1065",
@@ -3084,7 +3133,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "26"
+            "StringValue": "25"
           }
         ]
       },
@@ -3098,9 +3147,9 @@
         "TxnDate": "2025-02-28",
         "CustomerRef": {
           "value": "66",
-          "name": "Parker and Sons"
+          "name": "Spence-Davis"
         },
-        "TotalAmt": 1591.4,
+        "TotalAmt": 1962.6,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -3113,7 +3162,7 @@
         },
         "Line": [
           {
-            "Amount": 1591.4,
+            "Amount": 1962.6,
             "LinkedTxn": [
               {
                 "TxnId": "1066",
@@ -3141,15 +3190,15 @@
         "Id": "5067",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-01T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
+          "CreateTime": "2025-03-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-01",
+        "TxnDate": "2025-03-03",
         "CustomerRef": {
           "value": "67",
-          "name": "Morales, King and Reed"
+          "name": "Rodriguez, Meyers and Thomas"
         },
-        "TotalAmt": 1496.11,
+        "TotalAmt": 451.03,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -3162,7 +3211,7 @@
         },
         "Line": [
           {
-            "Amount": 1496.11,
+            "Amount": 451.03,
             "LinkedTxn": [
               {
                 "TxnId": "1067",
@@ -3182,7 +3231,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "26"
+            "StringValue": "28"
           }
         ]
       },
@@ -3190,20 +3239,20 @@
         "Id": "5068",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-11T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-11T00:00:00-07:00"
+          "CreateTime": "2025-02-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-11",
+        "TxnDate": "2025-02-28",
         "CustomerRef": {
           "value": "68",
-          "name": "Nelson LLC"
+          "name": "Foster Inc"
         },
-        "TotalAmt": 540.65,
+        "TotalAmt": 7534.28,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CHECK"
+          "name": "CREDIT_CARD"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -3211,7 +3260,7 @@
         },
         "Line": [
           {
-            "Amount": 540.65,
+            "Amount": 7534.28,
             "LinkedTxn": [
               {
                 "TxnId": "1068",
@@ -3231,7 +3280,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "36"
+            "StringValue": "25"
           }
         ]
       },
@@ -3239,15 +3288,15 @@
         "Id": "5069",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-02T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
+          "CreateTime": "2025-03-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-02",
+        "TxnDate": "2025-03-01",
         "CustomerRef": {
           "value": "69",
-          "name": "Fernandez Ltd"
+          "name": "Allen, Gilbert and Thompson"
         },
-        "TotalAmt": 1219.54,
+        "TotalAmt": 1774.3,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -3260,7 +3309,7 @@
         },
         "Line": [
           {
-            "Amount": 1219.54,
+            "Amount": 1774.3,
             "LinkedTxn": [
               {
                 "TxnId": "1069",
@@ -3280,7 +3329,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "27"
+            "StringValue": "26"
           }
         ]
       },
@@ -3288,16 +3337,16 @@
         "Id": "5070",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-25T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-25T00:00:00-07:00"
+          "CreateTime": "2025-03-16T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-16T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-25",
+        "TxnDate": "2025-03-16",
         "CustomerRef": {
           "value": "70",
-          "name": "Lewis-Walker"
+          "name": "Sanders, Sullivan and Jones"
         },
-        "TotalAmt": 837.89,
-        "UnappliedAmt": 27.91,
+        "TotalAmt": 1750.01,
+        "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
@@ -3309,7 +3358,7 @@
         },
         "Line": [
           {
-            "Amount": 837.89,
+            "Amount": 1750.01,
             "LinkedTxn": [
               {
                 "TxnId": "1070",
@@ -3329,7 +3378,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "50"
+            "StringValue": "41"
           }
         ]
       },
@@ -3337,20 +3386,20 @@
         "Id": "5071",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-27T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-27T00:00:00-07:00"
+          "CreateTime": "2025-03-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-27",
+        "TxnDate": "2025-03-01",
         "CustomerRef": {
           "value": "71",
-          "name": "Melton Ltd"
+          "name": "Russell, Hebert and Cross"
         },
-        "TotalAmt": 889.67,
+        "TotalAmt": 2621.28,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CHECK"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -3358,7 +3407,7 @@
         },
         "Line": [
           {
-            "Amount": 889.67,
+            "Amount": 2621.28,
             "LinkedTxn": [
               {
                 "TxnId": "1071",
@@ -3378,7 +3427,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "52"
+            "StringValue": "26"
           }
         ]
       },
@@ -3386,20 +3435,20 @@
         "Id": "5072",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
+          "CreateTime": "2025-03-11T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-11T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-03",
+        "TxnDate": "2025-03-11",
         "CustomerRef": {
           "value": "72",
-          "name": "Franklin-Greene"
+          "name": "Smith and Sons"
         },
-        "TotalAmt": 3204.2,
+        "TotalAmt": 540.65,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CREDIT_CARD"
+          "name": "ACH"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -3407,7 +3456,7 @@
         },
         "Line": [
           {
-            "Amount": 3204.2,
+            "Amount": 540.65,
             "LinkedTxn": [
               {
                 "TxnId": "1072",
@@ -3427,7 +3476,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "28"
+            "StringValue": "36"
           }
         ]
       },
@@ -3435,20 +3484,20 @@
         "Id": "5073",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-03T00:00:00-07:00"
+          "CreateTime": "2025-03-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-03",
+        "TxnDate": "2025-03-02",
         "CustomerRef": {
           "value": "73",
-          "name": "Beck-Sutton"
+          "name": "Taylor LLC"
         },
-        "TotalAmt": 2414.43,
+        "TotalAmt": 1219.54,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CHECK"
+          "name": "CREDIT_CARD"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -3456,7 +3505,7 @@
         },
         "Line": [
           {
-            "Amount": 2414.43,
+            "Amount": 1219.54,
             "LinkedTxn": [
               {
                 "TxnId": "1073",
@@ -3476,7 +3525,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "59"
+            "StringValue": "27"
           }
         ]
       },
@@ -3484,16 +3533,16 @@
         "Id": "5074",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-10T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-10T00:00:00-07:00"
+          "CreateTime": "2025-03-25T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-25T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-10",
+        "TxnDate": "2025-03-25",
         "CustomerRef": {
           "value": "74",
-          "name": "Simmons, James and Arnold"
+          "name": "Larson, Moon and Whitaker"
         },
-        "TotalAmt": 665.28,
-        "UnappliedAmt": 0.0,
+        "TotalAmt": 837.89,
+        "UnappliedAmt": 27.91,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
@@ -3505,7 +3554,7 @@
         },
         "Line": [
           {
-            "Amount": 665.28,
+            "Amount": 837.89,
             "LinkedTxn": [
               {
                 "TxnId": "1074",
@@ -3525,7 +3574,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "35"
+            "StringValue": "50"
           }
         ]
       },
@@ -3533,16 +3582,16 @@
         "Id": "5075",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-02T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
+          "CreateTime": "2025-03-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-02",
+        "TxnDate": "2025-03-01",
         "CustomerRef": {
           "value": "75",
-          "name": "Parks Group"
+          "name": "Smith-Gray"
         },
-        "TotalAmt": 1214.69,
-        "UnappliedAmt": 72.05,
+        "TotalAmt": 2968.34,
+        "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
@@ -3554,7 +3603,7 @@
         },
         "Line": [
           {
-            "Amount": 1214.69,
+            "Amount": 2968.34,
             "LinkedTxn": [
               {
                 "TxnId": "1075",
@@ -3574,7 +3623,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "27"
+            "StringValue": "26"
           }
         ]
       },
@@ -3582,20 +3631,20 @@
         "Id": "5076",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-14T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-14T00:00:00-07:00"
+          "CreateTime": "2025-03-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-14",
+        "TxnDate": "2025-03-03",
         "CustomerRef": {
           "value": "76",
-          "name": "White LLC"
+          "name": "Mendoza and Sons"
         },
-        "TotalAmt": 1676.08,
+        "TotalAmt": 3651.2,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CHECK"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -3603,7 +3652,7 @@
         },
         "Line": [
           {
-            "Amount": 1676.08,
+            "Amount": 3651.2,
             "LinkedTxn": [
               {
                 "TxnId": "1076",
@@ -3623,7 +3672,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "39"
+            "StringValue": "28"
           }
         ]
       },
@@ -3631,15 +3680,15 @@
         "Id": "5077",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
+          "CreateTime": "2025-03-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-03",
+        "TxnDate": "2025-03-02",
         "CustomerRef": {
           "value": "77",
-          "name": "Ruiz, Blanchard and Frederick"
+          "name": "Davis, Ross and Jackson"
         },
-        "TotalAmt": 620.4,
+        "TotalAmt": 3566.9,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -3652,7 +3701,7 @@
         },
         "Line": [
           {
-            "Amount": 620.4,
+            "Amount": 3566.9,
             "LinkedTxn": [
               {
                 "TxnId": "1077",
@@ -3672,7 +3721,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "28"
+            "StringValue": "27"
           }
         ]
       },
@@ -3680,16 +3729,16 @@
         "Id": "5078",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-05T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-05T00:00:00-07:00"
+          "CreateTime": "2025-03-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-05",
+        "TxnDate": "2025-03-02",
         "CustomerRef": {
           "value": "78",
-          "name": "Navarro-Bray"
+          "name": "Williams-Grant"
         },
-        "TotalAmt": 2793.75,
-        "UnappliedAmt": 0.0,
+        "TotalAmt": 1214.69,
+        "UnappliedAmt": 72.05,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
@@ -3701,7 +3750,7 @@
         },
         "Line": [
           {
-            "Amount": 2793.75,
+            "Amount": 1214.69,
             "LinkedTxn": [
               {
                 "TxnId": "1078",
@@ -3721,7 +3770,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "30"
+            "StringValue": "27"
           }
         ]
       },
@@ -3729,20 +3778,20 @@
         "Id": "5079",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-05T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-05T00:00:00-07:00"
+          "CreateTime": "2025-03-18T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-18T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-05",
+        "TxnDate": "2025-03-18",
         "CustomerRef": {
           "value": "79",
-          "name": "Hall, Daniel and Gutierrez"
+          "name": "Ryan, Smith and Coleman"
         },
-        "TotalAmt": 1380.52,
+        "TotalAmt": 8577.32,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CHECK"
+          "name": "ACH"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -3750,7 +3799,7 @@
         },
         "Line": [
           {
-            "Amount": 1380.52,
+            "Amount": 8577.32,
             "LinkedTxn": [
               {
                 "TxnId": "1079",
@@ -3770,7 +3819,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "30"
+            "StringValue": "43"
           }
         ]
       },
@@ -3784,14 +3833,14 @@
         "TxnDate": "2025-03-03",
         "CustomerRef": {
           "value": "80",
-          "name": "Larson, King and Ortiz"
+          "name": "Cannon, Smith and Henderson"
         },
-        "TotalAmt": 1945.3,
+        "TotalAmt": 977.76,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CHECK"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -3799,7 +3848,7 @@
         },
         "Line": [
           {
-            "Amount": 1945.3,
+            "Amount": 977.76,
             "LinkedTxn": [
               {
                 "TxnId": "1080",
@@ -3827,15 +3876,15 @@
         "Id": "5081",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
+          "CreateTime": "2025-03-05T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-05T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-03",
+        "TxnDate": "2025-03-05",
         "CustomerRef": {
           "value": "81",
-          "name": "Petersen Inc"
+          "name": "Love, Alexander and Rogers"
         },
-        "TotalAmt": 3714.25,
+        "TotalAmt": 2793.75,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -3848,7 +3897,7 @@
         },
         "Line": [
           {
-            "Amount": 3714.25,
+            "Amount": 2793.75,
             "LinkedTxn": [
               {
                 "TxnId": "1081",
@@ -3868,7 +3917,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "28"
+            "StringValue": "30"
           }
         ]
       },
@@ -3876,16 +3925,16 @@
         "Id": "5082",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-01T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
+          "CreateTime": "2025-03-05T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-05T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-01",
+        "TxnDate": "2025-03-05",
         "CustomerRef": {
           "value": "82",
-          "name": "Martin-Vaughn"
+          "name": "Vargas-Smith"
         },
-        "TotalAmt": 1237.79,
-        "UnappliedAmt": 85.65,
+        "TotalAmt": 1380.52,
+        "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
@@ -3897,7 +3946,7 @@
         },
         "Line": [
           {
-            "Amount": 1237.79,
+            "Amount": 1380.52,
             "LinkedTxn": [
               {
                 "TxnId": "1082",
@@ -3917,7 +3966,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "26"
+            "StringValue": "30"
           }
         ]
       },
@@ -3931,9 +3980,9 @@
         "TxnDate": "2025-03-05",
         "CustomerRef": {
           "value": "83",
-          "name": "Hines and Sons"
+          "name": "Torres-Marshall"
         },
-        "TotalAmt": 2207.12,
+        "TotalAmt": 6992.64,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -3946,7 +3995,7 @@
         },
         "Line": [
           {
-            "Amount": 2207.12,
+            "Amount": 6992.64,
             "LinkedTxn": [
               {
                 "TxnId": "1083",
@@ -3974,20 +4023,20 @@
         "Id": "5084",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-02-28T00:00:00-07:00",
-          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
+          "CreateTime": "2025-03-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
         },
-        "TxnDate": "2025-02-28",
+        "TxnDate": "2025-03-03",
         "CustomerRef": {
           "value": "84",
-          "name": "Reid-Ramirez"
+          "name": "Smith, Cooper and Irwin"
         },
-        "TotalAmt": 1251.6,
+        "TotalAmt": 2442.82,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CHECK"
+          "name": "ACH"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -3995,7 +4044,7 @@
         },
         "Line": [
           {
-            "Amount": 1251.6,
+            "Amount": 2442.82,
             "LinkedTxn": [
               {
                 "TxnId": "1084",
@@ -4015,7 +4064,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "25"
+            "StringValue": "28"
           }
         ]
       },
@@ -4029,14 +4078,14 @@
         "TxnDate": "2025-03-05",
         "CustomerRef": {
           "value": "85",
-          "name": "Livingston and Sons"
+          "name": "Powell-Campbell"
         },
-        "TotalAmt": 670.43,
-        "UnappliedAmt": 22.3,
+        "TotalAmt": 9496.28,
+        "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CHECK"
+          "name": "CREDIT_CARD"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -4044,7 +4093,7 @@
         },
         "Line": [
           {
-            "Amount": 670.43,
+            "Amount": 9496.28,
             "LinkedTxn": [
               {
                 "TxnId": "1085",
@@ -4072,15 +4121,15 @@
         "Id": "5086",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-02T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
+          "CreateTime": "2025-02-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-02",
+        "TxnDate": "2025-02-28",
         "CustomerRef": {
           "value": "86",
-          "name": "Ingram LLC"
+          "name": "Hines-Velasquez"
         },
-        "TotalAmt": 966.82,
+        "TotalAmt": 99840.51,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -4093,7 +4142,7 @@
         },
         "Line": [
           {
-            "Amount": 966.82,
+            "Amount": 99840.51,
             "LinkedTxn": [
               {
                 "TxnId": "1086",
@@ -4113,56 +4162,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "27"
-          }
-        ]
-      },
-      {
-        "Id": "5087",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-03-02T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
-        },
-        "TxnDate": "2025-03-02",
-        "CustomerRef": {
-          "value": "87",
-          "name": "Henderson-Mullins"
-        },
-        "TotalAmt": 2604.3,
-        "UnappliedAmt": 0.0,
-        "ProcessPayment": false,
-        "PaymentMethodRef": {
-          "value": "1",
-          "name": "CHECK"
-        },
-        "DepositToAccountRef": {
-          "value": "35",
-          "name": "Checking — GTBank Business"
-        },
-        "Line": [
-          {
-            "Amount": 2604.3,
-            "LinkedTxn": [
-              {
-                "TxnId": "1087",
-                "TxnType": "Invoice"
-              }
-            ]
-          }
-        ],
-        "CustomField": [
-          {
-            "DefinitionId": "1",
-            "Name": "SwiftRoute Client ID",
-            "Type": "StringType",
-            "StringValue": "client_087"
-          },
-          {
-            "DefinitionId": "4",
-            "Name": "Days to Pay",
-            "Type": "StringType",
-            "StringValue": "27"
+            "StringValue": "25"
           }
         ]
       },
@@ -4170,20 +4170,20 @@
         "Id": "5088",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-05T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-05T00:00:00-07:00"
+          "CreateTime": "2025-03-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-05",
+        "TxnDate": "2025-03-01",
         "CustomerRef": {
           "value": "88",
-          "name": "Benitez, Thomas and Garcia"
+          "name": "Hines-Harvey"
         },
-        "TotalAmt": 1682.64,
+        "TotalAmt": 7809.16,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CREDIT_CARD"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -4191,7 +4191,7 @@
         },
         "Line": [
           {
-            "Amount": 1682.64,
+            "Amount": 7809.16,
             "LinkedTxn": [
               {
                 "TxnId": "1088",
@@ -4211,7 +4211,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "30"
+            "StringValue": "26"
           }
         ]
       },
@@ -4219,20 +4219,20 @@
         "Id": "5089",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
+          "CreateTime": "2025-03-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-03",
+        "TxnDate": "2025-03-02",
         "CustomerRef": {
           "value": "89",
-          "name": "Roberts, Savage and Nguyen"
+          "name": "Myers-Wong"
         },
-        "TotalAmt": 2759.44,
+        "TotalAmt": 8251.57,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CREDIT_CARD"
+          "name": "ACH"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -4240,7 +4240,7 @@
         },
         "Line": [
           {
-            "Amount": 2759.44,
+            "Amount": 8251.57,
             "LinkedTxn": [
               {
                 "TxnId": "1089",
@@ -4260,7 +4260,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "28"
+            "StringValue": "27"
           }
         ]
       },
@@ -4268,15 +4268,15 @@
         "Id": "5090",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-02T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
+          "CreateTime": "2025-02-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-02",
+        "TxnDate": "2025-02-28",
         "CustomerRef": {
           "value": "90",
-          "name": "Osborn Inc"
+          "name": "Kane, Price and Bell"
         },
-        "TotalAmt": 2277.22,
+        "TotalAmt": 1039.86,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -4289,7 +4289,7 @@
         },
         "Line": [
           {
-            "Amount": 2277.22,
+            "Amount": 1039.86,
             "LinkedTxn": [
               {
                 "TxnId": "1090",
@@ -4309,7 +4309,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "27"
+            "StringValue": "25"
           }
         ]
       },
@@ -4317,20 +4317,20 @@
         "Id": "5091",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-02-28T00:00:00-07:00",
-          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
+          "CreateTime": "2025-03-04T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-04T00:00:00-07:00"
         },
-        "TxnDate": "2025-02-28",
+        "TxnDate": "2025-03-04",
         "CustomerRef": {
           "value": "91",
-          "name": "Park-Schultz"
+          "name": "Mcguire-Padilla"
         },
-        "TotalAmt": 1569.2,
+        "TotalAmt": 5218.64,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CHECK"
+          "name": "ACH"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -4338,7 +4338,7 @@
         },
         "Line": [
           {
-            "Amount": 1569.2,
+            "Amount": 5218.64,
             "LinkedTxn": [
               {
                 "TxnId": "1091",
@@ -4358,7 +4358,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "25"
+            "StringValue": "29"
           }
         ]
       },
@@ -4366,20 +4366,20 @@
         "Id": "5092",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-05T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-05T00:00:00-07:00"
+          "CreateTime": "2025-02-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-05",
+        "TxnDate": "2025-02-28",
         "CustomerRef": {
           "value": "92",
-          "name": "Zuniga-Sanchez"
+          "name": "Harvey Ltd"
         },
-        "TotalAmt": 2272.19,
-        "UnappliedAmt": 27.78,
+        "TotalAmt": 1066.01,
+        "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CREDIT_CARD"
+          "name": "CHECK"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -4387,7 +4387,7 @@
         },
         "Line": [
           {
-            "Amount": 2272.19,
+            "Amount": 1066.01,
             "LinkedTxn": [
               {
                 "TxnId": "1092",
@@ -4407,6 +4407,55 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
+            "StringValue": "25"
+          }
+        ]
+      },
+      {
+        "Id": "5093",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-05T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-05T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-05",
+        "CustomerRef": {
+          "value": "93",
+          "name": "Morales, Medina and Williams"
+        },
+        "TotalAmt": 10622.57,
+        "UnappliedAmt": 0.0,
+        "ProcessPayment": false,
+        "PaymentMethodRef": {
+          "value": "1",
+          "name": "ACH"
+        },
+        "DepositToAccountRef": {
+          "value": "35",
+          "name": "Checking — GTBank Business"
+        },
+        "Line": [
+          {
+            "Amount": 10622.57,
+            "LinkedTxn": [
+              {
+                "TxnId": "1093",
+                "TxnType": "Invoice"
+              }
+            ]
+          }
+        ],
+        "CustomField": [
+          {
+            "DefinitionId": "1",
+            "Name": "SwiftRoute Client ID",
+            "Type": "StringType",
+            "StringValue": "client_093"
+          },
+          {
+            "DefinitionId": "4",
+            "Name": "Days to Pay",
+            "Type": "StringType",
             "StringValue": "30"
           }
         ]
@@ -4415,20 +4464,20 @@
         "Id": "5094",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-03T00:00:00-07:00"
+          "CreateTime": "2025-02-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-03",
+        "TxnDate": "2025-02-28",
         "CustomerRef": {
           "value": "94",
-          "name": "Colon, Fitzpatrick and Morton"
+          "name": "Hurley, Contreras and Dunlap"
         },
-        "TotalAmt": 1185.36,
-        "UnappliedAmt": 0.0,
+        "TotalAmt": 2166.05,
+        "UnappliedAmt": 114.69,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CHECK"
+          "name": "CREDIT_CARD"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -4436,7 +4485,7 @@
         },
         "Line": [
           {
-            "Amount": 1185.36,
+            "Amount": 2166.05,
             "LinkedTxn": [
               {
                 "TxnId": "1094",
@@ -4456,7 +4505,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "28"
+            "StringValue": "25"
           }
         ]
       },
@@ -4464,20 +4513,20 @@
         "Id": "5095",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-29T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-29T00:00:00-07:00"
+          "CreateTime": "2025-03-30T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-30T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-29",
+        "TxnDate": "2025-03-30",
         "CustomerRef": {
           "value": "1",
-          "name": "Hoffman-Cobb"
+          "name": "Perez, Todd and Guerrero"
         },
-        "TotalAmt": 43559.42,
+        "TotalAmt": 1266.48,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CHECK"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -4485,7 +4534,7 @@
         },
         "Line": [
           {
-            "Amount": 43559.42,
+            "Amount": 1266.48,
             "LinkedTxn": [
               {
                 "TxnId": "1095",
@@ -4505,7 +4554,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "26"
+            "StringValue": "27"
           }
         ]
       },
@@ -4513,15 +4562,15 @@
         "Id": "5096",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-30T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-30T00:00:00-07:00"
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-30",
+        "TxnDate": "2025-04-02",
         "CustomerRef": {
           "value": "2",
-          "name": "Scott, Anthony and West"
+          "name": "Sanchez, Rivera and Martin"
         },
-        "TotalAmt": 26807.16,
+        "TotalAmt": 45837.63,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -4534,7 +4583,7 @@
         },
         "Line": [
           {
-            "Amount": 26807.16,
+            "Amount": 45837.63,
             "LinkedTxn": [
               {
                 "TxnId": "1096",
@@ -4554,7 +4603,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "27"
+            "StringValue": "30"
           }
         ]
       },
@@ -4562,20 +4611,20 @@
         "Id": "5097",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-02T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-02",
+        "TxnDate": "2025-04-01",
         "CustomerRef": {
           "value": "3",
-          "name": "Parker-Perez"
+          "name": "Kelley PLC"
         },
-        "TotalAmt": 13980.32,
+        "TotalAmt": 4309.91,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CREDIT_CARD"
+          "name": "ACH"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -4583,7 +4632,7 @@
         },
         "Line": [
           {
-            "Amount": 13980.32,
+            "Amount": 4309.91,
             "LinkedTxn": [
               {
                 "TxnId": "1097",
@@ -4603,7 +4652,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "30"
+            "StringValue": "29"
           }
         ]
       },
@@ -4611,20 +4660,20 @@
         "Id": "5098",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-29T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-29T00:00:00-07:00"
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-29",
+        "TxnDate": "2025-04-02",
         "CustomerRef": {
           "value": "4",
-          "name": "Ferrell, Walsh and Brown"
+          "name": "Dyer-Reeves"
         },
-        "TotalAmt": 26125.09,
-        "UnappliedAmt": 0.0,
+        "TotalAmt": 3728.08,
+        "UnappliedAmt": 122.24,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CREDIT_CARD"
+          "name": "CHECK"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -4632,7 +4681,7 @@
         },
         "Line": [
           {
-            "Amount": 26125.09,
+            "Amount": 3728.08,
             "LinkedTxn": [
               {
                 "TxnId": "1098",
@@ -4652,7 +4701,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "26"
+            "StringValue": "30"
           }
         ]
       },
@@ -4660,20 +4709,20 @@
         "Id": "5099",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-30T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-30T00:00:00-07:00"
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-30",
+        "TxnDate": "2025-04-01",
         "CustomerRef": {
           "value": "5",
-          "name": "Washington-Johnson"
+          "name": "Rodriguez, Moreno and Aguilar"
         },
-        "TotalAmt": 12986.92,
-        "UnappliedAmt": 0.0,
+        "TotalAmt": 2793.81,
+        "UnappliedAmt": 66.62,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "CREDIT_CARD"
+          "name": "CHECK"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -4681,7 +4730,7 @@
         },
         "Line": [
           {
-            "Amount": 12986.92,
+            "Amount": 2793.81,
             "LinkedTxn": [
               {
                 "TxnId": "1099",
@@ -4701,7 +4750,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "27"
+            "StringValue": "29"
           }
         ]
       },
@@ -4709,15 +4758,15 @@
         "Id": "5100",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-28T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-28T00:00:00-07:00"
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-28",
+        "TxnDate": "2025-04-02",
         "CustomerRef": {
           "value": "6",
-          "name": "Quinn, Liu and Franco"
+          "name": "Rose and Sons"
         },
-        "TotalAmt": 14526.27,
+        "TotalAmt": 36499.0,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
@@ -4730,7 +4779,7 @@
         },
         "Line": [
           {
-            "Amount": 14526.27,
+            "Amount": 36499.0,
             "LinkedTxn": [
               {
                 "TxnId": "1100",
@@ -4750,7 +4799,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "25"
+            "StringValue": "30"
           }
         ]
       },
@@ -4758,20 +4807,20 @@
         "Id": "5101",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-03-29T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-29T00:00:00-07:00"
+          "CreateTime": "2025-03-30T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-30T00:00:00-07:00"
         },
-        "TxnDate": "2025-03-29",
+        "TxnDate": "2025-03-30",
         "CustomerRef": {
           "value": "7",
-          "name": "Jones and Sons"
+          "name": "Grant Group"
         },
-        "TotalAmt": 90368.27,
+        "TotalAmt": 10663.05,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CHECK"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -4779,7 +4828,7 @@
         },
         "Line": [
           {
-            "Amount": 90368.27,
+            "Amount": 10663.05,
             "LinkedTxn": [
               {
                 "TxnId": "1101",
@@ -4799,7 +4848,7 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "26"
+            "StringValue": "27"
           }
         ]
       },
@@ -4807,20 +4856,20 @@
         "Id": "5102",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-12T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-12T00:00:00-07:00"
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-12",
+        "TxnDate": "2025-04-01",
         "CustomerRef": {
           "value": "8",
-          "name": "Becker-Payne"
+          "name": "Wright Inc"
         },
-        "TotalAmt": 59248.12,
+        "TotalAmt": 19159.74,
         "UnappliedAmt": 0.0,
         "ProcessPayment": false,
         "PaymentMethodRef": {
           "value": "1",
-          "name": "ACH"
+          "name": "CREDIT_CARD"
         },
         "DepositToAccountRef": {
           "value": "35",
@@ -4828,7 +4877,7 @@
         },
         "Line": [
           {
-            "Amount": 59248.12,
+            "Amount": 19159.74,
             "LinkedTxn": [
               {
                 "TxnId": "1102",
@@ -4848,63 +4897,14 @@
             "DefinitionId": "4",
             "Name": "Days to Pay",
             "Type": "StringType",
-            "StringValue": "40"
-          }
-        ]
-      },
-      {
-        "Id": "5103",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-03-28T00:00:00-07:00",
-          "LastUpdatedTime": "2025-03-28T00:00:00-07:00"
-        },
-        "TxnDate": "2025-03-28",
-        "CustomerRef": {
-          "value": "9",
-          "name": "Roy-Pearson"
-        },
-        "TotalAmt": 32943.98,
-        "UnappliedAmt": 0.0,
-        "ProcessPayment": false,
-        "PaymentMethodRef": {
-          "value": "1",
-          "name": "CREDIT_CARD"
-        },
-        "DepositToAccountRef": {
-          "value": "35",
-          "name": "Checking — GTBank Business"
-        },
-        "Line": [
-          {
-            "Amount": 32943.98,
-            "LinkedTxn": [
-              {
-                "TxnId": "1103",
-                "TxnType": "Invoice"
-              }
-            ]
-          }
-        ],
-        "CustomField": [
-          {
-            "DefinitionId": "1",
-            "Name": "SwiftRoute Client ID",
-            "Type": "StringType",
-            "StringValue": "client_009"
-          },
-          {
-            "DefinitionId": "4",
-            "Name": "Days to Pay",
-            "Type": "StringType",
-            "StringValue": "25"
+            "StringValue": "29"
           }
         ]
       }
     ],
     "startPosition": 1,
     "maxResults": 100,
-    "totalCount": 418
+    "totalCount": 407
   },
-  "time": "2026-06-19T18:38:15-07:00"
+  "time": "2026-07-04T13:45:14-07:00"
 }

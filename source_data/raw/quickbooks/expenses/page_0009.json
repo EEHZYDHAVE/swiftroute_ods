@@ -5,38 +5,38 @@
         "Id": "9801",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-03T00:00:00-07:00"
+          "CreateTime": "2025-04-06T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-06T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-03",
+        "TxnDate": "2025-04-06",
         "PaymentType": "CreditCard",
         "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
+          "value": "101",
+          "name": "Fuel"
         },
         "EntityRef": {
-          "value": "340",
-          "name": "IC Driver #12",
+          "value": "627",
+          "name": "WEX Fleet Solutions",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 354.28,
+            "Amount": 57.62,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
+                "value": "101",
+                "name": "Fuel"
               },
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 1"
+            "Description": "WEX Fleet Card — fuel"
           }
         ],
-        "TotalAmt": 354.28,
-        "PrivateNote": "Weekly IC driver payment — week 1",
+        "TotalAmt": 57.62,
+        "PrivateNote": "WEX Fleet Card — fuel",
         "CurrencyRef": {
           "value": "USD"
         }
@@ -45,24 +45,664 @@
         "Id": "9802",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-03T00:00:00-07:00"
+          "CreateTime": "2025-04-04T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-04T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-03",
+        "TxnDate": "2025-04-04",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "555",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 76.18,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 76.18,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9803",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-19T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-19T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-19",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "865",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 92.72,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 92.72,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9804",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-22T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-22T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-22",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "212",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 75.71,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 75.71,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9805",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-11T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-11T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-11",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "522",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 76.34,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 76.34,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9806",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-28T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-28",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "175",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 135.22,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 135.22,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9807",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-16T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-16T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-16",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "546",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 59.89,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 59.89,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9808",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-05T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-05T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-05",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "282",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 109.85,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 109.85,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9809",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-13T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-13T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-13",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "298",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 96.2,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 96.2,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9810",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-12T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-12T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-12",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "230",
+          "name": "Jiffy Lube Commercial",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 1758.93,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Transmission service"
+          }
+        ],
+        "TotalAmt": 1758.93,
+        "PrivateNote": "Transmission service",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9811",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-02",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "239",
+          "name": "Midas Auto Service",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 1282.91,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Transmission service"
+          }
+        ],
+        "TotalAmt": 1282.91,
+        "PrivateNote": "Transmission service",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9812",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-04T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-04T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-04",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "275",
+          "name": "Denver Truck Center",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 1550.77,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Tyre replacement"
+          }
+        ],
+        "TotalAmt": 1550.77,
+        "PrivateNote": "Tyre replacement",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9813",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-25T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-25T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-25",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "260",
+          "name": "Pep Boys Fleet",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 697.21,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Annual safety inspection"
+          }
+        ],
+        "TotalAmt": 697.21,
+        "PrivateNote": "Annual safety inspection",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9814",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-26T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-26T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-26",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "666",
+          "name": "Jiffy Lube Commercial",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 1454.87,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Annual safety inspection"
+          }
+        ],
+        "TotalAmt": 1454.87,
+        "PrivateNote": "Annual safety inspection",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9815",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-28T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-28",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "600",
+          "name": "Denver Truck Center",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 505.9,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Annual safety inspection"
+          }
+        ],
+        "TotalAmt": 505.9,
+        "PrivateNote": "Annual safety inspection",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9816",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-28T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-28",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "385",
+          "name": "Denver Truck Center",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 1792.72,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Tyre replacement"
+          }
+        ],
+        "TotalAmt": 1792.72,
+        "PrivateNote": "Tyre replacement",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9817",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-01",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "435",
+          "name": "Jiffy Lube Commercial",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 1346.43,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Brake service"
+          }
+        ],
+        "TotalAmt": 1346.43,
+        "PrivateNote": "Brake service",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9818",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-02",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "104",
           "name": "Driver Labour — IC"
         },
         "EntityRef": {
-          "value": "693",
-          "name": "IC Driver #13",
+          "value": "705",
+          "name": "IC Driver #01",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 564.69,
+            "Amount": 650.86,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
@@ -75,648 +715,8 @@
             "Description": "Weekly IC driver payment — week 1"
           }
         ],
-        "TotalAmt": 564.69,
+        "TotalAmt": 650.86,
         "PrivateNote": "Weekly IC driver payment — week 1",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9803",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-09T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-09T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-09",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "865",
-          "name": "IC Driver #01",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 548.2,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 2"
-          }
-        ],
-        "TotalAmt": 548.2,
-        "PrivateNote": "Weekly IC driver payment — week 2",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9804",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-10T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-10T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-10",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "335",
-          "name": "IC Driver #02",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 854.96,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 2"
-          }
-        ],
-        "TotalAmt": 854.96,
-        "PrivateNote": "Weekly IC driver payment — week 2",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9805",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-08T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-08T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-08",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "200",
-          "name": "IC Driver #03",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 488.72,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 2"
-          }
-        ],
-        "TotalAmt": 488.72,
-        "PrivateNote": "Weekly IC driver payment — week 2",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9806",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-08T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-08T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-08",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "990",
-          "name": "IC Driver #04",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 752.16,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 2"
-          }
-        ],
-        "TotalAmt": 752.16,
-        "PrivateNote": "Weekly IC driver payment — week 2",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9807",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-08T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-08T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-08",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "325",
-          "name": "IC Driver #05",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 520.34,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 2"
-          }
-        ],
-        "TotalAmt": 520.34,
-        "PrivateNote": "Weekly IC driver payment — week 2",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9808",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-08T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-08T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-08",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "596",
-          "name": "IC Driver #06",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 581.43,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 2"
-          }
-        ],
-        "TotalAmt": 581.43,
-        "PrivateNote": "Weekly IC driver payment — week 2",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9809",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-08T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-08T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-08",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "248",
-          "name": "IC Driver #07",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 849.91,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 2"
-          }
-        ],
-        "TotalAmt": 849.91,
-        "PrivateNote": "Weekly IC driver payment — week 2",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9810",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-08T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-08T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-08",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "565",
-          "name": "IC Driver #08",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 873.85,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 2"
-          }
-        ],
-        "TotalAmt": 873.85,
-        "PrivateNote": "Weekly IC driver payment — week 2",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9811",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-08T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-08T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-08",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "239",
-          "name": "IC Driver #09",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 527.89,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 2"
-          }
-        ],
-        "TotalAmt": 527.89,
-        "PrivateNote": "Weekly IC driver payment — week 2",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9812",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-09T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-09T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-09",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "747",
-          "name": "IC Driver #10",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 740.69,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 2"
-          }
-        ],
-        "TotalAmt": 740.69,
-        "PrivateNote": "Weekly IC driver payment — week 2",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9813",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-09T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-09T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-09",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "307",
-          "name": "IC Driver #11",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 904.36,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 2"
-          }
-        ],
-        "TotalAmt": 904.36,
-        "PrivateNote": "Weekly IC driver payment — week 2",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9814",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-09T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-09T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-09",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "808",
-          "name": "IC Driver #12",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 361.42,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 2"
-          }
-        ],
-        "TotalAmt": 361.42,
-        "PrivateNote": "Weekly IC driver payment — week 2",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9815",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-10T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-10T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-10",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "239",
-          "name": "IC Driver #13",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 318.18,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 2"
-          }
-        ],
-        "TotalAmt": 318.18,
-        "PrivateNote": "Weekly IC driver payment — week 2",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9816",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-15T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-15T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-15",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "569",
-          "name": "IC Driver #01",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 825.06,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 3"
-          }
-        ],
-        "TotalAmt": 825.06,
-        "PrivateNote": "Weekly IC driver payment — week 3",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9817",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-16T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-16T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-16",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "451",
-          "name": "IC Driver #02",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 389.57,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 3"
-          }
-        ],
-        "TotalAmt": 389.57,
-        "PrivateNote": "Weekly IC driver payment — week 3",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9818",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-15T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-15T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-15",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "718",
-          "name": "IC Driver #03",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 847.3,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 3"
-          }
-        ],
-        "TotalAmt": 847.3,
-        "PrivateNote": "Weekly IC driver payment — week 3",
         "CurrencyRef": {
           "value": "USD"
         }
@@ -725,370 +725,10 @@
         "Id": "9819",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-15T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-15T00:00:00-07:00"
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-15",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "753",
-          "name": "IC Driver #04",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 785.31,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 3"
-          }
-        ],
-        "TotalAmt": 785.31,
-        "PrivateNote": "Weekly IC driver payment — week 3",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9820",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-17T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-17T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-17",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "691",
-          "name": "IC Driver #05",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 859.57,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 3"
-          }
-        ],
-        "TotalAmt": 859.57,
-        "PrivateNote": "Weekly IC driver payment — week 3",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9821",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-17T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-17T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-17",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "188",
-          "name": "IC Driver #06",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 827.2,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 3"
-          }
-        ],
-        "TotalAmt": 827.2,
-        "PrivateNote": "Weekly IC driver payment — week 3",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9822",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-16T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-16T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-16",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "600",
-          "name": "IC Driver #07",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 828.46,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 3"
-          }
-        ],
-        "TotalAmt": 828.46,
-        "PrivateNote": "Weekly IC driver payment — week 3",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9823",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-15T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-15T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-15",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "957",
-          "name": "IC Driver #08",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 658.61,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 3"
-          }
-        ],
-        "TotalAmt": 658.61,
-        "PrivateNote": "Weekly IC driver payment — week 3",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9824",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-16T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-16T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-16",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "847",
-          "name": "IC Driver #09",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 458.67,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 3"
-          }
-        ],
-        "TotalAmt": 458.67,
-        "PrivateNote": "Weekly IC driver payment — week 3",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9825",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-16T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-16T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-16",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "352",
-          "name": "IC Driver #10",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 751.15,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 3"
-          }
-        ],
-        "TotalAmt": 751.15,
-        "PrivateNote": "Weekly IC driver payment — week 3",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9826",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-15T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-15T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-15",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "693",
-          "name": "IC Driver #11",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 489.47,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 3"
-          }
-        ],
-        "TotalAmt": 489.47,
-        "PrivateNote": "Weekly IC driver payment — week 3",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9827",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-15T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-15T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-15",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
-        },
-        "EntityRef": {
-          "value": "705",
-          "name": "IC Driver #12",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 850.77,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Weekly IC driver payment — week 3"
-          }
-        ],
-        "TotalAmt": 850.77,
-        "PrivateNote": "Weekly IC driver payment — week 3",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9828",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-15T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-15T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-15",
+        "TxnDate": "2025-04-01",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "104",
@@ -1096,7 +736,7 @@
         },
         "EntityRef": {
           "value": "105",
-          "name": "IC Driver #13",
+          "name": "IC Driver #02",
           "type": "Vendor"
         },
         "Line": [
@@ -1112,23 +752,23 @@
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 3"
+            "Description": "Weekly IC driver payment — week 1"
           }
         ],
         "TotalAmt": 864.8,
-        "PrivateNote": "Weekly IC driver payment — week 3",
+        "PrivateNote": "Weekly IC driver payment — week 1",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9829",
+        "Id": "9820",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-23T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-23T00:00:00-07:00"
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-23",
+        "TxnDate": "2025-04-02",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "104",
@@ -1136,7 +776,7 @@
         },
         "EntityRef": {
           "value": "141",
-          "name": "IC Driver #01",
+          "name": "IC Driver #03",
           "type": "Vendor"
         },
         "Line": [
@@ -1152,23 +792,23 @@
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 4"
+            "Description": "Weekly IC driver payment — week 1"
           }
         ],
         "TotalAmt": 907.32,
-        "PrivateNote": "Weekly IC driver payment — week 4",
+        "PrivateNote": "Weekly IC driver payment — week 1",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9830",
+        "Id": "9821",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-23T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-23T00:00:00-07:00"
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-23",
+        "TxnDate": "2025-04-02",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "104",
@@ -1176,7 +816,7 @@
         },
         "EntityRef": {
           "value": "616",
-          "name": "IC Driver #02",
+          "name": "IC Driver #04",
           "type": "Vendor"
         },
         "Line": [
@@ -1192,23 +832,23 @@
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 4"
+            "Description": "Weekly IC driver payment — week 1"
           }
         ],
         "TotalAmt": 749.42,
-        "PrivateNote": "Weekly IC driver payment — week 4",
+        "PrivateNote": "Weekly IC driver payment — week 1",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9831",
+        "Id": "9822",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-22T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-22T00:00:00-07:00"
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-22",
+        "TxnDate": "2025-04-01",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "104",
@@ -1216,7 +856,7 @@
         },
         "EntityRef": {
           "value": "503",
-          "name": "IC Driver #03",
+          "name": "IC Driver #05",
           "type": "Vendor"
         },
         "Line": [
@@ -1232,23 +872,23 @@
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 4"
+            "Description": "Weekly IC driver payment — week 1"
           }
         ],
         "TotalAmt": 552.45,
-        "PrivateNote": "Weekly IC driver payment — week 4",
+        "PrivateNote": "Weekly IC driver payment — week 1",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9832",
+        "Id": "9823",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-23T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-23T00:00:00-07:00"
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-23",
+        "TxnDate": "2025-04-02",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "104",
@@ -1256,7 +896,7 @@
         },
         "EntityRef": {
           "value": "813",
-          "name": "IC Driver #04",
+          "name": "IC Driver #06",
           "type": "Vendor"
         },
         "Line": [
@@ -1272,23 +912,23 @@
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 4"
+            "Description": "Weekly IC driver payment — week 1"
           }
         ],
         "TotalAmt": 798.22,
-        "PrivateNote": "Weekly IC driver payment — week 4",
+        "PrivateNote": "Weekly IC driver payment — week 1",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9833",
+        "Id": "9824",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-22T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-22T00:00:00-07:00"
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-22",
+        "TxnDate": "2025-04-01",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "104",
@@ -1296,7 +936,7 @@
         },
         "EntityRef": {
           "value": "346",
-          "name": "IC Driver #05",
+          "name": "IC Driver #07",
           "type": "Vendor"
         },
         "Line": [
@@ -1312,23 +952,23 @@
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 4"
+            "Description": "Weekly IC driver payment — week 1"
           }
         ],
         "TotalAmt": 569.56,
-        "PrivateNote": "Weekly IC driver payment — week 4",
+        "PrivateNote": "Weekly IC driver payment — week 1",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9834",
+        "Id": "9825",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-22T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-22T00:00:00-07:00"
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-22",
+        "TxnDate": "2025-04-01",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "104",
@@ -1336,7 +976,7 @@
         },
         "EntityRef": {
           "value": "112",
-          "name": "IC Driver #06",
+          "name": "IC Driver #08",
           "type": "Vendor"
         },
         "Line": [
@@ -1352,23 +992,23 @@
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 4"
+            "Description": "Weekly IC driver payment — week 1"
           }
         ],
         "TotalAmt": 637.43,
-        "PrivateNote": "Weekly IC driver payment — week 4",
+        "PrivateNote": "Weekly IC driver payment — week 1",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9835",
+        "Id": "9826",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-24T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-24T00:00:00-07:00"
+          "CreateTime": "2025-04-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-03T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-24",
+        "TxnDate": "2025-04-03",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "104",
@@ -1376,7 +1016,7 @@
         },
         "EntityRef": {
           "value": "323",
-          "name": "IC Driver #07",
+          "name": "IC Driver #09",
           "type": "Vendor"
         },
         "Line": [
@@ -1392,23 +1032,23 @@
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 4"
+            "Description": "Weekly IC driver payment — week 1"
           }
         ],
         "TotalAmt": 748.34,
-        "PrivateNote": "Weekly IC driver payment — week 4",
+        "PrivateNote": "Weekly IC driver payment — week 1",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9836",
+        "Id": "9827",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-22T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-22T00:00:00-07:00"
+          "CreateTime": "2025-04-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-22",
+        "TxnDate": "2025-04-01",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "104",
@@ -1416,7 +1056,7 @@
         },
         "EntityRef": {
           "value": "344",
-          "name": "IC Driver #08",
+          "name": "IC Driver #10",
           "type": "Vendor"
         },
         "Line": [
@@ -1432,23 +1072,23 @@
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 4"
+            "Description": "Weekly IC driver payment — week 1"
           }
         ],
         "TotalAmt": 509.38,
-        "PrivateNote": "Weekly IC driver payment — week 4",
+        "PrivateNote": "Weekly IC driver payment — week 1",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9837",
+        "Id": "9828",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-24T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-24T00:00:00-07:00"
+          "CreateTime": "2025-04-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-03T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-24",
+        "TxnDate": "2025-04-03",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "104",
@@ -1456,7 +1096,7 @@
         },
         "EntityRef": {
           "value": "116",
-          "name": "IC Driver #09",
+          "name": "IC Driver #11",
           "type": "Vendor"
         },
         "Line": [
@@ -1472,23 +1112,23 @@
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 4"
+            "Description": "Weekly IC driver payment — week 1"
           }
         ],
         "TotalAmt": 919.33,
-        "PrivateNote": "Weekly IC driver payment — week 4",
+        "PrivateNote": "Weekly IC driver payment — week 1",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9838",
+        "Id": "9829",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-23T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-23T00:00:00-07:00"
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-23",
+        "TxnDate": "2025-04-02",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "104",
@@ -1496,7 +1136,7 @@
         },
         "EntityRef": {
           "value": "265",
-          "name": "IC Driver #10",
+          "name": "IC Driver #12",
           "type": "Vendor"
         },
         "Line": [
@@ -1512,23 +1152,23 @@
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 4"
+            "Description": "Weekly IC driver payment — week 1"
           }
         ],
         "TotalAmt": 708.18,
-        "PrivateNote": "Weekly IC driver payment — week 4",
+        "PrivateNote": "Weekly IC driver payment — week 1",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9839",
+        "Id": "9830",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-24T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-24T00:00:00-07:00"
+          "CreateTime": "2025-04-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-03T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-24",
+        "TxnDate": "2025-04-03",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "104",
@@ -1536,7 +1176,7 @@
         },
         "EntityRef": {
           "value": "684",
-          "name": "IC Driver #11",
+          "name": "IC Driver #13",
           "type": "Vendor"
         },
         "Line": [
@@ -1552,23 +1192,23 @@
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 4"
+            "Description": "Weekly IC driver payment — week 1"
           }
         ],
         "TotalAmt": 573.94,
-        "PrivateNote": "Weekly IC driver payment — week 4",
+        "PrivateNote": "Weekly IC driver payment — week 1",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9840",
+        "Id": "9831",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-24T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-24T00:00:00-07:00"
+          "CreateTime": "2025-04-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-03T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-24",
+        "TxnDate": "2025-04-03",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "104",
@@ -1576,7 +1216,7 @@
         },
         "EntityRef": {
           "value": "565",
-          "name": "IC Driver #12",
+          "name": "IC Driver #14",
           "type": "Vendor"
         },
         "Line": [
@@ -1592,23 +1232,23 @@
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 4"
+            "Description": "Weekly IC driver payment — week 1"
           }
         ],
         "TotalAmt": 653.54,
-        "PrivateNote": "Weekly IC driver payment — week 4",
+        "PrivateNote": "Weekly IC driver payment — week 1",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9841",
+        "Id": "9832",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-23T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-23T00:00:00-07:00"
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-23",
+        "TxnDate": "2025-04-02",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "104",
@@ -1616,7 +1256,7 @@
         },
         "EntityRef": {
           "value": "995",
-          "name": "IC Driver #13",
+          "name": "IC Driver #15",
           "type": "Vendor"
         },
         "Line": [
@@ -1632,17 +1272,1977 @@
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 4"
+            "Description": "Weekly IC driver payment — week 1"
           }
         ],
         "TotalAmt": 773.97,
-        "PrivateNote": "Weekly IC driver payment — week 4",
+        "PrivateNote": "Weekly IC driver payment — week 1",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9833",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-03T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-03",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "908",
+          "name": "IC Driver #16",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 539.43,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 1"
+          }
+        ],
+        "TotalAmt": 539.43,
+        "PrivateNote": "Weekly IC driver payment — week 1",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9834",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-09T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-09T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-09",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "820",
+          "name": "IC Driver #01",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 681.16,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 2"
+          }
+        ],
+        "TotalAmt": 681.16,
+        "PrivateNote": "Weekly IC driver payment — week 2",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9835",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-10T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-10T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-10",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "742",
+          "name": "IC Driver #02",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 280.87,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 2"
+          }
+        ],
+        "TotalAmt": 280.87,
+        "PrivateNote": "Weekly IC driver payment — week 2",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9836",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-08T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-08T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-08",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "807",
+          "name": "IC Driver #03",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 526.32,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 2"
+          }
+        ],
+        "TotalAmt": 526.32,
+        "PrivateNote": "Weekly IC driver payment — week 2",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9837",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-09T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-09T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-09",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "403",
+          "name": "IC Driver #04",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 619.79,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 2"
+          }
+        ],
+        "TotalAmt": 619.79,
+        "PrivateNote": "Weekly IC driver payment — week 2",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9838",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-09T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-09T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-09",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "814",
+          "name": "IC Driver #05",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 761.85,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 2"
+          }
+        ],
+        "TotalAmt": 761.85,
+        "PrivateNote": "Weekly IC driver payment — week 2",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9839",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-10T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-10T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-10",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "913",
+          "name": "IC Driver #06",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 627.16,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 2"
+          }
+        ],
+        "TotalAmt": 627.16,
+        "PrivateNote": "Weekly IC driver payment — week 2",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9840",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-08T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-08T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-08",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "182",
+          "name": "IC Driver #07",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 784.12,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 2"
+          }
+        ],
+        "TotalAmt": 784.12,
+        "PrivateNote": "Weekly IC driver payment — week 2",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9841",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-10T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-10T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-10",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "853",
+          "name": "IC Driver #08",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 843.74,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 2"
+          }
+        ],
+        "TotalAmt": 843.74,
+        "PrivateNote": "Weekly IC driver payment — week 2",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
         "Id": "9842",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-08T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-08T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-08",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "790",
+          "name": "IC Driver #09",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 609.43,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 2"
+          }
+        ],
+        "TotalAmt": 609.43,
+        "PrivateNote": "Weekly IC driver payment — week 2",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9843",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-09T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-09T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-09",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "213",
+          "name": "IC Driver #10",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 848.31,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 2"
+          }
+        ],
+        "TotalAmt": 848.31,
+        "PrivateNote": "Weekly IC driver payment — week 2",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9844",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-09T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-09T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-09",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "733",
+          "name": "IC Driver #11",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 513.98,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 2"
+          }
+        ],
+        "TotalAmt": 513.98,
+        "PrivateNote": "Weekly IC driver payment — week 2",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9845",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-08T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-08T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-08",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "279",
+          "name": "IC Driver #12",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 513.97,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 2"
+          }
+        ],
+        "TotalAmt": 513.97,
+        "PrivateNote": "Weekly IC driver payment — week 2",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9846",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-10T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-10T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-10",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "168",
+          "name": "IC Driver #13",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 637.63,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 2"
+          }
+        ],
+        "TotalAmt": 637.63,
+        "PrivateNote": "Weekly IC driver payment — week 2",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9847",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-10T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-10T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-10",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "309",
+          "name": "IC Driver #14",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 733.98,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 2"
+          }
+        ],
+        "TotalAmt": 733.98,
+        "PrivateNote": "Weekly IC driver payment — week 2",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9848",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-08T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-08T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-08",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "344",
+          "name": "IC Driver #15",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 908.0,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 2"
+          }
+        ],
+        "TotalAmt": 908.0,
+        "PrivateNote": "Weekly IC driver payment — week 2",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9849",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-10T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-10T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-10",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "589",
+          "name": "IC Driver #16",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 352.68,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 2"
+          }
+        ],
+        "TotalAmt": 352.68,
+        "PrivateNote": "Weekly IC driver payment — week 2",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9850",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-17T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-17T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-17",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "694",
+          "name": "IC Driver #01",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 881.05,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 3"
+          }
+        ],
+        "TotalAmt": 881.05,
+        "PrivateNote": "Weekly IC driver payment — week 3",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9851",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-17T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-17T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-17",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "862",
+          "name": "IC Driver #02",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 414.27,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 3"
+          }
+        ],
+        "TotalAmt": 414.27,
+        "PrivateNote": "Weekly IC driver payment — week 3",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9852",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-15T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-15T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-15",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "373",
+          "name": "IC Driver #03",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 485.1,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 3"
+          }
+        ],
+        "TotalAmt": 485.1,
+        "PrivateNote": "Weekly IC driver payment — week 3",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9853",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-17T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-17T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-17",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "383",
+          "name": "IC Driver #04",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 715.35,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 3"
+          }
+        ],
+        "TotalAmt": 715.35,
+        "PrivateNote": "Weekly IC driver payment — week 3",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9854",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-15T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-15T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-15",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "453",
+          "name": "IC Driver #05",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 320.56,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 3"
+          }
+        ],
+        "TotalAmt": 320.56,
+        "PrivateNote": "Weekly IC driver payment — week 3",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9855",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-16T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-16T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-16",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "639",
+          "name": "IC Driver #06",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 591.19,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 3"
+          }
+        ],
+        "TotalAmt": 591.19,
+        "PrivateNote": "Weekly IC driver payment — week 3",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9856",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-15T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-15T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-15",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "644",
+          "name": "IC Driver #07",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 580.9,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 3"
+          }
+        ],
+        "TotalAmt": 580.9,
+        "PrivateNote": "Weekly IC driver payment — week 3",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9857",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-17T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-17T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-17",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "399",
+          "name": "IC Driver #08",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 808.24,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 3"
+          }
+        ],
+        "TotalAmt": 808.24,
+        "PrivateNote": "Weekly IC driver payment — week 3",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9858",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-16T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-16T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-16",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "919",
+          "name": "IC Driver #09",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 677.41,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 3"
+          }
+        ],
+        "TotalAmt": 677.41,
+        "PrivateNote": "Weekly IC driver payment — week 3",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9859",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-17T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-17T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-17",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "928",
+          "name": "IC Driver #10",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 885.03,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 3"
+          }
+        ],
+        "TotalAmt": 885.03,
+        "PrivateNote": "Weekly IC driver payment — week 3",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9860",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-15T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-15T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-15",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "568",
+          "name": "IC Driver #11",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 400.55,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 3"
+          }
+        ],
+        "TotalAmt": 400.55,
+        "PrivateNote": "Weekly IC driver payment — week 3",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9861",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-15T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-15T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-15",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "283",
+          "name": "IC Driver #12",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 331.31,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 3"
+          }
+        ],
+        "TotalAmt": 331.31,
+        "PrivateNote": "Weekly IC driver payment — week 3",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9862",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-16T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-16T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-16",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "178",
+          "name": "IC Driver #13",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 893.28,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 3"
+          }
+        ],
+        "TotalAmt": 893.28,
+        "PrivateNote": "Weekly IC driver payment — week 3",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9863",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-15T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-15T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-15",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "214",
+          "name": "IC Driver #14",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 385.45,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 3"
+          }
+        ],
+        "TotalAmt": 385.45,
+        "PrivateNote": "Weekly IC driver payment — week 3",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9864",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-17T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-17T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-17",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "254",
+          "name": "IC Driver #15",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 374.69,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 3"
+          }
+        ],
+        "TotalAmt": 374.69,
+        "PrivateNote": "Weekly IC driver payment — week 3",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9865",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-15T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-15T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-15",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "742",
+          "name": "IC Driver #16",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 613.24,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 3"
+          }
+        ],
+        "TotalAmt": 613.24,
+        "PrivateNote": "Weekly IC driver payment — week 3",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9866",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-22T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-22T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-22",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "798",
+          "name": "IC Driver #01",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 467.63,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 4"
+          }
+        ],
+        "TotalAmt": 467.63,
+        "PrivateNote": "Weekly IC driver payment — week 4",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9867",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-24T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-24T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-24",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "585",
+          "name": "IC Driver #02",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 876.3,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 4"
+          }
+        ],
+        "TotalAmt": 876.3,
+        "PrivateNote": "Weekly IC driver payment — week 4",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9868",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-23T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-23T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-23",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "855",
+          "name": "IC Driver #03",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 548.88,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 4"
+          }
+        ],
+        "TotalAmt": 548.88,
+        "PrivateNote": "Weekly IC driver payment — week 4",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9869",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-24T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-24T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-24",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "293",
+          "name": "IC Driver #04",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 293.75,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 4"
+          }
+        ],
+        "TotalAmt": 293.75,
+        "PrivateNote": "Weekly IC driver payment — week 4",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9870",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-22T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-22T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-22",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "921",
+          "name": "IC Driver #05",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 294.1,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 4"
+          }
+        ],
+        "TotalAmt": 294.1,
+        "PrivateNote": "Weekly IC driver payment — week 4",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9871",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-22T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-22T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-22",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "632",
+          "name": "IC Driver #06",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 814.37,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 4"
+          }
+        ],
+        "TotalAmt": 814.37,
+        "PrivateNote": "Weekly IC driver payment — week 4",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9872",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-24T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-24T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-24",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "692",
+          "name": "IC Driver #07",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 494.96,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 4"
+          }
+        ],
+        "TotalAmt": 494.96,
+        "PrivateNote": "Weekly IC driver payment — week 4",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9873",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-23T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-23T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-23",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "905",
+          "name": "IC Driver #08",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 699.69,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 4"
+          }
+        ],
+        "TotalAmt": 699.69,
+        "PrivateNote": "Weekly IC driver payment — week 4",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9874",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-23T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-23T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-23",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "781",
+          "name": "IC Driver #09",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 591.13,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 4"
+          }
+        ],
+        "TotalAmt": 591.13,
+        "PrivateNote": "Weekly IC driver payment — week 4",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9875",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-24T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-24T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-24",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "661",
+          "name": "IC Driver #10",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 619.31,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 4"
+          }
+        ],
+        "TotalAmt": 619.31,
+        "PrivateNote": "Weekly IC driver payment — week 4",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9876",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-23T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-23T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-23",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "680",
+          "name": "IC Driver #11",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 573.12,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 4"
+          }
+        ],
+        "TotalAmt": 573.12,
+        "PrivateNote": "Weekly IC driver payment — week 4",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9877",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-22T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-22T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-22",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "413",
+          "name": "IC Driver #12",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 854.9,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 4"
+          }
+        ],
+        "TotalAmt": 854.9,
+        "PrivateNote": "Weekly IC driver payment — week 4",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9878",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-22T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-22T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-22",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "332",
+          "name": "IC Driver #13",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 785.13,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 4"
+          }
+        ],
+        "TotalAmt": 785.13,
+        "PrivateNote": "Weekly IC driver payment — week 4",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9879",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-23T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-23T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-23",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "395",
+          "name": "IC Driver #14",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 518.02,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 4"
+          }
+        ],
+        "TotalAmt": 518.02,
+        "PrivateNote": "Weekly IC driver payment — week 4",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9880",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-22T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-22T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-22",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "391",
+          "name": "IC Driver #15",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 374.94,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 4"
+          }
+        ],
+        "TotalAmt": 374.94,
+        "PrivateNote": "Weekly IC driver payment — week 4",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9881",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-23T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-23T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-23",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "733",
+          "name": "IC Driver #16",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 891.98,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 4"
+          }
+        ],
+        "TotalAmt": 891.98,
+        "PrivateNote": "Weekly IC driver payment — week 4",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9882",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-05T00:00:00-07:00",
@@ -1655,14 +3255,14 @@
           "name": "General & Admin"
         },
         "EntityRef": {
-          "value": "908",
+          "value": "648",
           "name": "Internal — Driver COD Remittance",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": -3487.52,
+            "Amount": -4017.92,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
@@ -1672,17 +3272,17 @@
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "COD cash remittance — week 1 (~71 deliveries, lump total)"
+            "Description": "COD cash remittance — week 1 (~105 deliveries, lump total)"
           }
         ],
-        "TotalAmt": -3487.52,
-        "PrivateNote": "COD cash remittance — week 1 (~71 deliveries, lump total)",
+        "TotalAmt": -4017.92,
+        "PrivateNote": "COD cash remittance — week 1 (~105 deliveries, lump total)",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9843",
+        "Id": "9883",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-12T00:00:00-07:00",
@@ -1695,14 +3295,14 @@
           "name": "General & Admin"
         },
         "EntityRef": {
-          "value": "575",
+          "value": "959",
           "name": "Internal — Driver COD Remittance",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": -3891.72,
+            "Amount": -2484.59,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
@@ -1712,17 +3312,17 @@
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "COD cash remittance — week 2 (~100 deliveries, lump total)"
+            "Description": "COD cash remittance — week 2 (~71 deliveries, lump total)"
           }
         ],
-        "TotalAmt": -3891.72,
-        "PrivateNote": "COD cash remittance — week 2 (~100 deliveries, lump total)",
+        "TotalAmt": -2484.59,
+        "PrivateNote": "COD cash remittance — week 2 (~71 deliveries, lump total)",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9844",
+        "Id": "9884",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-19T00:00:00-07:00",
@@ -1735,14 +3335,14 @@
           "name": "General & Admin"
         },
         "EntityRef": {
-          "value": "981",
+          "value": "782",
           "name": "Internal — Driver COD Remittance",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": -3489.36,
+            "Amount": -3499.47,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
@@ -1752,17 +3352,17 @@
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "COD cash remittance — week 3 (~60 deliveries, lump total)"
+            "Description": "COD cash remittance — week 3 (~117 deliveries, lump total)"
           }
         ],
-        "TotalAmt": -3489.36,
-        "PrivateNote": "COD cash remittance — week 3 (~60 deliveries, lump total)",
+        "TotalAmt": -3499.47,
+        "PrivateNote": "COD cash remittance — week 3 (~117 deliveries, lump total)",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9845",
+        "Id": "9885",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-26T00:00:00-07:00",
@@ -1775,14 +3375,14 @@
           "name": "General & Admin"
         },
         "EntityRef": {
-          "value": "807",
+          "value": "343",
           "name": "Internal — Driver COD Remittance",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": -3305.53,
+            "Amount": -3706.7,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
@@ -1792,37 +3392,37 @@
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "COD cash remittance — week 4 (~84 deliveries, lump total)"
+            "Description": "COD cash remittance — week 4 (~70 deliveries, lump total)"
           }
         ],
-        "TotalAmt": -3305.53,
-        "PrivateNote": "COD cash remittance — week 4 (~84 deliveries, lump total)",
+        "TotalAmt": -3706.7,
+        "PrivateNote": "COD cash remittance — week 4 (~70 deliveries, lump total)",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9846",
+        "Id": "9886",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-17T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-17T00:00:00-07:00"
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-17",
+        "TxnDate": "2025-04-02",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "106",
           "name": "Warehouse Supplies"
         },
         "EntityRef": {
-          "value": "814",
-          "name": "Staples Business",
+          "value": "551",
+          "name": "Amazon Business",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 98.65,
+            "Amount": 646.45,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
@@ -1832,37 +3432,37 @@
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Labels and barcode rolls"
+            "Description": "Bubble wrap — bulk"
           }
         ],
-        "TotalAmt": 98.65,
-        "PrivateNote": "Labels and barcode rolls",
+        "TotalAmt": 646.45,
+        "PrivateNote": "Bubble wrap — bulk",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9847",
+        "Id": "9887",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-20T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-20T00:00:00-07:00"
+          "CreateTime": "2025-04-09T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-09T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-20",
+        "TxnDate": "2025-04-09",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "106",
           "name": "Warehouse Supplies"
         },
         "EntityRef": {
-          "value": "735",
+          "value": "781",
           "name": "Uline",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 389.19,
+            "Amount": 290.71,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
@@ -1875,107 +3475,27 @@
             "Description": "Packing tape and boxes"
           }
         ],
-        "TotalAmt": 389.19,
+        "TotalAmt": 290.71,
         "PrivateNote": "Packing tape and boxes",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9848",
+        "Id": "9888",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-29T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-29T00:00:00-07:00"
+          "CreateTime": "2025-05-05T00:00:00-07:00",
+          "LastUpdatedTime": "2025-05-05T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-29",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "106",
-          "name": "Warehouse Supplies"
-        },
-        "EntityRef": {
-          "value": "152",
-          "name": "Uline",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 271.35,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "106",
-                "name": "Warehouse Supplies"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Labels and barcode rolls"
-          }
-        ],
-        "TotalAmt": 271.35,
-        "PrivateNote": "Labels and barcode rolls",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9849",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-04T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-04T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-04",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "106",
-          "name": "Warehouse Supplies"
-        },
-        "EntityRef": {
-          "value": "474",
-          "name": "Staples Business",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 298.28,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "106",
-                "name": "Warehouse Supplies"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Packing tape and boxes"
-          }
-        ],
-        "TotalAmt": 298.28,
-        "PrivateNote": "Packing tape and boxes",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9850",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-06T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-06T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-06",
+        "TxnDate": "2025-05-05",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "105",
           "name": "Warehouse Rent"
         },
         "EntityRef": {
-          "value": "142",
+          "value": "898",
           "name": "Denver Industrial Properties LLC",
           "type": "Vendor"
         },
@@ -2002,20 +3522,20 @@
         }
       },
       {
-        "Id": "9851",
+        "Id": "9889",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-05-06T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-06T00:00:00-07:00"
+          "CreateTime": "2025-05-05T00:00:00-07:00",
+          "LastUpdatedTime": "2025-05-05T00:00:00-07:00"
         },
-        "TxnDate": "2025-05-06",
+        "TxnDate": "2025-05-05",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "107",
           "name": "Insurance"
         },
         "EntityRef": {
-          "value": "283",
+          "value": "391",
           "name": "Gallagher Commercial Insurance",
           "type": "Vendor"
         },
@@ -2042,20 +3562,20 @@
         }
       },
       {
-        "Id": "9852",
+        "Id": "9890",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-05-04T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-04T00:00:00-07:00"
+          "CreateTime": "2025-05-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-05-03T00:00:00-07:00"
         },
-        "TxnDate": "2025-05-04",
+        "TxnDate": "2025-05-03",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "103",
           "name": "Vehicle Leasing"
         },
         "EntityRef": {
-          "value": "273",
+          "value": "223",
           "name": "Enterprise Fleet Management",
           "type": "Vendor"
         },
@@ -2082,20 +3602,20 @@
         }
       },
       {
-        "Id": "9853",
+        "Id": "9891",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-05-06T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-06T00:00:00-07:00"
+          "CreateTime": "2025-05-04T00:00:00-07:00",
+          "LastUpdatedTime": "2025-05-04T00:00:00-07:00"
         },
-        "TxnDate": "2025-05-06",
+        "TxnDate": "2025-05-04",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "108",
           "name": "Software & Technology"
         },
         "EntityRef": {
-          "value": "604",
+          "value": "602",
           "name": "Onfleet Inc.",
           "type": "Vendor"
         },
@@ -2122,20 +3642,20 @@
         }
       },
       {
-        "Id": "9854",
+        "Id": "9892",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-05-04T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-04T00:00:00-07:00"
+          "CreateTime": "2025-05-05T00:00:00-07:00",
+          "LastUpdatedTime": "2025-05-05T00:00:00-07:00"
         },
-        "TxnDate": "2025-05-04",
+        "TxnDate": "2025-05-05",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "108",
           "name": "Software & Technology"
         },
         "EntityRef": {
-          "value": "998",
+          "value": "853",
           "name": "Samsara Inc.",
           "type": "Vendor"
         },
@@ -2152,30 +3672,30 @@
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Fleet telematics — 36 vehicles"
+            "Description": "Fleet telematics — 34 vehicles"
           }
         ],
         "TotalAmt": 420.0,
-        "PrivateNote": "Fleet telematics — 36 vehicles",
+        "PrivateNote": "Fleet telematics — 34 vehicles",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9855",
+        "Id": "9893",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-05-05T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-05T00:00:00-07:00"
+          "CreateTime": "2025-05-04T00:00:00-07:00",
+          "LastUpdatedTime": "2025-05-04T00:00:00-07:00"
         },
-        "TxnDate": "2025-05-05",
+        "TxnDate": "2025-05-04",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "108",
           "name": "Software & Technology"
         },
         "EntityRef": {
-          "value": "235",
+          "value": "801",
           "name": "Zendesk Inc.",
           "type": "Vendor"
         },
@@ -2202,20 +3722,20 @@
         }
       },
       {
-        "Id": "9856",
+        "Id": "9894",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-05-02T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-02T00:00:00-07:00"
+          "CreateTime": "2025-05-06T00:00:00-07:00",
+          "LastUpdatedTime": "2025-05-06T00:00:00-07:00"
         },
-        "TxnDate": "2025-05-02",
+        "TxnDate": "2025-05-06",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "108",
           "name": "Software & Technology"
         },
         "EntityRef": {
-          "value": "424",
+          "value": "234",
           "name": "Linnworks Ltd.",
           "type": "Vendor"
         },
@@ -2242,20 +3762,20 @@
         }
       },
       {
-        "Id": "9857",
+        "Id": "9895",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-05-06T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-06T00:00:00-07:00"
+          "CreateTime": "2025-05-04T00:00:00-07:00",
+          "LastUpdatedTime": "2025-05-04T00:00:00-07:00"
         },
-        "TxnDate": "2025-05-06",
+        "TxnDate": "2025-05-04",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "108",
           "name": "Software & Technology"
         },
         "EntityRef": {
-          "value": "543",
+          "value": "781",
           "name": "Supabase Inc.",
           "type": "Vendor"
         },
@@ -2282,27 +3802,27 @@
         }
       },
       {
-        "Id": "9858",
+        "Id": "9896",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-05-09T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-09T00:00:00-07:00"
+          "CreateTime": "2025-05-27T00:00:00-07:00",
+          "LastUpdatedTime": "2025-05-27T00:00:00-07:00"
         },
-        "TxnDate": "2025-05-09",
+        "TxnDate": "2025-05-27",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "101",
           "name": "Fuel"
         },
         "EntityRef": {
-          "value": "230",
+          "value": "556",
           "name": "WEX Fleet Solutions",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 58.97,
+            "Amount": 72.99,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
@@ -2315,34 +3835,34 @@
             "Description": "WEX Fleet Card — fuel"
           }
         ],
-        "TotalAmt": 58.97,
+        "TotalAmt": 72.99,
         "PrivateNote": "WEX Fleet Card — fuel",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9859",
+        "Id": "9897",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-05-16T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-16T00:00:00-07:00"
+          "CreateTime": "2025-05-29T00:00:00-07:00",
+          "LastUpdatedTime": "2025-05-29T00:00:00-07:00"
         },
-        "TxnDate": "2025-05-16",
+        "TxnDate": "2025-05-29",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "101",
           "name": "Fuel"
         },
         "EntityRef": {
-          "value": "865",
+          "value": "714",
           "name": "WEX Fleet Solutions",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 130.13,
+            "Amount": 79.16,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
@@ -2355,34 +3875,34 @@
             "Description": "WEX Fleet Card — fuel"
           }
         ],
-        "TotalAmt": 130.13,
+        "TotalAmt": 79.16,
         "PrivateNote": "WEX Fleet Card — fuel",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9860",
+        "Id": "9898",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-05-12T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-12T00:00:00-07:00"
+          "CreateTime": "2025-05-14T00:00:00-07:00",
+          "LastUpdatedTime": "2025-05-14T00:00:00-07:00"
         },
-        "TxnDate": "2025-05-12",
+        "TxnDate": "2025-05-14",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "101",
           "name": "Fuel"
         },
         "EntityRef": {
-          "value": "997",
+          "value": "477",
           "name": "WEX Fleet Solutions",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 80.46,
+            "Amount": 93.03,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
@@ -2395,34 +3915,34 @@
             "Description": "WEX Fleet Card — fuel"
           }
         ],
-        "TotalAmt": 80.46,
+        "TotalAmt": 93.03,
         "PrivateNote": "WEX Fleet Card — fuel",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9861",
+        "Id": "9899",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-05-09T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-09T00:00:00-07:00"
+          "CreateTime": "2025-05-20T00:00:00-07:00",
+          "LastUpdatedTime": "2025-05-20T00:00:00-07:00"
         },
-        "TxnDate": "2025-05-09",
+        "TxnDate": "2025-05-20",
         "PaymentType": "CreditCard",
         "AccountRef": {
           "value": "101",
           "name": "Fuel"
         },
         "EntityRef": {
-          "value": "370",
+          "value": "195",
           "name": "WEX Fleet Solutions",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 123.54,
+            "Amount": 111.76,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
@@ -2435,254 +3955,14 @@
             "Description": "WEX Fleet Card — fuel"
           }
         ],
-        "TotalAmt": 123.54,
+        "TotalAmt": 111.76,
         "PrivateNote": "WEX Fleet Card — fuel",
         "CurrencyRef": {
           "value": "USD"
         }
       },
       {
-        "Id": "9862",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-17T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-17T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-17",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "423",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 135.34,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 135.34,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9863",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-24T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-24T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-24",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "254",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 123.73,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 123.73,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9864",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-18T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-18T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-18",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "917",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 114.17,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 114.17,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9865",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-15T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-15T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-15",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "102",
-          "name": "Vehicle Maintenance"
-        },
-        "EntityRef": {
-          "value": "335",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 68.38,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "102",
-                "name": "Vehicle Maintenance"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel (miscoded)"
-          }
-        ],
-        "TotalAmt": 68.38,
-        "PrivateNote": "WEX Fleet Card — fuel (miscoded)",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9866",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-06T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-06T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-06",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "102",
-          "name": "Vehicle Maintenance"
-        },
-        "EntityRef": {
-          "value": "822",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 78.42,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "102",
-                "name": "Vehicle Maintenance"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel (miscoded)"
-          }
-        ],
-        "TotalAmt": 78.42,
-        "PrivateNote": "WEX Fleet Card — fuel (miscoded)",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9867",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-15T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-15T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-15",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "606",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 144.57,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 144.57,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9868",
+        "Id": "9900",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-05-02T00:00:00-07:00",
@@ -2695,14 +3975,14 @@
           "name": "Fuel"
         },
         "EntityRef": {
-          "value": "674",
+          "value": "792",
           "name": "WEX Fleet Solutions",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 143.99,
+            "Amount": 142.59,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
@@ -2715,1287 +3995,7 @@
             "Description": "WEX Fleet Card — fuel"
           }
         ],
-        "TotalAmt": 143.99,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9869",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-16T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-16T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-16",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "837",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 65.12,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 65.12,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9870",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-28T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-28T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-28",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "308",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 86.46,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 86.46,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9871",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-28T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-28T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-28",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "867",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 130.15,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 130.15,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9872",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-17T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-17T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-17",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "779",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 105.69,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 105.69,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9873",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-19T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-19T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-19",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "104",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 144.82,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 144.82,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9874",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-17T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-17T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-17",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "178",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 71.25,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 71.25,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9875",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-08T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-08T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-08",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "436",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 115.92,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 115.92,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9876",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-01T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-01T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-01",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "224",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 143.32,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 143.32,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9877",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-13T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-13T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-13",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "208",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 138.62,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 138.62,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9878",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-27T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-27T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-27",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "571",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 57.6,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 57.6,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9879",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-27T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-27T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-27",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "743",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 98.19,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 98.19,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9880",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-09T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-09T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-09",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "144",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 55.52,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 55.52,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9881",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-21T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-21T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-21",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "849",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 95.78,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 95.78,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9882",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-24T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-24T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-24",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "232",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 126.73,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 126.73,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9883",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-07T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-07T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-07",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "389",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 127.14,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 127.14,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9884",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-11T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-11T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-11",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "660",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 121.94,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 121.94,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9885",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-20T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-20T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-20",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "282",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 90.9,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 90.9,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9886",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-08T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-08T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-08",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "191",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 132.9,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 132.9,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9887",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-01T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-01T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-01",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "898",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 69.66,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 69.66,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9888",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-13T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-13T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-13",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "769",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 122.73,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 122.73,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9889",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-05T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-05T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-05",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "542",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 99.18,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 99.18,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9890",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-24T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-24T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-24",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "801",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 82.91,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 82.91,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9891",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-20T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-20T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-20",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "952",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 114.9,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 114.9,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9892",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-12T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-12T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-12",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "497",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 99.07,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 99.07,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9893",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-16T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-16T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-16",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "192",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 109.03,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 109.03,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9894",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-25T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-25T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-25",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "290",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 88.14,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 88.14,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9895",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-14T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-14T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-14",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "625",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 63.37,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 63.37,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9896",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-11T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-11T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-11",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "763",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 115.88,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 115.88,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9897",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-22T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-22T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-22",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "639",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 138.76,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 138.76,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9898",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-21T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-21T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-21",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "579",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 62.56,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 62.56,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9899",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-14T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-14T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-14",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "407",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 127.14,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 127.14,
-        "PrivateNote": "WEX Fleet Card — fuel",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9900",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-05-05T00:00:00-07:00",
-          "LastUpdatedTime": "2025-05-05T00:00:00-07:00"
-        },
-        "TxnDate": "2025-05-05",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "101",
-          "name": "Fuel"
-        },
-        "EntityRef": {
-          "value": "407",
-          "name": "WEX Fleet Solutions",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 116.59,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "101",
-                "name": "Fuel"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "WEX Fleet Card — fuel"
-          }
-        ],
-        "TotalAmt": 116.59,
+        "TotalAmt": 142.59,
         "PrivateNote": "WEX Fleet Card — fuel",
         "CurrencyRef": {
           "value": "USD"
@@ -4004,7 +4004,7 @@
     ],
     "startPosition": 801,
     "maxResults": 100,
-    "totalCount": 1281
+    "totalCount": 1337
   },
-  "time": "2026-06-19T18:38:15-07:00"
+  "time": "2026-07-04T13:45:14-07:00"
 }

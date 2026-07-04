@@ -5,6 +5,126 @@
         "Id": "9701",
         "SyncToken": "0",
         "MetaData": {
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-02",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "686",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 107.03,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 107.03,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9702",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-02",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "855",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 81.26,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 81.26,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9703",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-04-20T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-20T00:00:00-07:00"
+        },
+        "TxnDate": "2025-04-20",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "229",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 98.63,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel (miscoded)"
+          }
+        ],
+        "TotalAmt": 98.63,
+        "PrivateNote": "WEX Fleet Card — fuel (miscoded)",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9704",
+        "SyncToken": "0",
+        "MetaData": {
           "CreateTime": "2025-04-17T00:00:00-07:00",
           "LastUpdatedTime": "2025-04-17T00:00:00-07:00"
         },
@@ -42,7 +162,7 @@
         }
       },
       {
-        "Id": "9702",
+        "Id": "9705",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-05T00:00:00-07:00",
@@ -82,7 +202,7 @@
         }
       },
       {
-        "Id": "9703",
+        "Id": "9706",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-01T00:00:00-07:00",
@@ -122,7 +242,7 @@
         }
       },
       {
-        "Id": "9704",
+        "Id": "9707",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-24T00:00:00-07:00",
@@ -162,7 +282,7 @@
         }
       },
       {
-        "Id": "9705",
+        "Id": "9708",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-06T00:00:00-07:00",
@@ -202,7 +322,7 @@
         }
       },
       {
-        "Id": "9706",
+        "Id": "9709",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-06T00:00:00-07:00",
@@ -242,7 +362,7 @@
         }
       },
       {
-        "Id": "9707",
+        "Id": "9710",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-03T00:00:00-07:00",
@@ -282,7 +402,7 @@
         }
       },
       {
-        "Id": "9708",
+        "Id": "9711",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-05T00:00:00-07:00",
@@ -322,7 +442,7 @@
         }
       },
       {
-        "Id": "9709",
+        "Id": "9712",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-25T00:00:00-07:00",
@@ -362,7 +482,7 @@
         }
       },
       {
-        "Id": "9710",
+        "Id": "9713",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-21T00:00:00-07:00",
@@ -402,7 +522,7 @@
         }
       },
       {
-        "Id": "9711",
+        "Id": "9714",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-12T00:00:00-07:00",
@@ -442,7 +562,7 @@
         }
       },
       {
-        "Id": "9712",
+        "Id": "9715",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-04T00:00:00-07:00",
@@ -482,7 +602,7 @@
         }
       },
       {
-        "Id": "9713",
+        "Id": "9716",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-10T00:00:00-07:00",
@@ -522,7 +642,7 @@
         }
       },
       {
-        "Id": "9714",
+        "Id": "9717",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-08T00:00:00-07:00",
@@ -562,7 +682,7 @@
         }
       },
       {
-        "Id": "9715",
+        "Id": "9718",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-09T00:00:00-07:00",
@@ -602,7 +722,7 @@
         }
       },
       {
-        "Id": "9716",
+        "Id": "9719",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-10T00:00:00-07:00",
@@ -642,7 +762,7 @@
         }
       },
       {
-        "Id": "9717",
+        "Id": "9720",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-11T00:00:00-07:00",
@@ -682,7 +802,7 @@
         }
       },
       {
-        "Id": "9718",
+        "Id": "9721",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-04T00:00:00-07:00",
@@ -722,7 +842,7 @@
         }
       },
       {
-        "Id": "9719",
+        "Id": "9722",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-14T00:00:00-07:00",
@@ -762,7 +882,7 @@
         }
       },
       {
-        "Id": "9720",
+        "Id": "9723",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-11T00:00:00-07:00",
@@ -802,7 +922,7 @@
         }
       },
       {
-        "Id": "9721",
+        "Id": "9724",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-21T00:00:00-07:00",
@@ -842,7 +962,7 @@
         }
       },
       {
-        "Id": "9722",
+        "Id": "9725",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-24T00:00:00-07:00",
@@ -882,7 +1002,7 @@
         }
       },
       {
-        "Id": "9723",
+        "Id": "9726",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-07T00:00:00-07:00",
@@ -922,7 +1042,7 @@
         }
       },
       {
-        "Id": "9724",
+        "Id": "9727",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-11T00:00:00-07:00",
@@ -962,7 +1082,7 @@
         }
       },
       {
-        "Id": "9725",
+        "Id": "9728",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-03T00:00:00-07:00",
@@ -1002,7 +1122,7 @@
         }
       },
       {
-        "Id": "9726",
+        "Id": "9729",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-22T00:00:00-07:00",
@@ -1042,7 +1162,7 @@
         }
       },
       {
-        "Id": "9727",
+        "Id": "9730",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-09T00:00:00-07:00",
@@ -1082,7 +1202,7 @@
         }
       },
       {
-        "Id": "9728",
+        "Id": "9731",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-02T00:00:00-07:00",
@@ -1122,7 +1242,7 @@
         }
       },
       {
-        "Id": "9729",
+        "Id": "9732",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-07T00:00:00-07:00",
@@ -1162,7 +1282,7 @@
         }
       },
       {
-        "Id": "9730",
+        "Id": "9733",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-04T00:00:00-07:00",
@@ -1202,7 +1322,7 @@
         }
       },
       {
-        "Id": "9731",
+        "Id": "9734",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-22T00:00:00-07:00",
@@ -1242,7 +1362,7 @@
         }
       },
       {
-        "Id": "9732",
+        "Id": "9735",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-06T00:00:00-07:00",
@@ -1282,7 +1402,7 @@
         }
       },
       {
-        "Id": "9733",
+        "Id": "9736",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-10T00:00:00-07:00",
@@ -1322,7 +1442,7 @@
         }
       },
       {
-        "Id": "9734",
+        "Id": "9737",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-15T00:00:00-07:00",
@@ -1362,7 +1482,7 @@
         }
       },
       {
-        "Id": "9735",
+        "Id": "9738",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-23T00:00:00-07:00",
@@ -1402,7 +1522,7 @@
         }
       },
       {
-        "Id": "9736",
+        "Id": "9739",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-09T00:00:00-07:00",
@@ -1442,7 +1562,7 @@
         }
       },
       {
-        "Id": "9737",
+        "Id": "9740",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-02T00:00:00-07:00",
@@ -1482,7 +1602,7 @@
         }
       },
       {
-        "Id": "9738",
+        "Id": "9741",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-09T00:00:00-07:00",
@@ -1522,7 +1642,7 @@
         }
       },
       {
-        "Id": "9739",
+        "Id": "9742",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-03T00:00:00-07:00",
@@ -1562,7 +1682,7 @@
         }
       },
       {
-        "Id": "9740",
+        "Id": "9743",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-13T00:00:00-07:00",
@@ -1602,7 +1722,7 @@
         }
       },
       {
-        "Id": "9741",
+        "Id": "9744",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-18T00:00:00-07:00",
@@ -1642,7 +1762,7 @@
         }
       },
       {
-        "Id": "9742",
+        "Id": "9745",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-04T00:00:00-07:00",
@@ -1682,7 +1802,7 @@
         }
       },
       {
-        "Id": "9743",
+        "Id": "9746",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-02T00:00:00-07:00",
@@ -1722,7 +1842,7 @@
         }
       },
       {
-        "Id": "9744",
+        "Id": "9747",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-25T00:00:00-07:00",
@@ -1762,7 +1882,7 @@
         }
       },
       {
-        "Id": "9745",
+        "Id": "9748",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-21T00:00:00-07:00",
@@ -1802,7 +1922,7 @@
         }
       },
       {
-        "Id": "9746",
+        "Id": "9749",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-13T00:00:00-07:00",
@@ -1842,7 +1962,7 @@
         }
       },
       {
-        "Id": "9747",
+        "Id": "9750",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-19T00:00:00-07:00",
@@ -1882,7 +2002,7 @@
         }
       },
       {
-        "Id": "9748",
+        "Id": "9751",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-16T00:00:00-07:00",
@@ -1922,7 +2042,7 @@
         }
       },
       {
-        "Id": "9749",
+        "Id": "9752",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-25T00:00:00-07:00",
@@ -1962,7 +2082,7 @@
         }
       },
       {
-        "Id": "9750",
+        "Id": "9753",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-01T00:00:00-07:00",
@@ -2002,7 +2122,7 @@
         }
       },
       {
-        "Id": "9751",
+        "Id": "9754",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-16T00:00:00-07:00",
@@ -2042,7 +2162,7 @@
         }
       },
       {
-        "Id": "9752",
+        "Id": "9755",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-11T00:00:00-07:00",
@@ -2082,7 +2202,7 @@
         }
       },
       {
-        "Id": "9753",
+        "Id": "9756",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-21T00:00:00-07:00",
@@ -2122,7 +2242,7 @@
         }
       },
       {
-        "Id": "9754",
+        "Id": "9757",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-03T00:00:00-07:00",
@@ -2162,7 +2282,7 @@
         }
       },
       {
-        "Id": "9755",
+        "Id": "9758",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-21T00:00:00-07:00",
@@ -2202,7 +2322,7 @@
         }
       },
       {
-        "Id": "9756",
+        "Id": "9759",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-22T00:00:00-07:00",
@@ -2242,7 +2362,7 @@
         }
       },
       {
-        "Id": "9757",
+        "Id": "9760",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-21T00:00:00-07:00",
@@ -2282,7 +2402,7 @@
         }
       },
       {
-        "Id": "9758",
+        "Id": "9761",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-15T00:00:00-07:00",
@@ -2322,7 +2442,7 @@
         }
       },
       {
-        "Id": "9759",
+        "Id": "9762",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-01T00:00:00-07:00",
@@ -2362,7 +2482,7 @@
         }
       },
       {
-        "Id": "9760",
+        "Id": "9763",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-13T00:00:00-07:00",
@@ -2402,7 +2522,7 @@
         }
       },
       {
-        "Id": "9761",
+        "Id": "9764",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-16T00:00:00-07:00",
@@ -2442,7 +2562,7 @@
         }
       },
       {
-        "Id": "9762",
+        "Id": "9765",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-01T00:00:00-07:00",
@@ -2482,7 +2602,7 @@
         }
       },
       {
-        "Id": "9763",
+        "Id": "9766",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-24T00:00:00-07:00",
@@ -2522,7 +2642,7 @@
         }
       },
       {
-        "Id": "9764",
+        "Id": "9767",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-21T00:00:00-07:00",
@@ -2562,7 +2682,7 @@
         }
       },
       {
-        "Id": "9765",
+        "Id": "9768",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-28T00:00:00-07:00",
@@ -2602,7 +2722,7 @@
         }
       },
       {
-        "Id": "9766",
+        "Id": "9769",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-08T00:00:00-07:00",
@@ -2642,7 +2762,7 @@
         }
       },
       {
-        "Id": "9767",
+        "Id": "9770",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-16T00:00:00-07:00",
@@ -2682,7 +2802,7 @@
         }
       },
       {
-        "Id": "9768",
+        "Id": "9771",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-02T00:00:00-07:00",
@@ -2722,7 +2842,7 @@
         }
       },
       {
-        "Id": "9769",
+        "Id": "9772",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-06T00:00:00-07:00",
@@ -2762,7 +2882,7 @@
         }
       },
       {
-        "Id": "9770",
+        "Id": "9773",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-26T00:00:00-07:00",
@@ -2802,7 +2922,7 @@
         }
       },
       {
-        "Id": "9771",
+        "Id": "9774",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-19T00:00:00-07:00",
@@ -2842,7 +2962,7 @@
         }
       },
       {
-        "Id": "9772",
+        "Id": "9775",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-16T00:00:00-07:00",
@@ -2882,7 +3002,7 @@
         }
       },
       {
-        "Id": "9773",
+        "Id": "9776",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-26T00:00:00-07:00",
@@ -2922,7 +3042,7 @@
         }
       },
       {
-        "Id": "9774",
+        "Id": "9777",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-24T00:00:00-07:00",
@@ -2962,7 +3082,7 @@
         }
       },
       {
-        "Id": "9775",
+        "Id": "9778",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-19T00:00:00-07:00",
@@ -3002,7 +3122,7 @@
         }
       },
       {
-        "Id": "9776",
+        "Id": "9779",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-07T00:00:00-07:00",
@@ -3042,7 +3162,7 @@
         }
       },
       {
-        "Id": "9777",
+        "Id": "9780",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-03T00:00:00-07:00",
@@ -3082,7 +3202,7 @@
         }
       },
       {
-        "Id": "9778",
+        "Id": "9781",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-06T00:00:00-07:00",
@@ -3122,7 +3242,7 @@
         }
       },
       {
-        "Id": "9779",
+        "Id": "9782",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-08T00:00:00-07:00",
@@ -3162,7 +3282,7 @@
         }
       },
       {
-        "Id": "9780",
+        "Id": "9783",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-26T00:00:00-07:00",
@@ -3202,7 +3322,7 @@
         }
       },
       {
-        "Id": "9781",
+        "Id": "9784",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-06T00:00:00-07:00",
@@ -3242,7 +3362,7 @@
         }
       },
       {
-        "Id": "9782",
+        "Id": "9785",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-01T00:00:00-07:00",
@@ -3282,7 +3402,7 @@
         }
       },
       {
-        "Id": "9783",
+        "Id": "9786",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-19T00:00:00-07:00",
@@ -3322,7 +3442,7 @@
         }
       },
       {
-        "Id": "9784",
+        "Id": "9787",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-26T00:00:00-07:00",
@@ -3362,7 +3482,7 @@
         }
       },
       {
-        "Id": "9785",
+        "Id": "9788",
         "SyncToken": "0",
         "MetaData": {
           "CreateTime": "2025-04-05T00:00:00-07:00",
@@ -3402,161 +3522,41 @@
         }
       },
       {
-        "Id": "9786",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-06T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-06T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-06",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "102",
-          "name": "Vehicle Maintenance"
-        },
-        "EntityRef": {
-          "value": "284",
-          "name": "Midas Auto Service",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 1145.7,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "102",
-                "name": "Vehicle Maintenance"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Annual safety inspection"
-          }
-        ],
-        "TotalAmt": 1145.7,
-        "PrivateNote": "Annual safety inspection",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9787",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-23T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-23T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-23",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "102",
-          "name": "Vehicle Maintenance"
-        },
-        "EntityRef": {
-          "value": "456",
-          "name": "Midas Auto Service",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 959.81,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "102",
-                "name": "Vehicle Maintenance"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Transmission service"
-          }
-        ],
-        "TotalAmt": 959.81,
-        "PrivateNote": "Transmission service",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
-        "Id": "9788",
-        "SyncToken": "0",
-        "MetaData": {
-          "CreateTime": "2025-04-14T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-14T00:00:00-07:00"
-        },
-        "TxnDate": "2025-04-14",
-        "PaymentType": "CreditCard",
-        "AccountRef": {
-          "value": "102",
-          "name": "Vehicle Maintenance"
-        },
-        "EntityRef": {
-          "value": "220",
-          "name": "Jiffy Lube Commercial",
-          "type": "Vendor"
-        },
-        "Line": [
-          {
-            "Id": "1",
-            "Amount": 127.68,
-            "DetailType": "AccountBasedExpenseLineDetail",
-            "AccountBasedExpenseLineDetail": {
-              "AccountRef": {
-                "value": "102",
-                "name": "Vehicle Maintenance"
-              },
-              "BillableStatus": "NotBillable",
-              "ClassRef": null
-            },
-            "Description": "Brake service"
-          }
-        ],
-        "TotalAmt": 127.68,
-        "PrivateNote": "Brake service",
-        "CurrencyRef": {
-          "value": "USD"
-        }
-      },
-      {
         "Id": "9789",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-17T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-17T00:00:00-07:00"
+          "CreateTime": "2025-04-08T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-08T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-17",
+        "TxnDate": "2025-04-08",
         "PaymentType": "CreditCard",
         "AccountRef": {
-          "value": "102",
-          "name": "Vehicle Maintenance"
+          "value": "101",
+          "name": "Fuel"
         },
         "EntityRef": {
-          "value": "619",
-          "name": "Pep Boys Fleet",
+          "value": "138",
+          "name": "WEX Fleet Solutions",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 1761.01,
+            "Amount": 109.95,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
-                "value": "102",
-                "name": "Vehicle Maintenance"
+                "value": "101",
+                "name": "Fuel"
               },
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Annual safety inspection"
+            "Description": "WEX Fleet Card — fuel"
           }
         ],
-        "TotalAmt": 1761.01,
-        "PrivateNote": "Annual safety inspection",
+        "TotalAmt": 109.95,
+        "PrivateNote": "WEX Fleet Card — fuel",
         "CurrencyRef": {
           "value": "USD"
         }
@@ -3565,38 +3565,38 @@
         "Id": "9790",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-01T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+          "CreateTime": "2025-04-20T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-20T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-01",
+        "TxnDate": "2025-04-20",
         "PaymentType": "CreditCard",
         "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
+          "value": "101",
+          "name": "Fuel"
         },
         "EntityRef": {
-          "value": "741",
-          "name": "IC Driver #01",
+          "value": "190",
+          "name": "WEX Fleet Solutions",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 577.1,
+            "Amount": 99.99,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
+                "value": "101",
+                "name": "Fuel"
               },
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 1"
+            "Description": "WEX Fleet Card — fuel"
           }
         ],
-        "TotalAmt": 577.1,
-        "PrivateNote": "Weekly IC driver payment — week 1",
+        "TotalAmt": 99.99,
+        "PrivateNote": "WEX Fleet Card — fuel",
         "CurrencyRef": {
           "value": "USD"
         }
@@ -3605,38 +3605,38 @@
         "Id": "9791",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-03T00:00:00-07:00"
+          "CreateTime": "2025-04-21T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-21T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-03",
+        "TxnDate": "2025-04-21",
         "PaymentType": "CreditCard",
         "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
+          "value": "101",
+          "name": "Fuel"
         },
         "EntityRef": {
-          "value": "154",
-          "name": "IC Driver #02",
+          "value": "528",
+          "name": "WEX Fleet Solutions",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 413.19,
+            "Amount": 82.11,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
+                "value": "101",
+                "name": "Fuel"
               },
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 1"
+            "Description": "WEX Fleet Card — fuel"
           }
         ],
-        "TotalAmt": 413.19,
-        "PrivateNote": "Weekly IC driver payment — week 1",
+        "TotalAmt": 82.11,
+        "PrivateNote": "WEX Fleet Card — fuel",
         "CurrencyRef": {
           "value": "USD"
         }
@@ -3651,32 +3651,32 @@
         "TxnDate": "2025-04-01",
         "PaymentType": "CreditCard",
         "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
+          "value": "101",
+          "name": "Fuel"
         },
         "EntityRef": {
-          "value": "252",
-          "name": "IC Driver #03",
+          "value": "642",
+          "name": "WEX Fleet Solutions",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 352.11,
+            "Amount": 72.27,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
+                "value": "101",
+                "name": "Fuel"
               },
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 1"
+            "Description": "WEX Fleet Card — fuel"
           }
         ],
-        "TotalAmt": 352.11,
-        "PrivateNote": "Weekly IC driver payment — week 1",
+        "TotalAmt": 72.27,
+        "PrivateNote": "WEX Fleet Card — fuel",
         "CurrencyRef": {
           "value": "USD"
         }
@@ -3685,38 +3685,38 @@
         "Id": "9793",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-03T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-03T00:00:00-07:00"
+          "CreateTime": "2025-04-04T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-04T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-03",
+        "TxnDate": "2025-04-04",
         "PaymentType": "CreditCard",
         "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
+          "value": "101",
+          "name": "Fuel"
         },
         "EntityRef": {
-          "value": "585",
-          "name": "IC Driver #04",
+          "value": "652",
+          "name": "WEX Fleet Solutions",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 820.02,
+            "Amount": 132.65,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
+                "value": "101",
+                "name": "Fuel"
               },
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 1"
+            "Description": "WEX Fleet Card — fuel"
           }
         ],
-        "TotalAmt": 820.02,
-        "PrivateNote": "Weekly IC driver payment — week 1",
+        "TotalAmt": 132.65,
+        "PrivateNote": "WEX Fleet Card — fuel",
         "CurrencyRef": {
           "value": "USD"
         }
@@ -3725,38 +3725,38 @@
         "Id": "9794",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-02T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
+          "CreateTime": "2025-04-17T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-17T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-02",
+        "TxnDate": "2025-04-17",
         "PaymentType": "CreditCard",
         "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
+          "value": "101",
+          "name": "Fuel"
         },
         "EntityRef": {
-          "value": "786",
-          "name": "IC Driver #05",
+          "value": "775",
+          "name": "WEX Fleet Solutions",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 392.85,
+            "Amount": 124.33,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
+                "value": "101",
+                "name": "Fuel"
               },
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 1"
+            "Description": "WEX Fleet Card — fuel"
           }
         ],
-        "TotalAmt": 392.85,
-        "PrivateNote": "Weekly IC driver payment — week 1",
+        "TotalAmt": 124.33,
+        "PrivateNote": "WEX Fleet Card — fuel",
         "CurrencyRef": {
           "value": "USD"
         }
@@ -3765,38 +3765,38 @@
         "Id": "9795",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-01T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+          "CreateTime": "2025-04-07T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-07T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-01",
+        "TxnDate": "2025-04-07",
         "PaymentType": "CreditCard",
         "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
+          "value": "101",
+          "name": "Fuel"
         },
         "EntityRef": {
-          "value": "472",
-          "name": "IC Driver #06",
+          "value": "915",
+          "name": "WEX Fleet Solutions",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 314.58,
+            "Amount": 72.43,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
+                "value": "101",
+                "name": "Fuel"
               },
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 1"
+            "Description": "WEX Fleet Card — fuel"
           }
         ],
-        "TotalAmt": 314.58,
-        "PrivateNote": "Weekly IC driver payment — week 1",
+        "TotalAmt": 72.43,
+        "PrivateNote": "WEX Fleet Card — fuel",
         "CurrencyRef": {
           "value": "USD"
         }
@@ -3805,38 +3805,38 @@
         "Id": "9796",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-02T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
+          "CreateTime": "2025-04-05T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-05T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-02",
+        "TxnDate": "2025-04-05",
         "PaymentType": "CreditCard",
         "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
+          "value": "101",
+          "name": "Fuel"
         },
         "EntityRef": {
-          "value": "357",
-          "name": "IC Driver #07",
+          "value": "585",
+          "name": "WEX Fleet Solutions",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 414.14,
+            "Amount": 142.17,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
+                "value": "101",
+                "name": "Fuel"
               },
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 1"
+            "Description": "WEX Fleet Card — fuel"
           }
         ],
-        "TotalAmt": 414.14,
-        "PrivateNote": "Weekly IC driver payment — week 1",
+        "TotalAmt": 142.17,
+        "PrivateNote": "WEX Fleet Card — fuel",
         "CurrencyRef": {
           "value": "USD"
         }
@@ -3845,38 +3845,38 @@
         "Id": "9797",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-02T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-02T00:00:00-07:00"
+          "CreateTime": "2025-04-16T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-16T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-02",
+        "TxnDate": "2025-04-16",
         "PaymentType": "CreditCard",
         "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
+          "value": "101",
+          "name": "Fuel"
         },
         "EntityRef": {
-          "value": "876",
-          "name": "IC Driver #08",
+          "value": "144",
+          "name": "WEX Fleet Solutions",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 674.76,
+            "Amount": 115.31,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
+                "value": "101",
+                "name": "Fuel"
               },
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 1"
+            "Description": "WEX Fleet Card — fuel"
           }
         ],
-        "TotalAmt": 674.76,
-        "PrivateNote": "Weekly IC driver payment — week 1",
+        "TotalAmt": 115.31,
+        "PrivateNote": "WEX Fleet Card — fuel",
         "CurrencyRef": {
           "value": "USD"
         }
@@ -3891,32 +3891,32 @@
         "TxnDate": "2025-04-02",
         "PaymentType": "CreditCard",
         "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
+          "value": "101",
+          "name": "Fuel"
         },
         "EntityRef": {
-          "value": "858",
-          "name": "IC Driver #09",
+          "value": "545",
+          "name": "WEX Fleet Solutions",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 307.72,
+            "Amount": 80.66,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
+                "value": "101",
+                "name": "Fuel"
               },
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 1"
+            "Description": "WEX Fleet Card — fuel"
           }
         ],
-        "TotalAmt": 307.72,
-        "PrivateNote": "Weekly IC driver payment — week 1",
+        "TotalAmt": 80.66,
+        "PrivateNote": "WEX Fleet Card — fuel",
         "CurrencyRef": {
           "value": "USD"
         }
@@ -3925,38 +3925,38 @@
         "Id": "9799",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-01T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+          "CreateTime": "2025-04-09T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-09T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-01",
+        "TxnDate": "2025-04-09",
         "PaymentType": "CreditCard",
         "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
+          "value": "101",
+          "name": "Fuel"
         },
         "EntityRef": {
-          "value": "280",
-          "name": "IC Driver #10",
+          "value": "876",
+          "name": "WEX Fleet Solutions",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 871.91,
+            "Amount": 127.46,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
+                "value": "101",
+                "name": "Fuel"
               },
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 1"
+            "Description": "WEX Fleet Card — fuel"
           }
         ],
-        "TotalAmt": 871.91,
-        "PrivateNote": "Weekly IC driver payment — week 1",
+        "TotalAmt": 127.46,
+        "PrivateNote": "WEX Fleet Card — fuel",
         "CurrencyRef": {
           "value": "USD"
         }
@@ -3965,38 +3965,38 @@
         "Id": "9800",
         "SyncToken": "0",
         "MetaData": {
-          "CreateTime": "2025-04-01T00:00:00-07:00",
-          "LastUpdatedTime": "2025-04-01T00:00:00-07:00"
+          "CreateTime": "2025-04-15T00:00:00-07:00",
+          "LastUpdatedTime": "2025-04-15T00:00:00-07:00"
         },
-        "TxnDate": "2025-04-01",
+        "TxnDate": "2025-04-15",
         "PaymentType": "CreditCard",
         "AccountRef": {
-          "value": "104",
-          "name": "Driver Labour — IC"
+          "value": "102",
+          "name": "Vehicle Maintenance"
         },
         "EntityRef": {
-          "value": "596",
-          "name": "IC Driver #11",
+          "value": "650",
+          "name": "WEX Fleet Solutions",
           "type": "Vendor"
         },
         "Line": [
           {
             "Id": "1",
-            "Amount": 782.71,
+            "Amount": 121.64,
             "DetailType": "AccountBasedExpenseLineDetail",
             "AccountBasedExpenseLineDetail": {
               "AccountRef": {
-                "value": "104",
-                "name": "Driver Labour — IC"
+                "value": "102",
+                "name": "Vehicle Maintenance"
               },
               "BillableStatus": "NotBillable",
               "ClassRef": null
             },
-            "Description": "Weekly IC driver payment — week 1"
+            "Description": "WEX Fleet Card — fuel (miscoded)"
           }
         ],
-        "TotalAmt": 782.71,
-        "PrivateNote": "Weekly IC driver payment — week 1",
+        "TotalAmt": 121.64,
+        "PrivateNote": "WEX Fleet Card — fuel (miscoded)",
         "CurrencyRef": {
           "value": "USD"
         }
@@ -4004,7 +4004,7 @@
     ],
     "startPosition": 701,
     "maxResults": 100,
-    "totalCount": 1281
+    "totalCount": 1337
   },
-  "time": "2026-06-19T18:38:15-07:00"
+  "time": "2026-07-04T13:45:14-07:00"
 }
