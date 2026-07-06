@@ -50,4 +50,3 @@ select
 from {{ source('bronze', 'linnworks_stock_transactions') }}
 
 order by ingest_timestamp desc, bronze_row_id desc
-limit 20

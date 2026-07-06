@@ -1,4 +1,5 @@
-SELECT count(distinct category_name)
+SELECT 
+    *
 from (
     select
     -- metadata columns added by the loader
@@ -55,3 +56,5 @@ from bronze.linnworks_inventory
 
 order by ingest_timestamp desc, bronze_row_id desc
 ) as linnworks_inventory
+
+where item_title = 'Networked bifurcated process improvement';

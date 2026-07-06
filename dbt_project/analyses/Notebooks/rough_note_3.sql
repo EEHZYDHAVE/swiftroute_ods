@@ -1,4 +1,7 @@
-SELECT count(*)
+SELECT
+    MAX(stock_value),
+    MIN(stock_value),
+    AVG(stock_value)
 
 FROM (
     select
