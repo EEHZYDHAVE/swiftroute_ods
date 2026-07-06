@@ -1,17 +1,7 @@
--- =============================================================================
--- analysis: explore_linnworks_stock_transactions.sql
--- purpose:  Unpack raw JSONB from bronze.linnworks_stock_transactions into
---           readable columns for exploratory review before writing silver model.
---
--- layer:    bronze (read only, no data is created or modified)
--- schema:   bronze
--- source:   bronze.linnworks_stock_transactions
---
--- usage:    Run via dbt Power User preview or psql session.
---           Not materialized, analysis files never create database objects.
--- =============================================================================
+SELECT count(*)
 
-select
+FROM (
+    select
     -- metadata columns added by the loader
     id                                              AS bronze_row_id,
     ingest_timestamp                                AS bronze_ingest_timestamp,
@@ -50,3 +40,4 @@ select
 from bronze.linnworks_stock_transactions
 
 order by ingest_timestamp desc, bronze_row_id desc
+) as linnworks_stock_transactions

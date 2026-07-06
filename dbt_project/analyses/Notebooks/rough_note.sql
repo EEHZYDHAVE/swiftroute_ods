@@ -1,54 +1,57 @@
-select count(distinct worker_id)
+SELECT count(distinct category_name)
 from (
     select
     -- metadata columns added by the loader
-    id                                              as bronze_row_id,
-    ingest_timestamp                                as bronze_ingest_timestamp,
-    source_file                                     as bronze_source_file,
+    -- metadata columns added by the loader
+    id                                              AS bronze_row_id,
+    ingest_timestamp                                AS bronze_ingest_timestamp,
+    source_file                                     AS bronze_source_file,
 
-    -- core delivery identifiers
-    raw_data ->> 'id'                               as delivery_id,
-    raw_data ->> 'shortId'                          as short_id,
-    raw_data ->> 'trackingURL'                      as tracking_url,
+    -- core item identifiers
+    raw_data ->> 'StockItemId'                      AS stock_item_id,
+    raw_data ->> 'ItemNumber'                       AS item_number,
+    raw_data ->> 'ItemTitle'                        AS item_title,
+    raw_data ->> 'BarcodeNumber'                    AS barcode_number,
+    raw_data ->> 'CategoryName'                     AS category_name,
+    raw_data ->> 'PackageGroupName'                 AS package_group_name,
 
-    -- status and type
-    (raw_data ->> 'state')::int                     as state_code,
-    (raw_data ->> 'pickupTask')::boolean            as is_pickup_task,
+    -- pricing and costs
+    (raw_data ->> 'CostPrice')::numeric             AS cost_price,
+    (raw_data ->> 'RetailPrice')::numeric           AS retail_price,
+    (raw_data ->> 'TaxCostInclusive')::boolean      AS tax_cost_inclusive,
 
-    -- assignment
-    raw_data ->> 'worker'                           as worker_id,
-    raw_data ->> 'organization'                     as organization_id,
-    raw_data ->> 'merchant'                         as merchant_id,
-    raw_data ->> 'creator'                          as creator_id,
+    -- stock levels
+    (raw_data ->> 'Quantity')::int                  AS quantity,
+    (raw_data ->> 'MinimumLevel')::int              AS minimum_level,
+    (raw_data ->> 'InOrderBook')::int               AS in_order_book,
+    (raw_data ->> 'Due')::int                       AS due,
+    (raw_data ->> 'JIT')::boolean                   AS jit,
 
-    -- timestamps (Onfleet uses epoch milliseconds)
-    to_timestamp((raw_data ->> 'timeCreated')::bigint / 1000)       as created_at,
-    to_timestamp((raw_data ->> 'timeLastModified')::bigint / 1000)  as last_modified_at,
-    to_timestamp((raw_data ->> 'completeAfter')::bigint / 1000)     as complete_after,
-    to_timestamp((raw_data ->> 'completeBefore')::bigint / 1000)    as complete_before,
+    -- dimensions and weight
+    (raw_data ->> 'Weight')::numeric                AS weight,
+    (raw_data ->> 'Width')::numeric                 AS width,
+    (raw_data ->> 'Height')::numeric                AS height,
+    (raw_data ->> 'Depth')::numeric                 AS depth,
 
-    -- completion details
-    raw_data -> 'completionDetails' ->> 'success'           as completion_success,
-    raw_data -> 'completionDetails' ->> 'failureReason'     as failure_reason,
-    raw_data -> 'completionDetails' ->> 'successNotes'      as success_notes,
-    to_timestamp(
-        (raw_data -> 'completionDetails' ->> 'time')::bigint / 1000
-    )                                                        as completed_at,
+    -- flags
+    (raw_data ->> 'IsCompositeParent')::boolean     AS is_composite_parent,
+    (raw_data ->> 'IsVariationParent')::boolean     AS is_variation_parent,
+    (raw_data ->> 'IsDeleted')::boolean             AS is_deleted,
 
-    -- destination
-    raw_data -> 'destination' ->> 'address'                 as destination_address,
-    raw_data -> 'destination' -> 'location' ->> 0           as destination_lng,
-    raw_data -> 'destination' -> 'location' ->> 1           as destination_lat,
+    -- dates
+    (raw_data ->> 'CreationDate')::timestamp        AS creation_date,
+    (raw_data ->> 'ModifiedDate')::timestamp        AS modified_date,
 
-    -- notes
-    raw_data ->> 'notes'                            as notes,
+    -- source and client info
+    raw_data ->> 'Source'                           AS source,
+    raw_data ->> 'PostalServiceName'                AS postal_service_name,
+    raw_data ->> '_swiftroute_client_id'            AS swiftroute_client_id,
+    raw_data ->> '_swiftroute_client_name'          AS swiftroute_client_name,
 
     -- raw data for reference
     raw_data
 
-from bronze.onfleet_deliveries
+from bronze.linnworks_inventory
 
--- order by most recently ingested first
 order by ingest_timestamp desc, bronze_row_id desc
-) as deliveries;
-
+) as linnworks_inventory
