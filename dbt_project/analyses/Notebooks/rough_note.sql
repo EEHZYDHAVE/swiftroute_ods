@@ -1,60 +1,58 @@
-SELECT 
-    *
-from (
-    select
-    -- metadata columns added by the loader
-    -- metadata columns added by the loader
-    id                                              AS bronze_row_id,
-    ingest_timestamp                                AS bronze_ingest_timestamp,
-    source_file                                     AS bronze_source_file,
 
-    -- core item identifiers
-    raw_data ->> 'StockItemId'                      AS stock_item_id,
-    raw_data ->> 'ItemNumber'                       AS item_number,
-    raw_data ->> 'ItemTitle'                        AS item_title,
-    raw_data ->> 'BarcodeNumber'                    AS barcode_number,
-    raw_data ->> 'CategoryName'                     AS category_name,
-    raw_data ->> 'PackageGroupName'                 AS package_group_name,
 
-    -- pricing and costs
-    (raw_data ->> 'CostPrice')::numeric             AS cost_price,
-    (raw_data ->> 'RetailPrice')::numeric           AS retail_price,
-    (raw_data ->> 'TaxCostInclusive')::boolean      AS tax_cost_inclusive,
+-- SELECT
+--     COUNT(DISTINCT expense_id)
+-- -- SELECT DISTINCT line_account_name
+-- from (
+--     SELECT
+--     -- metadata columns added by the loader
+--     id                                              AS bronze_row_id,
+--     ingest_timestamp                                AS bronze_ingest_timestamp,
+--     source_file                                     AS bronze_source_file,
 
-    -- stock levels
-    (raw_data ->> 'Quantity')::int                  AS quantity,
-    (raw_data ->> 'MinimumLevel')::int              AS minimum_level,
-    (raw_data ->> 'InOrderBook')::int               AS in_order_book,
-    (raw_data ->> 'Due')::int                       AS due,
-    (raw_data ->> 'JIT')::boolean                   AS jit,
+--     -- core expense identifiers
+--     raw_data ->> 'Id'                               AS expense_id,
+--     raw_data ->> 'domain'                           AS domain,
+--     raw_data ->> 'SyncToken'                        AS sync_token,
 
-    -- dimensions and weight
-    (raw_data ->> 'Weight')::numeric                AS weight,
-    (raw_data ->> 'Width')::numeric                 AS width,
-    (raw_data ->> 'Height')::numeric                AS height,
-    (raw_data ->> 'Depth')::numeric                 AS depth,
+--     -- dates
+--     (raw_data ->> 'TxnDate')::date                  AS transaction_date,
+--     (raw_data -> 'MetaData' ->> 'CreateTime')::timestamp     AS created_at,
+--     (raw_data -> 'MetaData' ->> 'LastUpdatedTime')::timestamp AS last_updated_at,
 
-    -- flags
-    (raw_data ->> 'IsCompositeParent')::boolean     AS is_composite_parent,
-    (raw_data ->> 'IsVariationParent')::boolean     AS is_variation_parent,
-    (raw_data ->> 'IsDeleted')::boolean             AS is_deleted,
+--     -- vendor
+--     raw_data -> 'EntityRef' ->> 'value'             AS vendor_id,
+--     raw_data -> 'EntityRef' ->> 'name'              AS vendor_name,
+--     raw_data -> 'EntityRef' ->> 'type'              AS vendor_type,
 
-    -- dates
-    (raw_data ->> 'CreationDate')::timestamp        AS creation_date,
-    (raw_data ->> 'ModifiedDate')::timestamp        AS modified_date,
+--     -- account
+--     raw_data -> 'AccountRef' ->> 'value'            AS account_id,
+--     raw_data -> 'AccountRef' ->> 'name'             AS account_name,
 
-    -- source and client info
-    raw_data ->> 'Source'                           AS source,
-    raw_data ->> 'PostalServiceName'                AS postal_service_name,
-    raw_data ->> '_swiftroute_client_id'            AS swiftroute_client_id,
-    raw_data ->> '_swiftroute_client_name'          AS swiftroute_client_name,
+--     -- amounts
+--     (raw_data ->> 'TotalAmt')::numeric              AS total_amount,
 
-    -- raw data for reference
-    raw_data
+--     -- payment type
+--     raw_data ->> 'PaymentType'                      AS payment_type,
 
-from bronze.linnworks_inventory
+--     -- currency
+--     raw_data -> 'CurrencyRef' ->> 'value'           AS currency,
 
-order by ingest_timestamp desc, bronze_row_id desc
-) as linnworks_inventory
+--     -- private note
+--     raw_data ->> 'PrivateNote'                      AS private_note,
 
-where item_title = 'Networked bifurcated process improvement';
+--     -- line item (first line example, can unnest for full array)
+--     raw_data -> 'Line' -> 0 ->> 'Id'                AS line_id,
+--     (raw_data -> 'Line' -> 0 ->> 'Amount')::numeric AS line_amount,
+--     raw_data -> 'Line' -> 0 ->> 'DetailType'        AS line_detail_type,
+--     raw_data -> 'Line' -> 0 ->> 'Description'       AS line_description,
+--     raw_data -> 'Line' -> 0 -> 'AccountBasedExpenseLineDetail' -> 'AccountRef' ->> 'value' AS line_account_id,
+--     raw_data -> 'Line' -> 0 -> 'AccountBasedExpenseLineDetail' -> 'AccountRef' ->> 'name' AS line_account_name,
+--     raw_data -> 'Line' -> 0 -> 'AccountBasedExpenseLineDetail' ->> 'BillableStatus' AS line_billable_status,
+
+--     -- raw data for reference
+--     raw_data
+
+-- FROM bronze.quickbooks_expenses
+-- ORDER BY ingest_timestamp DESC, bronze_row_id DESC
+-- ) as quickbooks_expenses

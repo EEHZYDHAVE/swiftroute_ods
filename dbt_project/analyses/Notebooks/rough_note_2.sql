@@ -1,119 +1,72 @@
--- -- SELECT reference_number, COUNT(*) AS occurrences
--- -- SELECT
--- --     -- MIN(tax_amount),
--- --     -- MAX(tax_amount),
--- --     -- AVG(tax_amount)
--- --     COUNT(order_status),
--- --     COUNT(lock_for_shipping),
--- --     COUNT(marker),
--- --     COUNT(general_notes)
--- SELECT COUNT(DISTINCT item_sku)
+-- SELECT
+--     COUNT(line_amount - total_amount) AS diff
 -- from (
---    select
+--    SELECT
 --     -- metadata columns added by the loader
 --     id                                              AS bronze_row_id,
 --     ingest_timestamp                                AS bronze_ingest_timestamp,
 --     source_file                                     AS bronze_source_file,
 
---     -- core order identifiers
---     raw_data ->> 'pkOrderID'                        AS order_id,
---     (raw_data ->> 'NumOrderId')::int                AS order_number,
---     raw_data ->> 'ReferenceNum'                     AS reference_number,
---     raw_data ->> 'ExternalReference'                AS external_reference,
---     raw_data ->> 'SecondaryReference'               AS secondary_reference,
-
---     -- channel and source
---     raw_data ->> 'Channel'                          AS channel,
---     raw_data ->> 'Source'                           AS source,
---     raw_data ->> 'SubSource'                        AS sub_source,
---     raw_data ->> 'SiteCode'                         AS site_code,
---     raw_data ->> 'FulfilmentLocationName'           AS fulfilment_location,
+--     -- core invoice identifiers
+--     raw_data ->> 'Id'                               AS invoice_id,
+--     raw_data ->> 'DocNumber'                        AS document_number,
+--     raw_data ->> 'domain'                           AS domain,
+--     raw_data ->> 'SyncToken'                        AS sync_token,
 
 --     -- dates
---     (raw_data ->> 'ReceivedDate')::timestamp        AS received_at,
---     (raw_data ->> 'ProcessedOn')::timestamp         AS processed_at,
---     (raw_data ->> 'DispatchedOn')::timestamp        AS dispatched_at,
+--     (raw_data ->> 'TxnDate')::date                  AS transaction_date,
+--     (raw_data ->> 'DueDate')::date                  AS due_date,
+--     (raw_data -> 'MetaData' ->> 'CreateTime')::timestamp     AS created_at,
+--     (raw_data -> 'MetaData' ->> 'LastUpdatedTime')::timestamp AS last_updated_at,
 
 --     -- customer
---     raw_data ->> 'CustomerName'                     AS customer_name,
---     raw_data ->> 'CustomerEmail'                    AS customer_email,
+--     raw_data -> 'CustomerRef' ->> 'value'           AS customer_id,
+--     raw_data -> 'CustomerRef' ->> 'name'            AS customer_name,
 
---     -- shipping address
---     raw_data -> 'Address' ->> 'FullName'            AS shipping_full_name,
---     raw_data -> 'Address' ->> 'Company'             AS shipping_company,
---     raw_data -> 'Address' ->> 'Address1'            AS shipping_address_1,
---     raw_data -> 'Address' ->> 'Address2'            AS shipping_address_2,
---     raw_data -> 'Address' ->> 'City'                AS shipping_city,
---     raw_data -> 'Address' ->> 'Region'              AS shipping_region,
---     raw_data -> 'Address' ->> 'PostCode'            AS shipping_postcode,
---     raw_data -> 'Address' ->> 'Country'             AS shipping_country,
---     raw_data -> 'Address' ->> 'CountryCode'         AS shipping_country_code,
---     raw_data -> 'Address' ->> 'Phone'               AS shipping_phone,
+--     -- amounts
+--     (raw_data ->> 'TotalAmt')::numeric              AS total_amount,
+--     (raw_data ->> 'Balance')::numeric               AS balance,
 
---     -- financials
---     (raw_data ->> 'SubTotal')::numeric              AS subtotal,
---     (raw_data ->> 'PostalServiceCost')::numeric     AS postal_service_cost,
---     (raw_data ->> 'TotalCharge')::numeric           AS total_charge,
---     (raw_data ->> 'TaxAmount')::numeric             AS tax_amount,
---     raw_data ->> 'Currency'                         AS currency,
---     raw_data ->> 'PaymentMethod'                    AS payment_method,
---     raw_data ->> 'PaymentStatus'                    AS payment_status,
+--     -- status
+--     raw_data ->> 'EmailStatus'                      AS email_status,
+--     raw_data ->> 'PrintStatus'                      AS print_status,
 
---     -- general info
---     (raw_data -> 'GeneralInfo' ->> 'Status')::int   AS order_status,
---     (raw_data -> 'GeneralInfo' ->> 'LockForShipping')::boolean AS lock_for_shipping,
---     (raw_data -> 'GeneralInfo' ->> 'Marker')::int   AS marker,
---     raw_data -> 'GeneralInfo' ->> 'Notes'           AS general_notes,
+--     -- currency
+--     raw_data -> 'CurrencyRef' ->> 'value'           AS currency,
+--     raw_data -> 'CurrencyRef' ->> 'name'            AS currency_name,
 
---     -- shipping info
---     raw_data -> 'ShippingInfo' ->> 'PostalServiceName' AS postal_service_name,
---     raw_data -> 'ShippingInfo' ->> 'TrackingNumber'    AS tracking_number,
---     raw_data -> 'ShippingInfo' ->> 'Vendor'            AS shipping_vendor,
---     raw_data -> 'ShippingInfo' ->> 'PostalServiceCode' AS postal_service_code,
+--     -- billing email
+--     raw_data -> 'BillEmail' ->> 'Address'           AS bill_email,
 
---     -- items (first item example, can be unnested for full array)
---     raw_data -> 'Items' -> 0 ->> 'StockItemId'      AS item_stock_item_id,
---     raw_data -> 'Items' -> 0 ->> 'SKU'              AS item_sku,
---     raw_data -> 'Items' -> 0 ->> 'ItemTitle'        AS item_title,
---     (raw_data -> 'Items' -> 0 ->> 'Quantity')::int  AS item_quantity,
---     (raw_data -> 'Items' -> 0 ->> 'UnitCost')::numeric AS item_unit_cost,
---     (raw_data -> 'Items' -> 0 ->> 'PricePerUnit')::numeric AS item_price_per_unit,
---     (raw_data -> 'Items' -> 0 ->> 'LineTotal')::numeric AS item_line_total,
---     (raw_data -> 'Items' -> 0 ->> 'Weight')::numeric AS item_weight,
---     (raw_data -> 'Items' -> 0 ->> 'IsComposite')::boolean AS item_is_composite,
---     raw_data -> 'Items' -> 0 ->> 'BinRack'          AS item_bin_rack,
+--     -- payment method
+--     raw_data -> 'PaymentMethodRef' ->> 'value'      AS payment_method_id,
+--     raw_data -> 'PaymentMethodRef' ->> 'name'       AS payment_method,
 
---     -- client integration fields
---     raw_data ->> '_swiftroute_client_id'            AS swiftroute_client_id,
---     raw_data ->> '_swiftroute_client_name'          AS swiftroute_client_name,
---     (raw_data ->> '_swiftroute_pick_duration_mins')::int AS swiftroute_pick_duration_mins,
+--     -- line item (first line example, can unnest for full array)
+--     raw_data -> 'Line' -> 0 ->> 'Id'                AS line_id,
+--     (raw_data -> 'Line' -> 0 ->> 'LineNum')::int    AS line_num,
+--     (raw_data -> 'Line' -> 0 ->> 'Amount')::numeric AS line_amount,
+--     raw_data -> 'Line' -> 0 ->> 'DetailType'        AS line_detail_type,
+--     raw_data -> 'Line' -> 0 ->> 'Description'       AS line_description,
+--     (raw_data -> 'Line' -> 0 -> 'SalesItemLineDetail' ->> 'Qty')::int AS line_qty,
+--     (raw_data -> 'Line' -> 0 -> 'SalesItemLineDetail' ->> 'UnitPrice')::numeric AS line_unit_price,
+--     (raw_data -> 'Line' -> 0 -> 'SalesItemLineDetail' ->> 'ServiceDate')::date AS line_service_date,
+--     raw_data -> 'Line' -> 0 -> 'SalesItemLineDetail' -> 'ItemRef' ->> 'value' AS line_item_ref_id,
+--     raw_data -> 'Line' -> 0 -> 'SalesItemLineDetail' -> 'ItemRef' ->> 'name' AS line_item_ref_name,
+
+--     -- custom fields (example: first three entries)
+--     raw_data -> 'CustomField' -> 0 ->> 'Name'       AS custom_field_1_name,
+--     raw_data -> 'CustomField' -> 0 ->> 'StringValue' AS custom_field_1_value,
+--     raw_data -> 'CustomField' -> 1 ->> 'Name'       AS custom_field_2_name,
+--     raw_data -> 'CustomField' -> 1 ->> 'StringValue' AS custom_field_2_value,
+--     raw_data -> 'CustomField' -> 2 ->> 'Name'       AS custom_field_3_name,
+--     raw_data -> 'CustomField' -> 2 ->> 'StringValue' AS custom_field_3_value,
 
 --     -- raw data for reference
 --     raw_data
 
--- from bronze.linnworks_orders
+-- FROM bronze.quickbooks_invoices
+-- ORDER BY ingest_timestamp DESC, bronze_row_id DESC
+-- ) as quickbooks_invoices
 
--- order by ingest_timestamp desc, bronze_row_id desc
--- ) as linnworks_orders
-
-WITH normalized AS (
-    SELECT
-        -- normalize SKU: uppercase and replace underscores with dashes
-        UPPER(REPLACE(raw_data -> 'Items' -> 0 ->> 'SKU', '_', '-')) AS normalized_sku,
-        raw_data -> 'Items' -> 0 ->> 'ItemTitle' AS item_title,
-        raw_data -> 'Items' -> 0 ->> 'StockItemId' AS stock_item_id,
-        raw_data ->> 'pkOrderID' AS order_id,
-        raw_data ->> 'ReferenceNum' AS reference_number
-    FROM bronze.linnworks_orders
-)
-SELECT
-    normalized_sku,
-    item_title,
-    COUNT(DISTINCT stock_item_id) AS distinct_stock_items,
-    ARRAY_AGG(DISTINCT stock_item_id) AS stock_item_ids,
-    ARRAY_AGG(order_id) AS order_ids,
-    ARRAY_AGG(reference_number) AS reference_numbers
-FROM normalized
-GROUP BY normalized_sku, item_title
-HAVING COUNT(DISTINCT stock_item_id) > 1
-ORDER BY distinct_stock_items DESC;
+-- WHERE (line_amount - total_amount) > 0.1;
