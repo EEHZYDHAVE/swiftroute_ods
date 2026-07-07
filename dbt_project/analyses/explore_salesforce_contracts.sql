@@ -11,34 +11,49 @@
 --           Not materialized, analysis files never create database objects.
 -- =============================================================================
 
-select
+SELECT
     -- metadata columns added by the loader
-    id                                              as bronze_row_id,
-    ingest_timestamp                                as bronze_ingest_timestamp,
-    source_file                                     as bronze_source_file,
+    id                                                  AS bronze_row_id,
+    ingest_timestamp                                    AS bronze_ingest_timestamp,
+    source_file                                         AS bronze_source_file,
 
     -- core contract identifiers
-    raw_data ->> 'Id'                               as contract_id,
-    raw_data ->> 'ContractNumber'                   as contract_number,
-    raw_data ->> 'Name'                             as contract_name,
+    raw_data ->> 'Id'                                   AS contract_id,
 
-    -- account reference
-    raw_data -> 'AccountId' ->> 'value'             as account_id,
+    -- account
+    raw_data ->> 'AccountId'                            AS account_id,
 
-    -- dates
-    (raw_data ->> 'StartDate')::date                as start_date,
-    (raw_data ->> 'EndDate')::date                  as end_date,
+    -- ownership
+    raw_data ->> 'OwnerId'                              AS owner_id,
 
-    -- status
-    raw_data ->> 'Status'                           as status,
+    -- contract dates
+    (raw_data ->> 'StartDate')::date                    AS start_date,
+    (raw_data ->> 'EndDate')::date                      AS end_date,
+    (raw_data ->> 'SignedDate__c')::date                AS signed_date,
 
-    -- terms
-    (raw_data ->> 'ContractTerm')::int              as contract_term_months,
-    raw_data ->> 'Description'                      as description,
+    -- lifecycle
+    raw_data ->> 'Status'                               AS status,
+    raw_data ->> 'Contract_Type__c'                     AS contract_type,
+    (raw_data ->> 'Auto_Renewal__c')::boolean           AS auto_renewal,
 
-    -- raw data for reference
+    -- commercial terms
+    (raw_data ->> 'ContractTerm')::int                  AS contract_term_months,
+    (raw_data ->> 'Discount_Rate__c')::numeric          AS discount_rate,
+    (raw_data ->> 'Net_Payment_Terms__c')::int          AS net_payment_terms_days,
+    (raw_data ->> 'Termination_Notice_Days__c')::int    AS termination_notice_days,
+    (raw_data ->> 'Committed_Monthly_Volume__c')::int   AS committed_monthly_volume,
+
+    -- customer attributes
+    raw_data ->> 'Account_Tier__c'                      AS account_tier,
+    raw_data ->> 'Primary_City__c'                      AS primary_city,
+
+    -- Salesforce timestamps
+    (raw_data ->> 'CreatedDate')::timestamp             AS created_at,
+    (raw_data ->> 'LastModifiedDate')::timestamp        AS last_modified_at,
+
+    -- raw JSON
     raw_data
 
-from bronze.salesforce_contracts
+FROM bronze.salesforce_contracts
 
-order by ingest_timestamp desc, bronze_row_id desc
+ORDER BY ingest_timestamp DESC, bronze_row_id DESC;

@@ -11,31 +11,41 @@
 --           Not materialized — analysis files never create database objects.
 -- =============================================================================
 
-select
+SELECT
     -- metadata columns added by the loader
-    id                                                  as bronze_row_id,
-    ingest_timestamp                                    as bronze_ingest_timestamp,
-    source_file                                         as bronze_source_file,
+    id                                          AS bronze_row_id,
+    ingest_timestamp                            AS bronze_ingest_timestamp,
+    source_file                                 AS bronze_source_file,
 
-    -- core identifiers
-    raw_data ->> 'driverId'                             as driver_id,
-    raw_data ->> 'driverName'                           as driver_name,
+    -- driver
+    raw_data ->> 'driverId'                     AS driver_id,
+    raw_data ->> 'driverName'                   AS driver_name,
 
-    -- summary metrics
-    (raw_data ->> 'totalDistanceMeters')::numeric       as total_distance_meters,
-    (raw_data ->> 'totalDriveMs')::bigint / 1000        as total_drive_seconds,
-    (raw_data ->> 'totalOnDutyMs')::bigint / 1000       as total_on_duty_seconds,
+    -- location
+    raw_data ->> '_city'                        AS city,
 
-    -- safety scores
-    (raw_data ->> 'safetyScore')::numeric               as safety_score,
-    (raw_data ->> 'harshAccelCount')::int               as harsh_accel_count,
-    (raw_data ->> 'harshBrakeCount')::int               as harsh_brake_count,
-    (raw_data ->> 'harshTurnCount')::int                as harsh_turn_count,
-    (raw_data ->> 'overspeedCount')::int                as overspeed_count,
+    -- driving summary
+    (raw_data ->> 'totalTrips')::int            AS total_trips,
+    (raw_data ->> 'safetyScore')::numeric       AS safety_score,
 
-    -- raw data for reference
+    -- behaviour metrics
+    (raw_data ->> 'speedingCount')::int         AS speeding_count,
+    (raw_data ->> 'harshAccelCount')::int       AS harsh_accel_count,
+    (raw_data ->> 'harshBrakingCount')::int     AS harsh_braking_count,
+
+    -- driving time
+    (raw_data ->> 'totalIdleTimeMs')::bigint    AS total_idle_time_ms,
+    (raw_data ->> 'totalDriveTimeMs')::bigint   AS total_drive_time_ms,
+
+    -- distance
+    (raw_data ->> 'totalDistanceMeters')::bigint AS total_distance_meters,
+
+    -- HOS violations
+    raw_data -> 'hosViolations'                 AS hos_violations,
+
+    -- raw JSON
     raw_data
 
-from bronze.samsara_driver_summary
+FROM bronze.samsara_driver_summary
 
-order by ingest_timestamp desc, bronze_row_id desc
+ORDER BY ingest_timestamp DESC, bronze_row_id DESC;

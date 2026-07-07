@@ -1,128 +1,49 @@
--- SELECT
---     COUNT(line_amount - total_amount) AS diff
--- FROM (
---     SELECT
---     -- metadata columns added by the loader
---     id                                              AS bronze_row_id,
---     ingest_timestamp                                AS bronze_ingest_timestamp,
---     source_file                                     AS bronze_source_file,
-
---     -- core payment identifiers
---     raw_data ->> 'Id'                               AS payment_id,
---     raw_data ->> 'SyncToken'                        AS sync_token,
-
---     -- dates
---     (raw_data ->> 'TxnDate')::date                  AS transaction_date,
---     (raw_data -> 'MetaData' ->> 'CreateTime')::timestamp     AS created_at,
---     (raw_data -> 'MetaData' ->> 'LastUpdatedTime')::timestamp AS last_updated_at,
-
---     -- customer
---     raw_data -> 'CustomerRef' ->> 'value'           AS customer_id,
---     raw_data -> 'CustomerRef' ->> 'name'            AS customer_name,
-
---     -- amounts
---     (raw_data ->> 'TotalAmt')::numeric              AS total_amount,
---     (raw_data ->> 'UnappliedAmt')::numeric          AS unapplied_amount,
-
---     -- payment method
---     raw_data -> 'PaymentMethodRef' ->> 'value'      AS payment_method_id,
---     raw_data -> 'PaymentMethodRef' ->> 'name'       AS payment_method,
-
---     -- deposit account
---     raw_data -> 'DepositToAccountRef' ->> 'value'   AS deposit_account_id,
---     raw_data -> 'DepositToAccountRef' ->> 'name'    AS deposit_account_name,
-
---     -- currency
---     raw_data -> 'CurrencyRef' ->> 'value'           AS currency,
-
---     -- process flag
---     (raw_data ->> 'ProcessPayment')::boolean        AS process_payment,
-
---     -- line details (first line example, can unnest for full array)
---     (raw_data -> 'Line' -> 0 ->> 'Amount')::numeric AS line_amount,
---     raw_data -> 'Line' -> 0 -> 'LinkedTxn' -> 0 ->> 'TxnId' AS linked_txn_id,
---     raw_data -> 'Line' -> 0 -> 'LinkedTxn' -> 0 ->> 'TxnType' AS linked_txn_type,
-
---     -- custom fields (example: first two entries)
---     raw_data -> 'CustomField' -> 0 ->> 'Name'       AS custom_field_1_name,
---     raw_data -> 'CustomField' -> 0 ->> 'StringValue' AS custom_field_1_value,
---     raw_data -> 'CustomField' -> 1 ->> 'Name'       AS custom_field_2_name,
---     raw_data -> 'CustomField' -> 1 ->> 'StringValue' AS custom_field_2_value,
-
---     -- raw data for reference
---     raw_data
-
--- FROM bronze.quickbooks_payments
--- ORDER BY ingest_timestamp DESC, bronze_row_id DESC
--- ) AS quickbooks_payments
-
--- WHERE (line_amount - total_amount) > 0.1;
-
-
 SELECT
-    COUNT(*) AS invoices_with_mismatch
+    *
 FROM (
     SELECT
-        payment_id,
-        total_amount,
-        SUM(line_amount) AS calculated_total
-    FROM (
-        SELECT
-        -- metadata columns added by the loader
-        id                                              AS bronze_row_id,
-        ingest_timestamp                                AS bronze_ingest_timestamp,
-        source_file                                     AS bronze_source_file,
+    -- metadata columns added by the loader
+    id                                                  AS bronze_row_id,
+    ingest_timestamp                                    AS bronze_ingest_timestamp,
+    source_file                                         AS bronze_source_file,
 
-        -- core payment identifiers
-        raw_data ->> 'Id'                               AS payment_id,
-        raw_data ->> 'SyncToken'                        AS sync_token,
+    -- core contract identifiers
+    raw_data ->> 'Id'                                   AS contract_id,
 
-        -- dates
-        (raw_data ->> 'TxnDate')::date                  AS transaction_date,
-        (raw_data -> 'MetaData' ->> 'CreateTime')::timestamp     AS created_at,
-        (raw_data -> 'MetaData' ->> 'LastUpdatedTime')::timestamp AS last_updated_at,
+    -- account
+    raw_data ->> 'AccountId'                            AS account_id,
 
-        -- customer
-        raw_data -> 'CustomerRef' ->> 'value'           AS customer_id,
-        raw_data -> 'CustomerRef' ->> 'name'            AS customer_name,
+    -- ownership
+    raw_data ->> 'OwnerId'                              AS owner_id,
 
-        -- amounts
-        (raw_data ->> 'TotalAmt')::numeric              AS total_amount,
-        (raw_data ->> 'UnappliedAmt')::numeric          AS unapplied_amount,
+    -- contract dates
+    (raw_data ->> 'StartDate')::date                    AS start_date,
+    (raw_data ->> 'EndDate')::date                      AS end_date,
+    (raw_data ->> 'SignedDate__c')::date                AS signed_date,
 
-        -- payment method
-        raw_data -> 'PaymentMethodRef' ->> 'value'      AS payment_method_id,
-        raw_data -> 'PaymentMethodRef' ->> 'name'       AS payment_method,
+    -- lifecycle
+    raw_data ->> 'Status'                               AS status,
+    raw_data ->> 'Contract_Type__c'                     AS contract_type,
+    (raw_data ->> 'Auto_Renewal__c')::boolean           AS auto_renewal,
 
-        -- deposit account
-        raw_data -> 'DepositToAccountRef' ->> 'value'   AS deposit_account_id,
-        raw_data -> 'DepositToAccountRef' ->> 'name'    AS deposit_account_name,
+    -- commercial terms
+    (raw_data ->> 'ContractTerm')::int                  AS contract_term_months,
+    (raw_data ->> 'Discount_Rate__c')::numeric          AS discount_rate,
+    (raw_data ->> 'Net_Payment_Terms__c')::int          AS net_payment_terms_days,
+    (raw_data ->> 'Termination_Notice_Days__c')::int    AS termination_notice_days,
+    (raw_data ->> 'Committed_Monthly_Volume__c')::int   AS committed_monthly_volume,
 
-        -- currency
-        raw_data -> 'CurrencyRef' ->> 'value'           AS currency,
+    -- customer attributes
+    raw_data ->> 'Account_Tier__c'                      AS account_tier,
+    raw_data ->> 'Primary_City__c'                      AS primary_city,
 
-        -- process flag
-        (raw_data ->> 'ProcessPayment')::boolean        AS process_payment,
+    -- Salesforce timestamps
+    (raw_data ->> 'CreatedDate')::timestamp             AS created_at,
+    (raw_data ->> 'LastModifiedDate')::timestamp        AS last_modified_at,
 
-        -- line details (first line example, can unnest for full array)
-        (raw_data -> 'Line' -> 0 ->> 'Amount')::numeric AS line_amount,
-        raw_data -> 'Line' -> 0 -> 'LinkedTxn' -> 0 ->> 'TxnId' AS linked_txn_id,
-        raw_data -> 'Line' -> 0 -> 'LinkedTxn' -> 0 ->> 'TxnType' AS linked_txn_type,
+    -- raw JSON
+    raw_data
 
-        -- custom fields (example: first two entries)
-        raw_data -> 'CustomField' -> 0 ->> 'Name'       AS custom_field_1_name,
-        raw_data -> 'CustomField' -> 0 ->> 'StringValue' AS custom_field_1_value,
-        raw_data -> 'CustomField' -> 1 ->> 'Name'       AS custom_field_2_name,
-        raw_data -> 'CustomField' -> 1 ->> 'StringValue' AS custom_field_2_value,
-
-        -- raw data for reference
-        raw_data
-
-    FROM bronze.quickbooks_payments
-    ORDER BY ingest_timestamp DESC, bronze_row_id DESC
-    ) AS quickbooks_invoices
-    GROUP BY
-        payment_id,
-        total_amount
-    HAVING ABS(total_amount - SUM(line_amount)) > 0.1
-) mismatched_invoices;
+FROM bronze.salesforce_contracts
+ORDER BY ingest_timestamp DESC, bronze_row_id DESC
+) AS salesforce_contracts

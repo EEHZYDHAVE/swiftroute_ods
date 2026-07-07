@@ -1,17 +1,7 @@
--- =============================================================================
--- analysis: explore_salesforce_opportunities.sql
--- purpose:  Unpack raw JSONB from bronze.salesforce_opportunities into
---           readable columns for exploratory review before writing silver model.
---
--- layer:    bronze (read only — no data is created or modified)
--- schema:   bronze
--- source:   bronze.salesforce_opportunities
---
--- usage:    Run via dbt Power User preview or psql session.
---           Not materialized — analysis files never create database objects.
--- =============================================================================
-
-SELECT
+SELECT 
+    *
+FROM(
+    SELECT
     -- metadata columns added by the loader
     id                                              AS bronze_row_id,
     ingest_timestamp                                AS bronze_ingest_timestamp,
@@ -55,4 +45,5 @@ SELECT
 
 FROM bronze.salesforce_opportunities
 
-ORDER BY ingest_timestamp DESC, bronze_row_id DESC;
+ORDER BY ingest_timestamp DESC, bronze_row_id DESC
+) AS salesforce_opportunities

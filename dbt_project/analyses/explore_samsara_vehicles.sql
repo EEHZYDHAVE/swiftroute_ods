@@ -11,30 +11,49 @@
 --           Not materialized — analysis files never create database objects.
 -- =============================================================================
 
-select
+SELECT
     -- metadata columns added by the loader
-    id                                                  as bronze_row_id,
-    ingest_timestamp                                    as bronze_ingest_timestamp,
-    source_file                                         as bronze_source_file,
+    id                                                  AS bronze_row_id,
+    ingest_timestamp                                    AS bronze_ingest_timestamp,
+    source_file                                         AS bronze_source_file,
 
     -- core identifiers
-    raw_data ->> 'id'                                   as vehicle_id,
-    raw_data ->> 'name'                                 as vehicle_name,
+    raw_data ->> 'id'                                   AS vehicle_id,
+    raw_data ->> 'name'                                 AS vehicle_name,
 
     -- vehicle details
-    raw_data ->> 'make'                                 as make,
-    raw_data ->> 'model'                                as model,
-    raw_data ->> 'year'                                 as year,
-    raw_data ->> 'vin'                                  as vin,
-    raw_data ->> 'licensePlate'                         as license_plate,
+    raw_data ->> 'make'                                 AS make,
+    raw_data ->> 'model'                                AS model,
+    (raw_data ->> 'year')::int                          AS manufacture_year,
+    raw_data ->> 'vin'                                  AS vin,
+    raw_data ->> 'licensePlate'                         AS license_plate,
 
-    -- assignment
-    raw_data ->> 'serial'                               as serial_number,
-    raw_data ->> 'fuelType'                             as fuel_type,
+    -- classification
+    raw_data ->> 'vehicleType'                          AS vehicle_type,
+    raw_data ->> 'fuelType'                             AS fuel_type,
+    raw_data ->> 'operationalStatus'                    AS operational_status,
 
-    -- raw data for reference
+    -- telemetry
+    (raw_data ->> 'currentOdometerMeters')::bigint      AS current_odometer_meters,
+
+    -- last known location
+    (raw_data -> 'lastKnownLocation' ->> 'latitude')::numeric
+                                                        AS last_latitude,
+    (raw_data -> 'lastKnownLocation' ->> 'longitude')::numeric
+                                                        AS last_longitude,
+
+    -- tags (first two)
+    raw_data -> 'tags' -> 0 ->> 'id'                    AS tag_1_id,
+    raw_data -> 'tags' -> 0 ->> 'name'                  AS tag_1_name,
+    raw_data -> 'tags' -> 1 ->> 'id'                    AS tag_2_id,
+    raw_data -> 'tags' -> 1 ->> 'name'                  AS tag_2_name,
+
+    -- full tags array
+    raw_data -> 'tags'                                  AS tags,
+
+    -- raw data
     raw_data
 
-from bronze.samsara_vehicles
+FROM bronze.samsara_vehicles
 
-order by ingest_timestamp desc, bronze_row_id desc
+ORDER BY ingest_timestamp DESC, bronze_row_id DESC;

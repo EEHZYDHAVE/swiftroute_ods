@@ -18,32 +18,53 @@
 --           Not materialized, analysis files never create database objects.
 -- =============================================================================
 
-select
+SELECT
     -- metadata columns added by the loader
-    id                                              as bronze_row_id,
-    ingest_timestamp                                as bronze_ingest_timestamp,
-    source_file                                     as bronze_source_file,
+    id                                                  AS bronze_row_id,
+    ingest_timestamp                                    AS bronze_ingest_timestamp,
+    source_file                                         AS bronze_source_file,
 
     -- core trip identifiers
-    raw_data ->> 'id'                               as trip_id,
+    raw_data ->> 'id'                                   AS trip_id,
 
-    -- vehicle / driver — flat fields, no nested object, no name here
-    raw_data ->> 'vehicleId'                        as vehicle_id,
-    raw_data ->> 'driverId'                         as driver_id,   -- null on ~5% of trips (no driver login) — expected, see QUIRK 4
+    -- vehicle / driver
+    raw_data ->> 'vehicleId'                            AS vehicle_id,
+    raw_data ->> 'driverId'                             AS driver_id,
 
-    -- timing
-    (raw_data ->> 'startMs')::bigint / 1000         as start_epoch,
-    (raw_data ->> 'endMs')::bigint / 1000           as end_epoch,
-    to_timestamp((raw_data ->> 'startMs')::bigint / 1000) as started_at,
-    to_timestamp((raw_data ->> 'endMs')::bigint / 1000)   as ended_at,
+    -- timestamps
+    (raw_data ->> 'startMs')::bigint                    AS start_ms,
+    (raw_data ->> 'endMs')::bigint                      AS end_ms,
+    to_timestamp((raw_data ->> 'startMs')::bigint / 1000.0) AS started_at,
+    to_timestamp((raw_data ->> 'endMs')::bigint / 1000.0)   AS ended_at,
 
-    -- distance and fuel
-    (raw_data ->> 'distanceMeters')::numeric        as distance_meters,
-    (raw_data ->> 'fuelConsumedMl')::numeric        as fuel_consumed_ml,
+    -- duration
+    (raw_data ->> 'durationMs')::bigint                 AS duration_ms,
+    (raw_data ->> 'drivingDurationMs')::bigint          AS driving_duration_ms,
+    (raw_data ->> 'idlingDurationMs')::bigint           AS idling_duration_ms,
 
-    -- raw data for reference
+    -- trip metrics
+    (raw_data ->> 'distanceMeters')::numeric            AS distance_meters,
+    (raw_data ->> 'fuelConsumedMl')::numeric            AS fuel_consumed_ml,
+    (raw_data ->> 'fuelConsumedGallons')::numeric       AS fuel_consumed_gallons,
+    (raw_data ->> 'averageSpeedMph')::numeric           AS average_speed_mph,
+    (raw_data ->> 'maxSpeedMph')::numeric               AS max_speed_mph,
+
+    -- start location
+    raw_data -> 'startCoords' ->> 'latitude'            AS start_latitude,
+    raw_data -> 'startCoords' ->> 'longitude'           AS start_longitude,
+    raw_data ->> 'startAddress'                         AS start_address,
+
+    -- end location
+    raw_data -> 'endCoords' ->> 'latitude'              AS end_latitude,
+    raw_data -> 'endCoords' ->> 'longitude'             AS end_longitude,
+    raw_data ->> 'endAddress'                           AS end_address,
+
+    -- safety events
+    raw_data -> 'safetyEvents'                          AS safety_events,
+
+    -- raw JSON
     raw_data
 
-from bronze.samsara_trips
+FROM bronze.samsara_trips
 
-order by ingest_timestamp desc, bronze_row_id desc
+ORDER BY ingest_timestamp DESC, bronze_row_id DESC;
