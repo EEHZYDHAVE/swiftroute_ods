@@ -1,0 +1,63 @@
+{
+  "vehicleId": "40724006",
+  "vehicleName": "DEN-VAN-12",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_40724006_20250701_25730",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_40724006_20250701_25702",
+      "vehicleId": "40724006",
+      "driverId": "20000007",
+      "startMs": 1751336777000,
+      "endMs": 1751341610000,
+      "startAddress": "2394 Michael Harbor Apt. 351",
+      "endAddress": "765 Coleman Roads",
+      "startCoords": {
+        "latitude": 39.81827,
+        "longitude": -104.97461
+      },
+      "endCoords": {
+        "latitude": 39.814767,
+        "longitude": -105.074868
+      },
+      "distanceMeters": 34261.4,
+      "durationMs": 4833000,
+      "drivingDurationMs": 4297545,
+      "idlingDurationMs": 535455,
+      "fuelConsumedMl": 4357,
+      "fuelConsumedGallons": 1.151,
+      "maxSpeedMph": 29.2,
+      "averageSpeedMph": 15.9,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_40724006_20250701_25730",
+      "vehicleId": "40724006",
+      "driverId": "20000001",
+      "startMs": 1751357445000,
+      "endMs": 1751363859000,
+      "startAddress": "0268 Reed Curve Apt. 003",
+      "endAddress": "444 Stanley Ferry",
+      "startCoords": {
+        "latitude": 39.762917,
+        "longitude": -105.037306
+      },
+      "endCoords": {
+        "latitude": 39.772298,
+        "longitude": -105.052641
+      },
+      "distanceMeters": 26561.4,
+      "durationMs": 6414000,
+      "drivingDurationMs": 4965128,
+      "idlingDurationMs": 1448872,
+      "fuelConsumedMl": 3377,
+      "fuelConsumedGallons": 0.892,
+      "maxSpeedMph": 34.4,
+      "averageSpeedMph": 9.3,
+      "safetyEvents": []
+    }
+  ]
+}

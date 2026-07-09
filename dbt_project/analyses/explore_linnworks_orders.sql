@@ -13,7 +13,7 @@
 --           Not materialized, analysis files never create database objects.
 -- =============================================================================
 
-select
+SELECT
     -- metadata columns added by the loader
     id                                              AS bronze_row_id,
     ingest_timestamp                                AS bronze_ingest_timestamp,
@@ -95,6 +95,74 @@ select
     -- raw data for reference
     raw_data
 
-from bronze.linnworks_orders
+FROM bronze.linnworks_orders
 
-order by ingest_timestamp desc, bronze_row_id desc
+ORDER BY ingest_timestamp DESC, bronze_row_id DESC
+
+
+RAW DATA:
+{
+  "Items": [
+    {
+      "SKU": "DYER-C026",
+      "Weight": 441,
+      "BinRack": "BIN-04-09",
+      "Quantity": 3,
+      "UnitCost": 46.37,
+      "ItemTitle": "Diverse impactful moratorium",
+      "LineTotal": 504.24,
+      "IsComposite": false,
+      "StockItemId": "9A8F6851-508B-CBBB-569B-E3523696DE41",
+      "PricePerUnit": 168.08
+    }
+  ],
+  "Source": "AMAZON",
+  "Address": {
+    "City": "South Andrew",
+    "Phone": "001-665-904-1843",
+    "Region": "Maine",
+    "Company": "",
+    "Country": "United States",
+    "Address1": "1118 Baker Shoals",
+    "Address2": "",
+    "FullName": "Kyle Barber",
+    "PostCode": "00552",
+    "CountryCode": "US"
+  },
+  "Channel": "AMAZON",
+  "Currency": "USD",
+  "SiteCode": "DENVER-WH",
+  "SubTotal": 504.24,
+  "SubSource": "Dyer-Reeves",
+  "TaxAmount": 41.08,
+  "pkOrderID": "1817B0BF-D4E1-CD79-92A3-EE695A82916A",
+  "NumOrderId": 45887,
+  "GeneralInfo": {
+    "Notes": "",
+    "Marker": 0,
+    "Status": 3,
+    "LockForShipping": false
+  },
+  "ProcessedOn": "2025-06-30T17:24:41.000Z",
+  "TotalCharge": 513.48,
+  "CustomerName": "Kayla Delgado",
+  "DispatchedOn": "2025-06-30T17:41:41.000Z",
+  "ReceivedDate": "2025-06-30T16:34:41.000Z",
+  "ReferenceNum": "LW95101785",
+  "ShippingInfo": {
+    "Vendor": "SwiftRoute Logistics",
+    "TrackingNumber": "SR1541960691",
+    "PostalServiceCode": "SR-ND",
+    "PostalServiceName": "SwiftRoute Next Day"
+  },
+  "CustomerEmail": "jim01@example.net",
+  "PaymentMethod": "STRIPE",
+  "PaymentStatus": "PAID",
+  "ExternalReference": "AMAZON-631769",
+  "PostalServiceCost": 9.24,
+  "SecondaryReference": "",
+  "_swiftroute_client_id": "client_004",
+  "FulfilmentLocationName": "Denver Warehouse",
+  "_swiftroute_client_name": "Dyer-Reeves",
+  "_swiftroute_pick_duration_mins": 8
+}

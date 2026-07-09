@@ -1,0 +1,63 @@
+{
+  "vehicleId": "40026912",
+  "vehicleName": "DEN-MOTO-01",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_40026912_20250701_25720",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_40026912_20250701_25695",
+      "vehicleId": "40026912",
+      "driverId": "20000013",
+      "startMs": 1751331941000,
+      "endMs": 1751339090000,
+      "startAddress": "633 Nguyen Stream",
+      "endAddress": "5029 Stephens Lakes",
+      "startCoords": {
+        "latitude": 39.7988,
+        "longitude": -104.980561
+      },
+      "endCoords": {
+        "latitude": 39.744234,
+        "longitude": -105.052215
+      },
+      "distanceMeters": 50506.0,
+      "durationMs": 7149000,
+      "drivingDurationMs": 6181388,
+      "idlingDurationMs": 967612,
+      "fuelConsumedMl": 2286,
+      "fuelConsumedGallons": 0.604,
+      "maxSpeedMph": 37.3,
+      "averageSpeedMph": 15.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_40026912_20250701_25720",
+      "vehicleId": "40026912",
+      "driverId": "20000009",
+      "startMs": 1751352269000,
+      "endMs": 1751353949000,
+      "startAddress": "6915 Maria Vista Apt. 962",
+      "endAddress": "900 Nash River Suite 752",
+      "startCoords": {
+        "latitude": 39.741257,
+        "longitude": -104.983663
+      },
+      "endCoords": {
+        "latitude": 39.795298,
+        "longitude": -105.038699
+      },
+      "distanceMeters": 13714.7,
+      "durationMs": 1680000,
+      "drivingDurationMs": 1417413,
+      "idlingDurationMs": 262587,
+      "fuelConsumedMl": 621,
+      "fuelConsumedGallons": 0.164,
+      "maxSpeedMph": 34.9,
+      "averageSpeedMph": 18.3,
+      "safetyEvents": []
+    }
+  ]
+}

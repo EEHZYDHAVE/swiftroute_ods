@@ -1,0 +1,37 @@
+{
+  "vehicleId": "44865715",
+  "vehicleName": "ABQ-VAN-01",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_44865715_20250701_25729",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_44865715_20250701_25729",
+      "vehicleId": "44865715",
+      "driverId": "20000045",
+      "startMs": 1751357013000,
+      "endMs": 1751358213000,
+      "startAddress": "2650 Rowland Plains",
+      "endAddress": "98614 Curtis Parks Apt. 167",
+      "startCoords": {
+        "latitude": 35.123309,
+        "longitude": -106.71558
+      },
+      "endCoords": {
+        "latitude": 35.176604,
+        "longitude": -106.626635
+      },
+      "distanceMeters": 7641.8,
+      "durationMs": 1200000,
+      "drivingDurationMs": 933135,
+      "idlingDurationMs": 266865,
+      "fuelConsumedMl": 973,
+      "fuelConsumedGallons": 0.257,
+      "maxSpeedMph": 30.4,
+      "averageSpeedMph": 14.2,
+      "safetyEvents": []
+    }
+  ]
+}

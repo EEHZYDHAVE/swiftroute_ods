@@ -62,3 +62,47 @@ SELECT
 
 FROM bronze.quickbooks_expenses
 ORDER BY ingest_timestamp DESC, bronze_row_id DESC;
+
+
+
+RAW DATA:
+{
+  "Id": "10337",
+  "Line": [
+    {
+      "Id": "1",
+      "Amount": 439.02,
+      "DetailType": "AccountBasedExpenseLineDetail",
+      "Description": "Pallet wrap",
+      "AccountBasedExpenseLineDetail": {
+        "ClassRef": null,
+        "AccountRef": {
+          "name": "Warehouse Supplies",
+          "value": "106"
+        },
+        "BillableStatus": "NotBillable"
+      }
+    }
+  ],
+  "TxnDate": "2025-06-15",
+  "MetaData": {
+    "CreateTime": "2025-06-15T00:00:00-07:00",
+    "LastUpdatedTime": "2025-06-15T00:00:00-07:00"
+  },
+  "TotalAmt": 439.02,
+  "EntityRef": {
+    "name": "Uline",
+    "type": "Vendor",
+    "value": "169"
+  },
+  "SyncToken": "0",
+  "AccountRef": {
+    "name": "Warehouse Supplies",
+    "value": "106"
+  },
+  "CurrencyRef": {
+    "value": "USD"
+  },
+  "PaymentType": "CreditCard",
+  "PrivateNote": "Pallet wrap"
+}

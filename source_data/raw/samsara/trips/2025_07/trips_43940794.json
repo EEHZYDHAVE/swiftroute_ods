@@ -1,0 +1,37 @@
+{
+  "vehicleId": "43940794",
+  "vehicleName": "SLC-VAN-01",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_43940794_20250701_25728",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_43940794_20250701_25728",
+      "vehicleId": "43940794",
+      "driverId": "20000036",
+      "startMs": 1751355619000,
+      "endMs": 1751361986000,
+      "startAddress": "9168 Jordan Plain",
+      "endAddress": "8395 Chase Trail",
+      "startCoords": {
+        "latitude": 40.733641,
+        "longitude": -111.911239
+      },
+      "endCoords": {
+        "latitude": 40.760159,
+        "longitude": -111.777544
+      },
+      "distanceMeters": 30199.4,
+      "durationMs": 6367000,
+      "drivingDurationMs": 5555447,
+      "idlingDurationMs": 811553,
+      "fuelConsumedMl": 3838,
+      "fuelConsumedGallons": 1.014,
+      "maxSpeedMph": 34.1,
+      "averageSpeedMph": 10.6,
+      "safetyEvents": []
+    }
+  ]
+}

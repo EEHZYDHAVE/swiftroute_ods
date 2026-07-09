@@ -65,3 +65,39 @@ from bronze.onfleet_workers
 
 -- order by most recently ingested first
 order by ingest_timestamp desc, bronze_row_id desc
+
+
+RAW DATA:
+{
+  "id": "drv_ic_016",
+  "name": "Sherri Fowler",
+  "phone": "+14656482366",
+  "teams": [
+    "team_albuquerque"
+  ],
+  "onDuty": true,
+  "vehicle": {
+    "id": "akg8xdFtTC0x",
+    "type": "CAR",
+    "color": "silver",
+    "description": "Cargo Van",
+    "licensePlate": "ZU4169"
+  },
+  "imageUrl": null,
+  "metadata": [
+    {
+      "name": "employment_type",
+      "type": "string",
+      "value": "IC",
+      "visibility": [
+        "api"
+      ]
+    }
+  ],
+  "_ods_note": "This is the only Onfleet file where a driver name is resolvable. Task objects only carry the worker ID.",
+  "activeTask": null,
+  "displayName": "Sherri",
+  "timeCreated": 1704067200000,
+  "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+  "timeLastModified": 1751241600000
+}

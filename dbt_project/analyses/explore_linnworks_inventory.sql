@@ -11,16 +11,14 @@
 --           Not materialized, analysis files never create database objects.
 -- =============================================================================
 
-select
-    -- metadata columns added by the loader
-    -- metadata columns added by the loader
+SELECT
     id                                              AS bronze_row_id,
     ingest_timestamp                                AS bronze_ingest_timestamp,
     source_file                                     AS bronze_source_file,
 
     -- core item identifiers
     raw_data ->> 'StockItemId'                      AS stock_item_id,
-    raw_data ->> 'ItemNumber'                       AS item_number,
+    raw_data ->> 'ItemNumber'                       AS item_sku,
     raw_data ->> 'ItemTitle'                        AS item_title,
     raw_data ->> 'BarcodeNumber'                    AS barcode_number,
     raw_data ->> 'CategoryName'                     AS category_name,
@@ -59,9 +57,37 @@ select
     raw_data ->> '_swiftroute_client_id'            AS swiftroute_client_id,
     raw_data ->> '_swiftroute_client_name'          AS swiftroute_client_name,
 
-    -- raw data for reference
     raw_data
+FROM bronze.linnworks_inventory
 
-from bronze.linnworks_inventory
 
-order by ingest_timestamp desc, bronze_row_id desc
+RAW DATA:
+{
+  "Due": 50,
+  "JIT": false,
+  "Depth": 16.7,
+  "Width": 38.3,
+  "Height": 22.5,
+  "Source": "DIRECT",
+  "Weight": 1466,
+  "Quantity": 100,
+  "CostPrice": 53.5,
+  "IsDeleted": false,
+  "ItemTitle": "Right-sized heuristic hardware",
+  "ItemNumber": "PERE-A001",
+  "InOrderBook": 4,
+  "RetailPrice": 135.47,
+  "StockItemId": "9505D692-6523-1D88-CB4E-8F451C9C6ECD",
+  "CategoryName": "Outdoor Gear",
+  "CreationDate": "2024-03-11T00:00:00.000Z",
+  "MinimumLevel": 13,
+  "ModifiedDate": "2024-12-22T00:00:00.000Z",
+  "BarcodeNumber": "5189288929548",
+  "PackageGroupName": "Standard",
+  "TaxCostInclusive": false,
+  "IsCompositeParent": false,
+  "IsVariationParent": false,
+  "PostalServiceName": "SwiftRoute Standard",
+  "_swiftroute_client_id": "client_001",
+  "_swiftroute_client_name": "Perez, Todd and Guerrero"
+}

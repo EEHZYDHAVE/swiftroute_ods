@@ -1,0 +1,63 @@
+{
+  "vehicleId": "40049130",
+  "vehicleName": "DEN-VAN-10",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_40049130_20250701_25723",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_40049130_20250701_25697",
+      "vehicleId": "40049130",
+      "driverId": "20000016",
+      "startMs": 1751332100000,
+      "endMs": 1751334740000,
+      "startAddress": "52445 Justin Street",
+      "endAddress": "60231 Morales Run",
+      "startCoords": {
+        "latitude": 39.774819,
+        "longitude": -105.002224
+      },
+      "endCoords": {
+        "latitude": 39.729813,
+        "longitude": -104.904222
+      },
+      "distanceMeters": 16164.9,
+      "durationMs": 2640000,
+      "drivingDurationMs": 2191328,
+      "idlingDurationMs": 448672,
+      "fuelConsumedMl": 2055,
+      "fuelConsumedGallons": 0.543,
+      "maxSpeedMph": 38.2,
+      "averageSpeedMph": 13.7,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_40049130_20250701_25723",
+      "vehicleId": "40049130",
+      "driverId": "20000007",
+      "startMs": 1751353361000,
+      "endMs": 1751355281000,
+      "startAddress": "84329 Bell Pines",
+      "endAddress": "726 Barbara River Apt. 563",
+      "startCoords": {
+        "latitude": 39.735976,
+        "longitude": -105.059946
+      },
+      "endCoords": {
+        "latitude": 39.722587,
+        "longitude": -104.984572
+      },
+      "distanceMeters": 11725.5,
+      "durationMs": 1920000,
+      "drivingDurationMs": 1518302,
+      "idlingDurationMs": 401698,
+      "fuelConsumedMl": 1491,
+      "fuelConsumedGallons": 0.394,
+      "maxSpeedMph": 36.1,
+      "averageSpeedMph": 13.7,
+      "safetyEvents": []
+    }
+  ]
+}

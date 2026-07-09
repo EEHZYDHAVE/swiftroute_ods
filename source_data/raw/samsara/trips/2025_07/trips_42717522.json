@@ -1,0 +1,63 @@
+{
+  "vehicleId": "42717522",
+  "vehicleName": "DEN-VAN-11",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_42717522_20250701_25739",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_42717522_20250701_25711",
+      "vehicleId": "42717522",
+      "driverId": "20000017",
+      "startMs": 1751343720000,
+      "endMs": 1751345880000,
+      "startAddress": "068 Mullen Rest Suite 674",
+      "endAddress": "44863 Hogan Divide",
+      "startCoords": {
+        "latitude": 39.78345,
+        "longitude": -105.050419
+      },
+      "endCoords": {
+        "latitude": 39.722423,
+        "longitude": -104.991681
+      },
+      "distanceMeters": 9031.8,
+      "durationMs": 2160000,
+      "drivingDurationMs": 1750604,
+      "idlingDurationMs": 409396,
+      "fuelConsumedMl": 1147,
+      "fuelConsumedGallons": 0.303,
+      "maxSpeedMph": 28.0,
+      "averageSpeedMph": 9.4,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_42717522_20250701_25739",
+      "vehicleId": "42717522",
+      "driverId": "20000021",
+      "startMs": 1751372663000,
+      "endMs": 1751374643000,
+      "startAddress": "55295 Katie River Apt. 954",
+      "endAddress": "34960 Robert Rest",
+      "startCoords": {
+        "latitude": 39.69324,
+        "longitude": -104.999297
+      },
+      "endCoords": {
+        "latitude": 39.818668,
+        "longitude": -104.901026
+      },
+      "distanceMeters": 12390.1,
+      "durationMs": 1980000,
+      "drivingDurationMs": 1515118,
+      "idlingDurationMs": 464882,
+      "fuelConsumedMl": 1575,
+      "fuelConsumedGallons": 0.416,
+      "maxSpeedMph": 31.2,
+      "averageSpeedMph": 14.0,
+      "safetyEvents": []
+    }
+  ]
+}

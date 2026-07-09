@@ -1,0 +1,63 @@
+{
+  "vehicleId": "45419577",
+  "vehicleName": "DEN-MOTO-05",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_45419577_20250701_25727",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_45419577_20250701_25701",
+      "vehicleId": "45419577",
+      "driverId": "20000017",
+      "startMs": 1751336149000,
+      "endMs": 1751338429000,
+      "startAddress": "75711 Herbert Loop",
+      "endAddress": "1120 Sanford Port Suite 873",
+      "startCoords": {
+        "latitude": 39.820675,
+        "longitude": -105.006127
+      },
+      "endCoords": {
+        "latitude": 39.728099,
+        "longitude": -105.017585
+      },
+      "distanceMeters": 15062.4,
+      "durationMs": 2280000,
+      "drivingDurationMs": 1821102,
+      "idlingDurationMs": 458898,
+      "fuelConsumedMl": 681,
+      "fuelConsumedGallons": 0.18,
+      "maxSpeedMph": 30.9,
+      "averageSpeedMph": 14.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_45419577_20250701_25727",
+      "vehicleId": "45419577",
+      "driverId": "20000022",
+      "startMs": 1751355377000,
+      "endMs": 1751356877000,
+      "startAddress": "22638 Paul Dam",
+      "endAddress": "15455 Kara Wells Apt. 183",
+      "startCoords": {
+        "latitude": 39.713666,
+        "longitude": -104.95785
+      },
+      "endCoords": {
+        "latitude": 39.790261,
+        "longitude": -104.995174
+      },
+      "distanceMeters": 11407.0,
+      "durationMs": 1500000,
+      "drivingDurationMs": 1242660,
+      "idlingDurationMs": 257340,
+      "fuelConsumedMl": 515,
+      "fuelConsumedGallons": 0.136,
+      "maxSpeedMph": 42.7,
+      "averageSpeedMph": 17.0,
+      "safetyEvents": []
+    }
+  ]
+}

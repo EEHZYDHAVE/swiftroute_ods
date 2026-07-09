@@ -1,0 +1,63 @@
+{
+  "vehicleId": "40426209",
+  "vehicleName": "DEN-BOX-02",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_40426209_20250701_25744",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_40426209_20250701_25717",
+      "vehicleId": "40426209",
+      "driverId": "20000015",
+      "startMs": 1751348392000,
+      "endMs": 1751350072000,
+      "startAddress": "02147 Ingram Plaza",
+      "endAddress": "5120 Glenn Stravenue Suite 017",
+      "startCoords": {
+        "latitude": 39.703039,
+        "longitude": -104.947518
+      },
+      "endCoords": {
+        "latitude": 39.698245,
+        "longitude": -104.941248
+      },
+      "distanceMeters": 13612.1,
+      "durationMs": 1680000,
+      "drivingDurationMs": 1346696,
+      "idlingDurationMs": 333304,
+      "fuelConsumedMl": 3051,
+      "fuelConsumedGallons": 0.806,
+      "maxSpeedMph": 50.5,
+      "averageSpeedMph": 18.1,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_40426209_20250701_25744",
+      "vehicleId": "40426209",
+      "driverId": "20000019",
+      "startMs": 1751379720000,
+      "endMs": 1751381700000,
+      "startAddress": "124 Johnson Underpass Apt. 862",
+      "endAddress": "66063 Mary Highway",
+      "startCoords": {
+        "latitude": 39.701275,
+        "longitude": -105.009329
+      },
+      "endCoords": {
+        "latitude": 39.793425,
+        "longitude": -104.947307
+      },
+      "distanceMeters": 17246.7,
+      "durationMs": 1980000,
+      "drivingDurationMs": 1508133,
+      "idlingDurationMs": 471867,
+      "fuelConsumedMl": 3865,
+      "fuelConsumedGallons": 1.021,
+      "maxSpeedMph": 60.7,
+      "averageSpeedMph": 19.5,
+      "safetyEvents": []
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "vehicleId": "41724318",
+  "vehicleName": "DEN-VAN-03",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_41724318_20250701_25741",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_41724318_20250701_25713",
+      "vehicleId": "41724318",
+      "driverId": "20000009",
+      "startMs": 1751344413000,
+      "endMs": 1751346693000,
+      "startAddress": "009 Walker Trail",
+      "endAddress": "49626 James Street",
+      "startCoords": {
+        "latitude": 39.826483,
+        "longitude": -105.016214
+      },
+      "endCoords": {
+        "latitude": 39.812681,
+        "longitude": -104.922309
+      },
+      "distanceMeters": 13837.7,
+      "durationMs": 2280000,
+      "drivingDurationMs": 1985946,
+      "idlingDurationMs": 294054,
+      "fuelConsumedMl": 1760,
+      "fuelConsumedGallons": 0.465,
+      "maxSpeedMph": 27.5,
+      "averageSpeedMph": 13.6,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_41724318_20250701_25741",
+      "vehicleId": "41724318",
+      "driverId": "20000016",
+      "startMs": 1751377769000,
+      "endMs": 1751379149000,
+      "startAddress": "06078 Randy Knoll Apt. 994",
+      "endAddress": "55835 Nichole Manors",
+      "startCoords": {
+        "latitude": 39.685291,
+        "longitude": -104.911263
+      },
+      "endCoords": {
+        "latitude": 39.73464,
+        "longitude": -104.941733
+      },
+      "distanceMeters": 7828.3,
+      "durationMs": 1380000,
+      "drivingDurationMs": 1046627,
+      "idlingDurationMs": 333373,
+      "fuelConsumedMl": 996,
+      "fuelConsumedGallons": 0.263,
+      "maxSpeedMph": 29.2,
+      "averageSpeedMph": 12.7,
+      "safetyEvents": []
+    }
+  ]
+}

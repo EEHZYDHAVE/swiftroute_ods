@@ -1,0 +1,63 @@
+{
+  "vehicleId": "46761341",
+  "vehicleName": "DEN-VAN-04",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_46761341_20250701_25726",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_46761341_20250701_25700",
+      "vehicleId": "46761341",
+      "driverId": "20000002",
+      "startMs": 1751334903000,
+      "endMs": 1751340220000,
+      "startAddress": "1115 Michael Burgs Suite 889",
+      "endAddress": "03159 Kevin Circles",
+      "startCoords": {
+        "latitude": 39.723386,
+        "longitude": -104.931369
+      },
+      "endCoords": {
+        "latitude": 39.71168,
+        "longitude": -104.902015
+      },
+      "distanceMeters": 28017.1,
+      "durationMs": 5317000,
+      "drivingDurationMs": 4408410,
+      "idlingDurationMs": 908590,
+      "fuelConsumedMl": 3562,
+      "fuelConsumedGallons": 0.941,
+      "maxSpeedMph": 39.2,
+      "averageSpeedMph": 11.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46761341_20250701_25726",
+      "vehicleId": "46761341",
+      "driverId": "20000019",
+      "startMs": 1751354854000,
+      "endMs": 1751356774000,
+      "startAddress": "0637 Sanchez Lane Suite 579",
+      "endAddress": "14763 Adam Avenue Suite 913",
+      "startCoords": {
+        "latitude": 39.709206,
+        "longitude": -105.068703
+      },
+      "endCoords": {
+        "latitude": 39.822003,
+        "longitude": -105.012621
+      },
+      "distanceMeters": 14252.3,
+      "durationMs": 1920000,
+      "drivingDurationMs": 1712687,
+      "idlingDurationMs": 207313,
+      "fuelConsumedMl": 1813,
+      "fuelConsumedGallons": 0.479,
+      "maxSpeedMph": 33.4,
+      "averageSpeedMph": 16.6,
+      "safetyEvents": []
+    }
+  ]
+}

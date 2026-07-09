@@ -77,3 +77,74 @@ SELECT
 
 FROM bronze.quickbooks_invoices
 ORDER BY ingest_timestamp DESC, bronze_row_id DESC;
+
+
+RAW DATA:
+{
+  "Id": "1564",
+  "Line": [
+    {
+      "Id": "1",
+      "Amount": 865.91,
+      "LineNum": 1,
+      "DetailType": "SalesItemLineDetail",
+      "Description": "Next-Day Delivery — June 2025 (131 units)",
+      "SalesItemLineDetail": {
+        "Qty": 131,
+        "ItemRef": {
+          "name": "Next-Day Delivery",
+          "value": "2"
+        },
+        "UnitPrice": 6.61,
+        "ServiceDate": "2025-06-30"
+      }
+    }
+  ],
+  "Balance": 865.91,
+  "DueDate": "2025-07-31",
+  "TxnDate": "2025-07-01",
+  "MetaData": {
+    "CreateTime": "2025-07-01T00:00:00-07:00",
+    "LastUpdatedTime": "2025-07-01T02:00:00-07:00"
+  },
+  "TotalAmt": 865.91,
+  "BillEmail": {
+    "Address": "joshuamccann@carter.info"
+  },
+  "DocNumber": "INV-2025-01564",
+  "LinkedTxn": [],
+  "SyncToken": "1",
+  "CurrencyRef": {
+    "name": "United States Dollar",
+    "value": "USD"
+  },
+  "CustomField": [
+    {
+      "Name": "SwiftRoute Client ID",
+      "Type": "StringType",
+      "StringValue": "client_094",
+      "DefinitionId": "1"
+    },
+    {
+      "Name": "Billing Period",
+      "Type": "StringType",
+      "StringValue": "2025-06",
+      "DefinitionId": "2"
+    },
+    {
+      "Name": "Payment Terms",
+      "Type": "StringType",
+      "StringValue": "Net 30",
+      "DefinitionId": "3"
+    }
+  ],
+  "CustomerRef": {
+    "name": "Hurley, Contreras and Dunlap",
+    "value": "94"
+  },
+  "EmailStatus": "EmailSent",
+  "PaymentMethodRef": {
+    "name": "CREDIT_CARD",
+    "value": "1"
+  }
+}

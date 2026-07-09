@@ -1,0 +1,63 @@
+{
+  "vehicleId": "41187077",
+  "vehicleName": "DEN-VAN-06",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_41187077_20250701_25735",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_41187077_20250701_25709",
+      "vehicleId": "41187077",
+      "driverId": "20000008",
+      "startMs": 1751340906000,
+      "endMs": 1751346429000,
+      "startAddress": "46541 Erica River",
+      "endAddress": "09078 Nelson Brook",
+      "startCoords": {
+        "latitude": 39.811146,
+        "longitude": -105.064553
+      },
+      "endCoords": {
+        "latitude": 39.698554,
+        "longitude": -105.018191
+      },
+      "distanceMeters": 36866.3,
+      "durationMs": 5523000,
+      "drivingDurationMs": 4287413,
+      "idlingDurationMs": 1235587,
+      "fuelConsumedMl": 4686,
+      "fuelConsumedGallons": 1.238,
+      "maxSpeedMph": 36.6,
+      "averageSpeedMph": 14.9,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_41187077_20250701_25735",
+      "vehicleId": "41187077",
+      "driverId": "20000002",
+      "startMs": 1751367386000,
+      "endMs": 1751369388000,
+      "startAddress": "3752 Hannah Point",
+      "endAddress": "865 Timothy Pine Apt. 846",
+      "startCoords": {
+        "latitude": 39.742503,
+        "longitude": -104.935667
+      },
+      "endCoords": {
+        "latitude": 39.757527,
+        "longitude": -105.071696
+      },
+      "distanceMeters": 11935.0,
+      "durationMs": 2002000,
+      "drivingDurationMs": 1547360,
+      "idlingDurationMs": 454640,
+      "fuelConsumedMl": 1518,
+      "fuelConsumedGallons": 0.401,
+      "maxSpeedMph": 30.1,
+      "averageSpeedMph": 13.3,
+      "safetyEvents": []
+    }
+  ]
+}

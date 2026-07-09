@@ -1,0 +1,63 @@
+{
+  "vehicleId": "47373145",
+  "vehicleName": "DEN-VAN-02",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_47373145_20250701_25732",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_47373145_20250701_25705",
+      "vehicleId": "47373145",
+      "driverId": "20000006",
+      "startMs": 1751338749000,
+      "endMs": 1751340429000,
+      "startAddress": "2174 Ellis Cove Suite 861",
+      "endAddress": "8463 Robert Summit",
+      "startCoords": {
+        "latitude": 39.689783,
+        "longitude": -104.913938
+      },
+      "endCoords": {
+        "latitude": 39.754524,
+        "longitude": -105.012486
+      },
+      "distanceMeters": 9849.7,
+      "durationMs": 1680000,
+      "drivingDurationMs": 1361210,
+      "idlingDurationMs": 318790,
+      "fuelConsumedMl": 1253,
+      "fuelConsumedGallons": 0.331,
+      "maxSpeedMph": 39.6,
+      "averageSpeedMph": 13.1,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_47373145_20250701_25732",
+      "vehicleId": "47373145",
+      "driverId": "20000007",
+      "startMs": 1751363887000,
+      "endMs": 1751365387000,
+      "startAddress": "060 Smith Expressway Apt. 138",
+      "endAddress": "450 Aaron Oval",
+      "startCoords": {
+        "latitude": 39.758261,
+        "longitude": -105.071432
+      },
+      "endCoords": {
+        "latitude": 39.764666,
+        "longitude": -104.978791
+      },
+      "distanceMeters": 10594.7,
+      "durationMs": 1500000,
+      "drivingDurationMs": 1215837,
+      "idlingDurationMs": 284163,
+      "fuelConsumedMl": 1348,
+      "fuelConsumedGallons": 0.356,
+      "maxSpeedMph": 26.7,
+      "averageSpeedMph": 15.8,
+      "safetyEvents": []
+    }
+  ]
+}

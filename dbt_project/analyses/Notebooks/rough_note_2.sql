@@ -1,43 +1,29 @@
 SELECT
-    *
-from (
-   SELECT
-    -- metadata columns added by the loader
-    id                                              AS bronze_row_id,
-    ingest_timestamp                                AS bronze_ingest_timestamp,
-    source_file                                     AS bronze_source_file,
 
-    -- core identifiers
-    raw_data ->> 'Id'                               AS rate_id,
+item_title,
 
-    -- relationships
-    raw_data ->> 'Contract__c'                      AS contract_id,
-    raw_data ->> 'Account__c'                       AS account_id,
-    raw_data ->> 'SwiftRoute_Client_ID__c'          AS swiftroute_client_id,
+COUNT(*) AS records,
 
-    -- service details
-    raw_data ->> 'Service_Type__c'                  AS service_type,
-    raw_data ->> 'Unit__c'                          AS unit,
+STRING_AGG(stock_item_id, ', ') AS stock_item_ids,
 
-    -- zone
-    raw_data ->> 'Zone_ID__c'                       AS zone_id,
-    raw_data ->> 'Zone_Name__c'                     AS zone_name,
+STRING_AGG(item_sku, ', ') AS skus
 
-    -- pricing
-    (raw_data ->> 'Base_Rate__c')::numeric          AS base_rate,
-    (raw_data ->> 'Net_Rate__c')::numeric           AS net_rate,
-    (raw_data ->> 'Discount_Rate__c')::numeric      AS discount_rate,
+FROM (
 
-    -- validity
-    (raw_data ->> 'Effective_Date__c')::date        AS effective_date,
+SELECT
 
-    -- metadata from Salesforce
-    (raw_data ->> 'CreatedDate')::timestamp         AS created_at,
+raw_data ->> 'ItemTitle' AS item_title,
 
-    -- raw JSON
-    raw_data
+raw_data ->> 'StockItemId' AS stock_item_id,
 
-FROM bronze.salesforce_contract_rates
+raw_data ->> 'ItemNumber' AS item_sku
 
-ORDER BY ingest_timestamp DESC, bronze_row_id DESC
-) as salesforce_contract_rates
+FROM bronze.linnworks_inventory
+
+)x
+
+GROUP BY item_title
+
+HAVING COUNT(*) > 1
+
+ORDER BY records DESC;

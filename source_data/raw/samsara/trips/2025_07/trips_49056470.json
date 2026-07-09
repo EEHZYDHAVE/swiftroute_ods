@@ -1,0 +1,63 @@
+{
+  "vehicleId": "49056470",
+  "vehicleName": "DEN-MOTO-03",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_49056470_20250701_25725",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_49056470_20250701_25699",
+      "vehicleId": "49056470",
+      "driverId": "20000005",
+      "startMs": 1751334372000,
+      "endMs": 1751336412000,
+      "startAddress": "7664 Ortega Loaf Apt. 145",
+      "endAddress": "383 Monroe Coves",
+      "startCoords": {
+        "latitude": 39.724491,
+        "longitude": -104.946322
+      },
+      "endCoords": {
+        "latitude": 39.745749,
+        "longitude": -105.039402
+      },
+      "distanceMeters": 9692.1,
+      "durationMs": 2040000,
+      "drivingDurationMs": 1572843,
+      "idlingDurationMs": 467157,
+      "fuelConsumedMl": 439,
+      "fuelConsumedGallons": 0.116,
+      "maxSpeedMph": 33.8,
+      "averageSpeedMph": 10.6,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_49056470_20250701_25725",
+      "vehicleId": "49056470",
+      "driverId": "20000008",
+      "startMs": 1751354548000,
+      "endMs": 1751356648000,
+      "startAddress": "1519 Tracy Avenue",
+      "endAddress": "41691 Lopez Turnpike",
+      "startCoords": {
+        "latitude": 39.764166,
+        "longitude": -104.902708
+      },
+      "endCoords": {
+        "latitude": 39.751116,
+        "longitude": -105.005661
+      },
+      "distanceMeters": 18328.7,
+      "durationMs": 2100000,
+      "drivingDurationMs": 1739167,
+      "idlingDurationMs": 360833,
+      "fuelConsumedMl": 829,
+      "fuelConsumedGallons": 0.219,
+      "maxSpeedMph": 33.0,
+      "averageSpeedMph": 19.5,
+      "safetyEvents": []
+    }
+  ]
+}

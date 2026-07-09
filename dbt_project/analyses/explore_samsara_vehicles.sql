@@ -57,3 +57,33 @@ SELECT
 FROM bronze.samsara_vehicles
 
 ORDER BY ingest_timestamp DESC, bronze_row_id DESC;
+
+
+RAW DATA:
+{
+  "id": "42554227",
+  "vin": "1FTBRR819FVHJHYH",
+  "make": "Honda",
+  "name": "ABQ-MOTO-01",
+  "tags": [
+    {
+      "id": "9160",
+      "name": "albuquerque"
+    },
+    {
+      "id": "8238",
+      "name": "Motorcycle"
+    }
+  ],
+  "year": 2019,
+  "model": "CB300R",
+  "fuelType": "gasoline",
+  "vehicleType": "Motorcycle",
+  "licensePlate": "KD63886",
+  "lastKnownLocation": {
+    "latitude": 35.065559,
+    "longitude": -106.588869
+  },
+  "operationalStatus": "active",
+  "currentOdometerMeters": 87577870
+}

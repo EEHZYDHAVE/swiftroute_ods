@@ -68,3 +68,35 @@ SELECT
 FROM bronze.samsara_trips
 
 ORDER BY ingest_timestamp DESC, bronze_row_id DESC;
+
+
+
+
+
+RAW DATA:
+{
+  "id": "trip_49375627_20250701_25731",
+  "endMs": 1751365030000,
+  "startMs": 1751362630000,
+  "driverId": "20000016",
+  "endCoords": {
+    "latitude": 39.738415,
+    "longitude": -104.903902
+  },
+  "vehicleId": "49375627",
+  "durationMs": 2400000,
+  "endAddress": "27706 Vaughn Place Apt. 644",
+  "maxSpeedMph": 37.7,
+  "startCoords": {
+    "latitude": 39.794996,
+    "longitude": -105.002055
+  },
+  "safetyEvents": [],
+  "startAddress": "307 Kelly Squares Suite 311",
+  "distanceMeters": 20920.8,
+  "fuelConsumedMl": 946,
+  "averageSpeedMph": 19.5,
+  "idlingDurationMs": 395284,
+  "drivingDurationMs": 2004716,
+  "fuelConsumedGallons": 0.25
+}

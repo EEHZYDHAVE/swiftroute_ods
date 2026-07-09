@@ -1,0 +1,63 @@
+{
+  "vehicleId": "46232361",
+  "vehicleName": "DEN-VAN-08",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_46232361_20250701_25743",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_46232361_20250701_25715",
+      "vehicleId": "46232361",
+      "driverId": "20000021",
+      "startMs": 1751346989000,
+      "endMs": 1751352064000,
+      "startAddress": "0035 Crane Corners",
+      "endAddress": "26795 Singleton Roads",
+      "startCoords": {
+        "latitude": 39.814981,
+        "longitude": -104.998944
+      },
+      "endCoords": {
+        "latitude": 39.81174,
+        "longitude": -104.997176
+      },
+      "distanceMeters": 20809.2,
+      "durationMs": 5075000,
+      "drivingDurationMs": 3874462,
+      "idlingDurationMs": 1200538,
+      "fuelConsumedMl": 2646,
+      "fuelConsumedGallons": 0.699,
+      "maxSpeedMph": 32.4,
+      "averageSpeedMph": 9.2,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250701_25743",
+      "vehicleId": "46232361",
+      "driverId": "20000007",
+      "startMs": 1751378183000,
+      "endMs": 1751380463000,
+      "startAddress": "3164 Bates Radial Suite 258",
+      "endAddress": "20090 Jeffrey Station Apt. 687",
+      "startCoords": {
+        "latitude": 39.788903,
+        "longitude": -104.901327
+      },
+      "endCoords": {
+        "latitude": 39.763583,
+        "longitude": -105.018566
+      },
+      "distanceMeters": 17232.8,
+      "durationMs": 2280000,
+      "drivingDurationMs": 2045792,
+      "idlingDurationMs": 234208,
+      "fuelConsumedMl": 2192,
+      "fuelConsumedGallons": 0.579,
+      "maxSpeedMph": 37.8,
+      "averageSpeedMph": 16.9,
+      "safetyEvents": []
+    }
+  ]
+}

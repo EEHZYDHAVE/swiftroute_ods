@@ -1,0 +1,63 @@
+{
+  "vehicleId": "42031656",
+  "vehicleName": "DEN-VAN-09",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_42031656_20250701_25745",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_42031656_20250701_25718",
+      "vehicleId": "42031656",
+      "driverId": "20000010",
+      "startMs": 1751348424000,
+      "endMs": 1751350344000,
+      "startAddress": "162 Hayes Mews",
+      "endAddress": "502 Christopher Viaduct",
+      "startCoords": {
+        "latitude": 39.792477,
+        "longitude": -104.989033
+      },
+      "endCoords": {
+        "latitude": 39.803255,
+        "longitude": -104.918469
+      },
+      "distanceMeters": 11417.1,
+      "durationMs": 1920000,
+      "drivingDurationMs": 1715181,
+      "idlingDurationMs": 204819,
+      "fuelConsumedMl": 1450,
+      "fuelConsumedGallons": 0.383,
+      "maxSpeedMph": 36.2,
+      "averageSpeedMph": 13.3,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_42031656_20250701_25745",
+      "vehicleId": "42031656",
+      "driverId": "20000008",
+      "startMs": 1751383360000,
+      "endMs": 1751385700000,
+      "startAddress": "3658 Sandra Valley",
+      "endAddress": "0092 Jason Vista Suite 831",
+      "startCoords": {
+        "latitude": 39.766198,
+        "longitude": -105.035299
+      },
+      "endCoords": {
+        "latitude": 39.822778,
+        "longitude": -105.007397
+      },
+      "distanceMeters": 15043.5,
+      "durationMs": 2340000,
+      "drivingDurationMs": 2041016,
+      "idlingDurationMs": 298984,
+      "fuelConsumedMl": 1912,
+      "fuelConsumedGallons": 0.505,
+      "maxSpeedMph": 36.4,
+      "averageSpeedMph": 14.4,
+      "safetyEvents": []
+    }
+  ]
+}

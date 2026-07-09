@@ -11,7 +11,7 @@
 --           Not materialized, analysis files never create database objects.
 -- =============================================================================
 
-select
+SELECT
     -- metadata columns added by the loader
     id                                              AS bronze_row_id,
     ingest_timestamp                                AS bronze_ingest_timestamp,
@@ -32,7 +32,7 @@ select
     (raw_data ->> 'StockValue')::numeric            AS stock_value,
 
     -- order linkage
-    raw_data ->> 'fkOrderId'                        AS order_id,
+    raw_data ->> 'fkOrderId'                        AS reference_number,
 
     -- warehouse details
     raw_data ->> 'Location'                         AS location,
@@ -47,6 +47,24 @@ select
     -- raw data for reference
     raw_data
 
-from {{ source('bronze', 'linnworks_stock_transactions') }}
+FROM {{ source('bronze', 'linnworks_stock_transactions') }}
 
-order by ingest_timestamp desc, bronze_row_id desc
+ORDER BY ingest_timestamp DESC, bronze_row_id DESC
+
+
+RAW DATA:
+{
+  "SKU": "RODR-C024",
+  "Date": "2025-06-30T20:57:30.000Z",
+  "_note": "Running balance must be reconstructed by replaying transactions",
+  "BinRack": "BIN-16-16",
+  "Location": "Denver Warehouse",
+  "Quantity": -1,
+  "ItemTitle": "Open-source intangible circuit",
+  "fkOrderId": "LW23878258",
+  "StockValue": 20.51,
+  "fkStockItemId": "D9B24214-A189-9EDF-9F61-05C199B4B047",
+  "TransactionNote": "Stock removed for a processed order",
+  "TransactionType": "DISPATCH",
+  "pkStockTransactionId": "6A0308CE-775D-540C-0E9B-932ABF1E7144"
+}

@@ -49,3 +49,20 @@ SELECT
 FROM bronze.samsara_driver_summary
 
 ORDER BY ingest_timestamp DESC, bronze_row_id DESC;
+
+
+RAW DATA:
+{
+  "_city": "albuquerque",
+  "driverId": "20000046",
+  "driverName": "Michael Brown",
+  "totalTrips": 111,
+  "safetyScore": 79.9,
+  "hosViolations": [],
+  "speedingCount": 6,
+  "harshAccelCount": 8,
+  "totalIdleTimeMs": 464948390,
+  "totalDriveTimeMs": 2778721177,
+  "harshBrakingCount": 6,
+  "totalDistanceMeters": 27015345
+}

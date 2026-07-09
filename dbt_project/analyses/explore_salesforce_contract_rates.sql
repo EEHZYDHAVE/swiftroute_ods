@@ -50,3 +50,24 @@ SELECT
 FROM bronze.salesforce_contract_rates
 
 ORDER BY ingest_timestamp DESC, bronze_row_id DESC;
+
+RAW DATA:
+{
+  "Id": "a0ByKoNBJoCCiQxQEK",
+  "Unit__c": "per_delivery",
+  "Account__c": "00171NdWntubUCnfTS",
+  "Zone_ID__c": "zone_slc_4",
+  "attributes": {
+    "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0ByKoNBJoCCiQxQEK",
+    "type": "Contract_Rate__c"
+  },
+  "Contract__c": "800HPTSfcjmaPN1BRt",
+  "CreatedDate": "2025-03-10T00:00:00.000+0000",
+  "Net_Rate__c": 12.51,
+  "Base_Rate__c": 14.55,
+  "Zone_Name__c": "Zone Slc 4",
+  "Service_Type__c": "same_day",
+  "Discount_Rate__c": 0.14,
+  "Effective_Date__c": "2025-04-03",
+  "SwiftRoute_Client_ID__c": "client_093"
+}

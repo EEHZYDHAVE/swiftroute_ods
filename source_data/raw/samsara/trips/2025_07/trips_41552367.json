@@ -1,0 +1,63 @@
+{
+  "vehicleId": "41552367",
+  "vehicleName": "SLC-MOTO-01",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_41552367_20250701_25737",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_41552367_20250701_25692",
+      "vehicleId": "41552367",
+      "driverId": "20000035",
+      "startMs": 1751328294000,
+      "endMs": 1751334753000,
+      "startAddress": "7002 Rebecca Drive",
+      "endAddress": "355 Espinoza Port Apt. 293",
+      "startCoords": {
+        "latitude": 40.715673,
+        "longitude": -111.943769
+      },
+      "endCoords": {
+        "latitude": 40.767986,
+        "longitude": -111.830887
+      },
+      "distanceMeters": 36393.7,
+      "durationMs": 6459000,
+      "drivingDurationMs": 5782874,
+      "idlingDurationMs": 676126,
+      "fuelConsumedMl": 1647,
+      "fuelConsumedGallons": 0.435,
+      "maxSpeedMph": 33.5,
+      "averageSpeedMph": 12.6,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_41552367_20250701_25737",
+      "vehicleId": "41552367",
+      "driverId": "20000035",
+      "startMs": 1751371430000,
+      "endMs": 1751373110000,
+      "startAddress": "5448 Jensen Knolls",
+      "endAddress": "2204 Harris Underpass Suite 725",
+      "startCoords": {
+        "latitude": 40.775449,
+        "longitude": -111.843346
+      },
+      "endCoords": {
+        "latitude": 40.714983,
+        "longitude": -111.962007
+      },
+      "distanceMeters": 11956.4,
+      "durationMs": 1680000,
+      "drivingDurationMs": 1379974,
+      "idlingDurationMs": 300026,
+      "fuelConsumedMl": 541,
+      "fuelConsumedGallons": 0.143,
+      "maxSpeedMph": 38.1,
+      "averageSpeedMph": 15.9,
+      "safetyEvents": []
+    }
+  ]
+}

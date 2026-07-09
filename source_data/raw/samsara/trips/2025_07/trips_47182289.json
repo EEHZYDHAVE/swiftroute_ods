@@ -1,0 +1,63 @@
+{
+  "vehicleId": "47182289",
+  "vehicleName": "DEN-VAN-05",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_47182289_20250701_25734",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_47182289_20250701_25708",
+      "vehicleId": "47182289",
+      "driverId": "20000018",
+      "startMs": 1751340566000,
+      "endMs": 1751342546000,
+      "startAddress": "07774 Wolf Gateway Suite 211",
+      "endAddress": "9959 Mills Unions Apt. 364",
+      "startCoords": {
+        "latitude": 39.789677,
+        "longitude": -104.952093
+      },
+      "endCoords": {
+        "latitude": 39.704291,
+        "longitude": -105.058125
+      },
+      "distanceMeters": 11132.8,
+      "durationMs": 1980000,
+      "drivingDurationMs": 1713651,
+      "idlingDurationMs": 266349,
+      "fuelConsumedMl": 1416,
+      "fuelConsumedGallons": 0.374,
+      "maxSpeedMph": 31.3,
+      "averageSpeedMph": 12.6,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_47182289_20250701_25734",
+      "vehicleId": "47182289",
+      "driverId": "20000017",
+      "startMs": 1751366545000,
+      "endMs": 1751372350000,
+      "startAddress": "50390 Scott Light",
+      "endAddress": "621 Rodney Brook",
+      "startCoords": {
+        "latitude": 39.712726,
+        "longitude": -105.073729
+      },
+      "endCoords": {
+        "latitude": 39.761297,
+        "longitude": -104.983556
+      },
+      "distanceMeters": 33034.5,
+      "durationMs": 5805000,
+      "drivingDurationMs": 4491204,
+      "idlingDurationMs": 1313796,
+      "fuelConsumedMl": 4202,
+      "fuelConsumedGallons": 1.11,
+      "maxSpeedMph": 37.8,
+      "averageSpeedMph": 12.7,
+      "safetyEvents": []
+    }
+  ]
+}

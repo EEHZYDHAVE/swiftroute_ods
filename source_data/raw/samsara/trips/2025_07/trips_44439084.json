@@ -1,0 +1,63 @@
+{
+  "vehicleId": "44439084",
+  "vehicleName": "DEN-VAN-01",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_44439084_20250701_25719",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_44439084_20250701_25691",
+      "vehicleId": "44439084",
+      "driverId": "20000022",
+      "startMs": 1751328222000,
+      "endMs": 1751330322000,
+      "startAddress": "702 Hunt Path Suite 884",
+      "endAddress": "3274 Omar Forest Suite 714",
+      "startCoords": {
+        "latitude": 39.716231,
+        "longitude": -104.930367
+      },
+      "endCoords": {
+        "latitude": 39.703291,
+        "longitude": -105.013869
+      },
+      "distanceMeters": 10952.8,
+      "durationMs": 2100000,
+      "drivingDurationMs": 1711800,
+      "idlingDurationMs": 388200,
+      "fuelConsumedMl": 1393,
+      "fuelConsumedGallons": 0.368,
+      "maxSpeedMph": 35.1,
+      "averageSpeedMph": 11.7,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_44439084_20250701_25719",
+      "vehicleId": "44439084",
+      "driverId": "20000016",
+      "startMs": 1751348708000,
+      "endMs": 1751350148000,
+      "startAddress": "0071 Robinson Run",
+      "endAddress": "006 William Ports Suite 714",
+      "startCoords": {
+        "latitude": 39.770248,
+        "longitude": -104.961126
+      },
+      "endCoords": {
+        "latitude": 39.730676,
+        "longitude": -104.97032
+      },
+      "distanceMeters": 6083.3,
+      "durationMs": 1440000,
+      "drivingDurationMs": 1123044,
+      "idlingDurationMs": 316956,
+      "fuelConsumedMl": 772,
+      "fuelConsumedGallons": 0.204,
+      "maxSpeedMph": 33.7,
+      "averageSpeedMph": 9.4,
+      "safetyEvents": []
+    }
+  ]
+}

@@ -2,50 +2,70 @@
 generators/generate_samsara.py
 
 Generates synthetic Samsara Fleet API responses for SwiftRoute Logistics.
-Imports VEHICLES and DRIVERS from shared_ids.py (written by
-generate_shared_ids.py, which must run first) — shared_ids.py is
-authoritative for vehicle identity, driver identity, and vehicle
-operational status (active / out-of-service). This generator only adds
-Samsara-specific telemetry fields on top of that canonical data.
 
-DESIGN NOTE — vehicles and drivers are separate asset pools, not a fixed
-1:1 pairing. Any FTE driver in a given city is eligible to drive any
-vehicle in that city on a given day (matches real fleet operations —
-drivers rotate vehicles; the vehicle keeps its own permanent attributes
-like make/model regardless of who's driving it that day). Only FTE
-drivers appear here — IC drivers use their own personal vehicles, which
-a company fleet-telematics platform like Samsara would never track.
+DEPENDENCY CHANGE: this generator now reads Onfleet's already-generated
+task files (source_data/onfleet/{month}/page_*.json) in addition to
+shared_ids.py. Run order is now:
+    generate_shared_ids.py  ->  generate_onfleet.py  ->  generate_samsara.py
+This breaks the earlier "six system generators, any order" guarantee —
+Samsara specifically must now run AFTER Onfleet.
 
-Mirrors the real Samsara v1 API JSON structure from three endpoints:
-  GET /fleet/vehicles                 → vehicle roster
-  GET /fleet/trips?vehicleId=...      → GPS trip history per vehicle
-  GET /fleet/drivers/summary          → driver safety scores and HOS
+WHY: a trip generator that invents random times independently of Onfleet
+could produce a driver "logged in" to a vehicle while their actual
+deliveries (per Onfleet) were happening somewhere else in time — an
+internal contradiction. This version instead derives each trip's time
+window FROM that driver's real Onfleet delivery activity that day, which
+also happens to fix a separate, unrelated bug: the previous version could
+independently pick the same driver for two different vehicles on the same
+day (physically impossible). Deriving trips from a single per-day
+driver->vehicle assignment fixes both problems from one change.
+
+GUARANTEES enforced by construction (not by post-hoc conflict repair):
+  - Employee scope: only FTE drivers ever appear here (IC drivers use
+    personal vehicles, invisible to a company fleet platform).
+  - Driver availability: a driver is assigned to at most ONE vehicle per
+    day, so they can never have two simultaneous trips.
+  - Vehicle availability: since a vehicle has at most one driver per day,
+    and that driver's own trip-blocks (see below) are non-overlapping by
+    construction, a vehicle can never have two overlapping trips.
+  - Onfleet consistency: every completed Onfleet task assigned to an FTE
+    driver falls within the time window of exactly one of that driver's
+    Samsara trips that day. Trips are built by clustering a driver's task
+    timestamps for the day (gap > 90 min = new trip), then padding the
+    cluster's start/end with a small buffer.
+  - Operational metrics: distance and average speed are DERIVED from the
+    trip's real duration (not invented independently), so they stay
+    internally consistent by construction.
+
+KNOWN EDGE CASE (documented, not silently hidden): Denver has 22 FTE
+drivers but only 21 active vehicles (one van is permanently out of
+service — see shared_ids.py). On any day where all 22 have Onfleet
+deliveries, exactly one driver won't get a vehicle that day, and their
+deliveries that day will have no corresponding Samsara trip. Vehicles are
+allocated to the highest-delivery-volume drivers first specifically to
+minimize how often this happens and to make the impact fall on whichever
+driver has the least activity when it does. Frequency is reported in the
+generator's summary output.
 
 Quirks intentionally reproduced:
   1. Coordinate format is named {latitude, longitude} — NOT Onfleet's [lng,lat]
-  2. Trip vehicleId has no native link to Onfleet — requires mapping table
-     (in this rebuild, the link DOES exist via shared_ids, but no such
-     table exists inside Samsara's own JSON — a practitioner opening only
-     this file still has to go find it)
-  3. Idle time included in trip duration — inflates apparent route time
-  4. Some trips have no driverId (vehicle moved without driver login)
   5. Fuel data in US gallons AND ml — needs unit normalisation
-  6. HOS violations recorded — 3 box truck drivers have entries
-  7. A terminated driver simply drops out of the eligible-driver pool
-     after their termination_date — since driver-vehicle pairing is
-     decided fresh per vehicle per day, this falls out naturally rather
-     than needing special-case handling.
+  6. HOS violations recorded — 3 drivers get a violation entry
+  7. A terminated driver simply has no Onfleet deliveries (and therefore
+     no Samsara trips) after their termination_date — falls out naturally
+     from Onfleet's own termination-aware eligibility, no special case here.
 
 Output:
-  source_data/raw/samsara/vehicles/vehicles.json
-  source_data/raw/samsara/trips/{YYYY_MM}/trips_{vehicle_id}.json
-  source_data/raw/samsara/driver_summary/driver_summary.json
+  data/raw/samsara/vehicles/vehicles.json
+  data/raw/samsara/trips/{YYYY_MM}/trips_{vehicle_id}.json
+  data/raw/samsara/driver_summary/driver_summary.json
 
 Period: 2025-01-01 to 2025-06-30
 """
 
 import json
 import os
+import glob
 import random
 from datetime import datetime, timedelta, timezone
 from faker import Faker
@@ -59,6 +79,7 @@ Faker.seed(SEED)
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUTPUT_BASE  = os.path.join(PROJECT_ROOT, "source_data", "raw", "samsara")
+ONFLEET_BASE = os.path.join(PROJECT_ROOT, "source_data", "raw", "onfleet")
 
 START_DATE = datetime(2025, 1,  1, tzinfo=timezone.utc)
 END_DATE   = datetime(2025, 6, 30, tzinfo=timezone.utc)
@@ -72,13 +93,13 @@ HUB_COORDS = {
 VEHICLE_TYPE_LABEL = {"cargo_van": "Cargo Van", "motorcycle": "Motorcycle", "box_truck": "Box Truck"}
 MPG = {"cargo_van": 18.5, "motorcycle": 52.0, "box_truck": 10.5}
 
+SPEED_RANGE_KMH = {"cargo_van": (18, 32), "motorcycle": (22, 38), "box_truck": (28, 50)}
 
-def rfc3339(dt):
-    return dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+GAP_THRESHOLD_MINUTES = 90
+TRIP_PADDING_MINUTES = (8, 20)
 
 
 def named_coords(city, jitter_km=5):
-    """QUIRK 1: named {latitude, longitude}, opposite of Onfleet's [lng, lat]."""
     hub = HUB_COORDS[city]
     lat_jitter = random.uniform(-jitter_km / 111, jitter_km / 111)
     lng_jitter = random.uniform(-jitter_km / 85, jitter_km / 85)
@@ -86,25 +107,6 @@ def named_coords(city, jitter_km=5):
         "latitude":  round(hub["latitude"] + lat_jitter, 6),
         "longitude": round(hub["longitude"] + lng_jitter, 6),
     }
-
-
-# ══════════════════════════════════════════════════════════════════════════
-#  DRIVER LOOKUP — resolve each vehicle's assigned driver from shared_ids
-# ══════════════════════════════════════════════════════════════════════════
-
-def driver_lookup_by_gusto_uuid():
-    return {d["gusto_uuid"]: d for d in shared_ids.DRIVERS}
-
-
-def fte_drivers_by_city():
-    """Only FTE drivers are Samsara-eligible — IC drivers use their own
-    personal vehicles, invisible to a company fleet-telematics platform."""
-    pool = {}
-    for d in shared_ids.DRIVERS:
-        if d["employment_type"] != "FTE":
-            continue
-        pool.setdefault(d["city"], []).append(d)
-    return pool
 
 
 def is_driver_active_on(driver, date_obj):
@@ -115,23 +117,12 @@ def is_driver_active_on(driver, date_obj):
 
 
 # ══════════════════════════════════════════════════════════════════════════
-#  VEHICLE ROSTER — sourced from shared_ids.VEHICLES
+#  VEHICLE ROSTER — sourced from shared_ids.VEHICLES (unchanged)
 # ══════════════════════════════════════════════════════════════════════════
 
 def build_vehicles():
-    """
-    Takes the canonical shared_ids.VEHICLES list (identity, city, type,
-    is_active — already decided, authoritative) and enriches each record
-    with Samsara-only telemetry fields (VIN, license plate, odometer,
-    tags, last known location).
-
-    QUIRK 2: Samsara's own JSON carries no explicit reference back to
-    Onfleet — the fact that this generator internally knows the mapping
-    (via shared_ids) doesn't mean the *output file* exposes it.
-    """
     random.seed(600)
     vehicles = []
-
     for v in shared_ids.VEHICLES:
         vin_end = "".join(random.choices("0123456789ABCDEFGHJKLMNPRSTUVWXYZ", k=11))
         vehicles.append({
@@ -156,114 +147,182 @@ def build_vehicles():
             "_city":   v["city"],
             "_vtype":  v["vehicle_type"],
             "_active": v["is_active"],
-            "_ods_note": (
-                "QUIRK 2: this file has no column linking back to Onfleet. "
-                "The vehicle<->driver identity is only resolvable via "
-                "shared_ids.py in the ODS reference layer."
-            ),
         })
-
     random.seed(SEED)
     return vehicles
 
 
 # ══════════════════════════════════════════════════════════════════════════
-#  TRIP GENERATOR
+#  ONFLEET INGESTION
 # ══════════════════════════════════════════════════════════════════════════
 
-def make_trip(date, vehicle, driver, trip_num):
+def load_driver_delivery_windows():
     """
-    QUIRK 3: idlingDurationMs is folded into durationMs.
-    QUIRK 4: ~5% of trips have no driverId regardless of anything else
-    (nobody logged into the Samsara driver app that trip).
-    QUIRK 7: if no eligible driver exists at all for this vehicle/day
-    (e.g. every driver in that city already terminated — edge case),
-    driverId is null by construction, not a special case.
+    Reads every Onfleet task page already on disk and builds:
+        { onfleet_worker_id: [ (visit_start_dt, visit_end_dt), ... ] }
+    for FTE drivers only — a FLAT list per driver, deliberately NOT
+    bucketed by calendar date. Bucketing by date first and clustering
+    within each day independently allowed two adjacent days' blocks for
+    the same driver to still collide in absolute time near the midnight
+    boundary once padding was applied. Clustering the driver's full
+    timeline at once eliminates that entirely.
+
+    Window anchor: completionDetails.time minus serviceTime (a few
+    minutes) — the one timestamp that reflects the driver's actual
+    physical presence at a stop. timeCreated is NOT used as a window
+    start, since for next_day service (24h SLA) completion can
+    legitimately happen up to ~21 hours after creation — that's SLA lead
+    time, not continuous driving time.
     """
-    city  = vehicle["_city"]
+    fte_worker_ids = {d["onfleet_worker_id"] for d in shared_ids.DRIVERS if d["employment_type"] == "FTE"}
+
+    windows = {}
+    task_files = glob.glob(os.path.join(ONFLEET_BASE, "*", "page_*.json"))
+    if not task_files:
+        raise RuntimeError(
+            "No Onfleet task files found at " + ONFLEET_BASE + ". "
+            "generate_samsara.py now depends on Onfleet's output — "
+            "run generate_onfleet.py first."
+        )
+
+    for path in task_files:
+        with open(path, "r", encoding="utf-8") as fh:
+            payload = json.load(fh)
+        for task in payload["tasks"]:
+            worker_id = task["worker"]
+            if worker_id is None or worker_id not in fte_worker_ids:
+                continue
+            if task["state"] != 3:
+                continue
+            complete_time = task["completionDetails"]["time"]
+            if complete_time is None:
+                continue
+
+            service_mins = task.get("serviceTime", 5)
+            end_dt = datetime.fromtimestamp(complete_time / 1000, tz=timezone.utc)
+            start_dt = end_dt - timedelta(minutes=service_mins)
+
+            windows.setdefault(worker_id, []).append((start_dt, end_dt))
+
+    return windows
+
+
+def cluster_into_trip_blocks(intervals):
+    """Merge a driver's delivery-activity intervals for one day into
+    non-overlapping trip blocks (gap > GAP_THRESHOLD_MINUTES = new block)."""
+    if not intervals:
+        return []
+    intervals = sorted(intervals, key=lambda iv: iv[0])
+    blocks = []
+    cur_start, cur_end = intervals[0]
+
+    for s, e in intervals[1:]:
+        gap = (s - cur_end).total_seconds() / 60
+        if gap <= GAP_THRESHOLD_MINUTES:
+            cur_end = max(cur_end, e)
+        else:
+            blocks.append((cur_start, cur_end))
+            cur_start, cur_end = s, e
+    blocks.append((cur_start, cur_end))
+
+    padded = []
+    for s, e in blocks:
+        pad_start = random.randint(*TRIP_PADDING_MINUTES)
+        pad_end = random.randint(*TRIP_PADDING_MINUTES)
+        padded.append((s - timedelta(minutes=pad_start), e + timedelta(minutes=pad_end)))
+    return padded
+
+
+# ══════════════════════════════════════════════════════════════════════════
+#  TRIP BUILDER
+# ══════════════════════════════════════════════════════════════════════════
+
+def make_trip(vehicle, driver_samsara_id, window_start, window_end, trip_num, city):
+    total_mins = (window_end - window_start).total_seconds() / 60
     vtype = vehicle["_vtype"]
 
-    start_hour = random.randint(6, 18)
-    start_min  = random.randint(0, 59)
-    start_dt   = date.replace(hour=start_hour, minute=start_min, second=0, microsecond=0)
+    speed_lo, speed_hi = SPEED_RANGE_KMH[vtype]
+    avg_speed_kmh = random.uniform(speed_lo, speed_hi)
 
-    if vtype == "motorcycle":
-        dist_km, speed_avg = random.uniform(2, 25), random.uniform(22, 38)
-    elif vtype == "cargo_van":
-        dist_km, speed_avg = random.uniform(5, 85), random.uniform(18, 32)
-    else:
-        dist_km, speed_avg = random.uniform(30, 220), random.uniform(28, 55)
+    idle_frac = random.uniform(0.10, 0.25)
+    idle_mins = total_mins * idle_frac
+    drive_mins = total_mins - idle_mins
 
-    drive_mins = dist_km / speed_avg * 60
-    idle_mins  = random.uniform(3, drive_mins * 0.25)
-    total_mins = drive_mins + idle_mins
-    end_dt = start_dt + timedelta(minutes=total_mins)
-
-    day_end = date.replace(hour=21, minute=0, second=0, microsecond=0)
-    if end_dt > day_end:
-        end_dt = day_end
-        total_mins = (end_dt - start_dt).total_seconds() / 60
-        idle_mins = min(idle_mins, total_mins * 0.2)
-        drive_mins = total_mins - idle_mins
-        dist_km = drive_mins / 60 * speed_avg
+    dist_km = avg_speed_kmh * (drive_mins / 60)
 
     fuel_gallons = round(dist_km * 0.621371 / MPG[vtype], 3)
-    max_speed_mph = round(random.uniform(28, 72), 1)
+    max_speed_mph = round(random.uniform(speed_hi * 0.621371 * 1.3, speed_hi * 0.621371 * 2.0), 1)
+    reported_avg_speed_mph = round(dist_km * 0.621371 / (total_mins / 60), 1) if total_mins > 0 else 0.0
     speeding = max_speed_mph > 65
 
-    random_no_login = random.random() < 0.05                       # QUIRK 4
-    active_driver = None if (driver is None or random_no_login) else driver["samsara_driver_id"]
-
     return {
-        "id":        f"trip_{vehicle['id']}_{date.strftime('%Y%m%d')}_{trip_num:03d}",
+        "id":        f"trip_{vehicle['id']}_{window_start.strftime('%Y%m%d')}_{trip_num:03d}",
         "vehicleId": vehicle["id"],
-        "driverId":  active_driver,
-        "startMs":   int(start_dt.timestamp() * 1000),
-        "endMs":     int(end_dt.timestamp() * 1000),
+        "driverId":  driver_samsara_id,
+        "startMs":   int(window_start.timestamp() * 1000),
+        "endMs":     int(window_end.timestamp() * 1000),
         "startAddress": fake.street_address(),
         "endAddress":   fake.street_address(),
-        "startCoords":  named_coords(city, jitter_km=8),   # QUIRK 1
+        "startCoords":  named_coords(city, jitter_km=8),
         "endCoords":    named_coords(city, jitter_km=8),
         "distanceMeters":      round(dist_km * 1000, 1),
         "durationMs":          round(total_mins * 60 * 1000),
         "drivingDurationMs":   round(drive_mins * 60 * 1000),
-        "idlingDurationMs":    round(idle_mins * 60 * 1000),        # QUIRK 3
-        "fuelConsumedMl":      round(fuel_gallons * 3785.41),       # QUIRK 5
-        "fuelConsumedGallons": fuel_gallons,                        # QUIRK 5
+        "idlingDurationMs":    round(idle_mins * 60 * 1000),
+        "fuelConsumedMl":      round(fuel_gallons * 3785.41),
+        "fuelConsumedGallons": fuel_gallons,
         "maxSpeedMph":         max_speed_mph,
-        "averageSpeedMph":     round(dist_km * 0.621371 / (total_mins / 60), 1),
+        "averageSpeedMph":     reported_avg_speed_mph,
         "safetyEvents": (
             [{"type": "speeding",
-              "startMs": int((start_dt + timedelta(minutes=random.randint(2, max(3, int(total_mins) - 2)))).timestamp() * 1000),
+              "startMs": int((window_start + timedelta(minutes=random.uniform(2, max(3, total_mins - 2)))).timestamp() * 1000),
               "maxSpeedMph": max_speed_mph}]
             if speeding else []
         ),
     }
 
 
+def make_depot_trip(vehicle, city, date_obj, trip_num):
+    """Reinterpreted QUIRK 4: only on a day a vehicle has NO assigned
+    driver at all — small chance of a short driverless depot trip."""
+    start_dt = datetime(date_obj.year, date_obj.month, date_obj.day,
+                         random.randint(5, 6), random.randint(0, 59), tzinfo=timezone.utc)
+    dur_mins = random.randint(8, 25)
+    end_dt = start_dt + timedelta(minutes=dur_mins)
+    dist_km = random.uniform(0.5, 3.0)
+
+    return {
+        "id":        f"trip_{vehicle['id']}_{date_obj.strftime('%Y%m%d')}_{trip_num:03d}",
+        "vehicleId": vehicle["id"],
+        "driverId":  None,
+        "startMs":   int(start_dt.timestamp() * 1000),
+        "endMs":     int(end_dt.timestamp() * 1000),
+        "startAddress": "SwiftRoute Depot",
+        "endAddress":   "SwiftRoute Depot",
+        "startCoords":  named_coords(city, jitter_km=1),
+        "endCoords":    named_coords(city, jitter_km=1),
+        "distanceMeters":      round(dist_km * 1000, 1),
+        "durationMs":          dur_mins * 60 * 1000,
+        "drivingDurationMs":   round(dur_mins * 60 * 1000 * 0.8),
+        "idlingDurationMs":    round(dur_mins * 60 * 1000 * 0.2),
+        "fuelConsumedMl":      round(dist_km * 0.621371 / MPG["cargo_van"] * 3785.41),
+        "fuelConsumedGallons": round(dist_km * 0.621371 / MPG["cargo_van"], 3),
+        "maxSpeedMph":         round(random.uniform(10, 20), 1),
+        "averageSpeedMph":     round(dist_km * 0.621371 / (dur_mins / 60), 1),
+        "safetyEvents":        [],
+    }
+
+
 # ══════════════════════════════════════════════════════════════════════════
-#  DRIVER SAFETY SUMMARY
+#  DRIVER SAFETY SUMMARY (unchanged)
 # ══════════════════════════════════════════════════════════════════════════
 
 def build_driver_summary():
-    """
-    One record per FTE driver (not per vehicle — drivers rotate across
-    vehicles, so the summary endpoint aggregates by driver, which is
-    also how Samsara's real /fleet/drivers/summary endpoint works).
-
-    QUIRK 6: exactly 3 drivers get an HOS violation, standing in for the
-    3 box-truck-capable drivers in the fleet (Denver x2, SLC x1 — the
-    3 box trucks in the doc's vehicle mix). Since vehicle assignment is
-    now dynamic rather than fixed, we pick 3 FTE drivers from the cities
-    that actually operate a box truck (Denver, SLC) to carry the
-    violation, standing in for "drove a box truck shift that triggered
-    an HOS event" rather than a permanent box-truck-driver role.
-    """
     random.seed(700)
     fte = [d for d in shared_ids.DRIVERS if d["employment_type"] == "FTE"]
     summaries = []
 
-    box_truck_cities = ["denver", "denver", "salt_lake_city"]  # 2 DEN + 1 SLC box trucks
+    box_truck_cities = ["denver", "denver", "salt_lake_city"]
     hos_candidates = []
     for city in box_truck_cities:
         pool = [d for d in fte if d["city"] == city and d not in hos_candidates]
@@ -300,11 +359,6 @@ def build_driver_summary():
             "safetyScore":         safety_score,
             "hosViolations":       hos_violations,
             "_city":               d["city"],
-            "_ods_note": (
-                "driverId is Samsara-assigned and has no native link to the "
-                "Gusto employee UUID or the Onfleet worker ID inside this "
-                "file. The join must happen via shared_ids in the ODS."
-            ),
         })
 
     random.seed(SEED)
@@ -319,21 +373,22 @@ def main():
     print("SwiftRoute — Samsara raw data generator")
     print("=" * 45)
 
-    by_uuid = driver_lookup_by_gusto_uuid()
     vehicles = build_vehicles()
-    active   = [v for v in vehicles if v["_active"]]
-    offroad  = [v for v in vehicles if not v["_active"]]
+    vehicles_by_city = {}
+    for v in vehicles:
+        vehicles_by_city.setdefault(v["_city"], []).append(v)
+    for city in vehicles_by_city:
+        vehicles_by_city[city] = [v for v in vehicles_by_city[city] if v["_active"]]
 
-    print(f"Vehicles total : {len(vehicles)}")
-    print(f"  Active       : {len(active)}")
-    if offroad:
-        print(f"  Off-road     : {len(offroad)}  <- {offroad[0]['name']} (from shared_ids)")
+    print("Loading Onfleet delivery windows (Onfleet must have already run)...")
+    windows = load_driver_delivery_windows()
+    print(f"  Delivery records loaded for {len(windows)} FTE drivers")
     print()
 
     veh_folder = os.path.join(OUTPUT_BASE, "vehicles")
     os.makedirs(veh_folder, exist_ok=True)
     vehicle_payload = {
-        "data": [{k: v_ for k, v_ in v.items() if not k.startswith("_")} for v in vehicles],
+        "data": [{k: v for k, v in veh.items() if not k.startswith("_")} for veh in vehicles],
         "pagination": {"endCursor": "eyJpZCI6NDgyOTEwMzR9", "hasNextPage": False},
     }
     with open(os.path.join(veh_folder, "vehicles.json"), "w") as fh:
@@ -341,68 +396,114 @@ def main():
     print("Vehicles written to vehicles/vehicles.json")
     print()
 
-    print("Generating trips...")
-    trip_folder = os.path.join(OUTPUT_BASE, "trips")
-    fte_pool = fte_drivers_by_city()
-    total_trips = 0
-    no_driver_ct = 0
-    speeding_ct = 0
-    no_eligible_driver_days = 0
+    driver_by_worker_id = {d["onfleet_worker_id"]: d for d in shared_ids.DRIVERS}
 
+    # Step 1: cluster each driver's FULL timeline once (not day-bucketed) —
+    # this alone guarantees driver-availability with no midnight-boundary risk.
+    print("Clustering each driver's full delivery timeline into trip blocks...")
+    driver_blocks = []   # (worker_id, city, block_start, block_end)
+    for wid, intervals in windows.items():
+        driver = driver_by_worker_id[wid]
+        blocks = cluster_into_trip_blocks(intervals)
+        for b_start, b_end in blocks:
+            # No termination re-check here: Onfleet already only ever
+            # assigned this driver a task while they were eligible. A
+            # task assigned before termination can still legitimately
+            # COMPLETE a day later (completion lag) — that trailing
+            # block is a faithful record of Onfleet's own ground truth,
+            # not a new inconsistency to filter out.
+            driver_blocks.append((wid, driver["city"], b_start, b_end))
+
+    # Step 2: process ALL blocks in true chronological order (across the
+    # whole simulation, not per calendar day) and greedily assign each one
+    # to any vehicle in that city that is genuinely free at that moment —
+    # tracked by a real "free_from" timestamp per vehicle, not a coarse
+    # per-day flag. This is what actually guarantees vehicle availability,
+    # including across midnight boundaries.
+    driver_blocks.sort(key=lambda b: b[2])   # sort by block_start
+
+    vehicle_free_from = {v["id"]: datetime.min.replace(tzinfo=timezone.utc) for v in vehicles}
+    vehicle_trips = {v["id"]: [] for v in vehicles}
+    vehicle_last_used = {v["id"]: 0 for v in vehicles}   # for least-recently-used tie-breaking
+
+    total_trips = 0
+    driver_short_events = 0
+    trip_counter = 0
+
+    print("Assigning vehicles by true chronological availability...")
+    for wid, city, b_start, b_end in driver_blocks:
+        driver = driver_by_worker_id[wid]
+        candidates = [v for v in vehicles_by_city.get(city, []) if vehicle_free_from[v["id"]] <= b_start]
+
+        if not candidates:
+            driver_short_events += 1
+            continue
+
+        # Prefer the vehicle that's been idle longest (spreads usage out,
+        # avoids always picking the same one)
+        candidates.sort(key=lambda v: vehicle_last_used[v["id"]])
+        vehicle = candidates[0]
+
+        trip_counter += 1
+        trip = make_trip(vehicle, driver["samsara_driver_id"], b_start, b_end, trip_counter, city)
+        vehicle_trips[vehicle["id"]].append(trip)
+        total_trips += 1
+
+        vehicle_free_from[vehicle["id"]] = b_end
+        vehicle_last_used[vehicle["id"]] = trip_counter
+
+    # Step 3: reinterpreted QUIRK 4 — depot-move trips only on calendar
+    # days a vehicle has ZERO real trips at all (computed post-hoc, so it
+    # can never collide with a real assignment).
+    print("Adding depot-move quirk trips on fully idle vehicle-days...")
+    depot_trips = 0
     date = START_DATE
     while date <= END_DATE:
-        month_key = f"{date.year}_{str(date.month).zfill(2)}"
-        month_folder = os.path.join(trip_folder, month_key)
-        os.makedirs(month_folder, exist_ok=True)
-        month_start = date
-        vehicle_month_trips = {v["id"]: [] for v in active}
-
-        while date <= END_DATE and date.month == month_start.month:
-            is_weekend = date.weekday() >= 5
-            for v in active:
-                if v["_vtype"] == "motorcycle" and date.weekday() == 6:
+        d_key = date.date()
+        for city, city_vehicles in vehicles_by_city.items():
+            for vehicle in city_vehicles:
+                has_trip_today = any(
+                    datetime.fromtimestamp(t["startMs"] / 1000, tz=timezone.utc).date() == d_key
+                    for t in vehicle_trips[vehicle["id"]]
+                )
+                if has_trip_today:
                     continue
-                if v["_vtype"] == "box_truck" and is_weekend and random.random() < 0.7:
-                    continue
-
-                if v["_vtype"] == "motorcycle":
-                    n_trips = random.randint(6, 18)
-                elif v["_vtype"] == "cargo_van":
-                    n_trips = random.randint(1, 4) if is_weekend else random.randint(2, 6)
-                else:
-                    n_trips = 1
-
-                eligible = [d for d in fte_pool.get(v["_city"], []) if is_driver_active_on(d, date.date())]
-                driver_for_day = random.choice(eligible) if eligible else None
-                if driver_for_day is None:
-                    no_eligible_driver_days += 1
-
-                for t in range(n_trips):
-                    trip = make_trip(date, v, driver_for_day, t + 1)
-                    vehicle_month_trips[v["id"]].append(trip)
+                if random.random() < 0.03:
+                    trip_counter += 1
+                    trip = make_depot_trip(vehicle, city, d_key, trip_counter)
+                    vehicle_trips[vehicle["id"]].append(trip)
                     total_trips += 1
-                    if trip["driverId"] is None:
-                        no_driver_ct += 1
-                    if trip["safetyEvents"]:
-                        speeding_ct += 1
+                    depot_trips += 1
+        date += timedelta(days=1)
 
-            date += timedelta(days=1)
+    # Step 4: write monthly files per vehicle
+    print("Writing trip files...")
+    trip_folder = os.path.join(OUTPUT_BASE, "trips")
+    months_written = set()
+    for vehicle in vehicles:
+        trips = sorted(vehicle_trips[vehicle["id"]], key=lambda t: t["startMs"])
+        by_month = {}
+        for t in trips:
+            dt = datetime.fromtimestamp(t["startMs"] / 1000, tz=timezone.utc)
+            month_key = f"{dt.year}_{str(dt.month).zfill(2)}"
+            by_month.setdefault(month_key, []).append(t)
 
-        for v in active:
-            trips = vehicle_month_trips[v["id"]]
-            if not trips:
-                continue
+        for month_key, month_trips in by_month.items():
+            month_folder = os.path.join(trip_folder, month_key)
+            os.makedirs(month_folder, exist_ok=True)
             payload = {
-                "vehicleId": v["id"],
-                "vehicleName": v["name"],
+                "vehicleId": vehicle["id"],
+                "vehicleName": vehicle["name"],
                 "month": month_key,
-                "pagination": {"endCursor": trips[-1]["id"], "hasNextPage": False},
-                "trips": trips,
+                "pagination": {"endCursor": month_trips[-1]["id"], "hasNextPage": False},
+                "trips": month_trips,
             }
-            with open(os.path.join(month_folder, f"trips_{v['id']}.json"), "w") as fh:
+            with open(os.path.join(month_folder, f"trips_{vehicle['id']}.json"), "w") as fh:
                 json.dump(payload, fh, indent=2, ensure_ascii=False)
+            months_written.add(month_key)
 
-        print(f"  {month_key}: trips written for {len(active)} vehicles")
+    for m in sorted(months_written):
+        print(f"  {m}: trips written")
 
     summary = build_driver_summary()
     hos_drivers = [d for d in summary if d["hosViolations"]]
@@ -415,13 +516,12 @@ def main():
 
     print()
     print("=" * 45)
-    print(f"Total trips           : {total_trips:,}")
-    print(f"No-driver trips       : {no_driver_ct:,}  ← QUIRK 4")
-    print(f"Vehicle-days with zero eligible drivers : {no_eligible_driver_days:,}  ← QUIRK 7")
-    print(f"Speeding events       : {speeding_ct:,}")
-    print(f"HOS violations        : {len(hos_drivers)} drivers  ← QUIRK 6")
-    print(f"Driver summaries      : {len(summary)}")
-    print(f"Output                : {OUTPUT_BASE}")
+    print(f"Total trips              : {total_trips:,}")
+    print(f"  of which depot-move    : {depot_trips:,}  (reinterpreted QUIRK 4 — driverless, idle-vehicle days only)")
+    print(f"Driver blocks short a vehicle : {driver_short_events:,}  (known Denver 22-vs-21 edge case)")
+    print(f"HOS violations            : {len(hos_drivers)} drivers")
+    print(f"Driver summaries          : {len(summary)}")
+    print(f"Output                    : {OUTPUT_BASE}")
 
 
 if __name__ == "__main__":

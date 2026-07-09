@@ -57,3 +57,34 @@ SELECT
 FROM bronze.salesforce_contracts
 
 ORDER BY ingest_timestamp DESC, bronze_row_id DESC;
+
+
+
+
+RAW DATA:
+{
+  "Id": "800V6chALQjq1Vzozf",
+  "Status": "Activated",
+  "Account": null,
+  "EndDate": "2025-12-18",
+  "OwnerId": "005WIzbZN5W8I4oLun",
+  "AccountId": null,
+  "StartDate": "2024-12-18",
+  "_rate_note": "QUIRK 1: per-service, per-zone rates are stored in Contract_Rate__c records linked to this contract. Two separate API calls needed for a complete picture.",
+  "attributes": {
+    "url": "/services/data/v58.0/sobjects/Contract/800V6chALQjq1Vzozf",
+    "type": "Contract"
+  },
+  "CreatedDate": "2024-11-28T00:00:00.000+0000",
+  "ContractTerm": 12,
+  "SignedDate__c": "2024-11-28",
+  "Account_Tier__c": "standard",
+  "Auto_Renewal__c": false,
+  "Primary_City__c": "denver",
+  "Contract_Type__c": "Variable Rate",
+  "Discount_Rate__c": 0.06,
+  "LastModifiedDate": "2024-12-05T00:00:00.000+0000",
+  "Net_Payment_Terms__c": 30,
+  "Termination_Notice_Days__c": 60,
+  "Committed_Monthly_Volume__c": 146
+}

@@ -1,0 +1,63 @@
+{
+  "vehicleId": "46743660",
+  "vehicleName": "DEN-BOX-01",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_46743660_20250701_25724",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_46743660_20250701_25698",
+      "vehicleId": "46743660",
+      "driverId": "20000001",
+      "startMs": 1751332188000,
+      "endMs": 1751344153000,
+      "startAddress": "4969 Aguilar Orchard Suite 009",
+      "endAddress": "799 Vicki Prairie Apt. 349",
+      "startCoords": {
+        "latitude": 39.740382,
+        "longitude": -105.086474
+      },
+      "endCoords": {
+        "latitude": 39.685291,
+        "longitude": -105.039527
+      },
+      "distanceMeters": 90637.1,
+      "durationMs": 11965000,
+      "drivingDurationMs": 9701918,
+      "idlingDurationMs": 2263082,
+      "fuelConsumedMl": 20305,
+      "fuelConsumedGallons": 5.364,
+      "maxSpeedMph": 41.2,
+      "averageSpeedMph": 16.9,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46743660_20250701_25724",
+      "vehicleId": "46743660",
+      "driverId": "20000010",
+      "startMs": 1751354351000,
+      "endMs": 1751361837000,
+      "startAddress": "0306 Rojas Islands",
+      "endAddress": "8248 Ricardo Freeway Suite 699",
+      "startCoords": {
+        "latitude": 39.720133,
+        "longitude": -105.015891
+      },
+      "endCoords": {
+        "latitude": 39.754668,
+        "longitude": -104.988362
+      },
+      "distanceMeters": 80960.9,
+      "durationMs": 7486000,
+      "drivingDurationMs": 5988181,
+      "idlingDurationMs": 1497819,
+      "fuelConsumedMl": 18136,
+      "fuelConsumedGallons": 4.791,
+      "maxSpeedMph": 54.4,
+      "averageSpeedMph": 24.2,
+      "safetyEvents": []
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "vehicleId": "49375627",
+  "vehicleName": "DEN-MOTO-06",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_49375627_20250701_25731",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_49375627_20250701_25704",
+      "vehicleId": "49375627",
+      "driverId": "20000009",
+      "startMs": 1751338338000,
+      "endMs": 1751340198000,
+      "startAddress": "727 Montgomery Summit",
+      "endAddress": "35861 Hendrix Shoals",
+      "startCoords": {
+        "latitude": 39.756821,
+        "longitude": -105.037541
+      },
+      "endCoords": {
+        "latitude": 39.720457,
+        "longitude": -105.044138
+      },
+      "distanceMeters": 13656.9,
+      "durationMs": 1860000,
+      "drivingDurationMs": 1624185,
+      "idlingDurationMs": 235815,
+      "fuelConsumedMl": 617,
+      "fuelConsumedGallons": 0.163,
+      "maxSpeedMph": 42.5,
+      "averageSpeedMph": 16.4,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_49375627_20250701_25731",
+      "vehicleId": "49375627",
+      "driverId": "20000016",
+      "startMs": 1751362630000,
+      "endMs": 1751365030000,
+      "startAddress": "307 Kelly Squares Suite 311",
+      "endAddress": "27706 Vaughn Place Apt. 644",
+      "startCoords": {
+        "latitude": 39.794996,
+        "longitude": -105.002055
+      },
+      "endCoords": {
+        "latitude": 39.738415,
+        "longitude": -104.903902
+      },
+      "distanceMeters": 20920.8,
+      "durationMs": 2400000,
+      "drivingDurationMs": 2004716,
+      "idlingDurationMs": 395284,
+      "fuelConsumedMl": 946,
+      "fuelConsumedGallons": 0.25,
+      "maxSpeedMph": 37.7,
+      "averageSpeedMph": 19.5,
+      "safetyEvents": []
+    }
+  ]
+}

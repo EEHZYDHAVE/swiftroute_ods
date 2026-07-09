@@ -1,0 +1,63 @@
+{
+  "vehicleId": "49324179",
+  "vehicleName": "DEN-VAN-13",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_49324179_20250701_25721",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_49324179_20250701_25696",
+      "vehicleId": "49324179",
+      "driverId": "20000014",
+      "startMs": 1751332009000,
+      "endMs": 1751333509000,
+      "startAddress": "79975 Cervantes Burgs",
+      "endAddress": "6120 Hayes Falls Suite 422",
+      "startCoords": {
+        "latitude": 39.770056,
+        "longitude": -105.068478
+      },
+      "endCoords": {
+        "latitude": 39.821827,
+        "longitude": -104.933577
+      },
+      "distanceMeters": 6437.3,
+      "durationMs": 1500000,
+      "drivingDurationMs": 1267133,
+      "idlingDurationMs": 232867,
+      "fuelConsumedMl": 818,
+      "fuelConsumedGallons": 0.216,
+      "maxSpeedMph": 33.9,
+      "averageSpeedMph": 9.6,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_49324179_20250701_25721",
+      "vehicleId": "49324179",
+      "driverId": "20000005",
+      "startMs": 1751352592000,
+      "endMs": 1751355052000,
+      "startAddress": "3528 Jamie Fields Suite 148",
+      "endAddress": "811 Cook Shoal",
+      "startCoords": {
+        "latitude": 39.728989,
+        "longitude": -105.048773
+      },
+      "endCoords": {
+        "latitude": 39.789509,
+        "longitude": -104.946815
+      },
+      "distanceMeters": 18102.0,
+      "durationMs": 2460000,
+      "drivingDurationMs": 2098515,
+      "idlingDurationMs": 361485,
+      "fuelConsumedMl": 2302,
+      "fuelConsumedGallons": 0.608,
+      "maxSpeedMph": 33.2,
+      "averageSpeedMph": 16.5,
+      "safetyEvents": []
+    }
+  ]
+}

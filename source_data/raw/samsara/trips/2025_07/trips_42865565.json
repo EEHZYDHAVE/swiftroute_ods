@@ -1,0 +1,37 @@
+{
+  "vehicleId": "42865565",
+  "vehicleName": "ABQ-VAN-02",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_42865565_20250701_25707",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_42865565_20250701_25707",
+      "vehicleId": "42865565",
+      "driverId": "20000045",
+      "startMs": 1751340291000,
+      "endMs": 1751341731000,
+      "startAddress": "452 Patel Plaza Apt. 328",
+      "endAddress": "431 Douglas Roads Apt. 206",
+      "startCoords": {
+        "latitude": 35.124472,
+        "longitude": -106.570008
+      },
+      "endCoords": {
+        "latitude": 35.050087,
+        "longitude": -106.721533
+      },
+      "distanceMeters": 7367.2,
+      "durationMs": 1440000,
+      "drivingDurationMs": 1080811,
+      "idlingDurationMs": 359189,
+      "fuelConsumedMl": 935,
+      "fuelConsumedGallons": 0.247,
+      "maxSpeedMph": 32.2,
+      "averageSpeedMph": 11.4,
+      "safetyEvents": []
+    }
+  ]
+}

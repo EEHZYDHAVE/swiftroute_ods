@@ -64,3 +64,54 @@ SELECT
 
 FROM bronze.quickbooks_payments
 ORDER BY ingest_timestamp DESC, bronze_row_id DESC;
+
+RAW DATA:
+{
+  "Id": "5469",
+  "Line": [
+    {
+      "Amount": 13283.76,
+      "LinkedTxn": [
+        {
+          "TxnId": "1469",
+          "TxnType": "Invoice"
+        }
+      ]
+    }
+  ],
+  "TxnDate": "2025-06-29",
+  "MetaData": {
+    "CreateTime": "2025-06-29T00:00:00-07:00",
+    "LastUpdatedTime": "2025-06-29T00:00:00-07:00"
+  },
+  "TotalAmt": 13283.76,
+  "SyncToken": "0",
+  "CustomField": [
+    {
+      "Name": "SwiftRoute Client ID",
+      "Type": "StringType",
+      "StringValue": "client_093",
+      "DefinitionId": "1"
+    },
+    {
+      "Name": "Days to Pay",
+      "Type": "StringType",
+      "StringValue": "27",
+      "DefinitionId": "4"
+    }
+  ],
+  "CustomerRef": {
+    "name": "Morales, Medina and Williams",
+    "value": "93"
+  },
+  "UnappliedAmt": 0,
+  "ProcessPayment": false,
+  "PaymentMethodRef": {
+    "name": "ACH",
+    "value": "1"
+  },
+  "DepositToAccountRef": {
+    "name": "Checking — GTBank Business",
+    "value": "35"
+  }
+}

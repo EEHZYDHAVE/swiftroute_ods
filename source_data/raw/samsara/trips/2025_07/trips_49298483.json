@@ -1,0 +1,37 @@
+{
+  "vehicleId": "49298483",
+  "vehicleName": "SLC-BOX-01",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_49298483_20250701_25736",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_49298483_20250701_25736",
+      "vehicleId": "49298483",
+      "driverId": "20000039",
+      "startMs": 1751369597000,
+      "endMs": 1751371697000,
+      "startAddress": "565 Ibarra Lock",
+      "endAddress": "594 Shawn Vista",
+      "startCoords": {
+        "latitude": 40.731625,
+        "longitude": -111.836694
+      },
+      "endCoords": {
+        "latitude": 40.792573,
+        "longitude": -111.810531
+      },
+      "distanceMeters": 15253.2,
+      "durationMs": 2100000,
+      "drivingDurationMs": 1706766,
+      "idlingDurationMs": 393234,
+      "fuelConsumedMl": 3418,
+      "fuelConsumedGallons": 0.903,
+      "maxSpeedMph": 59.8,
+      "averageSpeedMph": 16.2,
+      "safetyEvents": []
+    }
+  ]
+}

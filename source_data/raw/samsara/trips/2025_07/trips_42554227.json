@@ -1,0 +1,37 @@
+{
+  "vehicleId": "42554227",
+  "vehicleName": "ABQ-MOTO-01",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_42554227_20250701_25733",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_42554227_20250701_25733",
+      "vehicleId": "42554227",
+      "driverId": "20000044",
+      "startMs": 1751365845000,
+      "endMs": 1751367705000,
+      "startAddress": "06472 Washington Rapids",
+      "endAddress": "29489 Robert Meadows Suite 995",
+      "startCoords": {
+        "latitude": 35.161744,
+        "longitude": -106.625141
+      },
+      "endCoords": {
+        "latitude": 35.080107,
+        "longitude": -106.659598
+      },
+      "distanceMeters": 16496.9,
+      "durationMs": 1860000,
+      "drivingDurationMs": 1630509,
+      "idlingDurationMs": 229491,
+      "fuelConsumedMl": 746,
+      "fuelConsumedGallons": 0.197,
+      "maxSpeedMph": 31.1,
+      "averageSpeedMph": 19.8,
+      "safetyEvents": []
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 SELECT
-    *
+    vin,
+    COUNT(DISTINCT vehicle_id) AS vehicle_count,
+    STRING_AGG(vehicle_id, ', ' ORDER BY vehicle_id) AS vehicle_ids
 FROM (
     SELECT
     -- metadata columns added by the loader
@@ -7,43 +9,53 @@ FROM (
     ingest_timestamp                                    AS bronze_ingest_timestamp,
     source_file                                         AS bronze_source_file,
 
-    -- core contract identifiers
-    raw_data ->> 'Id'                                   AS contract_id,
+    -- core identifiers
+    raw_data ->> 'id'                                   AS vehicle_id,
+    raw_data ->> 'name'                                 AS vehicle_name,
 
-    -- account
-    raw_data ->> 'AccountId'                            AS account_id,
+    -- vehicle details
+    raw_data ->> 'make'                                 AS make,
+    raw_data ->> 'model'                                AS model,
+    (raw_data ->> 'year')::int                          AS manufacture_year,
+    raw_data ->> 'vin'                                  AS vin,
+    raw_data ->> 'licensePlate'                         AS license_plate,
 
-    -- ownership
-    raw_data ->> 'OwnerId'                              AS owner_id,
+    -- classification
+    raw_data ->> 'vehicleType'                          AS vehicle_type,
+    raw_data ->> 'fuelType'                             AS fuel_type,
+    raw_data ->> 'operationalStatus'                    AS operational_status,
 
-    -- contract dates
-    (raw_data ->> 'StartDate')::date                    AS start_date,
-    (raw_data ->> 'EndDate')::date                      AS end_date,
-    (raw_data ->> 'SignedDate__c')::date                AS signed_date,
+    -- telemetry
+    (raw_data ->> 'currentOdometerMeters')::bigint      AS current_odometer_meters,
 
-    -- lifecycle
-    raw_data ->> 'Status'                               AS status,
-    raw_data ->> 'Contract_Type__c'                     AS contract_type,
-    (raw_data ->> 'Auto_Renewal__c')::boolean           AS auto_renewal,
+    -- last known location
+    (raw_data -> 'lastKnownLocation' ->> 'latitude')::numeric
+                                                        AS last_latitude,
+    (raw_data -> 'lastKnownLocation' ->> 'longitude')::numeric
+                                                        AS last_longitude,
 
-    -- commercial terms
-    (raw_data ->> 'ContractTerm')::int                  AS contract_term_months,
-    (raw_data ->> 'Discount_Rate__c')::numeric          AS discount_rate,
-    (raw_data ->> 'Net_Payment_Terms__c')::int          AS net_payment_terms_days,
-    (raw_data ->> 'Termination_Notice_Days__c')::int    AS termination_notice_days,
-    (raw_data ->> 'Committed_Monthly_Volume__c')::int   AS committed_monthly_volume,
+    -- tags (first two)
+    raw_data -> 'tags' -> 0 ->> 'id'                    AS tag_1_id,
+    raw_data -> 'tags' -> 0 ->> 'name'                  AS tag_1_name,
+    raw_data -> 'tags' -> 1 ->> 'id'                    AS tag_2_id,
+    raw_data -> 'tags' -> 1 ->> 'name'                  AS tag_2_name,
 
-    -- customer attributes
-    raw_data ->> 'Account_Tier__c'                      AS account_tier,
-    raw_data ->> 'Primary_City__c'                      AS primary_city,
+    -- full tags array
+    raw_data -> 'tags'                                  AS tags,
 
-    -- Salesforce timestamps
-    (raw_data ->> 'CreatedDate')::timestamp             AS created_at,
-    (raw_data ->> 'LastModifiedDate')::timestamp        AS last_modified_at,
-
-    -- raw JSON
+    -- raw data
     raw_data
 
-FROM bronze.salesforce_contracts
+FROM bronze.samsara_vehicles
+-- 
 ORDER BY ingest_timestamp DESC, bronze_row_id DESC
-) AS salesforce_contracts
+) AS samsare_vehicle
+
+
+WHERE vin IS NOT NULL
+
+GROUP BY vin
+
+HAVING COUNT(DISTINCT vehicle_id) > 1
+
+ORDER BY vehicle_count DESC;

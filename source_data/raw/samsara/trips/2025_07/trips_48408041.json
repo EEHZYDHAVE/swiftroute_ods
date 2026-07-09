@@ -1,0 +1,63 @@
+{
+  "vehicleId": "48408041",
+  "vehicleName": "DEN-MOTO-02",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_48408041_20250701_25740",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_48408041_20250701_25712",
+      "vehicleId": "48408041",
+      "driverId": "20000020",
+      "startMs": 1751344118000,
+      "endMs": 1751346038000,
+      "startAddress": "210 Hogan Alley",
+      "endAddress": "5750 Julia Trafficway Apt. 906",
+      "startCoords": {
+        "latitude": 39.826112,
+        "longitude": -104.91482
+      },
+      "endCoords": {
+        "latitude": 39.796477,
+        "longitude": -105.046245
+      },
+      "distanceMeters": 16195.1,
+      "durationMs": 1920000,
+      "drivingDurationMs": 1701060,
+      "idlingDurationMs": 218940,
+      "fuelConsumedMl": 734,
+      "fuelConsumedGallons": 0.194,
+      "maxSpeedMph": 33.9,
+      "averageSpeedMph": 18.9,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_48408041_20250701_25740",
+      "vehicleId": "48408041",
+      "driverId": "20000020",
+      "startMs": 1751373733000,
+      "endMs": 1751375593000,
+      "startAddress": "99261 Hunt Via Suite 967",
+      "endAddress": "3543 Melissa Prairie",
+      "startCoords": {
+        "latitude": 39.698092,
+        "longitude": -105.085854
+      },
+      "endCoords": {
+        "latitude": 39.688527,
+        "longitude": -104.941229
+      },
+      "distanceMeters": 10379.8,
+      "durationMs": 1860000,
+      "drivingDurationMs": 1504903,
+      "idlingDurationMs": 355097,
+      "fuelConsumedMl": 469,
+      "fuelConsumedGallons": 0.124,
+      "maxSpeedMph": 44.6,
+      "averageSpeedMph": 12.5,
+      "safetyEvents": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "vehicleId": "42189983",
+  "vehicleName": "SLC-VAN-02",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_42189983_20250701_25722",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_42189983_20250701_25722",
+      "vehicleId": "42189983",
+      "driverId": "20000039",
+      "startMs": 1751353345000,
+      "endMs": 1751355025000,
+      "startAddress": "56913 Lee Viaduct",
+      "endAddress": "3096 Wang Harbor Apt. 440",
+      "startCoords": {
+        "latitude": 40.668565,
+        "longitude": -111.892319
+      },
+      "endCoords": {
+        "latitude": 40.782586,
+        "longitude": -111.862445
+      },
+      "distanceMeters": 9502.4,
+      "durationMs": 1680000,
+      "drivingDurationMs": 1424368,
+      "idlingDurationMs": 255632,
+      "fuelConsumedMl": 1208,
+      "fuelConsumedGallons": 0.319,
+      "maxSpeedMph": 27.2,
+      "averageSpeedMph": 12.7,
+      "safetyEvents": []
+    }
+  ]
+}

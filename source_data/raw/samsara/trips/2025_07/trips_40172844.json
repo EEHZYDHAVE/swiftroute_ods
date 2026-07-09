@@ -1,0 +1,63 @@
+{
+  "vehicleId": "40172844",
+  "vehicleName": "DEN-VAN-07",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_40172844_20250701_25738",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_40172844_20250701_25710",
+      "vehicleId": "40172844",
+      "driverId": "20000013",
+      "startMs": 1751343664000,
+      "endMs": 1751345224000,
+      "startAddress": "567 Torres Groves Suite 430",
+      "endAddress": "796 George Valleys Suite 672",
+      "startCoords": {
+        "latitude": 39.782921,
+        "longitude": -105.077116
+      },
+      "endCoords": {
+        "latitude": 39.783729,
+        "longitude": -105.045429
+      },
+      "distanceMeters": 8546.1,
+      "durationMs": 1560000,
+      "drivingDurationMs": 1255228,
+      "idlingDurationMs": 304772,
+      "fuelConsumedMl": 1086,
+      "fuelConsumedGallons": 0.287,
+      "maxSpeedMph": 29.1,
+      "averageSpeedMph": 12.3,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_40172844_20250701_25738",
+      "vehicleId": "40172844",
+      "driverId": "20000012",
+      "startMs": 1751371478000,
+      "endMs": 1751373518000,
+      "startAddress": "19174 Amanda Mission Suite 006",
+      "endAddress": "1848 Gilbert Lake Apt. 193",
+      "startCoords": {
+        "latitude": 39.822305,
+        "longitude": -105.022818
+      },
+      "endCoords": {
+        "latitude": 39.721685,
+        "longitude": -105.012768
+      },
+      "distanceMeters": 12671.3,
+      "durationMs": 2040000,
+      "drivingDurationMs": 1607157,
+      "idlingDurationMs": 432843,
+      "fuelConsumedMl": 1613,
+      "fuelConsumedGallons": 0.426,
+      "maxSpeedMph": 32.9,
+      "averageSpeedMph": 13.9,
+      "safetyEvents": []
+    }
+  ]
+}

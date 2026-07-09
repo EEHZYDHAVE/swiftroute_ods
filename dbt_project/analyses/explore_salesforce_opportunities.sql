@@ -56,3 +56,35 @@ SELECT
 FROM bronze.salesforce_opportunities
 
 ORDER BY ingest_timestamp DESC, bronze_row_id DESC;
+
+
+RAW DATA:
+{
+  "Id": "006dtT3L9brSoLAjVO",
+  "Name": "Hurley, Contreras and Dunlap — Contract Renewal 2025",
+  "Type": "Renewal",
+  "Amount": 246456.05,
+  "Account": {
+    "Name": "Hurley, Contreras and Dunlap",
+    "attributes": {
+      "url": "/services/data/v58.0/sobjects/Account/001bk34UPW52P6YtCB",
+      "type": "Account"
+    },
+    "SwiftRoute_Client_ID__c": "client_094"
+  },
+  "OwnerId": "005WIzbZN5W8I4oLun",
+  "AccountId": "001bk34UPW52P6YtCB",
+  "CloseDate": "2025-06-25",
+  "StageName": "Closed Lost",
+  "LeadSource": "Web",
+  "attributes": {
+    "url": "/services/data/v58.0/sobjects/Opportunity/006dtT3L9brSoLAjVO",
+    "type": "Opportunity"
+  },
+  "CreatedDate": "2025-02-21T00:00:00.000+0000",
+  "Probability": 0,
+  "Account_Tier__c": "standard",
+  "Primary_City__c": "denver",
+  "Contract_Type__c": "Variable Rate",
+  "LastActivityDate": "2025-06-28"
+}
