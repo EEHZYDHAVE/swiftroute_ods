@@ -52,6 +52,7 @@ FROM bronze.linnworks_stock_transactions
 ORDER BY ingest_timestamp DESC, bronze_row_id DESC
 
 
+
 RAW DATA:
 {
   "SKU": "RODR-C024",
