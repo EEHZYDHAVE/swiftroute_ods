@@ -47,7 +47,7 @@ SELECT
     -- raw data for reference
     raw_data
 
-FROM {{ source('bronze', 'linnworks_stock_transactions') }}
+FROM bronze.linnworks_stock_transactions
 
 ORDER BY ingest_timestamp DESC, bronze_row_id DESC
 
