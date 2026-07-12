@@ -19,7 +19,7 @@ from datetime import datetime, timedelta, timezone
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GENERATORS_DIR = os.path.join(PROJECT_ROOT, "generators")
-DATA_ROOT = os.path.join(PROJECT_ROOT, "data", "raw")   # matches existing generators' OUTPUT_BASE convention
+DATA_ROOT = os.path.join(PROJECT_ROOT, "source_data", "raw")   # matches existing generators' OUTPUT_BASE convention
 
 sys.path.insert(0, GENERATORS_DIR)
 import shared_ids  # noqa: E402  (import after sys.path adjustment, by necessity)
