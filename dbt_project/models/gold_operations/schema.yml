@@ -1,0 +1,231 @@
+version: 2
+
+models:
+
+  # ============================================================
+  # SUPPORT TABLE
+  # ============================================================
+
+  - name: driver_id_map
+    description: "Cross-system driver identity resolution table. Maps onfleet_worker_id, gusto_uuid, and samsara_driver_id to a single canonical driver_key. ETL support only, not part of the star schema."
+    columns:
+      - name: canonical_driver_key
+        description: "Primary key. Onfleet worker_id used as the authoritative cross-system driver identifier."
+        tests:
+          - unique
+          - not_null
+      - name: onfleet_worker_id
+        description: "Driver ID from Onfleet workers."
+        tests:
+          - not_null
+      - name: gusto_uuid
+        description: "Driver UUID from Gusto payroll. NULL for IC drivers not on Gusto payroll."
+      - name: samsara_driver_id
+        description: "Driver ID from Samsara telematics."
+
+  # ============================================================
+  # DIMENSIONS
+  # ============================================================
+
+  - name: dim_date
+    description: "Generated date dimension covering 2024-01-01 to 2026-12-31. No source table, pure SQL generation."
+    columns:
+      - name: date_key
+        description: "Primary key. YYYYMMDD integer format (e.g. 20250101)."
+        tests:
+          - unique
+          - not_null
+      - name: full_date
+        description: "Calendar date value."
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_client
+    description: "Client dimension from Salesforce accounts and contracts. Authoritative source for client identity across all fact tables."
+    columns:
+      - name: client_key
+        description: "Primary key. swiftroute_client_id (e.g. client_001). Cross-system identifier present in Onfleet, Linnworks, and QuickBooks."
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_driver
+    description: "Driver dimension combining Onfleet, Gusto, and Samsara via driver_id_map."
+    columns:
+      - name: driver_key
+        description: "Primary key. canonical_driver_key from driver_id_map (= onfleet_worker_id)."
+        tests:
+          - unique
+          - not_null
+      - name: onfleet_worker_id
+        description: "FK reference to driver_id_map.onfleet_worker_id."
+        tests:
+          - not_null
+          - relationships:
+              to: ref('driver_id_map')
+              field: onfleet_worker_id
+
+  - name: dim_vehicle
+    description: "Vehicle dimension from Samsara fleet telematics."
+    columns:
+      - name: vehicle_key
+        description: "Primary key. Samsara vehicle_id."
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_zone
+    description: "Delivery zone dimension derived from Onfleet delivery metadata and Salesforce contract rates."
+    columns:
+      - name: zone_key
+        description: "Primary key. Raw zone_id from source systems (e.g. zone_den_1)."
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_sku
+    description: "Product/SKU dimension from Linnworks inventory. Surviving records only (duplicate products resolved in silver)."
+    columns:
+      - name: sku_key
+        description: "Primary key. normalised_sku (e.g. RODR-D009). Canonical cross-system product identifier."
+        tests:
+          - unique
+          - not_null
+      - name: client_owner
+        description: "FK to dim_client.client_key. The SwiftRoute client whose inventory this SKU belongs to."
+        tests:
+          - relationships:
+              to: ref('dim_client')
+              field: client_key
+
+  - name: dim_service_type
+    description: "Service type dimension derived from Onfleet delivery metadata and Salesforce contract rates."
+    columns:
+      - name: service_type_key
+        description: "Primary key. Raw service_type value (e.g. same_day, next_day, standard)."
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_contract_rate
+    description: "Contract rate dimension from Salesforce. Per-delivery pricing by client, service type, and zone."
+    columns:
+      - name: contract_rate_key
+        description: "Primary key. rat_sk from silver_salesforce_contract_rates."
+        tests:
+          - unique
+          - not_null
+      - name: client_key
+        description: "FK to dim_client.client_key."
+        tests:
+          - relationships:
+              to: ref('dim_client')
+              field: client_key
+      - name: service_type
+        description: "FK to dim_service_type.service_type_key."
+        tests:
+          - relationships:
+              to: ref('dim_service_type')
+              field: service_type_key
+      - name: zone_id
+        description: "FK to dim_zone.zone_key."
+        tests:
+          - relationships:
+              to: ref('dim_zone')
+              field: zone_key
+
+  # ============================================================
+  # FACT TABLES
+  # ============================================================
+
+  - name: fact_delivery
+    description: "Central delivery operations fact table. One row per Onfleet delivery task. Combines Onfleet, Samsara, Gusto, and Salesforce data."
+    columns:
+      - name: delivery_id
+        description: "Primary key. Onfleet task id (degenerate dimension)."
+        tests:
+          - unique
+          - not_null
+      - name: client_key
+        description: "FK to dim_client.client_key."
+        tests:
+          - relationships:
+              to: ref('dim_client')
+              field: client_key
+      - name: driver_key
+        description: "FK to dim_driver.driver_key."
+        tests:
+          - relationships:
+              to: ref('dim_driver')
+              field: driver_key
+      - name: vehicle_key
+        description: "FK to dim_vehicle.vehicle_key."
+      - name: zone_key
+        description: "FK to dim_zone.zone_key."
+        tests:
+          - relationships:
+              to: ref('dim_zone')
+              field: zone_key
+      - name: service_type_key
+        description: "FK to dim_service_type.service_type_key."
+        tests:
+          - relationships:
+              to: ref('dim_service_type')
+              field: service_type_key
+      - name: contract_rate_key
+        description: "FK to dim_contract_rate.contract_rate_key."
+      - name: date_key
+        description: "FK to dim_date.date_key."
+        tests:
+          - relationships:
+              to: ref('dim_date')
+              field: date_key
+
+  - name: fact_inventory_transaction
+    description: "Inventory movement fact table from Linnworks stock transactions. One row per stock movement event."
+    columns:
+      - name: inventory_txn_id
+        description: "Primary key. pkStockTransactionId from Linnworks (degenerate dimension)."
+        tests:
+          - unique
+          - not_null
+      - name: sku_key
+        description: "FK to dim_sku.sku_key."
+        tests:
+          - relationships:
+              to: ref('dim_sku')
+              field: sku_key
+      - name: client_key
+        description: "FK to dim_client.client_key. Resolved via dim_sku.client_owner."
+      - name: zone_key
+        description: "FK to dim_zone.zone_key. Approximated from warehouse location."
+      - name: date_key
+        description: "FK to dim_date.date_key."
+        tests:
+          - relationships:
+              to: ref('dim_date')
+              field: date_key
+
+  - name: fact_invoice
+    description: "Billing fact table from QuickBooks invoices and payments. One row per invoice. Represents the revenue side of SwiftRoute operations."
+    columns:
+      - name: invoice_id
+        description: "Primary key. QuickBooks invoice Id (degenerate dimension)."
+        tests:
+          - unique
+          - not_null
+      - name: client_key
+        description: "FK to dim_client.client_key."
+        tests:
+          - relationships:
+              to: ref('dim_client')
+              field: client_key
+      - name: contract_rate_key
+        description: "FK to dim_contract_rate.contract_rate_key."
+      - name: date_key
+        description: "FK to dim_date.date_key."
+        tests:
+          - relationships:
+              to: ref('dim_date')
+              field: date_key
