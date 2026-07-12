@@ -78,8 +78,8 @@ fake = Faker()
 Faker.seed(SEED)
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUTPUT_BASE  = os.path.join(PROJECT_ROOT, "source_data", "raw", "samsara")
-ONFLEET_BASE = os.path.join(PROJECT_ROOT, "source_data", "raw", "onfleet")
+OUTPUT_BASE  = os.path.join(PROJECT_ROOT, "data", "raw", "samsara")
+ONFLEET_BASE = os.path.join(PROJECT_ROOT, "data", "raw", "onfleet")
 
 START_DATE = datetime(2025, 1,  1, tzinfo=timezone.utc)
 END_DATE   = datetime(2025, 6, 30, tzinfo=timezone.utc)
@@ -207,9 +207,17 @@ def load_driver_delivery_windows():
     return windows
 
 
+MAX_BLOCK_HOURS = 16   # no single trip should span more than a long working day
+
 def cluster_into_trip_blocks(intervals):
-    """Merge a driver's delivery-activity intervals for one day into
-    non-overlapping trip blocks (gap > GAP_THRESHOLD_MINUTES = new block)."""
+    """Merges a driver's delivery-activity intervals into non-overlapping
+    trip blocks (gap > GAP_THRESHOLD_MINUTES = new block). Also caps any
+    single block at MAX_BLOCK_HOURS: with enough deliveries over a long
+    period, occasional 90-minute-or-less gaps between completions on
+    DIFFERENT calendar days can chain together purely by chance into an
+    unrealistic multi-day "single trip" — this cap forces a new block
+    once that would happen, regardless of how small the individual gaps
+    were."""
     if not intervals:
         return []
     intervals = sorted(intervals, key=lambda iv: iv[0])
@@ -218,7 +226,8 @@ def cluster_into_trip_blocks(intervals):
 
     for s, e in intervals[1:]:
         gap = (s - cur_end).total_seconds() / 60
-        if gap <= GAP_THRESHOLD_MINUTES:
+        prospective_span_hours = (e - cur_start).total_seconds() / 3600
+        if gap <= GAP_THRESHOLD_MINUTES and prospective_span_hours <= MAX_BLOCK_HOURS:
             cur_end = max(cur_end, e)
         else:
             blocks.append((cur_start, cur_end))
