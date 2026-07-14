@@ -1,0 +1,12 @@
+dbt_project:
+  outputs:
+    dev:
+      dbname: swiftroute_data_warehouse
+      host: postgres-warehouse
+      pass: swiftroute
+      port: 5432
+      schema: public
+      threads: 4
+      type: postgres
+      user: swiftroute
+  target: dev

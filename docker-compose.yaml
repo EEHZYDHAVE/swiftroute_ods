@@ -7,10 +7,12 @@ x-airflow-common:
     AIRFLOW__CORE__FERNET_KEY: ${FERNET_KEY}
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    _PIP_ADDITIONAL_REQUIREMENTS: "psycopg2-binary python-dotenv faker dbt-postgres"
   volumes:
     - ./airflow/dags:/opt/airflow/dags
     - ./airflow/logs:/opt/airflow/logs
     - ./airflow/plugins:/opt/airflow/plugins
+    - .:/opt/airflow/swiftroute_ods
   depends_on:
     postgres:
       condition: service_healthy
