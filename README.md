@@ -67,7 +67,7 @@ SwiftRoute Logistics is a **mixed last-mile carrier and fulfillment operation** 
 
 - **~380 deliveries per day** across Denver, Salt Lake City, and Albuquerque
 - **48 drivers** (32 FTE, 16 independent contractors)
-- **35 vehicles** — cargo vans, motorcycles, and box trucks
+- **35 vehicles** cargo vans, motorcycles, and box trucks
 - **94 active business accounts** (9 Platinum, 28 Gold, 57 Standard)
 - **11 fulfillment clients** with inventory stored in the Denver warehouse
 - **18,000 sq ft** warehouse facility in Denver
@@ -99,7 +99,7 @@ This fragmentation means the leadership team cannot answer the questions that ma
 | What is our actual monthly revenue? | Billing is calculated manually from Onfleet exports — a 3 to 5 day process every month-end |
 | Which drivers are underperforming? | No single view combining completion rate, SLA achievement, and failure reasons per driver |
 
-The root cause is not that the data does not exist. **The data exists — across six systems — but has never been assembled into a single analytical layer.** The ODS closes that gap.
+The root cause is not that the data does not exist. **The data exists across six systems but has never been assembled into a single analytical layer.** The ODS closes that gap.
 
 ---
 
@@ -129,7 +129,7 @@ This project implements the **Medallion Architecture** on PostgreSQL, with dbt h
 |---|---|---|
 | **Bronze** | Raw records exactly as they arrived from source. No transformation. Stored as JSONB with loader metadata. | Python loader scripts writing to PostgreSQL |
 | **Silver** | Cleaned, standardised, typed records. One table per source entity. Surrogate keys generated. Data quality fixes applied. | dbt incremental models (upsert by natural key) |
-| **Gold Operations** | Star schema — fact and dimension tables built around the core operational entities of SwiftRoute. | dbt table and incremental models |
+| **Gold Operations** | Star schema fact and dimension tables built around the core operational entities of SwiftRoute. | dbt table and incremental models |
 
 ### The Five Root Questions the Gold Layer Answers
 
