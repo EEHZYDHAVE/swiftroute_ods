@@ -698,3 +698,20 @@ Phase 2 will be developed as a separate project repository linked from here.
 ---
 
 *This project is a simulation built for learning and portfolio purposes. SwiftRoute Logistics is a fictional company. All data is synthetically generated and does not represent any real business or individual.*
+
+---
+## **About Me**
+
+I'm Ehijele David, I design structured data foundation for Small & Meduim Businesses that makes operations visible, and decision-making reliable
+
+You can connect with me via:
+<br>
+<a href="https://www.linkedin.com/in/ehijeledavid/">
+  <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="25" height="25" />
+</a>&nbsp;
+<a href="https://x.com/insights_orbit">
+  <img src="https://cdn-icons-png.flaticon.com/512/5969/5969020.png" width="25" height="25" />
+</a>&nbsp;
+<a href="davidehilele48@gmail.com">
+  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png" width="25" height="25" />
+</a>
