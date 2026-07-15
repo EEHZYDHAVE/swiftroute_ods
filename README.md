@@ -702,8 +702,7 @@ Phase 2 will be developed as a separate project repository linked from here.
 ---
 ## **About Me**
 
-I'm Ehijele David, I design structured data foundation for Small & Meduim Businesses that makes operations visible, and decision-making reliable
-
+I'm Ehijele David, I design structured data foundation for Small & Meduim Businesses that makes operations visible, and decision-making reliable <br>
 You can connect with me via:
 <br>
 <a href="https://www.linkedin.com/in/ehijeledavid/">
